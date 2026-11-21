@@ -1,0 +1,50 @@
+{
+  "status": "PASS_WITH_REVIEW",
+  "input": "C:\\IGRIS\\igris_3b51_18_1_tamil_pilot_acquisition_fix\\igris_3b51_18_1_tamil_pilot_acquisition\\data\\raw\\tamil\\indiccorp_v2_tamil_pilot.txt",
+  "input_bytes": 8418479,
+  "input_sha256": "54dffb4960bf1e3c48477ef6bc9a7933dea68687c4ea9fcf097a69425d5d019d",
+  "unicode_database_version": "15.1.0",
+  "utf8_valid": true,
+  "input_records": 10000,
+  "nfc_changed_records": 162,
+  "exact_duplicates_after_nfc_removed": 169,
+  "accepted_unique_records": 9766,
+  "quarantined_records": 65,
+  "mixed_tamil_latin_records_for_review": 723,
+  "structural_token_records_flagged": 0,
+  "max_record_chars_threshold": 4000,
+  "accepted_length_chars": {
+    "min": 5,
+    "median": 185,
+    "max": 3942
+  },
+  "character_counts": {
+    "tamil_block": 2640675,
+    "latin_letters": 22113,
+    "replacement_U+FFFD": 4,
+    "NUL": 0,
+    "control_excluding_tab": 8
+  },
+  "quarantine_reason_counts": {
+    "over_length": 58,
+    "replacement_character_U+FFFD": 3,
+    "control_character": 5
+  },
+  "outputs": {
+    "clean": "C:\\IGRIS\\igris_3b51_19_1_tamil_remediation\\igris_3b51_19_1_tamil_remediation\\processed\\tamil_nfc_deduplicated.txt",
+    "clean_records": 9766,
+    "clean_sha256": "8b26af54e5b77c1434d583b487cec4db8af6a2560bdfdff015e85d8e8ea45064",
+    "quarantine": "C:\\IGRIS\\igris_3b51_19_1_tamil_remediation\\igris_3b51_19_1_tamil_remediation\\processed\\tamil_quarantine.jsonl",
+    "quarantine_sha256": "f3e32408d6a96b99d4def3ca4079770d6cf7594a553d57cda1a44cfeedced874",
+    "mixed_script_review": "C:\\IGRIS\\igris_3b51_19_1_tamil_remediation\\igris_3b51_19_1_tamil_remediation\\processed\\tamil_mixed_script_review.jsonl",
+    "mixed_script_review_sha256": "b957db99e9abf197a32d14d0f4f4198f97d3e33f5eb5266d8780a8c294b4251b"
+  },
+  "policy_notes": [
+    "Original input was not modified.",
+    "NFC normalization used Unicode 15.1.",
+    "Duplicates were removed only from the processed output after NFC.",
+    "Mixed Tamil-Latin records remain in clean output and are separately flagged.",
+    "Suspicious and over-length records were quarantined, not deleted.",
+    "This is a technical quality report, not a licensing or commercial-rights approval."
+  ]
+}

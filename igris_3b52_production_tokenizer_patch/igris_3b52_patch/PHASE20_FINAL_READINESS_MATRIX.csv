@@ -1,0 +1,21 @@
+subsystem_id,domain,requirement_description,verification_method,evidence_artifact,readiness_status,blocking_issues,owner_decision_needed
+SUB-01,Governance,Default-Deny Production Ingress Gate,Automated test & socket intercept,PHASE20_SECURITY_GATE_VERIFICATION.md,READY,None,Explicit owner unlock required
+SUB-02,Governance,32-Source Catalog Taxonomy Reconciliation,CSV ledger validation,PHASE20_DATASET_AUTHORIZATION_REVIEW.csv,READY,None,Selection of sources to authorize
+SUB-03,Acquisition,Sandboxed Quarantine & Anti-ZipSlip Protection,Simulated archive & traversal tests,scripts/secure_acquisition_engine.py,READY,None,None
+SUB-04,Data Processing,Multilingual 9-Register Normalization & LID,Pytest 9-register test suite,tests/test_phase20_final_readiness.py,READY,None,None
+SUB-05,Data Processing,Indic Script Conjunct & ZWJ/ZWNJ Preservation,UnicodeProcessor automated assertions,scripts/unicode_processor.py,READY,None,None
+SUB-06,Tokenizer,Candidate A (BPE) Cryptographic Immutability,SHA-256 digest validation (ac7e18b1...),artifacts/tokenizer/candidate_a/tokenizer.json,READY,None,Candidate selection (A vs B)
+SUB-07,Tokenizer,Candidate B (Unigram) Cryptographic Immutability,SHA-256 digest validation (d3a3431e...),artifacts/tokenizer/candidate_b/tokenizer.model,READY,None,Candidate selection (A vs B)
+SUB-08,Tokenizer,12 Structural Tokens Pinned at IDs 0-11,Milestone 3B.57 acceptance suite,scripts/run_acceptance_3b57.py,READY,None,None
+SUB-09,Tokenizer,Full 256 Byte Fallback & OOV Crash Prevention,Acceptance suite binary round-trip,scripts/run_acceptance_3b57.py,READY,None,None
+SUB-10,Architecture,Causal Decoder-Only Attention Masking,Backprop future-token zero-leakage test,tests/causal_attention_tests.py,READY,None,None
+SUB-11,Architecture,Configuration Reconciliation (88.58M vs 96.5M vs 79.7M),Parameter count module verification,PHASE20_MODEL_CONFIGURATION_RECONCILIATION.md,READY,None,Ratify tied vs untied weights
+SUB-12,Architecture,GQA 2:1 & SwiGLU & RoPE Implementation,PyTorch forward/backward pass,scripts/igris_model_architecture.py,READY,None,None
+SUB-13,Training,AdamW Optimizer & Cosine Warmup Dynamics,Synthetic step execution & clipping,scripts/model_training_pipeline.py,READY,None,None
+SUB-14,Distributed,Multi-Process DDP Loopback Equivalence,Gloo 2-worker rank loss match,tests/test_phase18_distributed.py,READY,None,None
+SUB-15,Distributed,FSDP Compatibility & Parameter Auto-Wrap,Unit-tested auto-wrap policy,tests/test_phase18_distributed.py,READY_SIMULATED,Multi-GPU physical test pending,Deploy to cloud cluster
+SUB-16,Memory,Activation Checkpointing (64.32% VRAM Reduction),Scalability benchmark measurements,scripts/phase18_scalability_benchmark.py,READY,None,None
+SUB-17,Reliability,Atomic Checkpoint Serialization & SHA-256 Sidecars,Corruption injection and rollback test,tests/test_phase20_final_readiness.py,READY,None,None
+SUB-18,Hardware,Cloud Compute & Budget Characterization,Analytical cost and FLOP modeling,PHASE20_HARDWARE_COST_REVIEW.md,READY,Host GPU limited to 6GB VRAM,Cluster selection & budget approval
+SUB-19,Security,Zero Critical Vulnerabilities & Secret Shielding,Regex secret scanning & AST audit,PHASE20_SECURITY_GATE_VERIFICATION.md,READY,None,None
+SUB-20,Security,Filename Isolation Invariant (0 quarantine in non-md),Repository tree scanner,tests/test_phase20_final_readiness.py,READY,None,None

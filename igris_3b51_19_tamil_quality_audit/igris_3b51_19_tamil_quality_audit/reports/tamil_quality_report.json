@@ -1,0 +1,42 @@
+{
+  "status": "PASS_WITH_REVIEW",
+  "input": "C:\\IGRIS\\igris_3b51_18_1_tamil_pilot_acquisition_fix\\igris_3b51_18_1_tamil_pilot_acquisition\\data\\raw\\tamil\\indiccorp_v2_tamil_pilot.txt",
+  "input_bytes": 8418479,
+  "input_sha256": "54dffb4960bf1e3c48477ef6bc9a7933dea68687c4ea9fcf097a69425d5d019d",
+  "utf8_valid": true,
+  "line_count_including_blank": 10000,
+  "nonempty_records": 10000,
+  "blank_records": 0,
+  "exact_duplicate_records_beyond_first": 169,
+  "unique_nonempty_records": 9831,
+  "nfc_mismatch_records": 162,
+  "unicode_database_version": "14.0.0",
+  "characters": {
+    "tamil_block": 2641259,
+    "latin_letters": 22176,
+    "other_script_letters": 229,
+    "replacement_characters_U+FFFD": 4,
+    "NUL_characters": 0,
+    "control_characters_excluding_tab": 8
+  },
+  "record_script_profile": {
+    "records_with_tamil": 10000,
+    "records_without_tamil": 0,
+    "records_mixing_tamil_and_latin": 725,
+    "non_tamil_record_samples_for_manual_review": []
+  },
+  "record_length_characters": {
+    "min": 5,
+    "median": 183.0,
+    "p95": 761,
+    "p99": 2583,
+    "max": 41210
+  },
+  "structural_token_occurrences_by_record": {},
+  "review_flags": [
+    "Some records are not NFC; do not silently normalize without preserving the approved preprocessing policy.",
+    "Exact duplicate records exist.",
+    "Mixed Tamil-Latin records exist; inspect whether they are intended.",
+    "Suspicious Unicode/control characters exist."
+  ]
+}

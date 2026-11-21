@@ -1,0 +1,70 @@
+{
+  "classification": "SYNTHETIC-ONLY EXPERIMENTAL CHECKPOINT",
+  "production_pretraining_gate": "LOCKED",
+  "tokenizer_sha256": "ac7e18b13973450b43bfff18609a833e4ef0e642b8dc5803e39ab1e81ba4c561",
+  "model_parameter_count": 79708672,
+  "target_tokens": 1000000,
+  "actual_tokens": 1001472,
+  "total_steps": 489,
+  "dataset_manifest_sha256": "c51b88aeb9abec1d25316c918ed54ca0c47186eb5269ba342006b18086d195dc",
+  "checkpoints": [
+    {
+      "step": 150,
+      "type": "FULL_TRAINING_CHECKPOINT",
+      "filename": "chk_step_000150.pt",
+      "filepath": "C:\\IGRIS\\experiments\\synthetic_pretraining_1m\\checkpoints\\chk_step_000150.pt",
+      "file_size_bytes": 956702459,
+      "file_size_mib": 912.38,
+      "sha256": "05fc0ef000d2fb78c464134a5ee8794d74b41e5ee09139eab2ae4c7b6726b3fa",
+      "save_duration_sec": 6.9232,
+      "train_loss": 0.4652,
+      "val_loss": 7.2157
+    },
+    {
+      "step": 300,
+      "type": "FULL_TRAINING_CHECKPOINT",
+      "filename": "chk_step_000300.pt",
+      "filepath": "C:\\IGRIS\\experiments\\synthetic_pretraining_1m\\checkpoints\\chk_step_000300.pt",
+      "file_size_bytes": 956702459,
+      "file_size_mib": 912.38,
+      "sha256": "29f5063a1c7c22e5a80fc121d12a425ed6e1c91195b759ec40f3107e85f21d48",
+      "save_duration_sec": 6.0958,
+      "train_loss": 0.0912,
+      "val_loss": 4.5778
+    },
+    {
+      "step": 450,
+      "type": "FULL_TRAINING_CHECKPOINT",
+      "filename": "chk_step_000450.pt",
+      "filepath": "C:\\IGRIS\\experiments\\synthetic_pretraining_1m\\checkpoints\\chk_step_000450.pt",
+      "file_size_bytes": 956702459,
+      "file_size_mib": 912.38,
+      "sha256": "bcc57ca7707e5c79d62685116271213d17aacd7e16406c3ccf84f128791a5e35",
+      "save_duration_sec": 6.45,
+      "train_loss": 0.0457,
+      "val_loss": 3.7631
+    },
+    {
+      "step": 489,
+      "type": "FULL_TRAINING_CHECKPOINT",
+      "filename": "chk_step_000489.pt",
+      "filepath": "C:\\IGRIS\\experiments\\synthetic_pretraining_1m\\checkpoints\\chk_step_000489.pt",
+      "file_size_bytes": 956702459,
+      "file_size_mib": 912.38,
+      "sha256": "c7aa2d9b0a3a585c668d9f661aab3044b2d23aa7469d713fde91829ca959b670",
+      "save_duration_sec": 7.7438,
+      "train_loss": 0.7154,
+      "val_loss": 3.407
+    },
+    {
+      "step": 489,
+      "type": "MODEL_ONLY_INFERENCE_CHECKPOINT",
+      "filename": "igris_model_only_step489.pt",
+      "filepath": "C:\\IGRIS\\experiments\\synthetic_pretraining_1m\\checkpoints\\igris_model_only_step489.pt",
+      "file_size_bytes": 318897115,
+      "file_size_mib": 304.12,
+      "sha256": "c9161286d0fe36f9721920e5baa877fcbdb2eed5e75f9c0d506ed49ada17cc35",
+      "save_duration_sec": 1.6813
+    }
+  ]
+}

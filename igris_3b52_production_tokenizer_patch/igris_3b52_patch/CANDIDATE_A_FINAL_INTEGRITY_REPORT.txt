@@ -1,0 +1,104 @@
+================================================================================
+IGRIS CANDIDATE A SYNTHETIC TOKENIZER FINAL INTEGRITY AUDIT REPORT
+================================================================================
+Audit Timestamp (UTC): 2026-11-20 14:18:32 UTC
+Operating Model: SOLO_DEVELOPER_OWNER_REVIEW
+Accountable Decision-Maker: Sole Project Owner
+Evaluation Target: Candidate A Synthetic Training & Metric Audit
+
+--------------------------------------------------------------------------------
+1. CRYPTOGRAPHIC TOKENIZER HASH AUDIT
+--------------------------------------------------------------------------------
+Original Candidate A (Production Selected):
+  File:     artifacts/tokenizer/candidate_a/tokenizer.json
+  SHA-256:  ac7e18b13973450b43bfff18609a833e4ef0e642b8dc5803e39ab1e81ba4c561
+  Expected: ac7e18b13973450b43bfff18609a833e4ef0e642b8dc5803e39ab1e81ba4c561
+  Status:   MATCHES BASELINE EXACTLY (UNTOUCHED)
+
+Original Candidate B (SentencePiece Unigram):
+  File:     artifacts/tokenizer/candidate_b/tokenizer.model
+  SHA-256:  d3a3431e07c87ecce863647202ddc9b47b964718adbae7bf2bb2459223b94888
+  Expected: d3a3431e07c87ecce863647202ddc9b47b964718adbae7bf2bb2459223b94888
+  Status:   MATCHES BASELINE EXACTLY (UNTOUCHED)
+
+Experimental Candidate A (Synthetic-Trained):
+  File:     artifacts/tokenizer/candidate_a_synthetic_experiment/tokenizer.json
+  SHA-256:  3393acbee2214ce09b9e03eaaf1a367a324b29032c61a1e4d0408e991c35c3ce
+  Expected: 3393acbee2214ce09b9e03eaaf1a367a324b29032c61a1e4d0408e991c35c3ce
+  Status:   MATCHES EXPERIMENTAL BASELINE EXACTLY (SEPARATE ARTIFACT)
+
+--------------------------------------------------------------------------------
+2. VOCABULARY AUDIT SUMMARY
+--------------------------------------------------------------------------------
+Original Candidate A:
+  Total Vocabulary:         32,768 entries
+  Structural Tokens (0-11): 12 tokens (<|pad|> .. <|assistant|>)
+  Initial Byte Alphabet:    256 tokens (IDs 12-267)
+  Learned BPE Merges:       63 merges (IDs 268-330)
+  Inert Filler Tokens:      32,437 tokens (<|filler_00000|> .. <|filler_32436|>)
+  Active Subwords:          331 tokens
+  Reachable in Inference:   331 tokens (100% of active vocabulary)
+  Unreachable in Inference: 32,437 tokens (inert padding slots)
+  Duplicate Entries:        0 (strictly 32,768 unique values)
+
+Experimental Candidate A:
+  Total Vocabulary:         32,768 entries
+  Structural Tokens (0-11): 12 tokens (<|pad|> .. <|assistant|>)
+  Initial Byte Alphabet:    256 tokens (IDs 12-267)
+  Learned BPE Merges:       1,755 merges (IDs 268-2022)
+  Inert Filler Tokens:      30,745 tokens (<|filler_00000|> .. <|filler_30744|>)
+  Active Subwords:          2,023 tokens
+  Reachable in Inference:   2,023 tokens (100% of active vocabulary)
+  Unreachable in Inference: 30,745 tokens (inert padding slots)
+  Duplicate Entries:        0 (strictly 32,768 unique values)
+
+--------------------------------------------------------------------------------
+3. VOCABULARY COVERAGE DISAMBIGUATION
+--------------------------------------------------------------------------------
+Metric Calculation Breakdown:
+  Test Unique Tokens Emitted: Original = 133, Experimental = 482
+  
+  Calculation 1: Padded Vocabulary Utilization (Reported Coverage)
+    Original:     133 / 32,768 = 0.4059% (~0.41%)
+    Experimental: 482 / 32,768 = 1.4709% (~1.47%)
+    Meaning: Ratio of evaluation tokens to total allocated 32,768 model slots.
+
+  Calculation 2: Active Vocabulary Utilization Rate (Refined Linguistic Metric)
+    Original:     133 / 331   = 40.18%
+    Experimental: 482 / 2,023 = 23.83%
+    Meaning: Ratio of evaluation tokens to reachable, non-filler subwords.
+
+  Calculation 3: Corpus Text Token Coverage (Character/Byte Coverage)
+    Original:     100.00% (UNK rate = 0.00%)
+    Experimental: 100.00% (UNK rate = 0.00%)
+    Meaning: Percentage of input text characters successfully tokenized.
+
+--------------------------------------------------------------------------------
+4. TRAINING DATA & SPLIT AUDIT
+--------------------------------------------------------------------------------
+Total De-duplicated Corpus: 399 unique documents
+  Train Split:      320 documents (80.2%) -> ONLY split passed to BpeTrainer
+  Validation Split:  40 documents (10.0%) -> 100% held-out
+  Test Split:        39 documents (9.8%)  -> 100% held-out
+
+Language Category Representation:
+  Tanglish: 196 documents (Train: 157, Val: 20, Test: 19)
+  Tamil:    111 documents (Train: 89,  Val: 11, Test: 11)
+  English:   92 documents (Train: 74,  Val:  9, Test:  9)
+
+Inter-Split Isolation:
+  Exact Text Leaks:               0
+  Maximum Inter-Split Jaccard:    0.4054 (Threshold: < 0.70)
+  Prefix Overlap (>=50 chars):    0
+  Audit Verdict:                  ZERO LEAKAGE CONFIRMED
+
+--------------------------------------------------------------------------------
+5. GOVERNANCE CERTIFICATION
+--------------------------------------------------------------------------------
+Acquisition Grants:             0
+Production Downloads:           LOCKED
+Production Tokenizer Promotion: BLOCKED
+Model Pretraining:              LOCKED
+Cloud Spending:                 $0.00
+Verdict:                        STRICT AUDIT PASS — SYSTEM FULLY COMPLIANT
+================================================================================

@@ -1,0 +1,20 @@
+{
+  "status": "REGISTER_BUILT_REVIEW_REQUIRED",
+  "records_in_flagged_input": 24,
+  "records_registered": 24,
+  "classification_counts": {
+    "KEEP_WITH_CLEANUP_REVIEW": 12,
+    "QUARANTINE_REVIEW": 12
+  },
+  "missing_expected_source_lines": [],
+  "unexpected_source_lines": [],
+  "reference_errors": [],
+  "clean_source_sha256": "8b26af54e5b77c1434d583b487cec4db8af6a2560bdfdff015e85d8e8ea45064",
+  "flagged_input_sha256": "d0258899ad3551cc87bf868708c9d27b1a2567fc560f682456c919f53af8c95f",
+  "outputs": [
+    "tamil_human_review_register.csv",
+    "tamil_human_review_register.jsonl"
+  ],
+  "decision": "READ_ONLY_REGISTER_ONLY_NO_SOURCE_MODIFICATION_NO_DATASET_APPROVAL_NO_TRAINING",
+  "human_approval_status": "PENDING_FOR_ALL_RECORDS"
+}

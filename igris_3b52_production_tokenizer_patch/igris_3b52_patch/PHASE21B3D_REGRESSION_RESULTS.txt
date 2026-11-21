@@ -1,0 +1,84 @@
+================================================================================
+IGRIS PHASE 21B3D — COMPREHENSIVE REGRESSION TEST RESULTS
+================================================================================
+Operating Model: SOLO_DEVELOPER_OWNER_REVIEW
+Environment: Python 3.11.9, pytest-9.2.0, Windows NT
+Repository Root: C:\IGRIS
+Patch Root: C:\IGRIS\igris_3b52_production_tokenizer_patch\igris_3b52_patch
+Date: 2026-11-18
+
+--------------------------------------------------------------------------------
+STEP 1: INDEPENDENT EXECUTION OF PREVIOUSLY FAILING READINESS SUITE
+--------------------------------------------------------------------------------
+Command: pytest igris_3b52_production_tokenizer_patch/igris_3b52_patch/tests/test_readiness.py -v
+
+test_readiness.py::TestReadiness::test_acceptance_threshold_evaluator_mandatory_fail PASSED [ 20%]
+test_readiness.py::TestReadiness::test_acceptance_threshold_evaluator_mandatory_pass PASSED [ 40%]
+test_readiness.py::TestReadiness::test_artifact_hashes_in_manifest PASSED [ 60%]
+test_readiness.py::TestReadiness::test_environment_manifest PASSED [ 80%]
+test_readiness.py::TestReadiness::test_governance_isolation_check PASSED [100%]
+
+============================== 5 passed in 0.23s ==============================
+Outcome: ALL 5 READINESS TESTS PASSED (100%)
+Status: PREVIOUS FAILURE COMPLETELY RESOLVED
+
+--------------------------------------------------------------------------------
+STEP 2: EXECUTION OF ALL ACQUISITION SECURITY TESTS
+--------------------------------------------------------------------------------
+Command: pytest test_phase12_acquisition_security.py test_phase13_controlled_acquisition.py
+                test_phase20_final_readiness.py test_phase20b_consistency_verification.py
+                test_phase21_controlled_dataset_preparation.py
+                test_phase21a_tokenizer_selection_and_dataset_review.py -v
+
+Phase 12 Tests (14 items): 14 PASSED [100%]
+Phase 13 Tests (24 items): 24 PASSED [100%]
+Phase 20 Tests (7 items):  7 PASSED [100%]
+Phase 20B Tests (4 items): 4 PASSED [100%]
+Phase 21 Tests (6 items):  6 PASSED [100%]
+Phase 21A Tests (4 items): 4 PASSED [100%]
+
+============================= 59 passed in 11.66s =============================
+Outcome: ALL 59 ACQUISITION SECURITY TESTS PASSED (100%)
+Status: ZERO QUARANTINE ARTIFACTS CREATED IN PATCH ROOT
+
+--------------------------------------------------------------------------------
+STEP 3: EXECUTION OF FOCUSED PHASE 21B REGRESSION GROUP
+--------------------------------------------------------------------------------
+Command: pytest test_phase20b... test_phase21... test_phase21a... test_phase21b...
+                test_phase21b1... test_phase21b2... test_phase21b3... test_phase21b3a...
+                test_phase21b3b... -q
+
+............................................................             [100%]
+============================= 60 passed in 6.36s ==============================
+Outcome: ALL 60 FOCUSED PHASE EXTENSION TESTS PASSED (100%)
+
+--------------------------------------------------------------------------------
+STEP 4: FULL REPOSITORY-WIDE PYTEST EXECUTION ACROSS ALL 43 FILES
+--------------------------------------------------------------------------------
+Command: pytest igris_3b52_production_tokenizer_patch/igris_3b52_patch/tests -q
+
+........................................................................ [ 13%]
+........................................................................ [ 27%]
+........................................................................ [ 40%]
+........................................................................ [ 54%]
+........................................................................ [ 67%]
+........................................................................ [ 81%]
+........................................................................ [ 95%]
+..........................                                               [100%]
+
+============================ 530 passed in 39.18s =============================
+
+--------------------------------------------------------------------------------
+TEST INVENTORY & EXECUTION RECONCILIATION SUMMARY
+--------------------------------------------------------------------------------
+Test Files Discovered & Executed: 43 files
+Total Unique Test Cases Collected: 530 items
+Total Tests Passed:                530 items (100.0%)
+Total Tests Failed:                0 items
+Total Tests Skipped:               0 items
+Total Tests Deselected:            0 items
+
+Filesystem Post-Execution Check:
+- Patch root 'quarantine/' exists: False (VERIFIED CLEAN)
+- Root 'quarantine/' exists:       False (VERIFIED CLEAN)
+================================================================================

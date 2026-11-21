@@ -1,0 +1,25 @@
+{
+  "dataset": "ai4bharat/IndicCorpV2",
+  "dataset_url": "https://huggingface.co/datasets/ai4bharat/IndicCorpV2",
+  "source_file": "data/ta.txt",
+  "source_file_url": "https://huggingface.co/datasets/ai4bharat/IndicCorpV2/resolve/main/data/ta.txt",
+  "retrieval_method": "streaming raw text; early stop after first 10,000 non-empty lines",
+  "http_status": 200,
+  "content_length_header": "11790368869",
+  "target_records": 10000,
+  "records_saved": 10000,
+  "bytes_read_from_source": 8454144,
+  "output": "data/raw/tamil/indiccorp_v2_tamil_pilot.txt",
+  "output_bytes": 8418479,
+  "output_sha256": "54dffb4960bf1e3c48477ef6bc9a7933dea68687c4ea9fcf097a69425d5d019d",
+  "source_prefix_sha256": "7ace28f8cc5a70263418c83e97d2d9f318fbcb2e14ef8306c43746bdaebb89d5",
+  "retrieval_utc": "2026-11-15T12:22:22Z",
+  "declared_license": "CC0 per dataset card",
+  "limitations": [
+    "First 10,000 non-empty lines only; not random or representative.",
+    "Partial-file hash is not the full source-file SHA-256.",
+    "Dataset card's CC0 statement does not independently establish rights in every underlying source document.",
+    "Review provenance and quality before commercial use.",
+    "No tokenizer training was performed."
+  ]
+}

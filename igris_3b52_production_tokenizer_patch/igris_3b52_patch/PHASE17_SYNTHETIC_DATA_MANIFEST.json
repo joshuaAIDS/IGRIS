@@ -1,0 +1,27 @@
+{
+  "dataset_id": "IGRIS-DS-PHASE17-SYNTHETIC-001",
+  "dataset_type": "SYNTHETIC_FIXTURE_ONLY",
+  "generator_script": "scripts/phase17_synthetic_data_generator.py",
+  "random_seed": 42,
+  "record_count": 500,
+  "total_tokens": 96184,
+  "average_seq_len": 192.37,
+  "language_distribution": {
+    "en": 56,
+    "hi": 56,
+    "ta": 56,
+    "te": 56,
+    "ml": 56,
+    "kn": 55,
+    "bn": 55,
+    "gu": 55,
+    "tanglish": 55
+  },
+  "file_name": "igris_phase17_synthetic_multilingual.json",
+  "relative_path": "data\\synthetic_pretraining_fixtures\\igris_phase17_synthetic_multilingual.json",
+  "file_sha256": "2d26efe369c9984f0f68bed828a48f5d0b4c13c75bc2c4c49b0c331779b8d8f7",
+  "is_synthetic": true,
+  "production_data_present": false,
+  "governance_status": "LOCKED_SYNTHETIC_EXPERIMENT_ONLY",
+  "created_at": "2026-11-18T07:45:27.797033+00:00"
+}

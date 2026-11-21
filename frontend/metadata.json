@@ -1,0 +1,6 @@
+{
+  "name": "ORBIT — SLM Studio",
+  "description": "Frosted liquid-glass small language model workspace with deep-space cosmic backdrop, interactive playground, model registry, inference tuning, and runtime observability.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

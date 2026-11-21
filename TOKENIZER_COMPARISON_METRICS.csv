@@ -1,0 +1,5 @@
+subset_name,record_count,words_total,chars_total,cand_a_total_tokens,cand_a_fertility_per_word,cand_a_fertility_per_char,cand_a_seq_len_median,cand_a_seq_len_p90,cand_a_seq_len_p95,cand_a_seq_len_max,cand_a_active_vocab_count,cand_a_active_vocab_pct,cand_a_roundtrip_accuracy,cand_exp_total_tokens,cand_exp_fertility_per_word,cand_exp_fertility_per_char,cand_exp_seq_len_median,cand_exp_seq_len_p90,cand_exp_seq_len_p95,cand_exp_seq_len_max,cand_exp_active_vocab_count,cand_exp_active_vocab_pct,cand_exp_roundtrip_accuracy,token_reduction_pct
+ENTIRE_CORPUS,399,4165,34755,33846,8.1263,0.9738,86,110.0,116.1,142,171,0.52,100.0,15430,3.7047,0.444,31,71.0,75.0,87,1562,4.77,100.0,54.41
+TRAIN_SPLIT,320,3372,27926,27147,8.0507,0.9721,86.0,110.0,118.0,142,170,0.52,100.0,12037,3.5697,0.431,29.0,70.0,74.0,87,1520,4.64,100.0,55.66
+VAL_SPLIT,40,406,3433,3349,8.2488,0.9755,86.0,97.1,105.15,142,125,0.38,100.0,1682,4.1429,0.49,34.0,71.1,73.25,78,487,1.49,100.0,49.78
+TEST_SPLIT,39,387,3396,3350,8.6563,0.9865,85,109.2,112.2,130,133,0.41,100.0,1711,4.4212,0.5038,33,73.4,76.6,85,482,1.47,100.0,48.93

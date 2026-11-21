@@ -1,0 +1,1365 @@
+{
+  "language_classification": {
+    "total_fixtures": 100,
+    "overall_accuracy": 0.53,
+    "total_correct": 53,
+    "total_incorrect": 47,
+    "confusion_matrix": {
+      "ENGLISH": {
+        "ENGLISH": 0,
+        "TANGLISH": 0,
+        "UNKNOWN": 0
+      },
+      "TANGLISH": {
+        "ENGLISH": 8,
+        "TANGLISH": 52,
+        "UNKNOWN": 0
+      },
+      "UNKNOWN": {
+        "ENGLISH": 3,
+        "TANGLISH": 36,
+        "UNKNOWN": 1
+      }
+    },
+    "per_class_metrics": {
+      "ENGLISH": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 11,
+        "fn": 0
+      },
+      "TANGLISH": {
+        "precision": 0.5909,
+        "recall": 0.8667,
+        "f1": 0.7027,
+        "tp": 52,
+        "fp": 36,
+        "fn": 8
+      },
+      "UNKNOWN": {
+        "precision": 1.0,
+        "recall": 0.025,
+        "f1": 0.0488,
+        "tp": 1,
+        "fp": 0,
+        "fn": 39
+      }
+    },
+    "per_category_accuracy": {
+      "TAMIL_SCRIPT_ENGLISH_TECH": {
+        "total": 20,
+        "correct": 20,
+        "accuracy": 1.0,
+        "predictions": {
+          "TANGLISH": 20
+        }
+      },
+      "ROMANIZED_TAMIL_INFORMAL": {
+        "total": 20,
+        "correct": 20,
+        "accuracy": 1.0,
+        "predictions": {
+          "TANGLISH": 20
+        }
+      },
+      "ENGLISH_TAMIL_COLLOQUIAL": {
+        "total": 20,
+        "correct": 12,
+        "accuracy": 0.6,
+        "predictions": {
+          "ENGLISH": 8,
+          "TANGLISH": 12
+        }
+      },
+      "INTRA_SENTENTIAL_CODE_SWITCH": {
+        "total": 20,
+        "correct": 0,
+        "accuracy": 0.0,
+        "predictions": {
+          "TANGLISH": 17,
+          "ENGLISH": 3
+        }
+      },
+      "FORMAL_TECHNICAL_TANGLISH": {
+        "total": 20,
+        "correct": 1,
+        "accuracy": 0.05,
+        "predictions": {
+          "TANGLISH": 19,
+          "UNKNOWN": 1
+        }
+      }
+    },
+    "labels": [
+      "ENGLISH",
+      "TANGLISH",
+      "UNKNOWN"
+    ],
+    "misclassified": [
+      {
+        "index": 40,
+        "category": "ENGLISH_TAMIL_COLLOQUIAL",
+        "expected": "TANGLISH",
+        "predicted": "ENGLISH",
+        "confidence": 0.6538,
+        "correct": false,
+        "sublabel": "STANDARD_ENGLISH"
+      },
+      {
+        "index": 41,
+        "category": "ENGLISH_TAMIL_COLLOQUIAL",
+        "expected": "TANGLISH",
+        "predicted": "ENGLISH",
+        "confidence": 0.75,
+        "correct": false,
+        "sublabel": "STANDARD_ENGLISH"
+      },
+      {
+        "index": 42,
+        "category": "ENGLISH_TAMIL_COLLOQUIAL",
+        "expected": "TANGLISH",
+        "predicted": "ENGLISH",
+        "confidence": 0.7857,
+        "correct": false,
+        "sublabel": "STANDARD_ENGLISH"
+      },
+      {
+        "index": 47,
+        "category": "ENGLISH_TAMIL_COLLOQUIAL",
+        "expected": "TANGLISH",
+        "predicted": "ENGLISH",
+        "confidence": 0.6818,
+        "correct": false,
+        "sublabel": "STANDARD_ENGLISH"
+      },
+      {
+        "index": 49,
+        "category": "ENGLISH_TAMIL_COLLOQUIAL",
+        "expected": "TANGLISH",
+        "predicted": "ENGLISH",
+        "confidence": 0.7,
+        "correct": false,
+        "sublabel": "STANDARD_ENGLISH"
+      },
+      {
+        "index": 53,
+        "category": "ENGLISH_TAMIL_COLLOQUIAL",
+        "expected": "TANGLISH",
+        "predicted": "ENGLISH",
+        "confidence": 0.7857,
+        "correct": false,
+        "sublabel": "STANDARD_ENGLISH"
+      },
+      {
+        "index": 54,
+        "category": "ENGLISH_TAMIL_COLLOQUIAL",
+        "expected": "TANGLISH",
+        "predicted": "ENGLISH",
+        "confidence": 0.8636,
+        "correct": false,
+        "sublabel": "STANDARD_ENGLISH"
+      },
+      {
+        "index": 57,
+        "category": "ENGLISH_TAMIL_COLLOQUIAL",
+        "expected": "TANGLISH",
+        "predicted": "ENGLISH",
+        "confidence": 0.6538,
+        "correct": false,
+        "sublabel": "STANDARD_ENGLISH"
+      },
+      {
+        "index": 60,
+        "category": "INTRA_SENTENTIAL_CODE_SWITCH",
+        "expected": "UNKNOWN",
+        "predicted": "TANGLISH",
+        "confidence": 1.0,
+        "correct": false,
+        "sublabel": "INTRA_SENTENTIAL_CODE_SWITCH"
+      },
+      {
+        "index": 61,
+        "category": "INTRA_SENTENTIAL_CODE_SWITCH",
+        "expected": "UNKNOWN",
+        "predicted": "TANGLISH",
+        "confidence": 0.7308,
+        "correct": false,
+        "sublabel": "ROMANIZED_TAMIL"
+      },
+      {
+        "index": 62,
+        "category": "INTRA_SENTENTIAL_CODE_SWITCH",
+        "expected": "UNKNOWN",
+        "predicted": "TANGLISH",
+        "confidence": 0.8636,
+        "correct": false,
+        "sublabel": "ROMANIZED_TAMIL"
+      },
+      {
+        "index": 63,
+        "category": "INTRA_SENTENTIAL_CODE_SWITCH",
+        "expected": "UNKNOWN",
+        "predicted": "TANGLISH",
+        "confidence": 1.0,
+        "correct": false,
+        "sublabel": "INTRA_SENTENTIAL_CODE_SWITCH"
+      },
+      {
+        "index": 64,
+        "category": "INTRA_SENTENTIAL_CODE_SWITCH",
+        "expected": "UNKNOWN",
+        "predicted": "ENGLISH",
+        "confidence": 0.5,
+        "correct": false,
+        "sublabel": "STANDARD_ENGLISH"
+      },
+      {
+        "index": 65,
+        "category": "INTRA_SENTENTIAL_CODE_SWITCH",
+        "expected": "UNKNOWN",
+        "predicted": "TANGLISH",
+        "confidence": 1.0,
+        "correct": false,
+        "sublabel": "INTRA_SENTENTIAL_CODE_SWITCH"
+      },
+      {
+        "index": 66,
+        "category": "INTRA_SENTENTIAL_CODE_SWITCH",
+        "expected": "UNKNOWN",
+        "predicted": "TANGLISH",
+        "confidence": 0.45,
+        "correct": false,
+        "sublabel": "AMBIGUOUS_ROMANIZED"
+      },
+      {
+        "index": 67,
+        "category": "INTRA_SENTENTIAL_CODE_SWITCH",
+        "expected": "UNKNOWN",
+        "predicted": "TANGLISH",
+        "confidence": 1.0,
+        "correct": false,
+        "sublabel": "INTRA_SENTENTIAL_CODE_SWITCH"
+      },
+      {
+        "index": 68,
+        "category": "INTRA_SENTENTIAL_CODE_SWITCH",
+        "expected": "UNKNOWN",
+        "predicted": "TANGLISH",
+        "confidence": 1.0,
+        "correct": false,
+        "sublabel": "INTRA_SENTENTIAL_CODE_SWITCH"
+      },
+      {
+        "index": 69,
+        "category": "INTRA_SENTENTIAL_CODE_SWITCH",
+        "expected": "UNKNOWN",
+        "predicted": "TANGLISH",
+        "confidence": 1.0,
+        "correct": false,
+        "sublabel": "INTRA_SENTENTIAL_CODE_SWITCH"
+      },
+      {
+        "index": 70,
+        "category": "INTRA_SENTENTIAL_CODE_SWITCH",
+        "expected": "UNKNOWN",
+        "predicted": "TANGLISH",
+        "confidence": 1.0,
+        "correct": false,
+        "sublabel": "INTRA_SENTENTIAL_CODE_SWITCH"
+      },
+      {
+        "index": 71,
+        "category": "INTRA_SENTENTIAL_CODE_SWITCH",
+        "expected": "UNKNOWN",
+        "predicted": "ENGLISH",
+        "confidence": 0.5,
+        "correct": false,
+        "sublabel": "STANDARD_ENGLISH"
+      },
+      {
+        "index": 72,
+        "category": "INTRA_SENTENTIAL_CODE_SWITCH",
+        "expected": "UNKNOWN",
+        "predicted": "ENGLISH",
+        "confidence": 0.5,
+        "correct": false,
+        "sublabel": "STANDARD_ENGLISH"
+      },
+      {
+        "index": 73,
+        "category": "INTRA_SENTENTIAL_CODE_SWITCH",
+        "expected": "UNKNOWN",
+        "predicted": "TANGLISH",
+        "confidence": 0.7,
+        "correct": false,
+        "sublabel": "ROMANIZED_TAMIL"
+      },
+      {
+        "index": 74,
+        "category": "INTRA_SENTENTIAL_CODE_SWITCH",
+        "expected": "UNKNOWN",
+        "predicted": "TANGLISH",
+        "confidence": 0.45,
+        "correct": false,
+        "sublabel": "AMBIGUOUS_ROMANIZED"
+      },
+      {
+        "index": 75,
+        "category": "INTRA_SENTENTIAL_CODE_SWITCH",
+        "expected": "UNKNOWN",
+        "predicted": "TANGLISH",
+        "confidence": 0.45,
+        "correct": false,
+        "sublabel": "AMBIGUOUS_ROMANIZED"
+      },
+      {
+        "index": 76,
+        "category": "INTRA_SENTENTIAL_CODE_SWITCH",
+        "expected": "UNKNOWN",
+        "predicted": "TANGLISH",
+        "confidence": 1.0,
+        "correct": false,
+        "sublabel": "INTRA_SENTENTIAL_CODE_SWITCH"
+      },
+      {
+        "index": 77,
+        "category": "INTRA_SENTENTIAL_CODE_SWITCH",
+        "expected": "UNKNOWN",
+        "predicted": "TANGLISH",
+        "confidence": 0.75,
+        "correct": false,
+        "sublabel": "ROMANIZED_TAMIL"
+      },
+      {
+        "index": 78,
+        "category": "INTRA_SENTENTIAL_CODE_SWITCH",
+        "expected": "UNKNOWN",
+        "predicted": "TANGLISH",
+        "confidence": 1.0,
+        "correct": false,
+        "sublabel": "INTRA_SENTENTIAL_CODE_SWITCH"
+      },
+      {
+        "index": 79,
+        "category": "INTRA_SENTENTIAL_CODE_SWITCH",
+        "expected": "UNKNOWN",
+        "predicted": "TANGLISH",
+        "confidence": 0.95,
+        "correct": false,
+        "sublabel": "ROMANIZED_TAMIL"
+      },
+      {
+        "index": 80,
+        "category": "FORMAL_TECHNICAL_TANGLISH",
+        "expected": "UNKNOWN",
+        "predicted": "TANGLISH",
+        "confidence": 1.0,
+        "correct": false,
+        "sublabel": "TAMIL_WITH_ENGLISH_TECH"
+      },
+      {
+        "index": 81,
+        "category": "FORMAL_TECHNICAL_TANGLISH",
+        "expected": "UNKNOWN",
+        "predicted": "TANGLISH",
+        "confidence": 1.0,
+        "correct": false,
+        "sublabel": "INTRA_SENTENTIAL_CODE_SWITCH"
+      },
+      {
+        "index": 82,
+        "category": "FORMAL_TECHNICAL_TANGLISH",
+        "expected": "UNKNOWN",
+        "predicted": "TANGLISH",
+        "confidence": 1.0,
+        "correct": false,
+        "sublabel": "INTRA_SENTENTIAL_CODE_SWITCH"
+      },
+      {
+        "index": 83,
+        "category": "FORMAL_TECHNICAL_TANGLISH",
+        "expected": "UNKNOWN",
+        "predicted": "TANGLISH",
+        "confidence": 1.0,
+        "correct": false,
+        "sublabel": "INTRA_SENTENTIAL_CODE_SWITCH"
+      },
+      {
+        "index": 84,
+        "category": "FORMAL_TECHNICAL_TANGLISH",
+        "expected": "UNKNOWN",
+        "predicted": "TANGLISH",
+        "confidence": 1.0,
+        "correct": false,
+        "sublabel": "INTRA_SENTENTIAL_CODE_SWITCH"
+      },
+      {
+        "index": 86,
+        "category": "FORMAL_TECHNICAL_TANGLISH",
+        "expected": "UNKNOWN",
+        "predicted": "TANGLISH",
+        "confidence": 1.0,
+        "correct": false,
+        "sublabel": "TAMIL_WITH_ENGLISH_TECH"
+      },
+      {
+        "index": 87,
+        "category": "FORMAL_TECHNICAL_TANGLISH",
+        "expected": "UNKNOWN",
+        "predicted": "TANGLISH",
+        "confidence": 1.0,
+        "correct": false,
+        "sublabel": "INTRA_SENTENTIAL_CODE_SWITCH"
+      },
+      {
+        "index": 88,
+        "category": "FORMAL_TECHNICAL_TANGLISH",
+        "expected": "UNKNOWN",
+        "predicted": "TANGLISH",
+        "confidence": 1.0,
+        "correct": false,
+        "sublabel": "TAMIL_WITH_ENGLISH_TECH"
+      },
+      {
+        "index": 89,
+        "category": "FORMAL_TECHNICAL_TANGLISH",
+        "expected": "UNKNOWN",
+        "predicted": "TANGLISH",
+        "confidence": 1.0,
+        "correct": false,
+        "sublabel": "INTRA_SENTENTIAL_CODE_SWITCH"
+      },
+      {
+        "index": 90,
+        "category": "FORMAL_TECHNICAL_TANGLISH",
+        "expected": "UNKNOWN",
+        "predicted": "TANGLISH",
+        "confidence": 1.0,
+        "correct": false,
+        "sublabel": "INTRA_SENTENTIAL_CODE_SWITCH"
+      },
+      {
+        "index": 91,
+        "category": "FORMAL_TECHNICAL_TANGLISH",
+        "expected": "UNKNOWN",
+        "predicted": "TANGLISH",
+        "confidence": 1.0,
+        "correct": false,
+        "sublabel": "INTRA_SENTENTIAL_CODE_SWITCH"
+      },
+      {
+        "index": 92,
+        "category": "FORMAL_TECHNICAL_TANGLISH",
+        "expected": "UNKNOWN",
+        "predicted": "TANGLISH",
+        "confidence": 1.0,
+        "correct": false,
+        "sublabel": "TAMIL_WITH_ENGLISH_TECH"
+      },
+      {
+        "index": 93,
+        "category": "FORMAL_TECHNICAL_TANGLISH",
+        "expected": "UNKNOWN",
+        "predicted": "TANGLISH",
+        "confidence": 1.0,
+        "correct": false,
+        "sublabel": "INTRA_SENTENTIAL_CODE_SWITCH"
+      },
+      {
+        "index": 94,
+        "category": "FORMAL_TECHNICAL_TANGLISH",
+        "expected": "UNKNOWN",
+        "predicted": "TANGLISH",
+        "confidence": 1.0,
+        "correct": false,
+        "sublabel": "TAMIL_WITH_ENGLISH_TECH"
+      },
+      {
+        "index": 95,
+        "category": "FORMAL_TECHNICAL_TANGLISH",
+        "expected": "UNKNOWN",
+        "predicted": "TANGLISH",
+        "confidence": 1.0,
+        "correct": false,
+        "sublabel": "INTRA_SENTENTIAL_CODE_SWITCH"
+      },
+      {
+        "index": 96,
+        "category": "FORMAL_TECHNICAL_TANGLISH",
+        "expected": "UNKNOWN",
+        "predicted": "TANGLISH",
+        "confidence": 1.0,
+        "correct": false,
+        "sublabel": "TAMIL_WITH_ENGLISH_TECH"
+      },
+      {
+        "index": 97,
+        "category": "FORMAL_TECHNICAL_TANGLISH",
+        "expected": "UNKNOWN",
+        "predicted": "TANGLISH",
+        "confidence": 1.0,
+        "correct": false,
+        "sublabel": "INTRA_SENTENTIAL_CODE_SWITCH"
+      },
+      {
+        "index": 98,
+        "category": "FORMAL_TECHNICAL_TANGLISH",
+        "expected": "UNKNOWN",
+        "predicted": "TANGLISH",
+        "confidence": 1.0,
+        "correct": false,
+        "sublabel": "INTRA_SENTENTIAL_CODE_SWITCH"
+      },
+      {
+        "index": 99,
+        "category": "FORMAL_TECHNICAL_TANGLISH",
+        "expected": "UNKNOWN",
+        "predicted": "TANGLISH",
+        "confidence": 1.0,
+        "correct": false,
+        "sublabel": "TAMIL_WITH_ENGLISH_TECH"
+      }
+    ]
+  },
+  "additional_lid_tests": {
+    "total": 10,
+    "correct": 10,
+    "accuracy": 1.0,
+    "details": [
+      {
+        "text": "தமிழ் ஒரு அழகான மொழி. இது மிகவும் பழமையானது.",
+        "expected": "TAMIL",
+        "predicted": "TAMIL",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "text": "நான் பள்ளிக்கு போகிறேன். என் நண்பர்கள் அங்கே இருக்...",
+        "expected": "TAMIL",
+        "predicted": "TAMIL",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "text": "இந்த புத்தகம் மிகவும் நல்லது. நான் அதை படித்தேன்.",
+        "expected": "TAMIL",
+        "predicted": "TAMIL",
+        "confidence": 1.0,
+        "correct": true
+      },
+      {
+        "text": "The quick brown fox jumps over the lazy dog.",
+        "expected": "ENGLISH",
+        "predicted": "ENGLISH",
+        "confidence": 0.7222,
+        "correct": true
+      },
+      {
+        "text": "Python is a high-level programming language.",
+        "expected": "ENGLISH",
+        "predicted": "ENGLISH",
+        "confidence": 0.6429,
+        "correct": true
+      },
+      {
+        "text": "Machine learning models require large datasets for...",
+        "expected": "ENGLISH",
+        "predicted": "ENGLISH",
+        "confidence": 0.625,
+        "correct": true
+      },
+      {
+        "text": "Natural language processing enables computers to u...",
+        "expected": "ENGLISH",
+        "predicted": "ENGLISH",
+        "confidence": 0.6111,
+        "correct": true
+      },
+      {
+        "text": "Naan school poren da, late aagidum.",
+        "expected": "TANGLISH",
+        "predicted": "TANGLISH",
+        "confidence": 0.6667,
+        "correct": true
+      },
+      {
+        "text": "Enna da ipdi pannura, not fair at all.",
+        "expected": "TANGLISH",
+        "predicted": "TANGLISH",
+        "confidence": 0.875,
+        "correct": true
+      },
+      {
+        "text": "இந்த code-ல error இருக்கு, debug பண்ணு.",
+        "expected": "TANGLISH",
+        "predicted": "TANGLISH",
+        "confidence": 1.0,
+        "correct": true
+      }
+    ]
+  },
+  "unicode_tests": {
+    "total_adversarial_tests": 25,
+    "details": [
+      {
+        "description": "Tamil AA vowel sign",
+        "input_len": 2,
+        "output_len": 2,
+        "is_nfc_original": true,
+        "has_replacement_char": false,
+        "control_chars_removed": 0,
+        "tamil_combining_preserved": 1,
+        "virama_preserved": 0,
+        "zwj_zwnj_preserved": 0,
+        "malformed_sequences": [],
+        "roundtrip_ok": true
+      },
+      {
+        "description": "Tamil I vowel sign",
+        "input_len": 2,
+        "output_len": 2,
+        "is_nfc_original": true,
+        "has_replacement_char": false,
+        "control_chars_removed": 0,
+        "tamil_combining_preserved": 1,
+        "virama_preserved": 0,
+        "zwj_zwnj_preserved": 0,
+        "malformed_sequences": [],
+        "roundtrip_ok": true
+      },
+      {
+        "description": "Tamil II vowel sign",
+        "input_len": 2,
+        "output_len": 2,
+        "is_nfc_original": true,
+        "has_replacement_char": false,
+        "control_chars_removed": 0,
+        "tamil_combining_preserved": 1,
+        "virama_preserved": 0,
+        "zwj_zwnj_preserved": 0,
+        "malformed_sequences": [],
+        "roundtrip_ok": true
+      },
+      {
+        "description": "Tamil U vowel sign",
+        "input_len": 2,
+        "output_len": 2,
+        "is_nfc_original": true,
+        "has_replacement_char": false,
+        "control_chars_removed": 0,
+        "tamil_combining_preserved": 1,
+        "virama_preserved": 0,
+        "zwj_zwnj_preserved": 0,
+        "malformed_sequences": [],
+        "roundtrip_ok": true
+      },
+      {
+        "description": "Tamil UU vowel sign",
+        "input_len": 2,
+        "output_len": 2,
+        "is_nfc_original": true,
+        "has_replacement_char": false,
+        "control_chars_removed": 0,
+        "tamil_combining_preserved": 1,
+        "virama_preserved": 0,
+        "zwj_zwnj_preserved": 0,
+        "malformed_sequences": [],
+        "roundtrip_ok": true
+      },
+      {
+        "description": "Tamil E vowel sign",
+        "input_len": 2,
+        "output_len": 2,
+        "is_nfc_original": true,
+        "has_replacement_char": false,
+        "control_chars_removed": 0,
+        "tamil_combining_preserved": 1,
+        "virama_preserved": 0,
+        "zwj_zwnj_preserved": 0,
+        "malformed_sequences": [],
+        "roundtrip_ok": true
+      },
+      {
+        "description": "Tamil EE vowel sign",
+        "input_len": 2,
+        "output_len": 2,
+        "is_nfc_original": true,
+        "has_replacement_char": false,
+        "control_chars_removed": 0,
+        "tamil_combining_preserved": 1,
+        "virama_preserved": 0,
+        "zwj_zwnj_preserved": 0,
+        "malformed_sequences": [],
+        "roundtrip_ok": true
+      },
+      {
+        "description": "Tamil AI vowel sign",
+        "input_len": 2,
+        "output_len": 2,
+        "is_nfc_original": true,
+        "has_replacement_char": false,
+        "control_chars_removed": 0,
+        "tamil_combining_preserved": 1,
+        "virama_preserved": 0,
+        "zwj_zwnj_preserved": 0,
+        "malformed_sequences": [],
+        "roundtrip_ok": true
+      },
+      {
+        "description": "Tamil O vowel sign",
+        "input_len": 2,
+        "output_len": 2,
+        "is_nfc_original": true,
+        "has_replacement_char": false,
+        "control_chars_removed": 0,
+        "tamil_combining_preserved": 1,
+        "virama_preserved": 0,
+        "zwj_zwnj_preserved": 0,
+        "malformed_sequences": [],
+        "roundtrip_ok": true
+      },
+      {
+        "description": "Tamil OO vowel sign",
+        "input_len": 2,
+        "output_len": 2,
+        "is_nfc_original": true,
+        "has_replacement_char": false,
+        "control_chars_removed": 0,
+        "tamil_combining_preserved": 1,
+        "virama_preserved": 0,
+        "zwj_zwnj_preserved": 0,
+        "malformed_sequences": [],
+        "roundtrip_ok": true
+      },
+      {
+        "description": "Tamil AU vowel sign",
+        "input_len": 2,
+        "output_len": 2,
+        "is_nfc_original": true,
+        "has_replacement_char": false,
+        "control_chars_removed": 0,
+        "tamil_combining_preserved": 1,
+        "virama_preserved": 0,
+        "zwj_zwnj_preserved": 0,
+        "malformed_sequences": [],
+        "roundtrip_ok": true
+      },
+      {
+        "description": "Virama preserved",
+        "input_len": 2,
+        "output_len": 2,
+        "is_nfc_original": true,
+        "has_replacement_char": false,
+        "control_chars_removed": 0,
+        "tamil_combining_preserved": 0,
+        "virama_preserved": 1,
+        "zwj_zwnj_preserved": 0,
+        "malformed_sequences": [],
+        "roundtrip_ok": true
+      },
+      {
+        "description": "Virama conjunct",
+        "input_len": 3,
+        "output_len": 3,
+        "is_nfc_original": true,
+        "has_replacement_char": false,
+        "control_chars_removed": 0,
+        "tamil_combining_preserved": 0,
+        "virama_preserved": 1,
+        "zwj_zwnj_preserved": 0,
+        "malformed_sequences": [],
+        "roundtrip_ok": true
+      },
+      {
+        "description": "ZWJ after virama",
+        "input_len": 4,
+        "output_len": 4,
+        "is_nfc_original": true,
+        "has_replacement_char": false,
+        "control_chars_removed": 0,
+        "tamil_combining_preserved": 0,
+        "virama_preserved": 1,
+        "zwj_zwnj_preserved": 1,
+        "malformed_sequences": [],
+        "roundtrip_ok": true
+      },
+      {
+        "description": "ZWNJ after virama",
+        "input_len": 4,
+        "output_len": 4,
+        "is_nfc_original": true,
+        "has_replacement_char": false,
+        "control_chars_removed": 0,
+        "tamil_combining_preserved": 0,
+        "virama_preserved": 1,
+        "zwj_zwnj_preserved": 1,
+        "malformed_sequences": [],
+        "roundtrip_ok": true
+      },
+      {
+        "description": "Double virama — adversarial",
+        "input_len": 3,
+        "output_len": 3,
+        "is_nfc_original": true,
+        "has_replacement_char": false,
+        "control_chars_removed": 0,
+        "tamil_combining_preserved": 0,
+        "virama_preserved": 2,
+        "zwj_zwnj_preserved": 0,
+        "malformed_sequences": [
+          "Double virama at position 2"
+        ],
+        "roundtrip_ok": true
+      },
+      {
+        "description": "Lone AA vowel sign — adversarial",
+        "input_len": 1,
+        "output_len": 1,
+        "is_nfc_original": true,
+        "has_replacement_char": false,
+        "control_chars_removed": 0,
+        "tamil_combining_preserved": 1,
+        "virama_preserved": 0,
+        "zwj_zwnj_preserved": 0,
+        "malformed_sequences": [
+          "Lone combining mark U+0BBE at position 0"
+        ],
+        "roundtrip_ok": true
+      },
+      {
+        "description": "Tamil + Latin mixed",
+        "input_len": 17,
+        "output_len": 17,
+        "is_nfc_original": true,
+        "has_replacement_char": false,
+        "control_chars_removed": 0,
+        "tamil_combining_preserved": 1,
+        "virama_preserved": 1,
+        "zwj_zwnj_preserved": 0,
+        "malformed_sequences": [],
+        "roundtrip_ok": true
+      },
+      {
+        "description": "Latin + Tamil mixed",
+        "input_len": 11,
+        "output_len": 11,
+        "is_nfc_original": true,
+        "has_replacement_char": false,
+        "control_chars_removed": 0,
+        "tamil_combining_preserved": 0,
+        "virama_preserved": 1,
+        "zwj_zwnj_preserved": 0,
+        "malformed_sequences": [],
+        "roundtrip_ok": true
+      },
+      {
+        "description": "Tamil digits",
+        "input_len": 3,
+        "output_len": 3,
+        "is_nfc_original": true,
+        "has_replacement_char": false,
+        "control_chars_removed": 0,
+        "tamil_combining_preserved": 0,
+        "virama_preserved": 0,
+        "zwj_zwnj_preserved": 0,
+        "malformed_sequences": [],
+        "roundtrip_ok": true
+      },
+      {
+        "description": "Tamil with punctuation",
+        "input_len": 29,
+        "output_len": 29,
+        "is_nfc_original": true,
+        "has_replacement_char": false,
+        "control_chars_removed": 0,
+        "tamil_combining_preserved": 3,
+        "virama_preserved": 6,
+        "zwj_zwnj_preserved": 0,
+        "malformed_sequences": [],
+        "roundtrip_ok": true
+      },
+      {
+        "description": "Long Tamil",
+        "input_len": 81,
+        "output_len": 81,
+        "is_nfc_original": true,
+        "has_replacement_char": false,
+        "control_chars_removed": 0,
+        "tamil_combining_preserved": 18,
+        "virama_preserved": 11,
+        "zwj_zwnj_preserved": 0,
+        "malformed_sequences": [],
+        "roundtrip_ok": true
+      },
+      {
+        "description": "Replacement character U+FFFD",
+        "input_len": 13,
+        "output_len": 13,
+        "is_nfc_original": true,
+        "has_replacement_char": true,
+        "control_chars_removed": 0,
+        "tamil_combining_preserved": 0,
+        "virama_preserved": 0,
+        "zwj_zwnj_preserved": 0,
+        "malformed_sequences": [
+          "Contains U+FFFD replacement character (encoding failure)"
+        ],
+        "roundtrip_ok": true
+      },
+      {
+        "description": "Control characters",
+        "input_len": 16,
+        "output_len": 14,
+        "is_nfc_original": true,
+        "has_replacement_char": false,
+        "control_chars_removed": 2,
+        "tamil_combining_preserved": 0,
+        "virama_preserved": 0,
+        "zwj_zwnj_preserved": 0,
+        "malformed_sequences": [],
+        "roundtrip_ok": true
+      },
+      {
+        "description": "Tamil word requiring NFC",
+        "input_len": 4,
+        "output_len": 4,
+        "is_nfc_original": true,
+        "has_replacement_char": false,
+        "control_chars_removed": 0,
+        "tamil_combining_preserved": 2,
+        "virama_preserved": 0,
+        "zwj_zwnj_preserved": 0,
+        "malformed_sequences": [],
+        "roundtrip_ok": true
+      }
+    ],
+    "fixture_round_trip": {
+      "total": 100,
+      "stable": 100,
+      "stability_rate": 1.0
+    }
+  },
+  "duplicate_detection": {
+    "fixtures_unique": 100,
+    "fixtures_duplicate": 0,
+    "total_fixtures": 100,
+    "test_cases": [
+      {
+        "type": "exact_dup",
+        "expected": true,
+        "detected": true,
+        "dup_type": "EXACT",
+        "matched_id": "fixture-0",
+        "similarity": 1.0,
+        "correct": true
+      },
+      {
+        "type": "whitespace_var",
+        "expected": true,
+        "detected": true,
+        "dup_type": "NORMALIZED",
+        "matched_id": "fixture-1",
+        "similarity": 1.0,
+        "correct": true
+      },
+      {
+        "type": "near_dup",
+        "expected": true,
+        "detected": true,
+        "dup_type": "NEAR_DUPLICATE",
+        "matched_id": "fixture-3",
+        "similarity": 0.8889,
+        "correct": true
+      },
+      {
+        "type": "new_text",
+        "expected": false,
+        "detected": false,
+        "dup_type": "NONE",
+        "matched_id": null,
+        "similarity": 0.0,
+        "correct": true
+      },
+      {
+        "type": "tamil_exact",
+        "expected": true,
+        "detected": true,
+        "dup_type": "EXACT",
+        "matched_id": "fixture-5",
+        "similarity": 1.0,
+        "correct": true
+      }
+    ],
+    "tp": 4,
+    "tn": 1,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "quality_filter": {
+    "fixture_total": 100,
+    "fixture_passed": 100,
+    "fixture_rejected": 0,
+    "rejection_reason_distribution": {},
+    "adversarial_total": 12,
+    "adversarial_correct": 12,
+    "adversarial_accuracy": 1.0,
+    "adversarial_details": [
+      {
+        "desc": "Empty string",
+        "expected_reason": "EMPTY_RECORD",
+        "passed": false,
+        "actual_reasons": [
+          "EMPTY_RECORD"
+        ],
+        "correct": true
+      },
+      {
+        "desc": "Whitespace only",
+        "expected_reason": "EMPTY_RECORD",
+        "passed": false,
+        "actual_reasons": [
+          "EMPTY_RECORD"
+        ],
+        "correct": true
+      },
+      {
+        "desc": "Too short (2 chars)",
+        "expected_reason": "TOO_SHORT",
+        "passed": false,
+        "actual_reasons": [
+          "TOO_SHORT",
+          "TOO_FEW_WORDS"
+        ],
+        "correct": true
+      },
+      {
+        "desc": "Too short (2 chars alt)",
+        "expected_reason": "TOO_SHORT",
+        "passed": false,
+        "actual_reasons": [
+          "TOO_SHORT",
+          "TOO_FEW_WORDS"
+        ],
+        "correct": true
+      },
+      {
+        "desc": "Repeated char spam",
+        "expected_reason": "REPEATED_CHAR_SPAM",
+        "passed": false,
+        "actual_reasons": [
+          "TOO_FEW_WORDS",
+          "REPEATED_CHAR_SPAM"
+        ],
+        "correct": true
+      },
+      {
+        "desc": "URL heavy",
+        "expected_reason": "URL_HEAVY",
+        "passed": false,
+        "actual_reasons": [
+          "URL_HEAVY"
+        ],
+        "correct": true
+      },
+      {
+        "desc": "Excessive punctuation",
+        "expected_reason": "EXCESSIVE_PUNCTUATION",
+        "passed": false,
+        "actual_reasons": [
+          "TOO_FEW_WORDS",
+          "EXCESSIVE_PUNCTUATION",
+          "NO_ALPHABETIC_CHARS"
+        ],
+        "correct": true
+      },
+      {
+        "desc": "Malformed Unicode",
+        "expected_reason": "MALFORMED_UNICODE",
+        "passed": false,
+        "actual_reasons": [
+          "MALFORMED_UNICODE"
+        ],
+        "correct": true
+      },
+      {
+        "desc": "Boilerplate text",
+        "expected_reason": "BOILERPLATE_DETECTED",
+        "passed": false,
+        "actual_reasons": [
+          "BOILERPLATE_DETECTED"
+        ],
+        "correct": true
+      },
+      {
+        "desc": "No alphabetic chars",
+        "expected_reason": "NO_ALPHABETIC_CHARS",
+        "passed": false,
+        "actual_reasons": [
+          "NO_ALPHABETIC_CHARS"
+        ],
+        "correct": true
+      },
+      {
+        "desc": "Normal English (should pass)",
+        "expected_reason": null,
+        "passed": true,
+        "actual_reasons": [],
+        "correct": true
+      },
+      {
+        "desc": "Normal Tamil (should pass)",
+        "expected_reason": null,
+        "passed": true,
+        "actual_reasons": [],
+        "correct": true
+      }
+    ]
+  },
+  "tokenizer_evaluation": {
+    "loaded": true,
+    "hash": "ac7e18b13973450b43bfff18609a833e4ef0e642b8dc5803e39ab1e81ba4c561",
+    "hash_match": true,
+    "vocab_size": 32768,
+    "structural_tokens_ok": true,
+    "structural_token_map": {
+      "0": "<|pad|>",
+      "1": "<|begin_of_text|>",
+      "2": "<|end_of_text|>",
+      "3": "<think>",
+      "4": "</think>",
+      "5": "<action>",
+      "6": "</action>",
+      "7": "<action_result>",
+      "8": "</action_result>",
+      "9": "<|system|>",
+      "10": "<|user|>",
+      "11": "<|assistant|>"
+    },
+    "unk_token_id": null,
+    "fertility_by_language": {
+      "english": {
+        "total_tokens": 206,
+        "total_words": 35,
+        "avg_fertility": 5.8857,
+        "total_unk": 0,
+        "unk_rate": 0.0,
+        "roundtrip_pass": 5,
+        "roundtrip_total": 5,
+        "samples": [
+          {
+            "text": "The quick brown fox jumps over the lazy dog.",
+            "tokens": 37,
+            "words": 9,
+            "fertility": 4.1111,
+            "unk_count": 0,
+            "roundtrip_ok": true
+          },
+          {
+            "text": "Machine learning models require large datasets.",
+            "tokens": 44,
+            "words": 6,
+            "fertility": 7.3333,
+            "unk_count": 0,
+            "roundtrip_ok": true
+          },
+          {
+            "text": "Python is a versatile programming language.",
+            "tokens": 37,
+            "words": 6,
+            "fertility": 6.1667,
+            "unk_count": 0,
+            "roundtrip_ok": true
+          },
+          {
+            "text": "Natural language processing is a subfield of AI.",
+            "tokens": 42,
+            "words": 8,
+            "fertility": 5.25,
+            "unk_count": 0,
+            "roundtrip_ok": true
+          },
+          {
+            "text": "Deep learning has revolutionized computer vision.",
+            "tokens": 46,
+            "words": 6,
+            "fertility": 7.6667,
+            "unk_count": 0,
+            "roundtrip_ok": true
+          }
+        ]
+      },
+      "tamil": {
+        "total_tokens": 145,
+        "total_words": 19,
+        "avg_fertility": 7.6316,
+        "total_unk": 0,
+        "unk_rate": 0.0,
+        "roundtrip_pass": 5,
+        "roundtrip_total": 5,
+        "samples": [
+          {
+            "text": "தமிழ் ஒரு அழகான மொழி.",
+            "tokens": 20,
+            "words": 4,
+            "fertility": 5.0,
+            "unk_count": 0,
+            "roundtrip_ok": true
+          },
+          {
+            "text": "நான் பள்ளிக்கு போகிறேன்.",
+            "tokens": 29,
+            "words": 3,
+            "fertility": 9.6667,
+            "unk_count": 0,
+            "roundtrip_ok": true
+          },
+          {
+            "text": "இந்த புத்தகம் மிகவும் நல்லது.",
+            "tokens": 30,
+            "words": 4,
+            "fertility": 7.5,
+            "unk_count": 0,
+            "roundtrip_ok": true
+          },
+          {
+            "text": "சென்னை தமிழ்நாட்டின் தலைநகரம்.",
+            "tokens": 34,
+            "words": 3,
+            "fertility": 11.3333,
+            "unk_count": 0,
+            "roundtrip_ok": true
+          },
+          {
+            "text": "கணினி அறிவியல் ஒரு முக்கிய துறை.",
+            "tokens": 32,
+            "words": 5,
+            "fertility": 6.4,
+            "unk_count": 0,
+            "roundtrip_ok": true
+          }
+        ]
+      },
+      "tanglish": {
+        "total_tokens": 205,
+        "total_words": 33,
+        "avg_fertility": 6.2121,
+        "total_unk": 0,
+        "unk_rate": 0.0,
+        "roundtrip_pass": 5,
+        "roundtrip_total": 5,
+        "samples": [
+          {
+            "text": "Naan school poren da, late aagidum.",
+            "tokens": 32,
+            "words": 6,
+            "fertility": 5.3333,
+            "unk_count": 0,
+            "roundtrip_ok": true
+          },
+          {
+            "text": "Enna da ipdi pannura, not fair at all.",
+            "tokens": 35,
+            "words": 8,
+            "fertility": 4.375,
+            "unk_count": 0,
+            "roundtrip_ok": true
+          },
+          {
+            "text": "Weekend-la movie polamaa, nalla comedy padam iruku.",
+            "tokens": 49,
+            "words": 7,
+            "fertility": 7.0,
+            "unk_count": 0,
+            "roundtrip_ok": true
+          },
+          {
+            "text": "Exam-ku prepare aaganum, but lazy-aa iruku.",
+            "tokens": 41,
+            "words": 6,
+            "fertility": 6.8333,
+            "unk_count": 0,
+            "roundtrip_ok": true
+          },
+          {
+            "text": "Office meeting boring-aa irunthuchu, skip pannidalam.",
+            "tokens": 48,
+            "words": 6,
+            "fertility": 8.0,
+            "unk_count": 0,
+            "roundtrip_ok": true
+          }
+        ]
+      },
+      "tamil_script_mixed": {
+        "total_tokens": 78,
+        "total_words": 12,
+        "avg_fertility": 6.5,
+        "total_unk": 0,
+        "unk_rate": 0.0,
+        "roundtrip_pass": 3,
+        "roundtrip_total": 3,
+        "samples": [
+          {
+            "text": "இந்த code-ல error இருக்கு.",
+            "tokens": 26,
+            "words": 4,
+            "fertility": 6.5,
+            "unk_count": 0,
+            "roundtrip_ok": true
+          },
+          {
+            "text": "Python-ல program எழுது.",
+            "tokens": 21,
+            "words": 3,
+            "fertility": 7.0,
+            "unk_count": 0,
+            "roundtrip_ok": true
+          },
+          {
+            "text": "Machine learning model train பண்ணு.",
+            "tokens": 31,
+            "words": 5,
+            "fertility": 6.2,
+            "unk_count": 0,
+            "roundtrip_ok": true
+          }
+        ]
+      }
+    },
+    "overall_unk_rate": 0.0,
+    "fixture_evaluation": {
+      "total_tokens": 7665,
+      "total_unk": 0,
+      "unk_rate": 0.0,
+      "roundtrip_ok": 100,
+      "roundtrip_total": 100,
+      "sequence_length_stats": {
+        "min": 47,
+        "max": 142,
+        "mean": 76.65,
+        "median": 69,
+        "p95": 119
+      }
+    }
+  },
+  "tanglish_analysis": {
+    "total_fixtures": 100,
+    "avg_switch_points": 2.18,
+    "avg_discourse_markers": 0.38,
+    "avg_romanized_candidates": 0.32,
+    "avg_tamil_suffixes": 0.29,
+    "structurally_plausible_count": 100,
+    "structurally_plausible_rate": 1.0,
+    "totals": {
+      "switch_points": 218,
+      "discourse_markers": 38,
+      "romanized_candidates": 32,
+      "tamil_suffixes": 29
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "audit_metadata": {
+    "audit_id": "IGRIS-P21A-AUDIT-2026-V1",
+    "document_type": "OWNER_DECISION_AUDIT_RECORD",
+    "phase": "Phase 21A \u2014 Tokenizer Selection Record & Dataset Authorization Preparation",
+    "timestamp": "2026-11-18T10:47:00Z",
+    "operating_model": "SOLO_DEVELOPER_OWNER_REVIEW",
+    "decision_maker": "SOLE_DEVELOPER_PROJECT_OWNER",
+    "independent_reviewers_fabricated": false,
+    "cryptographic_signatures_fabricated": false
+  },
+  "decision_summary": {
+    "action": "TOKENIZER_SELECTION",
+    "selected_candidate": "Candidate A",
+    "selected_architecture": "ByteLevel BPE",
+    "selected_file": "artifacts/tokenizer/candidate_a/tokenizer.json",
+    "selected_file_sha256": "ac7e18b13973450b43bfff18609a833e4ef0e642b8dc5803e39ab1e81ba4c561",
+    "selected_status": "SELECTED_FOR_INITIAL_IGRIS_DEVELOPMENT",
+    "comparison_candidate": "Candidate B",
+    "comparison_architecture": "SentencePiece Unigram",
+    "comparison_file": "artifacts/tokenizer/candidate_b/tokenizer.model",
+    "comparison_file_sha256": "d3a3431e07c87ecce863647202ddc9b47b964718adbae7bf2bb2459223b94888",
+    "comparison_status": "RETAINED_AS_UNSELECTED_COMPARISON_BASELINE"
+  },
+  "empirical_evidence_basis": {
+    "candidate_a_overall_fertility": 12.4261,
+    "candidate_b_overall_fertility": 12.6869,
+    "fertility_advantage_candidate_a_pct": 2.1,
+    "candidate_a_tamil_fertility": 11.4286,
+    "candidate_b_tamil_fertility": 12.5584,
+    "tamil_fertility_advantage_candidate_a_pct": 9.89,
+    "candidate_a_hindi_fertility": 7.9792,
+    "candidate_b_hindi_fertility": 8.2396,
+    "hindi_fertility_advantage_candidate_a_pct": 3.26,
+    "candidate_a_peak_memory_kb": 54.29,
+    "candidate_b_peak_memory_kb": 101.35,
+    "memory_advantage_candidate_a_pct": 46.43,
+    "exact_round_trip_pct": 100.0,
+    "nfc_round_trip_pct": 100.0,
+    "structural_tokens_pinned": 12,
+    "vocabulary_size": 32768
+  },
+  "file_immutability_verification": {
+    "candidate_a_verified_on_disk": true,
+    "candidate_a_sha256_match": true,
+    "candidate_b_verified_on_disk": true,
+    "candidate_b_sha256_match": true,
+    "tokenizer_files_modified": false,
+    "tokenizer_files_retrained": false,
+    "tokenizer_files_overwritten": false
+  },
+  "governance_controls": {
+    "production_ingress_gate": "LOCKED",
+    "default_deny_enforced": true,
+    "dataset_acquisition_authorized": false,
+    "authorized_source_count": 0,
+    "production_datasets_downloaded_bytes": 0,
+    "quarantine_production_bytes": 0,
+    "model_pretraining_authorized": false,
+    "production_checkpoints_created": 0
+  }
+}

@@ -1,0 +1,9 @@
+source_file,sha256,size_bytes,provenance,raw_records,approved_records,exact_duplicates_dropped,norm_duplicates_dropped,near_duplicates_dropped,out_of_scope_dropped
+PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,29b7f7373eea8157886b9b2ac89a06ca1eb7b79b44d1f60c502477427815c90b,53195,Phase 23A Procedural Synthetic Tanglish Generator,100,100,0,0,0,0
+PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,9286e83acb49fce0096cf0e30462a8e26cd3fcee4157eecdcce850c4d98f03ae,63637,Phase 25 Synthetic Benchmark Evaluation Harness Fixtures,150,104,20,1,5,20
+PHASE26_DATASET_SPLITS.json,082c7b28b6514f230221f9a75e03540bc77d1e1bae185bf5b3a32cda4813656d,198234,Phase 26 Held-Out Synthetic Benchmark Partition (dev/val/test),300,165,88,3,5,39
+igris_phase17_synthetic_multilingual.json,2d26efe369c9984f0f68bed828a48f5d0b4c13c75bc2c4c49b0c331779b8d8f7,1577747,Phase 17 Synthetic Multilingual Pretraining Dataset Generator,500,8,159,0,0,333
+synthetic_dryrun_dataset.json,13e6a6645b11a95c8d09b1971f5d388d737ba72802b0f2e74841a89f73434da0,8041,Phase 19 Synthetic Pipeline Dry Run Test Dataset,16,4,2,0,0,10
+tanglish_synthetic_generator_v2.py,13d859a708d32d269463e6f195297d8e738b6ac6ab4456848b29046d307789ea,5586,Phase 23B Procedural Synthetic Tanglish Generator V2,15,15,0,0,0,0
+phase31_synthetic_validator.py,c1ee5ba6ef9d3bc3570f71c4c8c44064fbc447c77bfd4873198e84e70a059de2,9978,Phase 31 Non-Production Synthetic Technical Validator,3,3,0,0,0,0
+phase31a_policy_validator.py,8a3b651472f4101b6d560e37e9c6649f690a5cc7ba676f866b90190923d5eae6,20335,Phase 31A Owner Policy Confirmation Synthetic Test Harness,0,0,0,0,0,0

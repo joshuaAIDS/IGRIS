@@ -1,0 +1,128 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "IGRIS Human Approval Submission Schema V1",
+  "description": "Strict schema for cryptographic intake and verification of human governance reviews across the four designated IGRIS roles.",
+  "type": "object",
+  "required": [
+    "submission_id",
+    "reviewer_identity",
+    "role",
+    "public_key_id",
+    "source_ids_reviewed",
+    "decision",
+    "evidence_references",
+    "document_sha256",
+    "timestamp",
+    "expiry_date",
+    "digital_signature"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "submission_id": {
+      "type": "string",
+      "pattern": "^SUB-[A-Z0-9]{8,16}$",
+      "description": "Unique identifier for the review intake submission (e.g. SUB-20261117-001)."
+    },
+    "reviewer_identity": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 128,
+      "description": "Official corporate email or credential identifier of the authorized human reviewer."
+    },
+    "role": {
+      "type": "string",
+      "enum": [
+        "DATA_CUSTODIAN",
+        "LEGAL_GOVERNANCE",
+        "SECURITY_PRIVACY",
+        "CHIEF_ARCHITECT"
+      ],
+      "description": "Designated governance role authorized to execute this review."
+    },
+    "public_key_id": {
+      "type": "string",
+      "pattern": "^KEY-[A-Z0-9_\\-]{6,32}$",
+      "description": "Identifier of the public key registered on the IGRIS governance key registry."
+    },
+    "source_ids_reviewed": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 32,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "pattern": "^SRC-[A-Z]{2}-[0-9]{2}$"
+      },
+      "description": "Explicit list of candidate source IDs evaluated in this submission."
+    },
+    "decision": {
+      "type": "string",
+      "enum": [
+        "APPROVE",
+        "REJECT",
+        "REQUEST_CHANGES"
+      ],
+      "description": "Formal governance verdict for the evaluated sources."
+    },
+    "evidence_references": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "reference_type",
+          "reference_uri",
+          "sha256"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "reference_type": {
+            "type": "string",
+            "enum": [
+              "DOCUMENT",
+              "CATALOG",
+              "EVIDENCE_REGISTER",
+              "LICENSE_TEXT",
+              "MANIFEST",
+              "SOURCE_CODE"
+            ]
+          },
+          "reference_uri": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-fA-F]{64}$"
+          }
+        }
+      },
+      "description": "List of cryptographic evidence items audited by the reviewer."
+    },
+    "document_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-fA-F]{64}$",
+      "description": "Cryptographic SHA-256 hash of the specific human review markdown document audited by the reviewer."
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO-8601 UTC timestamp recording when the human review was completed."
+    },
+    "expiry_date": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO-8601 UTC timestamp after which this approval lapses and re-certification is mandatory."
+    },
+    "digital_signature": {
+      "type": "string",
+      "pattern": "^[0-9a-fA-F]{64,128}$",
+      "description": "Cryptographic digital signature computed over the canonical JSON payload."
+    },
+    "notes": {
+      "type": "string",
+      "maxLength": 1024,
+      "description": "Optional findings, reservations, or conditions stipulated by the reviewer."
+    }
+  }
+}

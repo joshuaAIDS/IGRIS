@@ -1,0 +1,400 @@
+doc_id,split,language,char_count,word_count,text_sha256,source_file,preview_text
+SYN-CAND-A-0001,TRAIN,TANGLISH,66,8,1c00882efeb488db6a560f6d15c9b0881d118cff56364deabfdd39092aa22ffb,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,"இந்த server configuration ரொம்ப complex-ஆ இருக்கு, restart ப"
+SYN-CAND-A-0002,VALIDATION,TANGLISH,61,8,28ec056d31276b63b512bbb96aab948edb671a57684f14fb8f2c62335e4f7955,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,"API latency அதிகமா இருக்கு, Redis caching implement பண்ணனும்"
+SYN-CAND-A-0003,TRAIN,TANGLISH,68,7,fd73e1b6d4a853fc2e3879643182932c8e894a7f3fafbdda3b4de144b09f70da,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,Database migration script-ஐ staging environment-ல் test பண்ண
+SYN-CAND-A-0004,TRAIN,TANGLISH,79,9,6b2aad96648d1b0d798f41e60d7bf12db0160b5a3541c1e9a8ea6b9f0f592953,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,"Production cluster-ல் memory leak detect ஆகியிருக்கு, alert "
+SYN-CAND-A-0005,TRAIN,TANGLISH,74,9,64ce8a6cb1cd1631cb593c6170ab1c3da38d79e245a66c5d320cf745a4f1a3af,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,Authentication token expire ஆகிட்டா user login page-க்கு red
+SYN-CAND-A-0006,TEST,TANGLISH,67,8,09e08c617c2911e55e09362228a3378f11c591d7c5c462d4cf879a3dc5412797,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,Continuous integration pipeline-ல் build test cases pass ஆகி
+SYN-CAND-A-0007,TRAIN,TANGLISH,68,9,bae681424a9ac15c67c005b6d8eee7080c6dbed7f7ed49011fa2553a2f0b103d,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,Model weights checkpoint save பண்ணிட்டு GPU memory release ப
+SYN-CAND-A-0008,TRAIN,TANGLISH,67,9,8947ddbfe084d2fd39c0e856622edfc1f37751fc339a5224d2499751878ba748,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,Docker container logs-ஐ check பண்ணி error message என்னன்னு ப
+SYN-CAND-A-0009,VALIDATION,TANGLISH,60,8,639fe757a7750aad490acf10677a6bb227469361659c024f8d24db2738e74ad6,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,"Pull request review முடிஞ்சது, merge conflict எதுவும் இல்லை."
+SYN-CAND-A-0010,TRAIN,TANGLISH,65,8,ea780a7853dde35b283959705a7fa24bb7d7e0a3bb47693210181b37106e5035,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,Network bandwidth optimize பண்ண load balancer configure பண்ண
+SYN-CAND-A-0011,TRAIN,TANGLISH,59,6,753c382670802982e18a9248ac85f2fdc0111b9ebf81196582ea768070942ab4,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,Backend microservices-க்கு message queue setup பண்ணியாச்சு.
+SYN-CAND-A-0012,TRAIN,TANGLISH,63,7,7ffc9e332a0b0696cf11b7e660b8a55e5790dcdc3f4b5c2dc562b7cbd5bf2539,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,Frontend framework upgrade பண்ணும்போது dependency issues வரு
+SYN-CAND-A-0013,TRAIN,TANGLISH,88,11,7010d0c1c1853228d8831c08c9bec9d0a0bd7c0abe6ae4555d17e3351bb26633,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,"Batch size increase பண்ணா out-of-memory error வருது, gradien"
+SYN-CAND-A-0014,TRAIN,TANGLISH,75,9,849c6dc2038cb877a2c9f81c86e3b4fa0e86977492c4a6753160a6d69282eafa,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,Query optimization பண்ணின பிறகு database response time impro
+SYN-CAND-A-0015,TRAIN,TANGLISH,66,7,4b99d3777d63478119a523fccdebd3d5ff8efb54a5d927e69354245764451d30,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,Security audit report-ல் zero critical vulnerabilities காமிக
+SYN-CAND-A-0016,VALIDATION,TANGLISH,84,9,ed3f419098ce9eb8f86c5fa2d99d7c284bbe752ceb661d6c493696b728e9b33e,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,Configuration file-ல் environment variables change பண்ணிட்டு
+SYN-CAND-A-0017,TEST,TANGLISH,81,10,fad69fec84f353bc94282bfef6f16a0917260eee047b20d37e7a4353036312e2,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,Cloud storage bucket permissions-ஐ verify பண்ணிட்டு download
+SYN-CAND-A-0018,VALIDATION,TANGLISH,78,9,ac0be527488c9fbe8f427a5d5f69bb61e0bbc8ce4361eb01300182d6d1c34c94,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,"Training loss steady-ஆ decrease ஆகுது, validation perplexity"
+SYN-CAND-A-0019,VALIDATION,TANGLISH,65,8,a58d55224adca6718c7a446dfc9075da2e9401c22676249528028259a6ccd8fe,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,Websocket connection drop ஆனா automatic reconnect trigger ஆக
+SYN-CAND-A-0020,TRAIN,TANGLISH,73,8,1d3abd60d9fb33e460fc631150e7e5afdb178487202d90454daab31ad928e885,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,Release notes draft பண்ணி repository documentation-ல் update
+SYN-CAND-A-0021,TRAIN,TANGLISH,61,9,08b55a4d735538ea2f727bc4e02f225e9fed04556f1872b7afc0032a1711d57f,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,Innaiku evening tea sapda polama? Enaku romba tired-ah iruku
+SYN-CAND-A-0022,TRAIN,TANGLISH,74,10,e93eae3bfa0021ee307ccc35d73f203d2f98f50598cd2c50a13f8e70c249722a,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,Nalla movie pathiya nethu? Climax scene romba emotionally to
+SYN-CAND-A-0023,TRAIN,TANGLISH,69,8,f8e4208c6834de6d1c460f2577c285076722757224a4875cd023a15bd425849e,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,"Naalaiku kaalaila seekiram kelambanum, reminder set panni ve"
+SYN-CAND-A-0024,TRAIN,TANGLISH,76,10,544af3db9c549d1fb27480d83b80aac121812207fa7750ab383ae9996bbb28ae,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,"Avan kitta pesinen, execution plan pathi avanukum nalla unde"
+SYN-CAND-A-0025,TRAIN,TANGLISH,72,10,eeca3baad7e7e67693b55dfd02e4ed26c3263d95944364c8b91367baad8db1e1,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,"Enna aachu da? Romba nerama message pakkama iruka, edhavadhu"
+SYN-CAND-A-0026,TRAIN,TANGLISH,58,8,60d2f4e46d95fe67ae54f1de121b998dd91b23f57f956d5491a32e65e09f9859,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,"Office-ku vandha udane unaku call panren, tension aagadha."
+SYN-CAND-A-0027,TRAIN,TANGLISH,67,8,7320ba3f94f2c28ecb36811ff415e5ca382a48cf18f0dedef76a2c1983fdcd81,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,"Indha restaurant-la biryani super-ah irukum, kandippa try pa"
+SYN-CAND-A-0028,TRAIN,TANGLISH,63,10,b3ed9db42dec3ee5002251e19d2f1e94c1922257c75a309ccda0c79656510cf4,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,Veetla ellarum epdi irukanga? Amma kitta pesi romba naal aac
+SYN-CAND-A-0029,TRAIN,TANGLISH,63,7,34677bd38314350ff2b513782045b18908ba37a09b21baf83f41167c8134552f,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,"Enoda laptop charger marandhuten, yaradhu spare vachurukenga"
+SYN-CAND-A-0030,TRAIN,TANGLISH,64,10,8de9b59c8f42cc7d2aa685404dcd3b7ef64a92d316fa7a217d4d0a3ce3ce9879,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,"Macha, nethu night sonna code snippet work aayiduchu, thanks"
+SYN-CAND-A-0031,TEST,TANGLISH,62,10,695b81f8fc7c53863f0c49430ed11a7c99b2ae6fb6f5fa49ae4ab02c6e08055b,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,Weekend plan edhavadhu iruka illai full day rest eduka poriy
+SYN-CAND-A-0032,TRAIN,TANGLISH,71,9,49682ded16f748ae0214c7fed480f62740338081bee4a9dee1734f74ebea85a0,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,"Kandippa serndhu prepare pannalam, exam romba easy-ah clear "
+SYN-CAND-A-0033,TRAIN,TANGLISH,55,8,0c77eaa35ae2d25a0ce75c4ee4f52b2336d8a41eea0e8b2182c5d78365fa802f,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,"Train time aayiduchu, station-ku auto la poyitu iruken."
+SYN-CAND-A-0034,VALIDATION,TANGLISH,53,7,a6fb11f3299b9f1f6b19129d25e815a050b26ea7ce5574f3f434c8a6d9e0981a,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,"Adhu pathi kavala padadha, ellam correct-ah nadakkum."
+SYN-CAND-A-0035,TRAIN,TANGLISH,72,8,c05816f4b6ab7dc8ac3e83bbcc0cf4658cb08571d369689d233316b4ef8c17e8,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,"Unoda presentation super-ah vandhudhu, manager romba appreci"
+SYN-CAND-A-0036,TRAIN,TANGLISH,71,10,9517f587ea06e8e1deb8691a212ec0b93c1097ee2a42c2612aa673899a8bb08f,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,"Indha logic puriyala na kekka vendiyadhu dhane, ethuku silen"
+SYN-CAND-A-0037,TRAIN,TANGLISH,48,7,f985f8948fb2270e3aea6c7f040746d3d724aed39c82f59c0a0659f6084950c5,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,"Pasi edukkudhu pa, seekiram lunch polaam vaanga."
+SYN-CAND-A-0038,TRAIN,TANGLISH,52,7,01548639e6b53e823bee88b506a8e5f6d7032bc9bef4f7d5eb85caa2929b8c2d,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,Pudhu phone vaangiyaacha? Camera quality epdi iruku?
+SYN-CAND-A-0039,TRAIN,TANGLISH,53,7,9e7b89cd668350faa6895030371988e70f247daca53a96355dc856bdeb2b580f,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,"Romba nalla idea idhu, implementation pathi pesalaam."
+SYN-CAND-A-0040,TRAIN,TANGLISH,58,8,dbad3dfb72208fbd315219ab513c1aa982179a6d3d406d46ff21d1953272f719,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,"Nalaiku meeting cancel aayiduchu, vera slot book pannanum."
+SYN-CAND-A-0041,TRAIN,TANGLISH,78,13,4d800b1327f9bbe456cb3c7462e074fa3f7c06878f4621904e545291b8bed73b,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,"Let us wrap up this release quickly da, otherwise deployment"
+SYN-CAND-A-0042,TRAIN,TANGLISH,75,12,29c32ba77aae40fedf296e581ab35dc4e0a2b6290e8471482bdfb9cf001b2394,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,"Aiyo, the network latency is spiking again, please check the"
+SYN-CAND-A-0043,TRAIN,TANGLISH,70,12,e36909270b3e352f3b398ce7b020d672055949890e3aa7de7b63fc639ef9c619,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,"Don't worry pa, the pipeline will auto-recover in a couple o"
+SYN-CAND-A-0044,TRAIN,TANGLISH,68,10,0b63b7cfb4889b05c6e7228018e382e99dbcb77e91404ff12b505c2fdbc1c5fa,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,"Seri, let us schedule the sprint retrospective for tomorrow "
+SYN-CAND-A-0045,TRAIN,TANGLISH,72,11,75f6c31cf40ee383e7da94a556608f5d867d828f474c41ba9879e070e720d490,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,"Machan, did you review the latest architectural diagram for "
+SYN-CAND-A-0046,TRAIN,TANGLISH,66,10,d137f48b35c2172ba1dff62dcf393440a704320517f473eb82da6624a2510fc6,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,"That pull request is looking romba clean, nice refactoring e"
+SYN-CAND-A-0047,TRAIN,TANGLISH,79,12,97fecc3b8b1ce071e42b46b9bd2b2eba22b1f9d4e8d7ee1c115d7ab54a0c78bd,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,Apdiya? I thought the authentication service was already mig
+SYN-CAND-A-0048,TRAIN,TANGLISH,75,11,56aa9acc7b050f7ec09c581881c503fea249f46480e4ff07378fa732a7eba0a6,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,"Please finish this documentation ticket today itself da, cli"
+SYN-CAND-A-0049,TRAIN,TANGLISH,75,13,9dc57538a7e89b5c5ab1bf4d35024d6d96f7322345c11269ddf75354b1802c85,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,"Kandippa we will meet the project deadline, the team velocit"
+SYN-CAND-A-0050,TRAIN,TANGLISH,69,10,472c8e57f20daa11f8df2a3fffe2057f49016e3f9d436b23e7c49182d6075759,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,"Aiyo, I forgot to commit the configuration template before b"
+SYN-CAND-A-0051,TRAIN,TANGLISH,74,12,abd792dace95d7091ef7c37550b2e62c609cfab0046c5fec077d8933cbb1c44c,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,"Hey thambi, can you verify the SHA-256 checksum of the downl"
+SYN-CAND-A-0052,TRAIN,TANGLISH,68,12,d5c798d7d5c60cbdf030453f97df010cd588bff5bb6ca898373b2a83361f9e05,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,"Seri pa, let us merge this hotfix and monitor the Grafana da"
+SYN-CAND-A-0053,TRAIN,TANGLISH,68,11,982d4e4e85503d88cb7aed530bb13534c8915fa531b01d478539387535a23369,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,"Machan, the new tokenizer candidate has a much lower fertili"
+SYN-CAND-A-0054,TRAIN,TANGLISH,77,14,ac705fff3294222e99ea553e1e63735b7ec20ecf55bc7a816ac7359704e8d431,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,"No problem da, we can easily reproduce the test failure in o"
+SYN-CAND-A-0055,VALIDATION,TANGLISH,61,11,90df6628c226219efdd136a744d59767547e68d4a9ab7ea508640335c134b9b5,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,"Aiyo, the disk space on the root partition is critically low"
+SYN-CAND-A-0056,TRAIN,TANGLISH,66,11,a42ab375463fc7432c723300d9769f9feb6219e74adcb92a375e9f0ed6671c9c,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,"Seri, I will write the unit tests for the cryptographic vali"
+SYN-CAND-A-0057,VALIDATION,TANGLISH,76,11,2d36037c597c1215d0c30115cc9d7d8bc2cae8d272f6637c9312a83dcd720ff9,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,That model checkpoint achieved romba good validation accurac
+SYN-CAND-A-0058,TEST,TANGLISH,82,12,b235962ecffdb73ae481e268cd2f22c8e63af1c81c2c0128368c04ad233ea112,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,"Don't touch the production database directly da, always use "
+SYN-CAND-A-0059,TEST,TANGLISH,67,10,a37c2b43bc2e2847eeccf3e38f64f1ac40d27b7cb06cb742da75e0a71182ce81,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,Kandippa we should follow the solo developer owner review pr
+SYN-CAND-A-0060,TRAIN,TANGLISH,68,11,6d21fe5a74183b630902dab7cfb44fc3411dccae3f8b93c3dac312e043db4bdf,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,"Seri, let us double check the licensing metadata before sign"
+SYN-CAND-A-0061,VALIDATION,TANGLISH,90,10,2474af177e3849d3a637aad8b241a0be18ae2582b4797283e4e3b07037eed918,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,"Client requirement-la sudden change, so frontend layout-ஐ re"
+SYN-CAND-A-0062,TRAIN,TANGLISH,88,12,7f94f30180159ce910dd34292da487dc7a05bb9752032f3e629d22eaf59cca4a,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,"Initial commit push panniten, pull request open pannava illa"
+SYN-CAND-A-0063,TRAIN,TANGLISH,76,11,c088cde4efabdb0989d888b7653ed69d651ac9bf7edcc345953cfd2316290d0c,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,"Cache memory clear panniyum issue persist aagudhu, log files"
+SYN-CAND-A-0064,TEST,TANGLISH,72,10,828fe0fb8739ad4e96a0494ae1af248d66383ca5b000793b551ae5425eed7dad,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,"Code review comments address பண்ணியாச்சு, unit tests ellam p"
+SYN-CAND-A-0065,TRAIN,TANGLISH,92,11,df22ec30f161a0e6b5185184a5700bf6541de5275800c17d7d0ce9a80857da55,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,Server reboot aana piragu microservices automatically start 
+SYN-CAND-A-0066,TRAIN,TANGLISH,91,9,efd4e9cf0bb2ac8e157beb1022ff1aa4e5b9b30ea93d78549d814c5b650aea16,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,"Tokenization efficiency optimize panna, byte-fallback mechan"
+SYN-CAND-A-0067,TRAIN,TANGLISH,91,10,e3bce2445b6fa3fabd16372feddc4f78aed32ffa3d222e399f7686300cb8afd4,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,"Staging cluster-ல் load testing execute pannom, throughput e"
+SYN-CAND-A-0068,TRAIN,TANGLISH,91,12,cd4c59db46db41d6f5dd3519394fc59c1c53f34d26d9ed07cc174364a1d2bb29,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,"Ingress gate lock-ஆ இருக்கறதால, zero external network calls "
+SYN-CAND-A-0069,TRAIN,TANGLISH,82,10,a059f0f00c05509b2798e744f34270b3973579d4b0950f023cd8e50306f24d1f,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,"Data cleaning pipeline run பண்ணும்போது, non-target languages"
+SYN-CAND-A-0070,TRAIN,TANGLISH,92,11,a268379ac084e7623aeaa15141d4ddcb93ff0c1096be7a14ae01a691f1d39eb9,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,"Dependency upgrade pannina udane, build artifacts verify பண்"
+SYN-CAND-A-0071,TRAIN,TANGLISH,89,11,0da5d898589d999e1454a1de049d86ec62797549fd537feb3d90f12f00581c1a,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,Feature branch create பண்ணி working copy isolate பண்ணியாச்சு
+SYN-CAND-A-0072,VALIDATION,TANGLISH,84,10,06b597bd0949fa353d11d78cbb6db69b6c1acec6bf67514c0c9f2d0d62ee9a84,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,"Database connection pool timeout increase பண்ணினா, concurren"
+SYN-CAND-A-0073,TRAIN,TANGLISH,92,11,45020a46877ec57e880e7c13725e72208ce3587a2ac297cbf9f421a6fbc79385,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,"Storage matrix calculations verify pannitom, local disk capa"
+SYN-CAND-A-0074,TRAIN,TANGLISH,90,10,512367edf0de5104bc9e4e4fe0c90cb9dafd768de5ee2fca03bd0879e3c8496d,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,"Continuous integration workflow fail aagama iruka, temporary"
+SYN-CAND-A-0075,TRAIN,TANGLISH,93,9,bef3f65deb0d587920d975b23e9804e4e838e0ccf31c7a38755be3f0fb57b0b4,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,"Production configuration freeze பண்ணியachu, unauthorized mod"
+SYN-CAND-A-0076,TRAIN,TANGLISH,89,12,87e58dea4d883f10701ed3d8e7f18807081d32fae8e620c78e7ca3b6e6f40828,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,"Model evaluation benchmark run aagum bothu, zero evaluation "
+SYN-CAND-A-0077,TRAIN,TANGLISH,80,10,462de3f78d7d90d332ba9277db62f1a0e137af082f8ee39ae3141dff525508b0,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,"Audit trail logging configure பண்ணிட்டோம், all filesystem ch"
+SYN-CAND-A-0078,TRAIN,TANGLISH,85,10,4345e00adde2f352c560b82dda1387c56e300b09ce252e011230e6337e5ddef2,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,"Vocabulary size 32768 tokens-க்கு pin panniyachu, structural"
+SYN-CAND-A-0079,TRAIN,TANGLISH,87,12,0b674b66d6e5fa3177c02434a01ea39f7a7b411d5bd433fba32f1c7f40ecc716,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,"Hardware probe output inspect பண்ணி, compute budget and RAM "
+SYN-CAND-A-0080,TEST,TANGLISH,83,9,2bfc1deec363dc9e92d7c197210886f3ae9c774dd38a92dd7625556f1339fe6d,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,"Licensing compliance review mudinjudhu, owner authorization "
+SYN-CAND-A-0081,TRAIN,TANGLISH,97,10,1c602a1f2dc07b793e1afb3a78a748ab5cd00ee1e2533c5f4823031a69a0e60a,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,கணினி வலையமைப்பு (computer network) பாதுகாப்பு protocol-கள் 
+SYN-CAND-A-0082,TRAIN,TANGLISH,110,11,601579afc41f9bf292cffdbd66f174b7c69a55bb78b2faa1d925e8fa62bfb40c,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,System architecture design document-ல் data flow diagrams மற
+SYN-CAND-A-0083,TRAIN,TANGLISH,119,12,5f15e8a5d8987f67afe57519efa053c133ce88019009c37160d2618e1565c164,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,மென்பொருள் உருவாக்க சுழற்சியில் (software development lifecy
+SYN-CAND-A-0084,TRAIN,TANGLISH,124,12,593db3924a9a942bdc02d4435db637e288b80b12deeacf4d4b4e4a24b673e661,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,Distributed database clusters-ல் consensus algorithm impleme
+SYN-CAND-A-0085,VALIDATION,TANGLISH,133,13,6c9be127edae438f7c638abdfb16e16d52320a9073e574a7ac0e4939ce56142d,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,தகவல் பாதுகாப்பு விதிமுறைகளின்படி (data security compliance)
+SYN-CAND-A-0086,TRAIN,TANGLISH,125,10,e53c02419eebcf8a7043b4282f6444b7a6423899b0f3105e4a3385096579f39a,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,Decoder-only transformer architecture-ல் multi-head self-att
+SYN-CAND-A-0087,TEST,TANGLISH,111,13,2f2bbd1fbf385df9dd68a727d9ca03c949a6dc66d5f9c25862ecd5c6632935a1,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,இயக்க முறைமை (operating system) வள மேலாண்மை மூலமாக GPU alloc
+SYN-CAND-A-0088,TRAIN,TANGLISH,112,11,e6e19af8d7c6741b3b0a469f23ec290830d88304bee4ca3c0281d4f8ea279a52,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,Microservice communication protocols-ல் gRPC மற்றும் REST en
+SYN-CAND-A-0089,TRAIN,TANGLISH,117,12,8fbf4cdfa9c833f73eec9817303a58de8c213558d0e81e10910c5152969b6cc5,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,தரவு பகுப்பாய்வு (data analytics) மற்றும் feature engineerin
+SYN-CAND-A-0090,TRAIN,TANGLISH,120,11,6ae0ad608744bde19240e6a782bcff8a2337546fd7da07411f582cff25323403,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,Cryptographic hash verification மூலமாக software packages மற்
+SYN-CAND-A-0091,TRAIN,TANGLISH,121,11,68ca965fe58ac2ae34d168b11a45bfce19b607efbd194c01249ac6e26c460315,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,ஆராய்ச்சி சூழலில் (research environment) deterministic rando
+SYN-CAND-A-0092,TRAIN,TANGLISH,124,13,7c8548eeea2e097750d44c997a6cc6ad5956991ee21080cf52277a024190dd48,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,Neural network optimization-ல் learning rate schedule மற்றும
+SYN-CAND-A-0093,TRAIN,TANGLISH,117,12,8027377923085b74884e916a0e4cbfcd64704c545374f6d84e602a59431fba64,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,கோப்பு முறைமை (file system) தனிமைப்படுத்தல் மூலமாக test envi
+SYN-CAND-A-0094,TRAIN,TANGLISH,107,11,f3d53a12087d6d6c28c2acb87edfb4ff8b6d8a901adddad40c7bfd0ac5377adf,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,Access control policies மற்றும் cryptographic signatures மூல
+SYN-CAND-A-0095,TRAIN,TANGLISH,127,14,0853573c572ff79349cd8b2017dff6566393cfbe9a26f1450bfbd7b3fd983d48,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,மென்பொருள் தர உறுதிப்பாட்டு குழு (quality assurance team) fu
+SYN-CAND-A-0096,TEST,TANGLISH,117,10,7666e98fa064a31fab272af3747027633eec3e2a878e82bbab761fe7510d53fa,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,Asynchronous event-driven architecture-ல் message brokers th
+SYN-CAND-A-0097,TRAIN,TANGLISH,120,13,313127bba6f049a48a21d1afcff01a608f1f744c84d7c2e7480e9f80035dd67d,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,நினைவக மேலாண்மை (memory management) குறைபாடுகளை கண்டறிய prof
+SYN-CAND-A-0098,TRAIN,TANGLISH,120,13,578d2cf2a0b040c771d00077aeb1b1114b3d5821c8e2b823fe8333a4b19b649c,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,Source code version control களஞ்சியத்தில் (repository) atomi
+SYN-CAND-A-0099,TRAIN,TANGLISH,120,12,8486c58572697d70300745fa27e2d11ddc80059a90254152e9714570e5f34194,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,Cloud deployment automation-ல் infrastructure as code (IaC) 
+SYN-CAND-A-0100,TRAIN,TANGLISH,133,13,a2c961b3ba8586770073762c5c803c020cebf609941bd2d1987772764a58ba19,PHASE23A_TANGLISH_SYNTHETIC_FIXTURES.jsonl,"செயற்கை நுண்ணறிவு நெறிமுறைகளின்படி (AI ethics guidelines), d"
+SYN-CAND-A-0101,TRAIN,TAMIL,77,8,0142d403253bae67e7a6a624a7fc6713d758468af8b3637e021c4ab1b6d4d8d3,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,தமிழ் மொழியானது உலகின் மிகத் தொன்மையான செம்மொழிகளில் ஒன்றாகக
+SYN-CAND-A-0102,TRAIN,TAMIL,94,10,a76b58451152212fec085a0e828e2af82c80859f2a397140467c1b0e0c3946d0,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,இயற்கை வளங்களைப் பாதுகாப்பது நமது எதிர்கால சந்ததியினரின் நலன
+SYN-CAND-A-0103,TRAIN,TAMIL,106,12,10ad1db69a301739fc86bbf8946dd09abdac98e49fdca7daeb776ea4ade6d30d,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,கணினி அறிவியல் துறையில் செயற்கை நுண்ணறிவு மற்றும் இயந்திரக் 
+SYN-CAND-A-0104,TEST,TAMIL,86,7,1eebc04de01fa1ecde590a26fd17d896c53f1e8eeb5eaa580599548cf378439a,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,அறிவியல் ஆராய்ச்சிகள் மனித சமுதாயத்தின் வளர்ச்சிக்கும் நல்வா
+SYN-CAND-A-0105,VALIDATION,TAMIL,72,6,5ba288a23672bff359e4985aaec7f891d853dd4a951f3e3f1cc6fe3804abf5ca,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,நூலகங்கள் அறிவின் களஞ்சியங்களாகவும் பண்பாட்டு மையங்களாகவும் 
+SYN-CAND-A-0106,TRAIN,TAMIL,90,10,ba398aa515f571dd358f8e0944f0a0cb10c30b77a08ea01f5c0a15962deef1d3,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,"சூரிய குடும்பத்தில் பூமி மூன்றாவது கோளாகவும், உயிரினங்கள் வா"
+SYN-CAND-A-0107,TRAIN,TAMIL,85,9,52cea94ccd3a44bc2d2f0ca92d6d9f6d26986fe643e8ead60a86e90dee142349,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,மருத்துவத் துறையில் புதிய தொழில்நுட்பங்களின் பயன்பாடு மனித ஆ
+SYN-CAND-A-0108,TRAIN,TAMIL,105,10,0e8f8d78eefe215f64c6a0a2683c196c844ec64cdadff2eb3f4e49a26dc09365,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,தமிழ்நாட்டில் உள்ள தஞ்சைப் பெருவுடையார் கோயில் சோழர்களின் கட
+SYN-CAND-A-0109,TRAIN,TAMIL,106,9,804753acb1d2254908d5464b39d196127e848e706b3671df09c242f94e8ba93a,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,விவசாயம் நாட்டின் பொருளாதாரத்தின் முதுகெலும்பாக விளங்குகிறது
+SYN-CAND-A-0110,TRAIN,TAMIL,88,8,73073a0ea9e425e081b7dffb65646d344ada91b203eba4cf84aec0de5e9a0476,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,தொல்காப்பியம் தமிழ் இலக்கணத்தின் மிகப்பழமையான நூலாக இன்றும் 
+SYN-CAND-A-0111,TRAIN,TAMIL,91,9,be8d6c9cbebfbdb22f9640e08c46a91ba667c0e9156ba7ab1032790069c4fdc9,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,நீர்வள மேலாண்மை எதிர்கால வறட்சியைத் தடுக்கவும் உணவுப் பாதுகா
+SYN-CAND-A-0112,VALIDATION,TAMIL,84,9,30615fc73d42b5383f2a299653b2b53a167ed83d0fc5efd38afc6e7e94e3ad72,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,இணையத்தின் வருகை உலகளாவிய தொடர்புகளை எளிமையாக்கி தகவல்களை உட
+SYN-CAND-A-0113,TRAIN,TAMIL,107,12,e649b6b1e1128253654cad14f8b5b50c16dccf644843b34c7191c0004108b9ae,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,காற்றாலை மின்சாரம் மற்றும் சூரிய ஒளி மின்சாரம் போன்ற புதுப்ப
+SYN-CAND-A-0114,TEST,TAMIL,108,9,b35abd540091d10cb7dd12853f3caa50e3161a739954a862ccd3988d79514289,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,வானிலை முன்னறிவிப்பு செயற்கைக்கோள் தரவுகளை அடிப்படையாகக் கொண
+SYN-CAND-A-0115,TEST,TAMIL,96,10,5cf5513888aa2806fa45f78885a2d71a2c091c6f565899dd47925db7c23d1064,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,ஒவ்வொரு மனிதனும் மற்றவர்களின் கருத்துக்களை மதித்து அமைதியான 
+SYN-CAND-A-0116,TRAIN,TAMIL,89,10,37135b8ed41e439d76feafba9bf8e4771226715ddd2e96388136280ed0cd95dd,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,திருக்குறள் உலக மக்கள் அனைவருக்கும் பொதுவான வாழ்வியல் நெறிகள
+SYN-CAND-A-0117,TRAIN,ENGLISH,95,12,a8f7735e49714307a6ef64f26b67f8f60c3db5b99432341a27b582381f9260cb,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,The decoder-only transformer architecture forms the foundati
+SYN-CAND-A-0118,TRAIN,ENGLISH,101,11,307932ea09ab652a7b9b504444a6d7bbbf7bcde0bfb384d7f740c65515d72ae3,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,Operating system processes manage virtual memory allocation 
+SYN-CAND-A-0119,TRAIN,ENGLISH,104,12,311c968b1e96007e699ffe8c08b76556971a01a368bf144fa5a75fc354f4a51c,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,Cryptographic hash functions produce fixed-size deterministi
+SYN-CAND-A-0120,TRAIN,ENGLISH,104,13,ba899a3eb4e0b90a2131ca77784ec963da505e7516b64352f171593eb8e83f4c,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,Distributed consensus protocols ensure data consistency acro
+SYN-CAND-A-0121,TRAIN,ENGLISH,95,13,213be5860e0a869b5c96ddaf32fe3a3ec0fef49fd6bdbc28d367355c6bc2baa2,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,Database indexing structures such as B-trees significantly r
+SYN-CAND-A-0122,TRAIN,ENGLISH,100,11,ee18cdfad96cbdc8706d8f3c2a01aecb6d3687760c9f41c49c4644a783a585cd,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,"Software compilation involves lexical analysis, parsing, sem"
+SYN-CAND-A-0123,TRAIN,ENGLISH,104,11,4bf1c47e658a613d4996fbb20636db86173c254ced283099dfbd8e962684d0f7,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,Network transport layers establish reliable end-to-end conne
+SYN-CAND-A-0124,TRAIN,ENGLISH,93,12,28e7f98c26d7b9901c58c32d71426d73274e1cf3ab2ea20655a059d54e54717d,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,Version control systems maintain complete history logs of re
+SYN-CAND-A-0125,TRAIN,ENGLISH,109,11,494a252da811f8a32179e34e5aa51c0b1eaca1de93d708edf2e8a3dc56d9fe25,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,Containerization encapsulates applications with their depend
+SYN-CAND-A-0126,TRAIN,ENGLISH,105,12,3748a892fdac417f3c353c86699b91894b2a3459947c36117bf442b6cba5930a,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,Asynchronous event loops handle multiple concurrent non-bloc
+SYN-CAND-A-0127,TRAIN,ENGLISH,115,13,9ae6d651334438e4aa462c2fb73da40e8b818f54bacbb3854323e93b871ff84b,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,Information retrieval algorithms rank relevant documents usi
+SYN-CAND-A-0128,TRAIN,ENGLISH,108,13,9d44817ed669eaf5f12a1e7437439b5a27a4c8a32321437718728908ecf98c6b,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,Cache coherence mechanisms maintain memory uniformity across
+SYN-CAND-A-0129,TRAIN,ENGLISH,102,13,7753b1a4a7ba3f2454767f0e2b146206715816bd8783e97a9eb0e045e40804f5,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,Static code analysis detects potential security vulnerabilit
+SYN-CAND-A-0130,TRAIN,ENGLISH,105,11,c26da03725fb57f5d136b058c9237d43aabf1ca0267894f439490ec834d5e5ff,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,High-availability architectures eliminate single points of f
+SYN-CAND-A-0131,TRAIN,ENGLISH,119,12,8f481713eed3613b19294b07eb85c3a644f2ae77aaed25daf96705344464f3ec,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,Microservice architectures decouple application components i
+SYN-CAND-A-0132,TRAIN,ENGLISH,105,13,d6f2e8f2ba84d6ef46c93f5dd8d6ac26137017457848b536d5a953b3ba1a3c38,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,Memory safety guarantees prevent buffer overflows and dangli
+SYN-CAND-A-0133,TRAIN,TANGLISH,63,9,56e296e54c23a8a37fddccab350d59724f94a869d3792281e2e505f524aa3216,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,"Innaiku kaalaila romba mazhai peyudhu, veliya poga mudiyala "
+SYN-CAND-A-0134,TRAIN,TANGLISH,75,8,a89b3a58cf3936fe262efa223773503fe69629213f2fb392337bb26560263d7a,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,"Naalaiku office-ku seekiram kelambanum, mukkiyamaana client "
+SYN-CAND-A-0135,TEST,TANGLISH,77,10,16be391cc2b1bde7f5f19a2482fc0dbe7c1f8526ec3f513d983aa78234f60622,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,"Indha hotel-la biryani taste romba nalla iruku, kandippa mar"
+SYN-CAND-A-0136,TRAIN,TANGLISH,65,8,cd9a4ce9dda6b0bc3149ccb694616de97e9fb543fa8eb5a6062530c919fde999,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,Weekend-la friends ellarum serndhu cinema-ku polama nu yosik
+SYN-CAND-A-0137,TRAIN,TANGLISH,75,10,325296967b800e1ba1944c0c942b79f776a4e070634ea13f93ac18390944c08d,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,"Unakku enna problem, edhuku ipdi kavalappattutu irukka, ella"
+SYN-CAND-A-0138,TRAIN,TANGLISH,81,10,91bf856b594c1a7853db0378832f5bbd4ca51415081edae7def3373ab1f41909,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,"Pudhiya laptop vangiyachu, build quality super-aa iruku, per"
+SYN-CAND-A-0139,TRAIN,TANGLISH,82,10,dbe46c3bccb6e7063d8744285cbad26c5e94beaf0631c5faaea329c4a31b98e1,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,Exam-ku nalla prepare pannitiya? Enaku innum konjam portions
+SYN-CAND-A-0140,TRAIN,TANGLISH,81,12,1017aceec107fa0a9ab69f5bdef800cd3f50034c86cfc17f7c7e5d1094c44410,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,Train tickets confirm aayiducha illai waiting list-la dhaan 
+SYN-CAND-A-0141,TRAIN,TANGLISH,71,10,be36f3738fad24564e5bb53dd9d3609ac5b8ce953b0c8546648fc5d6b7dee07f,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,"Amma samachadhu eppovume super taste, oorukku poganum nu aas"
+SYN-CAND-A-0142,TRAIN,TANGLISH,80,12,3a95f3c2f80f302ac98a380b44cd30e941243779a132a940fa5c83236d2822e5,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,"Avan kitta andha project files ellam kuduthuten, innum revie"
+SYN-CAND-A-0143,TRAIN,TANGLISH,73,10,6e6892c7817123340379924fe952919fd845dfd51ff2349a9bd446e327980896,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,"Nethu night football match paathiya, climax-la semma goal po"
+SYN-CAND-A-0144,TRAIN,TANGLISH,73,10,ee148a1b44b3cc077227e3637a0c1664a2d9e581116a6fda48ae63dbf35f1c84,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,"Romba tired-aa irukku, oru cup tea kudinga, appuram velaiya "
+SYN-CAND-A-0145,TEST,TANGLISH,82,9,69b4e50490d1a9464891d19c7e455584e6ff70857dc277da838a73aec2cc4a8d,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,"Phone battery seekiram discharge aagudhu, service center-la "
+SYN-CAND-A-0146,TRAIN,TANGLISH,74,9,2e8474816f7e44a034dcddc3724719c48728e83233c1adf8a8fb5600773bb96a,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,"Namma oorla pudhusa oru supermarket thirandhurukaanga, anga "
+SYN-CAND-A-0147,TRAIN,TANGLISH,72,10,8a1a6bbb2c14188fcfb5e157d6b6a0e56f79495429c42c8c793c9db6be6343b3,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,"Enakku indha vishayam theriyadhu, avana kettu solren, konjam"
+SYN-CAND-A-0148,TEST,TANGLISH,77,11,50e81b221f10e17b5559116002e57b6eb361c31e6eb01aa5ed6bd89106a158c4,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,"Bus stand-ku poga autokaaran kitta pesi paathen, romba adhig"
+SYN-CAND-A-0149,TRAIN,TANGLISH,96,11,bca1936c7d719b870356e02960fc418c909335ae308945d302845ca649520df1,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,Indha API endpoint-ku JSON response structure validate பண்ணி
+SYN-CAND-A-0150,TRAIN,TANGLISH,75,11,f3f12416cf546770981c7e33cf017610f7a2587ad3af6a7fdde4bfe262aeccf5,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,Model training loss stabilize aaga 50 epochs வரை run பண்ண வே
+SYN-CAND-A-0151,TRAIN,TANGLISH,88,10,56e7307337e3ff6114ea6c415c29b12c402d2f7d3f2a4f6630048cc921311fa0,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,Production deployment-க்கு முன்னாடி regression tests run பண்
+SYN-CAND-A-0152,TRAIN,TANGLISH,86,8,1d97406f05c9f61ff452492f24686989ca0a09c428789038d1387fe9e949b317,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,Code review-ல performance optimization suggestions கொடுத்திர
+SYN-CAND-A-0153,TRAIN,TANGLISH,90,10,6e291f25a29656bca86e73c23412cbc5a65d6e67e0c4e60c8e24fc1ebe49e26a,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,Security audit-ல் cryptographic tokens check பண்ணி authoriza
+SYN-CAND-A-0154,VALIDATION,TANGLISH,89,11,cb54c190edf1a2727d85a6d4366f422fcab65c6ee9e2c1258f601315031a70d1,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,"Docker container restart loop-ல மாட்டிக்கிச்சு, container lo"
+SYN-CAND-A-0155,TRAIN,TANGLISH,81,10,af077f0ec257ff7e8eb16c91d04c298871abadd2b9ece518cb5767ec25d793ee,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,"User authentication token expire ஆயிடுச்சு, session refresh "
+SYN-CAND-A-0156,TRAIN,TANGLISH,71,8,61fda8b2eb6f343a47848a1a70281bf38cc0e2b0f1cbd9f9729fbcd2ccf2831e,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,Cloud storage bucket permissions properly configure செய்யப்ப
+SYN-CAND-A-0157,VALIDATION,TANGLISH,78,11,3bbc96b5244653245a59eff07a8142e793d5a518647c2e12c6fdeed3ef5822bd,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,"Distributed cache miss rate அதிகமா இருக்கு, TTL duration adj"
+SYN-CAND-A-0158,TRAIN,TANGLISH,68,9,364eb083bcef8bbcb3f2d5e297e4f012c938f66686ef737d2d512ef14352558b,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,Unit test suite execute ஆகும்போது memory leak warning காண்பி
+SYN-CAND-A-0159,TRAIN,TANGLISH,80,11,f3cb6e459735364369775fb31c887e40436cb7ec93c5ca5cc51c4180a04888ad,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,Load balancer health check fail ஆனா traffic secondary instan
+SYN-CAND-A-0160,TRAIN,TANGLISH,82,9,a2cdf758a8ecad4d8448b03120463ed58a6e3f8946f533b1fa2413b27f30c804,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,"Dataset tokenization process complete ஆகிவிட்டது, vocabulary"
+SYN-CAND-A-0161,TRAIN,TANGLISH,85,12,de4547527b4be7998cb5049fe6c1eef81abbc79e105ea80541d7e00629e521c8,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,"Kubernetes cluster node status ready-ஆ இல்லை, worker node lo"
+SYN-CAND-A-0162,TRAIN,TANGLISH,78,11,fe484e6a825207cbb2b0456b1c870ed95780f9d70fa8b37751880f1a68595aac,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,"Hey machan, check the build logs, everything compiled smooth"
+SYN-CAND-A-0163,TRAIN,TANGLISH,70,11,e20776e0031c82a10eef87a781dcbba191b2f19d290e867b80e8a3681ddff2fe,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,"Seri, let us schedule the database backup window for midnigh"
+SYN-CAND-A-0164,VALIDATION,TANGLISH,74,12,a522a8a7e89262f8c5294c43bd500c2a5c550916a8c6e3a49c6a084a4593f8df,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,"Romba carefully review the pull request, it touches the core"
+SYN-CAND-A-0165,TEST,TANGLISH,76,11,ca2ceb449532474e28497c4483ec0a0b5624879abd5bce868ed9056d8009c68c,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,"Thambi, don't push code without running the pre-commit linti"
+SYN-CAND-A-0166,TRAIN,TANGLISH,82,12,d68a86812e811288e76286ce6843bbc3bfc011a8b07d0d5b03062835a42c6548,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,"Aiyoo, the entire monitoring dashboard is showing timeout er"
+SYN-CAND-A-0167,TRAIN,TANGLISH,77,11,79b26abcab8f2ad62e07bfc2cb8afc68b37a72edaeffa18ce5d2b973b03684dd,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,You must verify the cryptographic signatures before approvin
+SYN-CAND-A-0168,TRAIN,TANGLISH,78,13,9e10543a52274489ed62cd58dcbc46bff44c95cfdbd0e7f50aa09c57627b546c,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,"Dei, did you push the latest schema migrations to the stagin"
+SYN-CAND-A-0169,TRAIN,TANGLISH,97,10,9bd1620db93c948b3366be586de7762bda3506b7bd1ae2b1a0bb5cf760fc0d18,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,"Tokenizer vocabulary-யில் 32,768 structural and subword toke"
+SYN-CAND-A-0170,TRAIN,TANGLISH,95,10,21523767ea183316cf424510150349bee581d5e49dd6e9126b2b19b6156aa710,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,Gradient clipping threshold 1.0-க்கு மேலாக செல்லாமல் trainin
+SYN-CAND-A-0171,VALIDATION,TANGLISH,89,9,3515f5fbae03f8afb3684c6be2c34a7cb23a21ad57b9eac7c14cdca26d247cf9,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,Checkpoint integrity verification SHA-256 hash validation மூ
+SYN-CAND-A-0172,TRAIN,TANGLISH,90,10,51b74cd7befdeb1a5ac1a36092da16132d2b61ec687d97f9b8ec3cb33a0b0c61,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,Context window length 2048 tokens-க்கு உட்பட்டு input sequen
+SYN-CAND-A-0173,TRAIN,TANGLISH,85,10,6c503948609d46be290501bdefcba4e03feaed3475af3557d1763543f3c4f182,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,Rotary position embeddings (RoPE) relative token distances-ஐ
+SYN-CAND-A-0174,TEST,TANGLISH,91,9,e406fffbba9b4e4ab669a243cffc49e468891442d65c23b4d11e31c1a21fcb00,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,SwiGLU activation function feed-forward network layers-ல் gr
+SYN-CAND-A-0175,TRAIN,TANGLISH,85,10,b712fc8e004f429558149dcf2000b20f798a1e436db546b6238e2cb60fb8def5,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,Grouped-query attention (GQA) key-value cache memory overhea
+SYN-CAND-A-0176,TRAIN,TANGLISH,105,12,b52ec5b773bef1719bd2a37b3917fa97c7e9f47232cae51b9cf569095365ced3,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,Root Mean Square Normalization (RMSNorm) layer outputs-ஐ sta
+SYN-CAND-A-0177,TRAIN,TANGLISH,99,10,030a736677d86345a4b95d8d3ab7cc609fe4bd5ac034a83358d5fdd4aeb66842,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,FlashAttention v2 memory-efficient exact attention computati
+SYN-CAND-A-0178,TRAIN,TANGLISH,87,10,9a0048937d08547b7e20c9069533e0b7b63003f14034d23c37e01b541803f00f,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,AdamW optimizer decoupled weight decay mechanism மூலமாக mode
+SYN-CAND-A-0179,VALIDATION,TANGLISH,86,10,fd873d74c39b23b52e2f1f3291158f70f201573bbb1859a12a375a34f0dde705,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,Cosine annealing learning rate schedule training loss conver
+SYN-CAND-A-0180,VALIDATION,TANGLISH,99,10,25b04c4e40bf0773ea46033f78487ead53e137b16a71a0fa6c64829083bbc566,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,Bfloat16 precision training numerical stability-ஐ maintain ச
+SYN-CAND-A-0181,TRAIN,TANGLISH,86,10,9f1b57c2fd27440ff848d1280c217d2e03bc6abc85c4a190d61bbae23f3e3b32,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,Data loader pipeline multithreaded workers மூலமாக tokenized 
+SYN-CAND-A-0182,TRAIN,TANGLISH,108,11,8b645698dc9312c9d266d0fc118818f299fefc41b10ca54d91b984106c6c0bc1,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,Cross-entropy loss function target probability distribution-
+SYN-CAND-A-0183,TRAIN,TAMIL,91,17,9014f8bc6bd5690dee787b25157d3d264cbd047a64117ecab30706b89433432d,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,கா கி கீ கு கூ கெ கே கை கொ கோ கௌ ஆகிய உயிர்மெய் எழுத்துக்கள்
+SYN-CAND-A-0184,TEST,TAMIL,98,22,345eb1cfdbdbb17a949c1525d20d152f146473dff7a8d894d030f6f21d5e4b60,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,மெய்யெழுத்துக்கள் க் ங் ச் ஞ் ட் ண் த் ந் ப் ம் ய் ர் ல் வ் 
+SYN-CAND-A-0185,TRAIN,TAMIL,78,16,f13a84dafa573e8fb5a23f8f57dee4b5266ede47bc6cb6e8e263d226f7bf84f0,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,தமிழ் எண்கள் ௧ ௨ ௩ ௪ ௫ ௬ ௭ ௮ ௯ ௰ பண்டைய ஆவணங்களில் பரவலாகப் 
+SYN-CAND-A-0186,TRAIN,TAMIL,93,9,72abe9523aedb009e3deaf199e4e4554203cbfdb3572c9b6d1f680a068e5f0bd,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,சொற்களைப் பிழை திருத்தம் செய்தல் மற்றும் கற்றல் கற்பித்தல் ம
+SYN-CAND-A-0187,TRAIN,TAMIL,92,9,8cebed68edde91e48b79103195f3f92c241d950d76811ec4174043798da4267c,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,நன்றாகப் படித்து தேர்வில் முதல் மதிப்பெண் பெற்ற மாணவர்களுக்க
+SYN-CAND-A-0188,TRAIN,TAMIL,87,14,ba34382cc001817da7908eb49b02bafaf94c663689e06a738ed39b6d270b6efc,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,"ஸ்ரீ ராமன் என்ற அடைமொழி மற்றும் கிரந்த எழுத்துக்கள் ஜ, ஷ, ஸ,"
+SYN-CAND-A-0189,TRAIN,TAMIL,88,10,95b8b528e591e6df7fbc59416f9d620f587e34652c717cf1cc651b681bd2f82e,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,க்‍க மற்றும் க்‌க போன்ற ZWJ மற்றும் ZWNJ குறியீடுகள் ரெண்டரி
+SYN-CAND-A-0190,TRAIN,TAMIL,38,6,6a7c327929388ee476e7d1d2f10674c86e89632ee6675b8049423fe5c5b58494,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,க்் இரட்டைப் புள்ளி உள்ள பிழையான சொல்.
+SYN-CAND-A-0191,TRAIN,TAMIL,40,5,72a1fb66637412d59c88476bbe6d1fd92511ba512c2dc1e090af4b81380271a8,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,ா தனித்த உயிர்மெய்க் குறியீடு பிழையானது.
+SYN-CAND-A-0192,TRAIN,ENGLISH,81,11,19cae0a29cd28166c4fa9014bdc332cedeb1e429811766f2281e840a6d2822d1,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,This text contains an invalid replacement character � causin
+SYN-CAND-A-0193,TRAIN,TAMIL,50,3,d529ef62e1ccd497d0e02438ba2ce734bb2d667f79dcea4ef3afda2aeb866cde,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,கணினி கட்டுப்பாடுஎழுத்துக்கள் நீக்கப்பட வேண்டும்.
+SYN-CAND-A-0194,TRAIN,TAMIL,80,10,62c63ebd4ab1c2b7a433b876883441d53cb641fbc8084b369d1e54d1170ce940,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,நவீன தமிழ் உரைநடை மற்றும் பழங்கால இலக்கண மரபுகள் ஆகியவற்றுக்
+SYN-CAND-A-0195,VALIDATION,TAMIL,87,11,cbb282f2f1b99e7428690eb9e49a9ac140b2058769d5b9c2d2d9bf7e67c19cba,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,ஆங்கிலம் மற்றும் தமிழ் சொற்கள் கலந்து வருவது தற்கால பேச்சு வ
+SYN-CAND-A-0196,TEST,TANGLISH,81,7,62fc3bb19429895f8620d82b88e3b0de6961e6386123a315817939d2c2934432,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,Microprocessor architecture-ல் cache hierarchy instructions-
+SYN-CAND-A-0197,TEST,ENGLISH,87,10,476ea9b36616b9c5077bf98d2ab8729ee86c193d3a65d090249458838b2a1591,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,Deep learning models require balanced multilingual datasets 
+SYN-CAND-A-0198,TEST,ENGLISH,80,1,0f45e858fbc4176cdf4e411f88281edefc390ae5afe7df0f44cd9297f0a64580,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+SYN-CAND-A-0199,TEST,TAMIL,30,1,85389b3368032f612e2929054aff06eb84c2d27ba75e05abd213534076db16c9,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,ஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹ
+SYN-CAND-A-0200,TRAIN,ENGLISH,133,8,e3cfcb18eeb0e1bf8b7e59daa3763475c24b05c95770dd2708bb46455763a5b8,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,https://example.com/a https://example.com/b https://example.
+SYN-CAND-A-0201,TRAIN,ENGLISH,87,15,6072f21bb19105a0f26e1a041ece9a70dedbe081b7ca386a7a02ab824d58c909,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,Please accept our cookie policy and review our terms of serv
+SYN-CAND-A-0202,TRAIN,ENGLISH,70,11,be5ac5c49fd33d0dcee6b80836fa8347cbecab5af94ba7f555a6643c165f8603,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,Click here to subscribe now and read our privacy policy adve
+SYN-CAND-A-0203,TRAIN,ENGLISH,48,10,e5882a441acac409a7600c7751b36d307e2fd88da70bc58a30f0e01952f5e4b9,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,Hello � world with corrupted � bytes � in stream
+SYN-CAND-A-0204,TRAIN,ENGLISH,49,10,0ffdb4ebf8dd51a16ca0ebd1ebe2b698b8980c2823498dbd5455c1369e92d754,PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,Error 404 not found page not found on web server.
+SYN-CAND-A-0205,VALIDATION,TAMIL,79,9,3b7a7efa3ac1f8aa15bdced9017be1cd50809f6f16b0cb69d315829057a3d386,PHASE26_DATASET_SPLITS.json,காலை வேளையில் நடைப்பயிற்சி மேற்கொள்வது உடல் நலத்திற்கும் மன 
+SYN-CAND-A-0206,TRAIN,TAMIL,76,8,d0d8731b0a14d36837a5fa97cb2fa43a59f24ffdffd875e484920f149c50ce48,PHASE26_DATASET_SPLITS.json,நேற்று மாலை நண்பர்களுடன் கடற்கரைக்குச் சென்று இனிமையாகப் பொழ
+SYN-CAND-A-0207,TEST,TAMIL,88,9,c6257e4f2851fd1491d766372298072ec2a2120459a02006a4e4ed56983e0065,PHASE26_DATASET_SPLITS.json,புதிய தொழில் தொடங்குவதற்குத் தேவையான திட்ட அறிக்கையை வங்கி அ
+SYN-CAND-A-0208,TRAIN,TAMIL,92,8,447297c7a3e9da3e77afeb5ee6adf32d529f84df8e6457078bbae45213d9d1b8,PHASE26_DATASET_SPLITS.json,சுற்றுச்சூழல் விழிப்புணர்வு பேரணியில் கல்லூரி மாணவர்கள் அனைவ
+SYN-CAND-A-0209,TRAIN,TAMIL,86,8,caad0d94708727542fb2e071dfc34d0e6f35d233280eab27424168257b20c99b,PHASE26_DATASET_SPLITS.json,மருத்துவ பரிசோதனை முடிவுகள் அனைத்தும் திருப்திகரமாக இருப்பதா
+SYN-CAND-A-0210,TRAIN,TAMIL,85,10,be118a621305792a0a6e3307c6467e6e150f883f46e69c4883b7af0b13e63f57,PHASE26_DATASET_SPLITS.json,தரவுத்தள அட்டவணைகளில் உள்ள குறியீடுகள் வினவல் வேகத்தை பல மடங
+SYN-CAND-A-0211,TEST,TAMIL,88,8,2579e754fde08b34976952ef8224998c939d62adb05174c8060376d72e282fae,PHASE26_DATASET_SPLITS.json,வலைப்பின்னல் பாதுகாப்பு நெறிமுறைகள் அங்கீகரிக்கப்படாத தரவு அ
+SYN-CAND-A-0212,TRAIN,TAMIL,80,8,a30eeb3a7cec7d3adb07d3a9899f4295fdf193bff2a891471b0fd6de24d01371,PHASE26_DATASET_SPLITS.json,செயலி நிரலாக்கத்தில் நினைவக மேலாண்மை கசிவுகளைத் தவிர்ப்பது ம
+SYN-CAND-A-0213,TRAIN,TAMIL,84,8,2d4829acc55553174eb20e6239b93504e8c9be3ef305b4859761753f956c24aa,PHASE26_DATASET_SPLITS.json,செயற்கைக்கோள் தொலை உணர்வுத் தரவுகள் பயிர் விளைச்சல் மதிப்பீட
+SYN-CAND-A-0214,TRAIN,TAMIL,90,8,0af91898c9be827d02398fc2d4b4274bb478c18e9465fcfd3e565a1001d97b9b,PHASE26_DATASET_SPLITS.json,மின்னாற்றல் பகிர்வு வலையமைப்பில் தானியங்கி சுவிட்சுகள் தடங்க
+SYN-CAND-A-0215,TRAIN,TAMIL,79,8,da2ea1a7549af0bca5fec7b3cd97f55660297b143dd812b29bfa798cc9236dd7,PHASE26_DATASET_SPLITS.json,கற்பவை கற்று வல்லுநராய் விளங்குதல் சான்றோரின் தலையாய கடமையாக
+SYN-CAND-A-0216,TRAIN,TAMIL,81,7,2cb7afc740fe409ed533dd4afab58483fa9a744c568fcba8a5d3042fc1c59107,PHASE26_DATASET_SPLITS.json,சொற்பொழிவாளர் கூறிய கருத்துக்கள் அவையோரின் சிந்தனையைத் தூண்ட
+SYN-CAND-A-0217,TRAIN,TAMIL,85,7,63fc1eae67faf8ecb0dd593c40a4fba3f6f532c2cb15b8e119e414e265ff3222,PHASE26_DATASET_SPLITS.json,வளர்ந்தோங்கும் அறிவியல் உலகில் தமிழ்ச் சொற்களஞ்சியத்தை விரிவ
+SYN-CAND-A-0218,TRAIN,TAMIL,78,7,a39a5b5913f1aea5646f56ad17c208cd8d9544a5eb16a8aaabbb5282514fdda7,PHASE26_DATASET_SPLITS.json,பண்பாட்டு விழுமியங்களைப் பேணிப் பாதுகாத்தல் இளைய தலைமுறையினர
+SYN-CAND-A-0219,TRAIN,TAMIL,83,7,fec57b3ffd250afe3aaa08e1a94b929438d21a2eb31096aa05d43feac23555eb,PHASE26_DATASET_SPLITS.json,திருக்குறள் அறத்துப்பால் மனிதனின் நன்னடத்தைக்கான அடிப்படைக் 
+SYN-CAND-A-0220,TRAIN,ENGLISH,102,13,ba74ac00bbf979744eebb39d004c0ab16e15c13b1809515e8b6140d9bf389666,PHASE26_DATASET_SPLITS.json,We should discuss the quarterly project milestones during ou
+SYN-CAND-A-0221,TRAIN,ENGLISH,93,16,8c55b85655e7b2a92bee9813482207e80b5131e3cc41d3e5928669e2bfb00dff,PHASE26_DATASET_SPLITS.json,Please ensure all unit test cases are executed before openin
+SYN-CAND-A-0222,TRAIN,ENGLISH,104,15,ec8593b6383b4a6e0a8422987647fb8152cac84703c89f6d91a7a2f9bd4a4273,PHASE26_DATASET_SPLITS.json,The restaurant downtown serves excellent Italian pasta with 
+SYN-CAND-A-0223,TRAIN,ENGLISH,110,12,6eba17d4428e9acbedb00ac131809554af24fe646ecea816fee9b54917c8abdd,PHASE26_DATASET_SPLITS.json,Regular physical exercise combined with balanced nutrition c
+SYN-CAND-A-0224,VALIDATION,ENGLISH,108,13,37aa27f4588f3edea4ad40c496c7823403fba34b5af9b48531f1934553d225db,PHASE26_DATASET_SPLITS.json,Autonomous navigation algorithms utilize real-time sensor st
+SYN-CAND-A-0225,TRAIN,ENGLISH,104,13,3a149870490022fe959b90c33909403ad510eff5e94f0b743f3408f51cbd3902,PHASE26_DATASET_SPLITS.json,Static analysis tools inspect syntax trees to enforce archit
+SYN-CAND-A-0226,TRAIN,ENGLISH,108,13,f732b78dc7857749afc68c8bad6dfd4e0bb03a58e5589b605a44efa11e9e9213,PHASE26_DATASET_SPLITS.json,Garbage collection routines traverse object reference graphs
+SYN-CAND-A-0227,TEST,ENGLISH,104,14,24436f1bae0158d6fb756ddc34bde59df9300beac73da70023535d57fe2cd0ce,PHASE26_DATASET_SPLITS.json,The primary objective of automated unit testing is isolating
+SYN-CAND-A-0228,TRAIN,TAMIL,77,15,22c43c2b48a74bc40536270d5e49f79fc4d6854363ad528546f607054c069058,PHASE26_DATASET_SPLITS.json,தமிழ் எண்கள் ௧ ௨ ௩ ௪ ௫ ௬ ௭ ௮ ௯ ௰ ஆவணங்களில் பாதுகாப்பாக பராம
+SYN-CAND-A-0229,TRAIN,TAMIL,59,8,4931293e58511b4821430f602f490c9136f21d28f410a873236ce09d1be874e9,PHASE26_DATASET_SPLITS.json,க்் இரட்டைப் புள்ளி உள்ள பிழையான சொல் திருத்தப்பட வேண்டும்.
+SYN-CAND-A-0230,TRAIN,TAMIL,67,7,0a0cbca8c037fda2d3cd4a871011155daedd3ec55178be7562e5dcd665e025e3,PHASE26_DATASET_SPLITS.json,ா தனித்த உயிர்மெய்க் குறியீடு வாக்கியத்தின் தொடக்கத்தில் பிழ
+SYN-CAND-A-0231,TRAIN,ENGLISH,83,12,8160a4d175b907bff84be86e231d5c2fe0e2956f6d2996d90473c14660e39bf1,PHASE26_DATASET_SPLITS.json,This record contains corrupted bytes � in stream causing str
+SYN-CAND-A-0232,TEST,ENGLISH,80,10,a2df03f371fdecf068a8a73cf85e042f2b27f8bd0d4bfd515f03775d1952f3e5,PHASE26_DATASET_SPLITS.json,Data corruption � occurred during transmission across unveri
+SYN-CAND-A-0233,TRAIN,TAMIL,55,6,0b58a4d9b86c960a4f143f68768858abfb4de62ec0b03e1a0f95760eb0db663e,PHASE26_DATASET_SPLITS.json,த்் தவறான மெய்க்குறியீடு வரிசை சரிபார்க்கப்பட வேண்டும்.
+SYN-CAND-A-0234,TRAIN,ENGLISH,5,2,99d385323743ee6dc28a7f6fdab6654f93b0e72a32092ec7444ff775f6d21271,PHASE26_DATASET_SPLITS.json,Hi ok
+SYN-CAND-A-0235,TRAIN,ENGLISH,124,8,9ad1aec3a6d890d6bedb0b6255f006134eaffde8e55ebb5fc335174c7ddb3e6e,PHASE26_DATASET_SPLITS.json,https://site.com/a https://site.com/b https://site.com/c htt
+SYN-CAND-A-0236,TRAIN,TAMIL,89,10,903e6c5e527089abe2ae7ba474177f04a988cfdf5ae938981f9f63b1806186cc,PHASE26_DATASET_SPLITS.json,தொன்மை வாய்ந்த தமிழ் இலக்கியங்கள் மனித வாழ்வின் விழுமியங்களை
+SYN-CAND-A-0237,TRAIN,TAMIL,93,10,d1ea60e21d98888f0346cf74fdf05b0f0ba2589d51d69755311f16e512416d80,PHASE26_DATASET_SPLITS.json,மழைநீர் சேகரிப்பு அமைப்புகளை வீடுகளில் அமைப்பது நிலத்தடி நீர
+SYN-CAND-A-0238,TRAIN,TAMIL,93,8,d7a82f57771a030b48dce69d63d624248d90d364d0e37340e832f1d18257554f,PHASE26_DATASET_SPLITS.json,செயற்கை நுண்ணறிவு மாதிரிகள் பெரிய அளவிலான தரவுத்தொகுப்புகளைக
+SYN-CAND-A-0239,TRAIN,TAMIL,92,10,35df479f5ee5bb9f180f66fa401fbef47a6277e6f9a9a2fec0111468beef6203,PHASE26_DATASET_SPLITS.json,பண்டைய சோழர்களின் கடல்சார் வணிகம் தென்கிழக்கு ஆசிய நாடுகளில்
+SYN-CAND-A-0240,TRAIN,TAMIL,85,8,07f679af5d8579d3bda79bd3d08da9a32fefa39815ba3db7dd9cacdac3c56b6d,PHASE26_DATASET_SPLITS.json,ஆசிரியர் மாணவர்களுக்கு கணிதக் கோட்பாடுகளை எளிய உதாரணங்களுடன்
+SYN-CAND-A-0241,TRAIN,TAMIL,84,10,ecaa42f418e3a4b7c50913633be1542598299794e4ed5e7adc8857d41d9b914c,PHASE26_DATASET_SPLITS.json,இன்று மதியம் அலுவலக உணவகத்தில் சுவையான சாம்பார் சாதம் மற்றும
+SYN-CAND-A-0242,VALIDATION,TAMIL,86,9,4254d7bc2e77bf02bad9515b86a1c0b6c7cb4511e733a101b71e33b3fa94d38e,PHASE26_DATASET_SPLITS.json,வார இறுதியில் குடும்பத்தினருடன் கிராமத்திற்குச் சென்று அமைதி
+SYN-CAND-A-0243,TRAIN,TAMIL,95,9,87d0195de65e7298ac4d1008319591f0cb9d3d12555e89673d68dee378866ed1,PHASE26_DATASET_SPLITS.json,நகராட்சி நிர்வாகம் சாலை விரிவாக்கப் பணிகளை விரைந்து முடிக்கு
+SYN-CAND-A-0244,TRAIN,TAMIL,88,8,db7743120227be1ca95269330a57f3a8c7eba8bcad322330987fa5db10005895,PHASE26_DATASET_SPLITS.json,மாவட்ட அளவிலான அறிவியல் கண்காட்சியில் பள்ளி மாணவர்களின் கண்ட
+SYN-CAND-A-0245,TRAIN,TAMIL,90,10,a0bebb4edcb6e4b351b8b13822358f181aabea3312af56f8e5622e3f8ff88cde,PHASE26_DATASET_SPLITS.json,யோகா மற்றும் தியானப் பயிற்சிகள் மன அழுத்தத்தைக் குறைத்து உடல
+SYN-CAND-A-0246,TRAIN,TAMIL,97,8,9bda8223f90001fa085392e179999ea84bcdba6559a3313915ef290ca65ef8d9,PHASE26_DATASET_SPLITS.json,விநியோகிக்கப்பட்ட அமைப்புகளில் தரவு ஒருமைப்பாட்டைப் பராமரிக்
+SYN-CAND-A-0247,TRAIN,TAMIL,91,9,2572567c9bbd2a555c1775276c0764bb05b6292bb4e29f8ec00e7fc41f9bc8dc,PHASE26_DATASET_SPLITS.json,இயக்க முறைமை செயல்முறைகளுக்கு இடையேயான தொடர்புகளை பாதுகாப்பா
+SYN-CAND-A-0248,TRAIN,TAMIL,91,9,118161793ebec82048944a27362eb4b8b741ceb322dd4a8f1cb89d47a31fd4dd,PHASE26_DATASET_SPLITS.json,நுண்செயலி வடிவமைப்பு வழிமுறைகள் மின் நுகர்வைக் குறைத்து செயல
+SYN-CAND-A-0249,TRAIN,TAMIL,104,8,3e191fad1768ba2c7fc512d928861c650e14766d1ad7e52f2d1aa80165e7bfd0,PHASE26_DATASET_SPLITS.json,மேகக்கணி சேமிப்பகத்தில் தரவுகள் குறியாக்கப்பட்டு அங்கீகரிக்க
+SYN-CAND-A-0250,TRAIN,TAMIL,98,9,71c4996788dd4895b9c59735a5918823ecbbdd6fc66dbb3bf6720038ff07faa4,PHASE26_DATASET_SPLITS.json,தானியங்கி வாகனங்கள் சென்சார் தகவல்களை நிகழ்நேரத்தில் பகுப்பா
+SYN-CAND-A-0251,TRAIN,TAMIL,91,10,1b0918ed65f0774763379915fbb542326d4f8ef3e3d20332185321518d3623a6,PHASE26_DATASET_SPLITS.json,எப்பொருள் யார்யார்வாய்க் கேட்பினும் அப்பொருள் மெய்ப்பொருள் க
+SYN-CAND-A-0252,VALIDATION,TAMIL,94,9,6981b947c105ddac03ff4e1a55f1ac308c40ab9739e0ad10b584c193b76bd114,PHASE26_DATASET_SPLITS.json,பழங்காலக் கல்வெட்டுகள் அக்காலத்து ஆட்சிமுறை மற்றும் சமூக நில
+SYN-CAND-A-0253,TRAIN,TAMIL,94,8,3245dff347e91221ef3e5bfe1591be0e3bbd96822eb3d6c24241c1960889d4a5,PHASE26_DATASET_SPLITS.json,மொழிபெயர்ப்புத் துறையில் சொல்லாக்க நெறிகளைப் பின்பற்றி புதிய
+SYN-CAND-A-0254,TRAIN,TAMIL,86,9,54319fcb6e4914a8005d5ac1aab264697493cfc376115c41c0da82042dd5bec5,PHASE26_DATASET_SPLITS.json,மகிழ்ச்சியான மனநிலையே ஒரு மனிதனின் ஆரோக்கியமான நீண்ட ஆயுளுக்
+SYN-CAND-A-0255,TRAIN,TAMIL,84,9,8051d48c785531eeeef9cd08f2f94b67d86a36746a2c199a5f40d267add8791b,PHASE26_DATASET_SPLITS.json,பாரதியாரின் கவிதைகள் விடுதலை உணர்வையும் பெண் கல்வியின் அவசிய
+SYN-CAND-A-0256,TRAIN,ENGLISH,101,12,c89153294ec30bae5c475dda4d2e51f24bc5d27c746ea3c5e3d2dea99fa1e935,PHASE26_DATASET_SPLITS.json,Modern operating systems enforce hardware-assisted address s
+SYN-CAND-A-0257,TRAIN,ENGLISH,103,13,5fa789325bb4139512fc5b0a21545a8c9a44efd50d85a1ea626429b298d3d13e,PHASE26_DATASET_SPLITS.json,Relational database engines rely on cost-based optimizers to
+SYN-CAND-A-0258,TRAIN,ENGLISH,109,13,c13711295ced5c6d5325e74c11c99512aa465ecdc730451a10bd3e78a1e11881,PHASE26_DATASET_SPLITS.json,Public key cryptography enables confidential communication o
+SYN-CAND-A-0259,TRAIN,ENGLISH,114,13,8721bafd47974f3ad6f2a6dd71b0ed1b0f8ed2d85b1e434eaedeff39de1a0b47,PHASE26_DATASET_SPLITS.json,Fault-tolerant message queues buffer incoming requests to de
+SYN-CAND-A-0260,TRAIN,ENGLISH,106,12,36cf40b9fd2a3a76745f5207f61f593d061c9804d3aff399412a874320fbd503,PHASE26_DATASET_SPLITS.json,Deep learning frameworks construct dynamic computation graph
+SYN-CAND-A-0261,TRAIN,ENGLISH,101,16,0c850ba1f0b5afa0cdc090c742c22d3321274769fa8f96095e79b8fd014d9a39,PHASE26_DATASET_SPLITS.json,Could you review the proposed schema migration before we app
+SYN-CAND-A-0262,TRAIN,ENGLISH,105,11,424ca1410242e258de8913b2cd7b57bafd1e6b5c7337a00f09d52e21e7b8adae,PHASE26_DATASET_SPLITS.json,The conference speaker presented fascinating research on sus
+SYN-CAND-A-0263,TRAIN,ENGLISH,98,13,61acc5cfb6284fc2a288a309c100c6674803cad6b457ec4104053ddf46c93a9b,PHASE26_DATASET_SPLITS.json,"Continuous integration pipelines run linting, security scann"
+SYN-CAND-A-0264,TRAIN,ENGLISH,109,12,b045153b14b805571a82f761246a2dc787086d8cda96bbebfcfc535b07c1275b,PHASE26_DATASET_SPLITS.json,Effective documentation clarifies architectural design decis
+SYN-CAND-A-0265,TRAIN,ENGLISH,106,14,8d79ba74e9833e3979f1ef7bed25e225af1a861907456ee1b80e46c8ea520496,PHASE26_DATASET_SPLITS.json,Browser rendering engines parse cascading style sheets and c
+SYN-CAND-A-0266,VALIDATION,ENGLISH,104,12,a52b12d8ac4b2854915a6f133969ebdbecc43fe183dd9efeb6d6b6c60053f6eb,PHASE26_DATASET_SPLITS.json,Virtual machines provide isolated guest operating systems by
+SYN-CAND-A-0267,TRAIN,ENGLISH,114,13,742cde069c1ecea72fefc7d19fd53c20d4b9ae5b7cb367117831e18a48346260,PHASE26_DATASET_SPLITS.json,Distributed transactions utilize two-phase commit protocols 
+SYN-CAND-A-0268,TRAIN,ENGLISH,95,11,68e7bd9201499818d1f67326568f7446aaacf89fb99d9883182ea3d6db1dff77,PHASE26_DATASET_SPLITS.json,Scalable architectures assemble stateless backend services f
+SYN-CAND-A-0269,TRAIN,ENGLISH,92,11,79d471270ed4f0a6ad9dc84212cf7302abf20729c4fb00adda1d46cbbf89fbcf,PHASE26_DATASET_SPLITS.json,Web frameworks handle incoming HTTP requests through composa
+SYN-CAND-A-0270,TEST,ENGLISH,109,13,e9df93ee76f12d3e157a83a80b39da41a054e240476d8845e811f5b67db49558,PHASE26_DATASET_SPLITS.json,Reliable data transmission protocols retransmit dropped pack
+SYN-CAND-A-0271,VALIDATION,ENGLISH,110,11,be3f1e9c204eaf0ebff14360dcafaef8f731ccf226f956d8d6280698b9d81bc8,PHASE26_DATASET_SPLITS.json,Event-driven architectures decouple state mutation publisher
+SYN-CAND-A-0272,TRAIN,ENGLISH,103,12,b2752c9da7ce302d671d73a2f4a682cb2ee5a6fb1edc961309e35e4e9b854cd3,PHASE26_DATASET_SPLITS.json,Low-latency trading platforms optimize network interface rin
+SYN-CAND-A-0273,TRAIN,ENGLISH,96,14,89d34da31758c01a0b03330f82a48fec061cc13de5ab4c588bec3c2d7fa3ecda,PHASE26_DATASET_SPLITS.json,Content delivery networks cache static media assets at geogr
+SYN-CAND-A-0274,VALIDATION,ENGLISH,110,13,3c0ec394aa23b254d3b10ce840646555baa9e8650a75c1462bf68d77ddf2ca15,PHASE26_DATASET_SPLITS.json,Container orchestrators reconcile cluster desired states by 
+SYN-CAND-A-0275,TRAIN,ENGLISH,105,12,c7b504ea8788b0d7d17c9555253a17d88e3dd916e8c15180af4700e1d7854658,PHASE26_DATASET_SPLITS.json,Comprehensive observability platforms ingest structured logs
+SYN-CAND-A-0276,TRAIN,TANGLISH,78,13,2e046c5024449c3a769178af57d94488b29362456d07226df5764e394fb484f8,PHASE26_DATASET_SPLITS.json,"The memory footprint looks completely stable now pa, no sign"
+SYN-CAND-A-0277,TRAIN,TAMIL,81,17,ad6a658a6aa10583e244a8666103bfe2b2a4ddb30468900821c965ae3155c7bc,PHASE26_DATASET_SPLITS.json,பா பி பீ பு பூ பெ பே பை பொ போ பௌ அனைத்து பா வரிசை உயிர்மெய் 
+SYN-CAND-A-0278,VALIDATION,TAMIL,85,12,3caf6dfcc753f8d56bd98517f18b4c3e79def00bde2fd8e5d397f6b456d71b41,PHASE26_DATASET_SPLITS.json,வல்லினம் மெல்லினம் இடையினம் க் ச் ட் த் ப் ற் எழுத்துக்கள் ம
+SYN-CAND-A-0279,TRAIN,TAMIL,85,13,d9744e77d47b066ca59f861c5bbac7a63aa4f1f2f9c31bce16239390bd2cf4f9,PHASE26_DATASET_SPLITS.json,பழங்கால கணக்கு வழக்குகளில் ௱ மற்றும் ௲ ஆகிய தமிழ் நூறு மற்று
+SYN-CAND-A-0280,TRAIN,TAMIL,78,10,82495c99178e7d63135c3c344a056e63ef871b32e3b297c93f8be4139a36a712,PHASE26_DATASET_SPLITS.json,ரிஷப ராசி மற்றும் கஜமுகன் போன்ற கிரந்த சொற்கள் தமிழ் உரைநடைய
+SYN-CAND-A-0281,TRAIN,TAMIL,61,7,5ec11e698ffc58ca5c5e6ca9cc9bdf60980b78268fa2aa14121226f3a7af8ca4,PHASE26_DATASET_SPLITS.json,தமிழ் உரை‍நடை மற்றும் சொல்‌வளம் சீராக பராமரிக்கப்பட வேண்டும்
+SYN-CAND-A-0282,TRAIN,TAMIL,50,6,bcfeb17f59ac8063fc91b7425a169abcb34158a016dc85369c0f3c83e2ebc8f2,PHASE26_DATASET_SPLITS.json,ப்் இரட்டைப் புள்ளி வரிசை நிராகரிக்கப்பட வேண்டும்.
+SYN-CAND-A-0283,TRAIN,TAMIL,56,7,e1350b1b53459d54de1ac358190bd09b6ee5e1bc05488a29ffbb4ca862ff2064,PHASE26_DATASET_SPLITS.json,ீ தனித்த நெடில் குறியீடு சொல் தொடக்கத்தில் அமையக்கூடாது.
+SYN-CAND-A-0284,TRAIN,ENGLISH,75,10,35f936c4b73720ea904799487d2ee7530a76f5f5c05644f595c1b7319f16d03a,PHASE26_DATASET_SPLITS.json,Network socket stream received invalid surrogate � replaceme
+SYN-CAND-A-0285,TRAIN,ENGLISH,75,10,b487d4d0bf956f461237a82dc58f7f9c13241fca9896e5d7a9a2bcbeb9ded399,PHASE26_DATASET_SPLITS.json,Database transaction log corrupted with � invalid Unicode co
+SYN-CAND-A-0286,VALIDATION,TAMIL,78,9,4b1a8028c6726a2cd4a7589a40da30d750f6d8f117cb95dc002f3a3ca64a0eb3,PHASE26_DATASET_SPLITS.json,ச்் இரட்டைப் புள்ளி உள்ள பிழையான சொல் அச்சுக்கோர்ப்பில் தவிர
+SYN-CAND-A-0287,TRAIN,TAMIL,5,2,410262d65afd451751064b5fba6381602782288a376aeb81e47209a131702055,PHASE26_DATASET_SPLITS.json,வா போ
+SYN-CAND-A-0288,TRAIN,TAMIL,40,1,b17011add5883b16449f69e47e94c04e70f5b31d7fe056a43e0dc69074f48b0e,PHASE26_DATASET_SPLITS.json,ஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹ
+SYN-CAND-A-0289,TEST,ENGLISH,118,7,349de11968598ace99b152e32a9569e3314c542db40307fbb569d3022c2478a6,PHASE26_DATASET_SPLITS.json,http://link1.org/test http://link2.org/test http://link3.org
+SYN-CAND-A-0290,TRAIN,TAMIL,94,11,128cd57d77cc4045b43cacff714f40a97f6e3fd7a76abb035845aec26b8faacf,PHASE26_DATASET_SPLITS.json,சங்க இலக்கியங்கள் தமிழர்களின் உயரிய காதல் மற்றும் வீர வாழ்வை
+SYN-CAND-A-0291,TRAIN,TAMIL,89,10,6224311eceec9ab95ddc4a1b2c9c6833f5faf245255b4d8137702613c7abe991,PHASE26_DATASET_SPLITS.json,காடுகளைப் பாதுகாப்பதன் மூலமே பருவமழை பொய்க்காமல் விவசாயம் தழ
+SYN-CAND-A-0292,TRAIN,TAMIL,95,10,6d91dc4ff62cad77b994fd66545c3e99e13043d15b88659b03d68154f0f40746,PHASE26_DATASET_SPLITS.json,நரம்பியல் வலையமைப்புகள் மனித மூளையின் செயல்பாடுகளைப் போன்ற க
+SYN-CAND-A-0293,TEST,TAMIL,91,11,e07c66dd40b6353e423f9f937b783d6beb3fe072e3e71833ee41f2b4a04f8bf9,PHASE26_DATASET_SPLITS.json,காவிரி டெல்டா பாசன விவசாயிகள் நவீன நெல் சாகுபடி முறைகளை வெற்
+SYN-CAND-A-0294,TRAIN,TAMIL,93,9,6bb1c9084473aced1425b55d491dd68f0a412e4733decede7b4287b08e78abe0,PHASE26_DATASET_SPLITS.json,பல்கலைக்கழகப் பட்டமளிப்பு விழாவில் சாதனை படைத்த மாணவர்களுக்க
+SYN-CAND-A-0295,TRAIN,TAMIL,97,10,4c5d8d69c701949cdf7b471605e24dafaf9a7029bc1011a1cdc904878712d489,PHASE26_DATASET_SPLITS.json,கடும் வேலைப்பளுவுக்குப் பிறகு ஒரு சிறிய விடுமுறை எடுத்துக்கொ
+SYN-CAND-A-0296,TRAIN,TAMIL,90,9,a45f2d1cc09347ee7ea94df1df188eec6e4c7a262fcaa84414ae176ea7870961,PHASE26_DATASET_SPLITS.json,என் செல்லப் பிராணிக்கு உடல்நிலை சரியில்லாததால் கால்நடை மருத்
+SYN-CAND-A-0297,TRAIN,TAMIL,86,8,368525e9bcbe33628a162fc83b0a4e4cc9b775ece5c8baf21ee80919461c3a8a,PHASE26_DATASET_SPLITS.json,பாதுகாப்பு அமைச்சகம் எல்லைப் பகுதிகளில் நவீன கண்காணிப்பு உபக
+SYN-CAND-A-0298,TEST,TAMIL,93,10,ce35092644960e69081204a98806920857df2ed93812e4ec4ca67526b7b8ca05,PHASE26_DATASET_SPLITS.json,சர்வதேச திரைப்பட விழாவில் தமிழ் திரைப்படம் ஒன்றுக்கு சிறந்த 
+SYN-CAND-A-0299,TRAIN,TAMIL,93,10,63ffacde7a5ae5cd81aedffd5b905ac8ba7f5ff5128d09f5f206ebb2ced3d312,PHASE26_DATASET_SPLITS.json,பாரம்பரிய சித்த மருத்துவ முறைகள் பல நாள்பட்ட நோய்களுக்கு பக்
+SYN-CAND-A-0300,TRAIN,TAMIL,92,9,55ca6fcaa8148a6c395413dc9cd58ebe36dbb481b86d8c32818495c43e76c35b,PHASE26_DATASET_SPLITS.json,குவாண்டம் கணினி தொழில்நுட்பம் எதிர்காலத்தில் சிக்கலான குறியா
+SYN-CAND-A-0301,TRAIN,TAMIL,92,10,946fa7795c1b62a2acf8f5a95e4642e03d9353e1e2285aae48265a55db30557b,PHASE26_DATASET_SPLITS.json,வலைதள சேவையகங்கள் அதிக அளவிலான கோரிக்கைகளை கையாள சுமை சமநிலை
+SYN-CAND-A-0302,TRAIN,TAMIL,98,10,73b1c0f95c2fadfa63023f2f701d72666108a2ff8891df75152e450eaac76916,PHASE26_DATASET_SPLITS.json,நிகழ்நேர இயக்க முறைமைகள் வினாடியின் மைக்ரோ பகுதிக்குள் பணிகள
+SYN-CAND-A-0303,TRAIN,TAMIL,92,8,e57ac8a684f0b1b8f580a8e549846158c9e49c01beae506ef52647f1715b2f95,PHASE26_DATASET_SPLITS.json,குறியாக்கவியல் வழிமுறைகள் மின்னணு பணப்பரிவர்த்தனைகளை இணைய மோ
+SYN-CAND-A-0304,TRAIN,TAMIL,101,7,18166ee8ddd5271de15a6af353c6d5d4b6dc1b22d39a0a71163b12ba27dc2ce8,PHASE26_DATASET_SPLITS.json,ரோபோட்டிக்ஸ் தொழில்நுட்பம் தொழிற்சாலைகளில் உற்பத்தித்திறனையு
+SYN-CAND-A-0305,TRAIN,TAMIL,87,9,54ec14a2240830bf7d79bcc0ebd25f37d8d96b9946fa933682bbabbb5cf8a18d,PHASE26_DATASET_SPLITS.json,கற்பனைக் கதைகளைக் காட்டிலும் வரலாற்று உண்மைகளை ஆதாரங்களுடன் 
+SYN-CAND-A-0306,TEST,TAMIL,79,10,703a87af8204bdb2b807fb01b838a4855b9a86b246c6c7e555b51fa684a728ec,PHASE26_DATASET_SPLITS.json,தன் கடமையை செவ்வனே ஆற்றுவோருக்கு வெற்றியானது தானாகவே வந்து ச
+SYN-CAND-A-0307,TRAIN,TAMIL,90,9,bc8a330c22f8ba4e0f33db9969b610dc32acfdc96bfc9f67ecd232fed66635e6,PHASE26_DATASET_SPLITS.json,தமிழறிஞர்கள் பலரும் உலகெங்கிலும் பரவி தமிழ் பண்பாட்டை அடுத்த
+SYN-CAND-A-0308,TRAIN,TAMIL,97,10,a2778517515b04f7af0b4d6c92eadf0e02c34216c5a04b8949fc568418b0d48c,PHASE26_DATASET_SPLITS.json,இளைய தலைமுறை மாணவர்கள் நூல்களை வாசிக்கும் பழக்கத்தை வளர்த்து
+SYN-CAND-A-0309,VALIDATION,TAMIL,97,10,73269658aa5dbd47538b29c46314328ae4a0ce7a21e12f41630628713f3cc417,PHASE26_DATASET_SPLITS.json,சிலப்பதிகாரம் கண்ணகியின் கற்பின் மாண்பையும் பாண்டிய மன்னனின்
+SYN-CAND-A-0310,TRAIN,ENGLISH,116,12,44e6e03b80cfeae4c650b26ae826b4be53c104f2af96ae2ddd0de4c8924c7483,PHASE26_DATASET_SPLITS.json,Hardware abstraction layers encapsulate device-specific regi
+SYN-CAND-A-0311,TRAIN,ENGLISH,109,12,71521a3b76154071b2afa38b93569c38b8b37bda3bd6311917e1732addc99010,PHASE26_DATASET_SPLITS.json,Columnar storage formats optimize analytical queries by comp
+SYN-CAND-A-0312,TRAIN,ENGLISH,114,14,f1377022ebb991153ba922b37d1562636eb553be66aea919937ae7e893df1c6e,PHASE26_DATASET_SPLITS.json,Zero-trust security models authenticate and authorize every 
+SYN-CAND-A-0313,TRAIN,ENGLISH,101,16,05ef5d5d0ac44ea381de70d85044a469b798bfc98c301a39a88d5f37f884c28c,PHASE26_DATASET_SPLITS.json,Raft consensus clusters elect a unique leader node to sequen
+SYN-CAND-A-0314,TRAIN,ENGLISH,107,13,e1c040e8221b76269dcc523cf967c471fd1224779bb470e9692bc859f1e75729,PHASE26_DATASET_SPLITS.json,Quantization techniques compress neural network weights into
+SYN-CAND-A-0315,TRAIN,ENGLISH,112,16,66d767ac6b98e71c34b645b19807e63509c601746a7920d37aabdfb42af28da7,PHASE26_DATASET_SPLITS.json,I checked the production monitoring metrics and verified tha
+SYN-CAND-A-0316,VALIDATION,ENGLISH,109,15,1599b71afef87e62d725e5375c156dc8c6df310339886d1aa95f03e882c70ce2,PHASE26_DATASET_SPLITS.json,The local botanical garden features thousands of rare indige
+SYN-CAND-A-0317,TRAIN,ENGLISH,101,15,bb53a296a5d1ce72d9fe96ac360d39e9d647ec5989634b38c2b583f6d2c71ec1,PHASE26_DATASET_SPLITS.json,Automated canary deployments route a small fraction of live 
+SYN-CAND-A-0318,TRAIN,ENGLISH,109,14,e8b22b39874bd3b5fe6805b3a26d245515f270ee378ca2e7e63efe258352a504,PHASE26_DATASET_SPLITS.json,Strong typing disciplines detect representational bugs at co
+SYN-CAND-A-0319,TEST,ENGLISH,113,14,d90b043d179951fecc54eed4a607e7c24af6558eb76ff79ec5734c5279b7086e,PHASE26_DATASET_SPLITS.json,WebAssembly provides a sandboxed stack-based bytecode virtua
+SYN-CAND-A-0320,TRAIN,ENGLISH,102,12,34f2ba49e194b3a7501c469f50ebf646dfe34122172c598a8d203b87cedd97ef,PHASE26_DATASET_SPLITS.json,Non-volatile storage controllers utilize wear leveling algor
+SYN-CAND-A-0321,TRAIN,ENGLISH,107,13,72ada8e1cbc272941b38beeeb4d1d43f807844282a6f20d2a7383666d90a1cb2,PHASE26_DATASET_SPLITS.json,Resilient software systems handle transient network partitio
+SYN-CAND-A-0322,TEST,ENGLISH,109,12,80dd66e49946ae2a4e1e9470e4e2308a8c510c59fc1dd61689484ab84a4d23ab,PHASE26_DATASET_SPLITS.json,Modular codebases decouple domain business logic from infras
+SYN-CAND-A-0323,TRAIN,ENGLISH,101,11,7cc6e1ee22851b78c2f036aec26cad4ce1b13b6f745aab98b5a818163fe3041e,PHASE26_DATASET_SPLITS.json,High-throughput stream processors assemble unbounded record 
+SYN-CAND-A-0324,TRAIN,ENGLISH,105,12,53101d0d3bb86cc2a5095944bc1cc065b154ee95c34cd8b7a362222103df1ad7,PHASE26_DATASET_SPLITS.json,Distributed tracing libraries correlate individual service s
+SYN-CAND-A-0325,VALIDATION,ENGLISH,101,13,2b76dd61d22db5388e37ac5f9bac9d8953e4c435baf9d1f38b22e16cddfe73aa,PHASE26_DATASET_SPLITS.json,Extensible microkernel architectures isolate device drivers 
+SYN-CAND-A-0326,TRAIN,ENGLISH,114,13,b428763c60eeb02641055851ad65d4169b6db509a6cbf0db7ae9f878a9f7d124,PHASE26_DATASET_SPLITS.json,Connection pooling libraries manage database socket lifecycl
+SYN-CAND-A-0327,TRAIN,ENGLISH,101,13,eed7dd6197f0b8132c597ea9da749be35cdcaa4bf9b2aacf109f5ba4d53bd78c,PHASE26_DATASET_SPLITS.json,Load testing tools simulate peak concurrent user traffic to 
+SYN-CAND-A-0328,TRAIN,ENGLISH,114,12,a97175505c36d32fcf61e14adceeef95b7dd8a330fafd44d1643f83219b3a647,PHASE26_DATASET_SPLITS.json,Stateless microservices scale horizontally by provisioning a
+SYN-CAND-A-0329,TRAIN,ENGLISH,110,12,dc7b6ecac591e9d2ab3c8236d54ba206051effee84bd0892a06b09b1fc75e9fb,PHASE26_DATASET_SPLITS.json,Immutable infrastructure patterns replace misbehaving virtua
+SYN-CAND-A-0330,TRAIN,TANGLISH,84,11,e1ce71bf5abe3a48c16eb0786cc3e8f67bb63f8e342a707c9674888d122102df,PHASE26_DATASET_SPLITS.json,"Enaku innum rendunaal-la assignment submit pannanum, aana ma"
+SYN-CAND-A-0331,TRAIN,TANGLISH,81,12,a40df0b054be42de9e4f9dc74153e05cc4de558a3c70c0129d348324e57a180b,PHASE26_DATASET_SPLITS.json,"Pudhusa release aana web series pathiya? Semma suspense, cli"
+SYN-CAND-A-0332,TRAIN,ENGLISH,87,11,e0d92c705a2413d01f5f127c8f75ff8b294e5721a5bd5e5d164f86cf54527aef,PHASE26_DATASET_SPLITS.json,"Kalyanathuku poitu vandhom, sapadu laaddu semma sweet, relat"
+SYN-CAND-A-0333,TRAIN,TANGLISH,96,13,a693259a0590a16e4bbab32281b662e4005e9d7fcf7b839b864dc7d910353301,PHASE26_DATASET_SPLITS.json,"Bike service pottu vandhutten, engine sound ippo smooth-aa i"
+SYN-CAND-A-0334,TRAIN,TANGLISH,94,12,4a38a3266a957b9ee2869d38505d18010ee9bf9d1d20e2b2444c0f9bb75e240b,PHASE26_DATASET_SPLITS.json,"Interview round romba tough-aa irunthuchu da, system design "
+SYN-CAND-A-0335,TRAIN,TANGLISH,96,13,471e021983d359eb73495a5ce5d7fc4936725de30cc5d1a7b9056fc1807c560e,PHASE26_DATASET_SPLITS.json,"Online order potta parcel innum varala, tracking status chec"
+SYN-CAND-A-0336,TRAIN,TANGLISH,88,12,da3efd5c434e7bbc29747b2678da29b28504c760e091175e686a3330768e092f,PHASE26_DATASET_SPLITS.json,"Gym-ku daily poganum nu mudivu panniruken, morning 6 manikke"
+SYN-CAND-A-0337,TRAIN,TANGLISH,88,13,cdccdd0681e60faaf82fcd244fa09144b463bc61ab49c70938cbf5751a1adc12,PHASE26_DATASET_SPLITS.json,"Raincoat eduthu vechuko da, sky dark-aa irukku, eppo venaalu"
+SYN-CAND-A-0338,TRAIN,TANGLISH,87,16,2bc2f28c14be955e2b388643514f68ae596bbc512488fe069a4b1b7494b3e0ae,PHASE26_DATASET_SPLITS.json,"Please don't forget to push the git tags after merge da, oth"
+SYN-CAND-A-0339,TRAIN,TANGLISH,85,12,144023b61094523598123675f1f5f267515c2ee6470b6e4f70b8ba6655ee2176,PHASE26_DATASET_SPLITS.json,"Aiyo, the SSL certificate expired this morning, clients are "
+SYN-CAND-A-0340,VALIDATION,TANGLISH,79,13,33a685a45df1ad37cb860e487a8e70d5e170b880deea780ab27cc0010ce55d09,PHASE26_DATASET_SPLITS.json,"Everything will be completely fine pa, our database replicas"
+SYN-CAND-A-0341,TRAIN,TANGLISH,80,12,aadc815e6a15847bd34029629a45ec88f066d29e45ec3a8b0f8d71e4124fa15d,PHASE26_DATASET_SPLITS.json,"Hey machan, check the benchmark report, throughput has jumpe"
+SYN-CAND-A-0342,TRAIN,TANGLISH,84,16,32f695ffd21df5a75a4c8d3d5a4f1e4267ec9f0a471c697af8fa96add653382d,PHASE26_DATASET_SPLITS.json,"Seri, I will create the Jira tickets and assign the bug fixe"
+SYN-CAND-A-0343,TRAIN,TANGLISH,80,13,b63e88b0664bbd2e2b4eb6488bbcb69dcc51e5be4aaa219651ade716324d0944,PHASE26_DATASET_SPLITS.json,"Dei, did you verify the database connection pool settings on"
+SYN-CAND-A-0344,TRAIN,TANGLISH,85,10,d17828a59ea10031ea3edb0eb6c8b87a8f35bd0095c38577706f4fddddd33ed4,PHASE26_DATASET_SPLITS.json,Romba strictly avoid running administrative commands directl
+SYN-CAND-A-0345,TEST,TANGLISH,72,10,fcdb61e05b61cd21e687471c79f1d9367f0ba470abaf8d0cd0288a63e070919f,PHASE26_DATASET_SPLITS.json,"Aiyoo, someone accidentally deleted the shared testing branc"
+SYN-CAND-A-0346,TRAIN,TANGLISH,95,11,7f85a31f751db4f117b7256828c22cf33e0bc8da9c7920fbfd89f5882d6a9530,PHASE26_DATASET_SPLITS.json,"Ingress controller routing rules update பண்ணியாச்சு, traffic"
+SYN-CAND-A-0347,TRAIN,TANGLISH,99,11,2a1c8f6c6cb341a583c9cf4386e4c94f01a617e56e6562490f06f1478df11bfb,PHASE26_DATASET_SPLITS.json,"Web socket connection disconnect ஆனா, client automatically e"
+SYN-CAND-A-0348,TRAIN,TANGLISH,79,11,a9310de706c4c8fffe25a7686a5dcb3ec00d2319d9ae025e810f869d8e202717,PHASE26_DATASET_SPLITS.json,"Kafka topic partitioning key balance ஆகல, consumer lag incre"
+SYN-CAND-A-0349,TRAIN,TANGLISH,90,13,7f2d1b2e2a2472b31dbb5b3fc01d722aa4506b6742449f8dfe0fb276f30d28f5,PHASE26_DATASET_SPLITS.json,"PostgreSQL database query plan analyze பண்ணினோம், missing in"
+SYN-CAND-A-0350,TEST,TANGLISH,77,11,465005d14290dcdcdf6d2548592c62194d2705a1f0e814bfd177c28520c30756,PHASE26_DATASET_SPLITS.json,Microservice health checks pass ஆனா மட்டும் தான் traffic rou
+SYN-CAND-A-0351,TRAIN,TANGLISH,89,11,00d4cf4dd9158164137562f7d63840e874bf1821115848ff5f6b257a3b08fcb6,PHASE26_DATASET_SPLITS.json,"Security firewall rules modify பண்ணி, external IP range-க்கு"
+SYN-CAND-A-0352,TRAIN,TANGLISH,81,11,070768c93007317c5e6d282a743ac2091b4572b5ea36da655691fb3bf488871d,PHASE26_DATASET_SPLITS.json,"CI/CD pipeline build fail ஆயிடுச்சு, dependency cache clean "
+SYN-CAND-A-0353,VALIDATION,TANGLISH,89,10,c062ae283fb70d6e830ff700006cf2584f7774726f8ae7b949aed4783c7c5eb2,PHASE26_DATASET_SPLITS.json,Attention matrix softmax normalization token attention weigh
+SYN-CAND-A-0354,TRAIN,TANGLISH,93,11,a4aa87bc31faecc60bc4194af68d9c8239be93afb31832456205ed8c6ec607c6,PHASE26_DATASET_SPLITS.json,Gradient accumulation steps effective batch size-ஐ GPU memor
+SYN-CAND-A-0355,TRAIN,TANGLISH,94,10,4e7a4f70dacebf2148d02bd2ce46b0012294360d924f896b863e60466e5d321a,PHASE26_DATASET_SPLITS.json,Linear layer weight initialization variance exploding gradie
+SYN-CAND-A-0356,TRAIN,TANGLISH,93,10,ee2ab15e4bbeefe50087823c1ab6493bb192e57e2fdfdbf924ecd1b67565e5a8,PHASE26_DATASET_SPLITS.json,Residual connections deep neural network layers-ல் vanishing
+SYN-CAND-A-0357,VALIDATION,TANGLISH,103,11,3e326b01f471a43cb99d5aad3bd56d154a7228d984b6cc55075f24396adadc4d,PHASE26_DATASET_SPLITS.json,Byte-Pair Encoding (BPE) subword segmentation algorithm rare
+SYN-CAND-A-0358,TRAIN,TANGLISH,96,11,2837dc1e4b152aab6a4e62588d32944fabf9dc5b297b0c1f5afae7c2881f7862,PHASE26_DATASET_SPLITS.json,Cross-entropy validation loss early stopping mechanism மூலமா
+SYN-CAND-A-0359,TRAIN,TAMIL,70,16,d5536a308fb2b8a7f536d9ad5453f639a0120bd7b67cf93d3a452d20f2db1e16,PHASE26_DATASET_SPLITS.json,தா தி தீ து தூ தெ தே தை தொ தோ தௌ ஆகிய உயிர்மெய் வரிசைகள் சரி
+SYN-CAND-A-0360,TRAIN,TAMIL,90,12,73463aa1396542011b9817b449fbad0e66a21bbb536d3bf7e0eb9a6af8555e09,PHASE26_DATASET_SPLITS.json,மெய்யெழுத்துக்களின் ஒலிப்பு முறைகள் ங் ஞ் ண் ந் ம் ன் மெல்லி
+SYN-CAND-A-0361,TRAIN,TAMIL,76,9,3a1e730aa413e9f9231c36b209d18762d897459ad66c974263f6e309638a6bac,PHASE26_DATASET_SPLITS.json,கல்வெட்டுகளில் ௧௫ மற்றும் ௨௦ போன்ற தமிழ் எண் குறியீடுகள் பொற
+SYN-CAND-A-0362,TRAIN,TAMIL,74,8,1381ffdeea1c9bddf19ab21a4c91f86b7fc9b282e7cfcf8cda316a4094ffb30f,PHASE26_DATASET_SPLITS.json,புஷ்பம் மற்றும் சந்தோஷம் போன்ற சொற்களில் கிரந்த எழுத்துக்கள்
+SYN-CAND-A-0363,VALIDATION,TAMIL,67,5,81531708d6417b3a4e504b11380e907643ae05c7e2c696f2d5b9ea63c03bcd2c,PHASE26_DATASET_SPLITS.json,கணினி‍வலையமைப்பு மற்றும் தரவு‌த்தளம் ரெண்டரிங் பாதுகாக்கப்பட
+SYN-CAND-A-0364,TRAIN,TAMIL,50,6,181a8b391362a47a3349a1b2986289ff6dbab0be3a86bc2c7ce8db71c4e8e10c,PHASE26_DATASET_SPLITS.json,ம்் இரட்டைப் புள்ளி சொல் பிழையாக பதியப்பட்டுள்ளது.
+SYN-CAND-A-0365,TRAIN,TAMIL,61,8,3480c097c7fce13f99222fd037fa8df1c9a6e110f0d3e6aec6331fe1cc5ea157,PHASE26_DATASET_SPLITS.json,ொ தனித்த ஒற்றைக் கொம்பு குறியீடு சொல் தொடக்கத்தில் பிழையானது
+SYN-CAND-A-0366,TRAIN,ENGLISH,78,10,b5164d34ef8a242617a584a3566c8e75e481844480d497de5e3424e8806a80aa,PHASE26_DATASET_SPLITS.json,Incoming message packet failed decoding with replacement cha
+SYN-CAND-A-0367,VALIDATION,ENGLISH,74,10,4464fbe961146a1cba4b2d657ffc93456862bfe6b1873cff4b75eac248cc8c7a,PHASE26_DATASET_SPLITS.json,Storage sector sector dump contains corrupted � unmapped cha
+SYN-CAND-A-0368,TRAIN,TAMIL,58,7,86f1045ac41644125236291c982d5f431b5a96d32355850bbc0841d00da9b54e,PHASE26_DATASET_SPLITS.json,ல்் இரட்டைப் புள்ளி சொல் நிராகரிக்கப்பட வேண்டிய ஒன்றாகும்.
+SYN-CAND-A-0369,TEST,ENGLISH,112,8,1dd2ddc17a16c6489bac0e3582f48dc04f07f1235d5e3333ae8e1aca87c8e097,PHASE26_DATASET_SPLITS.json,https://alpha.io https://beta.io https://gamma.io https://de
+SYN-CAND-A-0370,TRAIN,ENGLISH,86,9,bf73182156993c81b892429386d9049ad0a7b4da24af38499716bc7e0f41008a,igris_phase17_synthetic_multilingual.json,The multilingual decoder model evaluates representations acr
+SYN-CAND-A-0371,TRAIN,TAMIL,80,7,21011a3f29418521eb210b88c42bb011edf371d7d1cc9a517de6d3feb7c81943,igris_phase17_synthetic_multilingual.json,செயற்கை நுண்ணறிவு கட்டமைப்புகள் மொழிகளுக்கு இடையேயான தொடர்பு
+SYN-CAND-A-0372,TEST,TANGLISH,69,11,d4233f05624c1eb6f99abca1fa5b8eb9b69de0f7d905c02128c9645259f2ebcd,igris_phase17_synthetic_multilingual.json,Speed and accuracy renderum semma balanced ah irukku on GPU 
+SYN-CAND-A-0373,TRAIN,ENGLISH,89,11,32097d4a72d91338ffdc45369a7d41d4b2aed756c063f427cdd5744b3456d755,igris_phase17_synthetic_multilingual.json,The neural architecture combines grouped query attention wit
+SYN-CAND-A-0374,TEST,TAMIL,85,10,b0f69b5a2c27006571a4c84fc11dbb0a888c0df2d12d0747588e3b3cc6961be6,igris_phase17_synthetic_multilingual.json,கணினி மொழியியல் ஆய்வில் தமிழ் எழுத்துருக்களின் பயன்பாடு மிக 
+SYN-CAND-A-0375,VALIDATION,TAMIL,87,9,31bd1f79e295e825e2de64da80232192bcdfade27b109e2cd039f41507b23134,igris_phase17_synthetic_multilingual.json,இந்த பலமொழி மின்மாற்றி மாதிரி இந்திய மொழிகளுக்கான ஆழமான பிரத
+SYN-CAND-A-0376,TRAIN,TAMIL,71,9,77e960af216056da26b60604dcff42b250ca53e2ac337d2ef69b0ec915c5381e,igris_phase17_synthetic_multilingual.json,குழு வினவல் கவனம் அமைப்பு நினைவக தேவையை குறைத்து வேகத்தை அதி
+SYN-CAND-A-0377,TRAIN,TAMIL,75,8,fb9d198ec131c5f58a59a78689a51c3110c94acd9f4d97000c3973797a20284f,igris_phase17_synthetic_multilingual.json,ரோட்டரி பொசிஷன் எம்பட்டிங் முறையானது தொடர் குறியாக்கத்தை திற
+SYN-CAND-A-0378,TRAIN,ENGLISH,89,9,6b97d4cb9dc9e4dab3f9624d0e9691c71d9ca4d6954728c595095824367ac0ec,synthetic_dryrun_dataset.json,The multilingual decoder evaluates representations across di
+SYN-CAND-A-0379,VALIDATION,ENGLISH,83,10,14aa40a6ebc4861d8324a8adf59f219b2b6d38cc368459315db3fcde1514d287,synthetic_dryrun_dataset.json,Rotary position embeddings provide relative token awareness 
+SYN-CAND-A-0380,VALIDATION,ENGLISH,87,10,8003e06ed3ffd716f0d60bd97935d6e265555a554fb9341d3250cad5ab68bd94,synthetic_dryrun_dataset.json,Hardware acceleration on local tensor cores optimizes sustai
+SYN-CAND-A-0381,TRAIN,ENGLISH,77,9,530a7c4d3097ecc6639db21f12fcf19078008bbc2191e2c6b4b638f4fd66aebf,synthetic_dryrun_dataset.json,Gradient clipping bounds numerical updates and prevents expl
+SYN-CAND-A-0382,TRAIN,TANGLISH,74,10,3ee607c134d33d837d70783946161553b1c27cc750917639e5848d057dbad289,tanglish_synthetic_generator_v2.py,Assignment submission deadline nalaiku evening five PM kulla
+SYN-CAND-A-0383,TEST,TANGLISH,98,10,4ca48e2e0e6651d580cdcd8dd449e26f4b9d764e085a43c7ff6beb8e3ce67bc3,tanglish_synthetic_generator_v2.py,பல்கலைக்கழக தேர்வு அட்டவணை (university exam schedule) துறை அ
+SYN-CAND-A-0384,TRAIN,TANGLISH,75,9,44f2ad51bfb059712eafbc5e6d1ae483de6e85b808eaf9e7e060bd1cc6dd5e96,tanglish_synthetic_generator_v2.py,"Library-la reference books renew பண்ணிட்டு, lab viva-க்கு pr"
+SYN-CAND-A-0385,TRAIN,TANGLISH,84,11,ec399bbb47bc557bb8ed7c12a7411cd6aab04f65fde9273c30bce19fa624f334,tanglish_synthetic_generator_v2.py,"Order dispatch aayiduchu nu SMS vandhudhu, delivery tracking"
+SYN-CAND-A-0386,TRAIN,TANGLISH,85,13,a3d1d8e7115f34e00a67a73502d62257cf3c71ba5955e2d68a7e87ba457e751d,tanglish_synthetic_generator_v2.py,"Return policy seven days dhan iruku, size fit aagala na imme"
+SYN-CAND-A-0387,TRAIN,TANGLISH,101,13,842fa5ffcb23319320b30ec74894828bf270291645bf8ac82e4f1bea172de457,tanglish_synthetic_generator_v2.py,"UPI transaction fail aagi amount deduct aayiduchu, bank cust"
+SYN-CAND-A-0388,TRAIN,TANGLISH,93,10,a48addb25c01593bc336d6ec86d9d19058106dd5550d3a17e14331a134d7951c,tanglish_synthetic_generator_v2.py,"Metro card recharge online-la mudinjadhum, platform ticket e"
+SYN-CAND-A-0389,TRAIN,TANGLISH,90,11,b7f5f4d180b3cf6d93ff12bdbacac4909d25ac1c473743ee7c1e1280a0e64be0,tanglish_synthetic_generator_v2.py,"Flight departure delay aana kooda, lounge access irukardhala"
+SYN-CAND-A-0390,TRAIN,TANGLISH,111,11,65765edc89360cf83641f15b72769e4dc9c725cfd33443927578d8d087d36b89,tanglish_synthetic_generator_v2.py,பொது போக்குவரத்து வழித்தடங்கள் (public transit routes) ஜிபிஎ
+SYN-CAND-A-0391,TRAIN,TANGLISH,94,10,95d131865c5023d8c088d0e856af8d5ba36f8acf7e01a871118a423793d0e660,tanglish_synthetic_generator_v2.py,"Doctor consultation-க்கு appointment book panniyachu, blood "
+SYN-CAND-A-0392,TRAIN,TANGLISH,91,12,34ed5cc68f5abf95e01cc52117f392301dd15fc25faa400e3e523c8c183756f9,tanglish_synthetic_generator_v2.py,"Hydration level maintain panna vendiyadhu romba mukkiyam, da"
+SYN-CAND-A-0393,TRAIN,TANGLISH,112,11,15a05c2dcb510277c953039c4b3ad0850dbeb93fe70acd12fc7714e409149e55,tanglish_synthetic_generator_v2.py,ஆரோக்கிய பராமரிப்பு நெறிமுறைகள் (healthcare guidelines) சீரா
+SYN-CAND-A-0394,TRAIN,TANGLISH,83,12,0c52c9b3dd17435f2f4ff6e72a9eaf1ce83ee744e0cffb80e6960c751cbeaaf8,tanglish_synthetic_generator_v2.py,"Git stash apply பண்ணும்போது merge conflict varala, unit test"
+SYN-CAND-A-0395,TRAIN,TANGLISH,74,11,af9b15c6c1afe63e3e15e7137f34c8b0492693b2b1a2c73320fdade3d370db09,tanglish_synthetic_generator_v2.py,Type hints use பண்ணினா static analysis tool easily bugs-ஐ ca
+SYN-CAND-A-0396,TRAIN,TANGLISH,132,13,703633078a36a349d94d17867ebe26d4782b8151de98fe776c6a70f4db86f7fb,tanglish_synthetic_generator_v2.py,இணையதள பயன்பாட்டு இடைமுகங்கள் (web application interfaces) ப
+SYN-CAND-A-0397,TRAIN,ENGLISH,154,26,977d1612d0047acfd32b65f51c5ea7304beb1a7025e6f2c0b3a5b68485e6b8ee,phase31_synthetic_validator.py,"Return the Euclidean distance between two points p and q, ea"
+SYN-CAND-A-0398,TRAIN,ENGLISH,145,20,893f8aa0eed5539a9a8f990733cb52cb44f9c7d957996a5c8fd570fe55131f4a,phase31_synthetic_validator.py,Thanks to core developer Alex Smith (alex.smith@python.org) 
+SYN-CAND-A-0399,TRAIN,ENGLISH,72,12,5c248a118e89126492184c559337b40ff564b8ae915bc31f1578d0935f76c0e9,phase31_synthetic_validator.py,Table of Contents ================= * Index * Module Index *

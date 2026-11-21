@@ -1,0 +1,403 @@
+source_file,record_id,exclusion_category,specific_reason,char_count,script_detected,text_preview
+PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,P25-SYN-0124,MALFORMED_TOO_SHORT,CHAR_COUNT_UNDER_5,0,NONE_OR_MALFORMED,''
+PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,P25-SYN-0125,MALFORMED_TOO_SHORT,CHAR_COUNT_UNDER_5,0,NONE_OR_MALFORMED,''
+PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,P25-SYN-0126,MALFORMED_TOO_SHORT,CHAR_COUNT_UNDER_5,2,NONE_OR_MALFORMED,'Hi'
+PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,P25-SYN-0127,MALFORMED_TOO_SHORT,CHAR_COUNT_UNDER_5,2,NONE_OR_MALFORMED,'வா'
+PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,P25-SYN-0131,UNCLASSIFIABLE_NOISE,OUT_OF_SCOPE_METADATA_OR_NOISE,55,LATIN_OR_SYMBOL_NOISE,"??? !!! .... ,,,, :::: ;;;; ??? !!! .... ,,,, :::: ;;;;"
+PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,P25-SYN-0134,UNCLASSIFIABLE_NOISE,OUT_OF_SCOPE_METADATA_OR_NOISE,32,LATIN_OR_SYMBOL_NOISE,1234567890 9876543210 1122334455
+PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,P25-SYN-0135,UNCLASSIFIABLE_NOISE,OUT_OF_SCOPE_METADATA_OR_NOISE,30,LATIN_OR_SYMBOL_NOISE,"!@#$%^&*()_+=-`~[]{}|;:',.<>/?"
+PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,P25-SYN-0138,MALFORMED_TOO_SHORT,CHAR_COUNT_UNDER_5,2,NONE_OR_MALFORMED,'OK'
+PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,P25-SYN-0139,NON_TARGET_SCRIPT,Devanagari,76,Devanagari,भारत एक विशाल और विविधताओं से भरा हुआ देश है जहां अनेक भाषाए
+PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,P25-SYN-0140,NON_TARGET_SCRIPT,Devanagari,60,Devanagari,हिंदी साहित्य का इतिहास बहुत प्राचीन और समृद्ध माना जाता है।
+PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,P25-SYN-0141,NON_TARGET_SCRIPT,Devanagari,69,Devanagari,कंप्यूटर विज्ञान में कृत्रिम बुद्धिमत्ता का उपयोग तेजी से बढ
+PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,P25-SYN-0142,NON_TARGET_SCRIPT,Devanagari,50,Devanagari,मौसम विभाग ने आज भारी बारिश की चेतावनी जारी की है।
+PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,P25-SYN-0143,NON_TARGET_SCRIPT,Devanagari,61,Devanagari,पर्यावरण की सुरक्षा हम सभी का नैतिक कर्तव्य और जिम्मेदारी है
+PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,P25-SYN-0144,NON_TARGET_SCRIPT,Telugu,71,Telugu,తెలుగు భారతదేశంలో అత్యధికంగా మాట్లాడే భాషలలో ఒకటిగా గుర్తింప
+PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,P25-SYN-0145,NON_TARGET_SCRIPT,Telugu,64,Telugu,ఆంధ్రప్రదేశ్ మరియు తెలంగాణ రాష్ట్రాల అధికారిక భాషగా తెలుగు ఉ
+PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,P25-SYN-0146,NON_TARGET_SCRIPT,Telugu,74,Telugu,సాంకేతిక రంగంలో నూతన ఆవిష్కరణలు మానవ జీవన విధానాన్ని సులభతరం
+PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,P25-SYN-0147,NON_TARGET_SCRIPT,Telugu,69,Telugu,"రైతులు దేశానికి వెన్నెముక వంటి వారు, వ్యవసాయం ఆర్థిక వ్యవస్థ"
+PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,P25-SYN-0148,NON_TARGET_SCRIPT,Telugu,65,Telugu,ప్రకృతి వనరులను సద్వినియోగం చేసుకోవడం భవిష్యత్ తరాలకు ఎంతో అ
+PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,P25-SYN-0149,NON_TARGET_SCRIPT,Kannada,64,Kannada,ಕನ್ನಡ ಸಾಹಿತ್ಯವು ಅತ್ಯಂತ ಪ್ರಾಚೀನ ಮತ್ತು ಸಮೃದ್ಧ ಇತಿಹಾಸವನ್ನು ಹೊಂದ
+PHASE25_SYNTHETIC_BENCHMARK_FIXTURES.jsonl,P25-SYN-0150,NON_TARGET_SCRIPT,Malayalam,65,Malayalam,മലയാള ഭാഷ ദക്ഷിണേന്ത്യയിലെ പ്രധാനപ്പെട്ട ദ്രാവിഡ ഭാഷകളിൽ ഒന്
+PHASE26_DATASET_SPLITS.json,P26-DEV-0071,NON_TARGET_SCRIPT,Devanagari,76,Devanagari,भारत एक विशाल और विविधताओं से भरा हुआ देश है जहां अनेक भाषाए
+PHASE26_DATASET_SPLITS.json,P26-DEV-0072,NON_TARGET_SCRIPT,Devanagari,60,Devanagari,हिंदी साहित्य का इतिहास बहुत प्राचीन और समृद्ध माना जाता है।
+PHASE26_DATASET_SPLITS.json,P26-DEV-0073,NON_TARGET_SCRIPT,Devanagari,61,Devanagari,पर्यावरण की सुरक्षा हम सभी का नैतिक कर्तव्य और जिम्मेदारी है
+PHASE26_DATASET_SPLITS.json,P26-DEV-0074,NON_TARGET_SCRIPT,Telugu,71,Telugu,తెలుగు భారతదేశంలో అత్యధికంగా మాట్లాడే భాషలలో ఒకటిగా గుర్తింప
+PHASE26_DATASET_SPLITS.json,P26-DEV-0075,NON_TARGET_SCRIPT,Telugu,64,Telugu,ఆంధ్రప్రదేశ్ మరియు తెలంగాణ రాష్ట్రాల అధికారిక భాషగా తెలుగు ఉ
+PHASE26_DATASET_SPLITS.json,P26-DEV-0076,NON_TARGET_SCRIPT,Telugu,65,Telugu,ప్రకృతి వనరులను సద్వినియోగం చేసుకోవడం భవిష్యత్ తరాలకు ఎంతో అ
+PHASE26_DATASET_SPLITS.json,P26-DEV-0077,NON_TARGET_SCRIPT,Kannada,64,Kannada,ಕನ್ನಡ ಸಾಹಿತ್ಯವು ಅತ್ಯಂತ ಪ್ರಾಚೀನ ಮತ್ತು ಸಮೃದ್ಧ ಇತಿಹಾಸವನ್ನು ಹೊಂದ
+PHASE26_DATASET_SPLITS.json,P26-DEV-0078,NON_TARGET_SCRIPT,Kannada,60,Kannada,ಬೆಂಗಳೂರು ಭಾರತದ ಪ್ರಮುಖ ಮಾಹಿತಿ ತಂತ್ರಜ್ಞಾನ ಕೇಂದ್ರವಾಗಿ ಬೆಳೆದಿದೆ.
+PHASE26_DATASET_SPLITS.json,P26-DEV-0079,NON_TARGET_SCRIPT,Malayalam,65,Malayalam,മലയാള ഭാഷ ദക്ഷിണേന്ത്യയിലെ പ്രധാനപ്പെട്ട ദ്രാവിഡ ഭാഷകളിൽ ഒന്
+PHASE26_DATASET_SPLITS.json,P26-DEV-0080,NON_TARGET_SCRIPT,Malayalam,65,Malayalam,കേരളം പ്രകൃതിഭംഗി കൊണ്ടും സാംസ്കാരിക പൈതൃകം കൊണ്ടും പ്രസിദ്ധ
+PHASE26_DATASET_SPLITS.json,P26-DEV-0091,MALFORMED_TOO_SHORT,CHAR_COUNT_UNDER_5,0,NONE_OR_MALFORMED,''
+PHASE26_DATASET_SPLITS.json,P26-DEV-0093,UNCLASSIFIABLE_NOISE,OUT_OF_SCOPE_METADATA_OR_NOISE,80,LATIN_OR_SYMBOL_NOISE,aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+PHASE26_DATASET_SPLITS.json,P26-DEV-0095,UNCLASSIFIABLE_NOISE,OUT_OF_SCOPE_METADATA_OR_NOISE,55,LATIN_OR_SYMBOL_NOISE,"??? !!! .... ,,,, :::: ;;;; ??? !!! .... ,,,, :::: ;;;;"
+PHASE26_DATASET_SPLITS.json,P26-VAL-0071,NON_TARGET_SCRIPT,Devanagari,79,Devanagari,वैज्ञानिक दृष्टिकोण अपनाने से समाज में अंधविश्वास और कुरीतिय
+PHASE26_DATASET_SPLITS.json,P26-VAL-0072,NON_TARGET_SCRIPT,Devanagari,82,Devanagari,शिक्षा मनुष्य को आत्मनिर्भर बनाने के साथ-साथ समाज का एक जिम्
+PHASE26_DATASET_SPLITS.json,P26-VAL-0073,NON_TARGET_SCRIPT,Devanagari,85,Devanagari,सौर ऊर्जा का उपयोग करके हम बिजली की बचत कर सकते हैं और पर्या
+PHASE26_DATASET_SPLITS.json,P26-VAL-0074,NON_TARGET_SCRIPT,Telugu,83,Telugu,హైదరాబాద్ నగరం చారిత్రక కట్టడాలు మరియు ఐటీ పరిశ్రమలకు కేంద్ర
+PHASE26_DATASET_SPLITS.json,P26-VAL-0075,NON_TARGET_SCRIPT,Telugu,78,Telugu,"రైతులు దేశానికి వెన్నెముక వంటి వారు, వ్యవసాయం ఆర్థిక వ్యవస్థ"
+PHASE26_DATASET_SPLITS.json,P26-VAL-0076,NON_TARGET_SCRIPT,Telugu,69,Telugu,సంగీతం మరియు నాట్య కళలు మనుషుల మానసిక ఉల్లాసానికి ఎంతగానో దో
+PHASE26_DATASET_SPLITS.json,P26-VAL-0077,NON_TARGET_SCRIPT,Kannada,81,Kannada,ಕರ್ನಾಟಕದ ಕರಾವಳಿ ತೀರವು ನೈಸರ್ಗಿಕ ಸೌಂದರ್ಯ ಮತ್ತು ಪ್ರಾಚೀನ ದೇವಾಲಯಗ
+PHASE26_DATASET_SPLITS.json,P26-VAL-0078,NON_TARGET_SCRIPT,Kannada,70,Kannada,ವಿದ್ಯಾರ್ಥಿಗಳು ಶ್ರದ್ಧೆಯಿಂದ ಅಧ್ಯಯನ ಮಾಡಿ ತಮ್ಮ ಭವಿಷ್ಯವನ್ನು ಉಜ್ವಲ
+PHASE26_DATASET_SPLITS.json,P26-VAL-0079,NON_TARGET_SCRIPT,Malayalam,75,Malayalam,ആരോഗ്യസംരക്ഷണത്തിന് ശുദ്ധമായ കുടിവെള്ളവും സമീകൃതാഹാരവും വളരെ
+PHASE26_DATASET_SPLITS.json,P26-VAL-0080,NON_TARGET_SCRIPT,Malayalam,79,Malayalam,വിദ്യാഭ്യാസ രംഗത്ത് കേരളം രാജ്യത്ത് ഏറ്റവും മുൻപന്തിയിൽ നിൽക
+PHASE26_DATASET_SPLITS.json,P26-VAL-0091,MALFORMED_TOO_SHORT,CHAR_COUNT_UNDER_5,0,NONE_OR_MALFORMED,''
+PHASE26_DATASET_SPLITS.json,P26-VAL-0095,UNCLASSIFIABLE_NOISE,OUT_OF_SCOPE_METADATA_OR_NOISE,32,LATIN_OR_SYMBOL_NOISE,1234567890 9876543210 1122334455
+PHASE26_DATASET_SPLITS.json,P26-TEST-0071,NON_TARGET_SCRIPT,Devanagari,76,Devanagari,राष्ट्रीय एकता और अखंडता को बनाए रखना प्रत्येक भारतीय नागरिक
+PHASE26_DATASET_SPLITS.json,P26-TEST-0072,NON_TARGET_SCRIPT,Devanagari,89,Devanagari,पुस्तकालय ज्ञान के भंडार होते हैं जहां सभी विषयों की महत्वपू
+PHASE26_DATASET_SPLITS.json,P26-TEST-0073,NON_TARGET_SCRIPT,Devanagari,81,Devanagari,योग और प्राणायाम करने से शरीर निरोगी रहता है और मानसिक तनाव 
+PHASE26_DATASET_SPLITS.json,P26-TEST-0074,NON_TARGET_SCRIPT,Telugu,74,Telugu,సాంకేతిక రంగంలో నూతన ఆవిష్కరణలు మానవ జీవన విధానాన్ని సులభతరం
+PHASE26_DATASET_SPLITS.json,P26-TEST-0075,NON_TARGET_SCRIPT,Telugu,67,Telugu,"భాష సంస్కృతిని ప్రతిబింబిస్తుంది, మన మాతృభాషను గౌరవించడం మన "
+PHASE26_DATASET_SPLITS.json,P26-TEST-0076,NON_TARGET_SCRIPT,Telugu,67,Telugu,వన సంరక్షణ ద్వారా మాత్రమే వాతావరణ సమతుల్యతను కాపాడటం సాధ్యమవ
+PHASE26_DATASET_SPLITS.json,P26-TEST-0077,NON_TARGET_SCRIPT,Kannada,74,Kannada,ಕೃಷಿ ಕ್ಷೇತ್ರದ ಸುಸ್ಥಿರ ಅಭಿವೃದ್ಧಿಗೆ ಆಧುನಿಕ ನೀರಾವರಿ ಪದ್ಧತಿಗಳು ಅ
+PHASE26_DATASET_SPLITS.json,P26-TEST-0078,NON_TARGET_SCRIPT,Kannada,74,Kannada,ಕನ್ನಡ ಭಾಷೆಯ ಶ್ರೀಮಂತಿಕೆಯನ್ನು ಉಳಿಸಿ ಬೆಳೆಸಲು ಸಾಹಿತ್ಯ ಸಮ್ಮೇಳನಗಳು
+PHASE26_DATASET_SPLITS.json,P26-TEST-0079,NON_TARGET_SCRIPT,Malayalam,71,Malayalam,പരിസ്ഥിതി സംരക്ഷണം വരുംതലമുറയ്ക്കായുള്ള നമ്മുടെ പ്രധാന കടമകള
+PHASE26_DATASET_SPLITS.json,P26-TEST-0080,NON_TARGET_SCRIPT,Malayalam,68,Malayalam,സാഹിത്യവും കലകളും മനുഷ്യന്റെ സൗന്ദര്യബോധത്തെ ഉണർത്താൻ സഹായിക
+PHASE26_DATASET_SPLITS.json,P26-TEST-0091,MALFORMED_TOO_SHORT,CHAR_COUNT_UNDER_5,0,NONE_OR_MALFORMED,''
+PHASE26_DATASET_SPLITS.json,P26-TEST-0092,MALFORMED_TOO_SHORT,CHAR_COUNT_UNDER_5,4,NONE_OR_MALFORMED,'Good'
+PHASE26_DATASET_SPLITS.json,P26-TEST-0093,UNCLASSIFIABLE_NOISE,OUT_OF_SCOPE_METADATA_OR_NOISE,90,LATIN_OR_SYMBOL_NOISE,zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+PHASE26_DATASET_SPLITS.json,P26-TEST-0095,UNCLASSIFIABLE_NOISE,OUT_OF_SCOPE_METADATA_OR_NOISE,30,LATIN_OR_SYMBOL_NOISE,"!@#$%^&*()_+=-`~[]{}|;:',.<>/?"
+igris_phase17_synthetic_multilingual.json,syn_rec_000002,NON_TARGET_SCRIPT,Devanagari,80,Devanagari,कंप्यूटेशनल भाषाविज्ञान में सभी भारतीय भाषाओं का संतुलित प्र
+igris_phase17_synthetic_multilingual.json,syn_rec_000004,NON_TARGET_SCRIPT,Telugu,71,Telugu,భాషా నమూనాలు పెద్ద ఎత్తున టెక్స్ట్ డేటాను విశ్లేషించడానికి ఉ
+igris_phase17_synthetic_multilingual.json,syn_rec_000005,NON_TARGET_SCRIPT,Malayalam,90,Malayalam,കമ്പ്യൂട്ടേഷണൽ ലിംഗ്വിസ്റ്റിക്സിൽ മലയാളം അക്ഷരങ്ങളുടെ കൃത്യമ
+igris_phase17_synthetic_multilingual.json,syn_rec_000006,NON_TARGET_SCRIPT,Kannada,63,Kannada,ಟ್ರಾನ್ಸ್‌ಫಾರ್ಮರ್ ಮಾದರಿಯು ನಿಖರವಾದ ಪದ ಮುನ್ಸೂಚನೆಯನ್ನು ಒದಗಿಸುತ್ತ
+igris_phase17_synthetic_multilingual.json,syn_rec_000007,NON_TARGET_SCRIPT,Bengali,74,Bengali,এই বহুভাষিক ট্রান্সফরমার মডেল ভাষা প্রক্রিয়াকরণে অভূতপূর্ব 
+igris_phase17_synthetic_multilingual.json,syn_rec_000008,NON_TARGET_SCRIPT,Gujarati,85,Gujarati,ડીપ લર્નિંગ આધારિત ટ્રાન્સફોર્મર કુદરતી ભાષાના વિશ્લેષણમાં મ
+igris_phase17_synthetic_multilingual.json,syn_rec_000011,NON_TARGET_SCRIPT,Devanagari,81,Devanagari,यह बहुभाषी ट्रांसफार्मर मॉडल विभिन्न लिपियों के प्रतिनिधित्व
+igris_phase17_synthetic_multilingual.json,syn_rec_000013,NON_TARGET_SCRIPT,Telugu,80,Telugu,ఈ బహుభాషా న్యూరల్ నెట్వర్క్ భారతీయ భాషల సహజ భాషా ప్రాసెసింగ్
+igris_phase17_synthetic_multilingual.json,syn_rec_000014,NON_TARGET_SCRIPT,Malayalam,90,Malayalam,കമ്പ്യൂട്ടേഷണൽ ലിംഗ്വിസ്റ്റിക്സിൽ മലയാളം അക്ഷരങ്ങളുടെ കൃത്യമ
+igris_phase17_synthetic_multilingual.json,syn_rec_000015,NON_TARGET_SCRIPT,Kannada,63,Kannada,ಟ್ರಾನ್ಸ್‌ಫಾರ್ಮರ್ ಮಾದರಿಯು ನಿಖರವಾದ ಪದ ಮುನ್ಸೂಚನೆಯನ್ನು ಒದಗಿಸುತ್ತ
+igris_phase17_synthetic_multilingual.json,syn_rec_000016,NON_TARGET_SCRIPT,Bengali,74,Bengali,এই বহুভাষিক ট্রান্সফরমার মডেল ভাষা প্রক্রিয়াকরণে অভূতপূর্ব 
+igris_phase17_synthetic_multilingual.json,syn_rec_000017,NON_TARGET_SCRIPT,Gujarati,85,Gujarati,ડીપ લર્નિંગ આધારિત ટ્રાન્સફોર્મર કુદરતી ભાષાના વિશ્લેષણમાં મ
+igris_phase17_synthetic_multilingual.json,syn_rec_000020,NON_TARGET_SCRIPT,Devanagari,65,Devanagari,पूर्वानुमानित टोकन वितरण बहुभाषी समझ को सशक्त और सुसंगत बनात
+igris_phase17_synthetic_multilingual.json,syn_rec_000022,NON_TARGET_SCRIPT,Telugu,82,Telugu,ట్రాన్స్ఫార్మర్ నమూనా పదాల ప్రాతినిధ్యాలను ఖచ్చితంగా నేర్చుక
+igris_phase17_synthetic_multilingual.json,syn_rec_000023,NON_TARGET_SCRIPT,Malayalam,90,Malayalam,കമ്പ്യൂട്ടേഷണൽ ലിംഗ്വിസ്റ്റിക്സിൽ മലയാളം അക്ഷരങ്ങളുടെ കൃത്യമ
+igris_phase17_synthetic_multilingual.json,syn_rec_000024,NON_TARGET_SCRIPT,Kannada,63,Kannada,ಟ್ರಾನ್ಸ್‌ಫಾರ್ಮರ್ ಮಾದರಿಯು ನಿಖರವಾದ ಪದ ಮುನ್ಸೂಚನೆಯನ್ನು ಒದಗಿಸುತ್ತ
+igris_phase17_synthetic_multilingual.json,syn_rec_000025,NON_TARGET_SCRIPT,Bengali,74,Bengali,এই বহুভাষিক ট্রান্সফরমার মডেল ভাষা প্রক্রিয়াকরণে অভূতপূর্ব 
+igris_phase17_synthetic_multilingual.json,syn_rec_000026,NON_TARGET_SCRIPT,Gujarati,85,Gujarati,ડીપ લર્નિંગ આધારિત ટ્રાન્સફોર્મર કુદરતી ભાષાના વિશ્લેષણમાં મ
+igris_phase17_synthetic_multilingual.json,syn_rec_000029,NON_TARGET_SCRIPT,Devanagari,77,Devanagari,ग्रूप्ड क्वेरी अटेंशन और रोटरी एम्बेडिंग मॉडल की गति और सटीक
+igris_phase17_synthetic_multilingual.json,syn_rec_000031,NON_TARGET_SCRIPT,Telugu,69,Telugu,గ్రూప్డ్ క్వెరీ అటెన్షన్ మెమరీ వినియోగాన్ని సమర్థవంతంగా తగ్గ
+igris_phase17_synthetic_multilingual.json,syn_rec_000032,NON_TARGET_SCRIPT,Malayalam,90,Malayalam,കമ്പ്യൂട്ടേഷണൽ ലിംഗ്വിസ്റ്റിക്സിൽ മലയാളം അക്ഷരങ്ങളുടെ കൃത്യമ
+igris_phase17_synthetic_multilingual.json,syn_rec_000033,NON_TARGET_SCRIPT,Kannada,63,Kannada,ಟ್ರಾನ್ಸ್‌ಫಾರ್ಮರ್ ಮಾದರಿಯು ನಿಖರವಾದ ಪದ ಮುನ್ಸೂಚನೆಯನ್ನು ಒದಗಿಸುತ್ತ
+igris_phase17_synthetic_multilingual.json,syn_rec_000034,NON_TARGET_SCRIPT,Bengali,74,Bengali,এই বহুভাষিক ট্রান্সফরমার মডেল ভাষা প্রক্রিয়াকরণে অভূতপূর্ব 
+igris_phase17_synthetic_multilingual.json,syn_rec_000035,NON_TARGET_SCRIPT,Gujarati,85,Gujarati,ડીપ લર્નિંગ આધારિત ટ્રાન્સફોર્મર કુદરતી ભાષાના વિશ્લેષણમાં મ
+igris_phase17_synthetic_multilingual.json,syn_rec_000038,NON_TARGET_SCRIPT,Devanagari,80,Devanagari,यह न्यूरल आर्किटेक्चर स्वदेशी लिपियों के लिए कुशल टोकनाइज़ेश
+igris_phase17_synthetic_multilingual.json,syn_rec_000040,NON_TARGET_SCRIPT,Telugu,71,Telugu,భాషా నమూనాలు పెద్ద ఎత్తున టెక్స్ట్ డేటాను విశ్లేషించడానికి ఉ
+igris_phase17_synthetic_multilingual.json,syn_rec_000041,NON_TARGET_SCRIPT,Malayalam,90,Malayalam,കമ്പ്യൂട്ടേഷണൽ ലിംഗ്വിസ്റ്റിക്സിൽ മലയാളം അക്ഷരങ്ങളുടെ കൃത്യമ
+igris_phase17_synthetic_multilingual.json,syn_rec_000042,NON_TARGET_SCRIPT,Kannada,63,Kannada,ಟ್ರಾನ್ಸ್‌ಫಾರ್ಮರ್ ಮಾದರಿಯು ನಿಖರವಾದ ಪದ ಮುನ್ಸೂಚನೆಯನ್ನು ಒದಗಿಸುತ್ತ
+igris_phase17_synthetic_multilingual.json,syn_rec_000043,NON_TARGET_SCRIPT,Bengali,74,Bengali,এই বহুভাষিক ট্রান্সফরমার মডেল ভাষা প্রক্রিয়াকরণে অভূতপূর্ব 
+igris_phase17_synthetic_multilingual.json,syn_rec_000044,NON_TARGET_SCRIPT,Gujarati,85,Gujarati,ડીપ લર્નિંગ આધારિત ટ્રાન્સફોર્મર કુદરતી ભાષાના વિશ્લેષણમાં મ
+igris_phase17_synthetic_multilingual.json,syn_rec_000047,NON_TARGET_SCRIPT,Devanagari,80,Devanagari,कंप्यूटेशनल भाषाविज्ञान में सभी भारतीय भाषाओं का संतुलित प्र
+igris_phase17_synthetic_multilingual.json,syn_rec_000049,NON_TARGET_SCRIPT,Telugu,80,Telugu,ఈ బహుభాషా న్యూరల్ నెట్వర్క్ భారతీయ భాషల సహజ భాషా ప్రాసెసింగ్
+igris_phase17_synthetic_multilingual.json,syn_rec_000050,NON_TARGET_SCRIPT,Malayalam,90,Malayalam,കമ്പ്യൂട്ടേഷണൽ ലിംഗ്വിസ്റ്റിക്സിൽ മലയാളം അക്ഷരങ്ങളുടെ കൃത്യമ
+igris_phase17_synthetic_multilingual.json,syn_rec_000051,NON_TARGET_SCRIPT,Kannada,63,Kannada,ಟ್ರಾನ್ಸ್‌ಫಾರ್ಮರ್ ಮಾದರಿಯು ನಿಖರವಾದ ಪದ ಮುನ್ಸೂಚನೆಯನ್ನು ಒದಗಿಸುತ್ತ
+igris_phase17_synthetic_multilingual.json,syn_rec_000052,NON_TARGET_SCRIPT,Bengali,74,Bengali,এই বহুভাষিক ট্রান্সফরমার মডেল ভাষা প্রক্রিয়াকরণে অভূতপূর্ব 
+igris_phase17_synthetic_multilingual.json,syn_rec_000053,NON_TARGET_SCRIPT,Gujarati,85,Gujarati,ડીપ લર્નિંગ આધારિત ટ્રાન્સફોર્મર કુદરતી ભાષાના વિશ્લેષણમાં મ
+igris_phase17_synthetic_multilingual.json,syn_rec_000056,NON_TARGET_SCRIPT,Devanagari,81,Devanagari,यह बहुभाषी ट्रांसफार्मर मॉडल विभिन्न लिपियों के प्रतिनिधित्व
+igris_phase17_synthetic_multilingual.json,syn_rec_000058,NON_TARGET_SCRIPT,Telugu,82,Telugu,ట్రాన్స్ఫార్మర్ నమూనా పదాల ప్రాతినిధ్యాలను ఖచ్చితంగా నేర్చుక
+igris_phase17_synthetic_multilingual.json,syn_rec_000059,NON_TARGET_SCRIPT,Malayalam,90,Malayalam,കമ്പ്യൂട്ടേഷണൽ ലിംഗ്വിസ്റ്റിക്സിൽ മലയാളം അക്ഷരങ്ങളുടെ കൃത്യമ
+igris_phase17_synthetic_multilingual.json,syn_rec_000060,NON_TARGET_SCRIPT,Kannada,63,Kannada,ಟ್ರಾನ್ಸ್‌ಫಾರ್ಮರ್ ಮಾದರಿಯು ನಿಖರವಾದ ಪದ ಮುನ್ಸೂಚನೆಯನ್ನು ಒದಗಿಸುತ್ತ
+igris_phase17_synthetic_multilingual.json,syn_rec_000061,NON_TARGET_SCRIPT,Bengali,74,Bengali,এই বহুভাষিক ট্রান্সফরমার মডেল ভাষা প্রক্রিয়াকরণে অভূতপূর্ব 
+igris_phase17_synthetic_multilingual.json,syn_rec_000062,NON_TARGET_SCRIPT,Gujarati,85,Gujarati,ડીપ લર્નિંગ આધારિત ટ્રાન્સફોર્મર કુદરતી ભાષાના વિશ્લેષણમાં મ
+igris_phase17_synthetic_multilingual.json,syn_rec_000065,NON_TARGET_SCRIPT,Devanagari,65,Devanagari,पूर्वानुमानित टोकन वितरण बहुभाषी समझ को सशक्त और सुसंगत बनात
+igris_phase17_synthetic_multilingual.json,syn_rec_000067,NON_TARGET_SCRIPT,Telugu,69,Telugu,గ్రూప్డ్ క్వెరీ అటెన్షన్ మెమరీ వినియోగాన్ని సమర్థవంతంగా తగ్గ
+igris_phase17_synthetic_multilingual.json,syn_rec_000068,NON_TARGET_SCRIPT,Malayalam,90,Malayalam,കമ്പ്യൂട്ടേഷണൽ ലിംഗ്വിസ്റ്റിക്സിൽ മലയാളം അക്ഷരങ്ങളുടെ കൃത്യമ
+igris_phase17_synthetic_multilingual.json,syn_rec_000069,NON_TARGET_SCRIPT,Kannada,63,Kannada,ಟ್ರಾನ್ಸ್‌ಫಾರ್ಮರ್ ಮಾದರಿಯು ನಿಖರವಾದ ಪದ ಮುನ್ಸೂಚನೆಯನ್ನು ಒದಗಿಸುತ್ತ
+igris_phase17_synthetic_multilingual.json,syn_rec_000070,NON_TARGET_SCRIPT,Bengali,74,Bengali,এই বহুভাষিক ট্রান্সফরমার মডেল ভাষা প্রক্রিয়াকরণে অভূতপূর্ব 
+igris_phase17_synthetic_multilingual.json,syn_rec_000071,NON_TARGET_SCRIPT,Gujarati,85,Gujarati,ડીપ લર્નિંગ આધારિત ટ્રાન્સફોર્મર કુદરતી ભાષાના વિશ્લેષણમાં મ
+igris_phase17_synthetic_multilingual.json,syn_rec_000074,NON_TARGET_SCRIPT,Devanagari,77,Devanagari,ग्रूप्ड क्वेरी अटेंशन और रोटरी एम्बेडिंग मॉडल की गति और सटीक
+igris_phase17_synthetic_multilingual.json,syn_rec_000076,NON_TARGET_SCRIPT,Telugu,71,Telugu,భాషా నమూనాలు పెద్ద ఎత్తున టెక్స్ట్ డేటాను విశ్లేషించడానికి ఉ
+igris_phase17_synthetic_multilingual.json,syn_rec_000077,NON_TARGET_SCRIPT,Malayalam,90,Malayalam,കമ്പ്യൂട്ടേഷണൽ ലിംഗ്വിസ്റ്റിക്സിൽ മലയാളം അക്ഷരങ്ങളുടെ കൃത്യമ
+igris_phase17_synthetic_multilingual.json,syn_rec_000078,NON_TARGET_SCRIPT,Kannada,63,Kannada,ಟ್ರಾನ್ಸ್‌ಫಾರ್ಮರ್ ಮಾದರಿಯು ನಿಖರವಾದ ಪದ ಮುನ್ಸೂಚನೆಯನ್ನು ಒದಗಿಸುತ್ತ
+igris_phase17_synthetic_multilingual.json,syn_rec_000079,NON_TARGET_SCRIPT,Bengali,74,Bengali,এই বহুভাষিক ট্রান্সফরমার মডেল ভাষা প্রক্রিয়াকরণে অভূতপূর্ব 
+igris_phase17_synthetic_multilingual.json,syn_rec_000080,NON_TARGET_SCRIPT,Gujarati,85,Gujarati,ડીપ લર્નિંગ આધારિત ટ્રાન્સફોર્મર કુદરતી ભાષાના વિશ્લેષણમાં મ
+igris_phase17_synthetic_multilingual.json,syn_rec_000083,NON_TARGET_SCRIPT,Devanagari,80,Devanagari,यह न्यूरल आर्किटेक्चर स्वदेशी लिपियों के लिए कुशल टोकनाइज़ेश
+igris_phase17_synthetic_multilingual.json,syn_rec_000085,NON_TARGET_SCRIPT,Telugu,80,Telugu,ఈ బహుభాషా న్యూరల్ నెట్వర్క్ భారతీయ భాషల సహజ భాషా ప్రాసెసింగ్
+igris_phase17_synthetic_multilingual.json,syn_rec_000086,NON_TARGET_SCRIPT,Malayalam,90,Malayalam,കമ്പ്യൂട്ടേഷണൽ ലിംഗ്വിസ്റ്റിക്സിൽ മലയാളം അക്ഷരങ്ങളുടെ കൃത്യമ
+igris_phase17_synthetic_multilingual.json,syn_rec_000087,NON_TARGET_SCRIPT,Kannada,63,Kannada,ಟ್ರಾನ್ಸ್‌ಫಾರ್ಮರ್ ಮಾದರಿಯು ನಿಖರವಾದ ಪದ ಮುನ್ಸೂಚನೆಯನ್ನು ಒದಗಿಸುತ್ತ
+igris_phase17_synthetic_multilingual.json,syn_rec_000088,NON_TARGET_SCRIPT,Bengali,74,Bengali,এই বহুভাষিক ট্রান্সফরমার মডেল ভাষা প্রক্রিয়াকরণে অভূতপূর্ব 
+igris_phase17_synthetic_multilingual.json,syn_rec_000089,NON_TARGET_SCRIPT,Gujarati,85,Gujarati,ડીપ લર્નિંગ આધારિત ટ્રાન્સફોર્મર કુદરતી ભાષાના વિશ્લેષણમાં મ
+igris_phase17_synthetic_multilingual.json,syn_rec_000092,NON_TARGET_SCRIPT,Devanagari,80,Devanagari,कंप्यूटेशनल भाषाविज्ञान में सभी भारतीय भाषाओं का संतुलित प्र
+igris_phase17_synthetic_multilingual.json,syn_rec_000094,NON_TARGET_SCRIPT,Telugu,82,Telugu,ట్రాన్స్ఫార్మర్ నమూనా పదాల ప్రాతినిధ్యాలను ఖచ్చితంగా నేర్చుక
+igris_phase17_synthetic_multilingual.json,syn_rec_000095,NON_TARGET_SCRIPT,Malayalam,90,Malayalam,കമ്പ്യൂട്ടേഷണൽ ലിംഗ്വിസ്റ്റിക്സിൽ മലയാളം അക്ഷരങ്ങളുടെ കൃത്യമ
+igris_phase17_synthetic_multilingual.json,syn_rec_000096,NON_TARGET_SCRIPT,Kannada,63,Kannada,ಟ್ರಾನ್ಸ್‌ಫಾರ್ಮರ್ ಮಾದರಿಯು ನಿಖರವಾದ ಪದ ಮುನ್ಸೂಚನೆಯನ್ನು ಒದಗಿಸುತ್ತ
+igris_phase17_synthetic_multilingual.json,syn_rec_000097,NON_TARGET_SCRIPT,Bengali,74,Bengali,এই বহুভাষিক ট্রান্সফরমার মডেল ভাষা প্রক্রিয়াকরণে অভূতপূর্ব 
+igris_phase17_synthetic_multilingual.json,syn_rec_000098,NON_TARGET_SCRIPT,Gujarati,85,Gujarati,ડીપ લર્નિંગ આધારિત ટ્રાન્સફોર્મર કુદરતી ભાષાના વિશ્લેષણમાં મ
+igris_phase17_synthetic_multilingual.json,syn_rec_000101,NON_TARGET_SCRIPT,Devanagari,81,Devanagari,यह बहुभाषी ट्रांसफार्मर मॉडल विभिन्न लिपियों के प्रतिनिधित्व
+igris_phase17_synthetic_multilingual.json,syn_rec_000103,NON_TARGET_SCRIPT,Telugu,69,Telugu,గ్రూప్డ్ క్వెరీ అటెన్షన్ మెమరీ వినియోగాన్ని సమర్థవంతంగా తగ్గ
+igris_phase17_synthetic_multilingual.json,syn_rec_000104,NON_TARGET_SCRIPT,Malayalam,90,Malayalam,കമ്പ്യൂട്ടേഷണൽ ലിംഗ്വിസ്റ്റിക്സിൽ മലയാളം അക്ഷരങ്ങളുടെ കൃത്യമ
+igris_phase17_synthetic_multilingual.json,syn_rec_000105,NON_TARGET_SCRIPT,Kannada,63,Kannada,ಟ್ರಾನ್ಸ್‌ಫಾರ್ಮರ್ ಮಾದರಿಯು ನಿಖರವಾದ ಪದ ಮುನ್ಸೂಚನೆಯನ್ನು ಒದಗಿಸುತ್ತ
+igris_phase17_synthetic_multilingual.json,syn_rec_000106,NON_TARGET_SCRIPT,Bengali,74,Bengali,এই বহুভাষিক ট্রান্সফরমার মডেল ভাষা প্রক্রিয়াকরণে অভূতপূর্ব 
+igris_phase17_synthetic_multilingual.json,syn_rec_000107,NON_TARGET_SCRIPT,Gujarati,85,Gujarati,ડીપ લર્નિંગ આધારિત ટ્રાન્સફોર્મર કુદરતી ભાષાના વિશ્લેષણમાં મ
+igris_phase17_synthetic_multilingual.json,syn_rec_000110,NON_TARGET_SCRIPT,Devanagari,65,Devanagari,पूर्वानुमानित टोकन वितरण बहुभाषी समझ को सशक्त और सुसंगत बनात
+igris_phase17_synthetic_multilingual.json,syn_rec_000112,NON_TARGET_SCRIPT,Telugu,71,Telugu,భాషా నమూనాలు పెద్ద ఎత్తున టెక్స్ట్ డేటాను విశ్లేషించడానికి ఉ
+igris_phase17_synthetic_multilingual.json,syn_rec_000113,NON_TARGET_SCRIPT,Malayalam,90,Malayalam,കമ്പ്യൂട്ടേഷണൽ ലിംഗ്വിസ്റ്റിക്സിൽ മലയാളം അക്ഷരങ്ങളുടെ കൃത്യമ
+igris_phase17_synthetic_multilingual.json,syn_rec_000114,NON_TARGET_SCRIPT,Kannada,63,Kannada,ಟ್ರಾನ್ಸ್‌ಫಾರ್ಮರ್ ಮಾದರಿಯು ನಿಖರವಾದ ಪದ ಮುನ್ಸೂಚನೆಯನ್ನು ಒದಗಿಸುತ್ತ
+igris_phase17_synthetic_multilingual.json,syn_rec_000115,NON_TARGET_SCRIPT,Bengali,74,Bengali,এই বহুভাষিক ট্রান্সফরমার মডেল ভাষা প্রক্রিয়াকরণে অভূতপূর্ব 
+igris_phase17_synthetic_multilingual.json,syn_rec_000116,NON_TARGET_SCRIPT,Gujarati,85,Gujarati,ડીપ લર્નિંગ આધારિત ટ્રાન્સફોર્મર કુદરતી ભાષાના વિશ્લેષણમાં મ
+igris_phase17_synthetic_multilingual.json,syn_rec_000119,NON_TARGET_SCRIPT,Devanagari,77,Devanagari,ग्रूप्ड क्वेरी अटेंशन और रोटरी एम्बेडिंग मॉडल की गति और सटीक
+igris_phase17_synthetic_multilingual.json,syn_rec_000121,NON_TARGET_SCRIPT,Telugu,80,Telugu,ఈ బహుభాషా న్యూరల్ నెట్వర్క్ భారతీయ భాషల సహజ భాషా ప్రాసెసింగ్
+igris_phase17_synthetic_multilingual.json,syn_rec_000122,NON_TARGET_SCRIPT,Malayalam,90,Malayalam,കമ്പ്യൂട്ടേഷണൽ ലിംഗ്വിസ്റ്റിക്സിൽ മലയാളം അക്ഷരങ്ങളുടെ കൃത്യമ
+igris_phase17_synthetic_multilingual.json,syn_rec_000123,NON_TARGET_SCRIPT,Kannada,63,Kannada,ಟ್ರಾನ್ಸ್‌ಫಾರ್ಮರ್ ಮಾದರಿಯು ನಿಖರವಾದ ಪದ ಮುನ್ಸೂಚನೆಯನ್ನು ಒದಗಿಸುತ್ತ
+igris_phase17_synthetic_multilingual.json,syn_rec_000124,NON_TARGET_SCRIPT,Bengali,74,Bengali,এই বহুভাষিক ট্রান্সফরমার মডেল ভাষা প্রক্রিয়াকরণে অভূতপূর্ব 
+igris_phase17_synthetic_multilingual.json,syn_rec_000125,NON_TARGET_SCRIPT,Gujarati,85,Gujarati,ડીપ લર્નિંગ આધારિત ટ્રાન્સફોર્મર કુદરતી ભાષાના વિશ્લેષણમાં મ
+igris_phase17_synthetic_multilingual.json,syn_rec_000128,NON_TARGET_SCRIPT,Devanagari,80,Devanagari,यह न्यूरल आर्किटेक्चर स्वदेशी लिपियों के लिए कुशल टोकनाइज़ेश
+igris_phase17_synthetic_multilingual.json,syn_rec_000130,NON_TARGET_SCRIPT,Telugu,82,Telugu,ట్రాన్స్ఫార్మర్ నమూనా పదాల ప్రాతినిధ్యాలను ఖచ్చితంగా నేర్చుక
+igris_phase17_synthetic_multilingual.json,syn_rec_000131,NON_TARGET_SCRIPT,Malayalam,90,Malayalam,കമ്പ്യൂട്ടേഷണൽ ലിംഗ്വിസ്റ്റിക്സിൽ മലയാളം അക്ഷരങ്ങളുടെ കൃത്യമ
+igris_phase17_synthetic_multilingual.json,syn_rec_000132,NON_TARGET_SCRIPT,Kannada,63,Kannada,ಟ್ರಾನ್ಸ್‌ಫಾರ್ಮರ್ ಮಾದರಿಯು ನಿಖರವಾದ ಪದ ಮುನ್ಸೂಚನೆಯನ್ನು ಒದಗಿಸುತ್ತ
+igris_phase17_synthetic_multilingual.json,syn_rec_000133,NON_TARGET_SCRIPT,Bengali,74,Bengali,এই বহুভাষিক ট্রান্সফরমার মডেল ভাষা প্রক্রিয়াকরণে অভূতপূর্ব 
+igris_phase17_synthetic_multilingual.json,syn_rec_000134,NON_TARGET_SCRIPT,Gujarati,85,Gujarati,ડીપ લર્નિંગ આધારિત ટ્રાન્સફોર્મર કુદરતી ભાષાના વિશ્લેષણમાં મ
+igris_phase17_synthetic_multilingual.json,syn_rec_000137,NON_TARGET_SCRIPT,Devanagari,80,Devanagari,कंप्यूटेशनल भाषाविज्ञान में सभी भारतीय भाषाओं का संतुलित प्र
+igris_phase17_synthetic_multilingual.json,syn_rec_000139,NON_TARGET_SCRIPT,Telugu,69,Telugu,గ్రూప్డ్ క్వెరీ అటెన్షన్ మెమరీ వినియోగాన్ని సమర్థవంతంగా తగ్గ
+igris_phase17_synthetic_multilingual.json,syn_rec_000140,NON_TARGET_SCRIPT,Malayalam,90,Malayalam,കമ്പ്യൂട്ടേഷണൽ ലിംഗ്വിസ്റ്റിക്സിൽ മലയാളം അക്ഷരങ്ങളുടെ കൃത്യമ
+igris_phase17_synthetic_multilingual.json,syn_rec_000141,NON_TARGET_SCRIPT,Kannada,63,Kannada,ಟ್ರಾನ್ಸ್‌ಫಾರ್ಮರ್ ಮಾದರಿಯು ನಿಖರವಾದ ಪದ ಮುನ್ಸೂಚನೆಯನ್ನು ಒದಗಿಸುತ್ತ
+igris_phase17_synthetic_multilingual.json,syn_rec_000142,NON_TARGET_SCRIPT,Bengali,74,Bengali,এই বহুভাষিক ট্রান্সফরমার মডেল ভাষা প্রক্রিয়াকরণে অভূতপূর্ব 
+igris_phase17_synthetic_multilingual.json,syn_rec_000143,NON_TARGET_SCRIPT,Gujarati,85,Gujarati,ડીપ લર્નિંગ આધારિત ટ્રાન્સફોર્મર કુદરતી ભાષાના વિશ્લેષણમાં મ
+igris_phase17_synthetic_multilingual.json,syn_rec_000146,NON_TARGET_SCRIPT,Devanagari,81,Devanagari,यह बहुभाषी ट्रांसफार्मर मॉडल विभिन्न लिपियों के प्रतिनिधित्व
+igris_phase17_synthetic_multilingual.json,syn_rec_000148,NON_TARGET_SCRIPT,Telugu,71,Telugu,భాషా నమూనాలు పెద్ద ఎత్తున టెక్స్ట్ డేటాను విశ్లేషించడానికి ఉ
+igris_phase17_synthetic_multilingual.json,syn_rec_000149,NON_TARGET_SCRIPT,Malayalam,90,Malayalam,കമ്പ്യൂട്ടേഷണൽ ലിംഗ്വിസ്റ്റിക്സിൽ മലയാളം അക്ഷരങ്ങളുടെ കൃത്യമ
+igris_phase17_synthetic_multilingual.json,syn_rec_000150,NON_TARGET_SCRIPT,Kannada,63,Kannada,ಟ್ರಾನ್ಸ್‌ಫಾರ್ಮರ್ ಮಾದರಿಯು ನಿಖರವಾದ ಪದ ಮುನ್ಸೂಚನೆಯನ್ನು ಒದಗಿಸುತ್ತ
+igris_phase17_synthetic_multilingual.json,syn_rec_000151,NON_TARGET_SCRIPT,Bengali,74,Bengali,এই বহুভাষিক ট্রান্সফরমার মডেল ভাষা প্রক্রিয়াকরণে অভূতপূর্ব 
+igris_phase17_synthetic_multilingual.json,syn_rec_000152,NON_TARGET_SCRIPT,Gujarati,85,Gujarati,ડીપ લર્નિંગ આધારિત ટ્રાન્સફોર્મર કુદરતી ભાષાના વિશ્લેષણમાં મ
+igris_phase17_synthetic_multilingual.json,syn_rec_000155,NON_TARGET_SCRIPT,Devanagari,65,Devanagari,पूर्वानुमानित टोकन वितरण बहुभाषी समझ को सशक्त और सुसंगत बनात
+igris_phase17_synthetic_multilingual.json,syn_rec_000157,NON_TARGET_SCRIPT,Telugu,80,Telugu,ఈ బహుభాషా న్యూరల్ నెట్వర్క్ భారతీయ భాషల సహజ భాషా ప్రాసెసింగ్
+igris_phase17_synthetic_multilingual.json,syn_rec_000158,NON_TARGET_SCRIPT,Malayalam,90,Malayalam,കമ്പ്യൂട്ടേഷണൽ ലിംഗ്വിസ്റ്റിക്സിൽ മലയാളം അക്ഷരങ്ങളുടെ കൃത്യമ
+igris_phase17_synthetic_multilingual.json,syn_rec_000159,NON_TARGET_SCRIPT,Kannada,63,Kannada,ಟ್ರಾನ್ಸ್‌ಫಾರ್ಮರ್ ಮಾದರಿಯು ನಿಖರವಾದ ಪದ ಮುನ್ಸೂಚನೆಯನ್ನು ಒದಗಿಸುತ್ತ
+igris_phase17_synthetic_multilingual.json,syn_rec_000160,NON_TARGET_SCRIPT,Bengali,74,Bengali,এই বহুভাষিক ট্রান্সফরমার মডেল ভাষা প্রক্রিয়াকরণে অভূতপূর্ব 
+igris_phase17_synthetic_multilingual.json,syn_rec_000161,NON_TARGET_SCRIPT,Gujarati,85,Gujarati,ડીપ લર્નિંગ આધારિત ટ્રાન્સફોર્મર કુદરતી ભાષાના વિશ્લેષણમાં મ
+igris_phase17_synthetic_multilingual.json,syn_rec_000164,NON_TARGET_SCRIPT,Devanagari,77,Devanagari,ग्रूप्ड क्वेरी अटेंशन और रोटरी एम्बेडिंग मॉडल की गति और सटीक
+igris_phase17_synthetic_multilingual.json,syn_rec_000166,NON_TARGET_SCRIPT,Telugu,82,Telugu,ట్రాన్స్ఫార్మర్ నమూనా పదాల ప్రాతినిధ్యాలను ఖచ్చితంగా నేర్చుక
+igris_phase17_synthetic_multilingual.json,syn_rec_000167,NON_TARGET_SCRIPT,Malayalam,90,Malayalam,കമ്പ്യൂട്ടേഷണൽ ലിംഗ്വിസ്റ്റിക്സിൽ മലയാളം അക്ഷരങ്ങളുടെ കൃത്യമ
+igris_phase17_synthetic_multilingual.json,syn_rec_000168,NON_TARGET_SCRIPT,Kannada,63,Kannada,ಟ್ರಾನ್ಸ್‌ಫಾರ್ಮರ್ ಮಾದರಿಯು ನಿಖರವಾದ ಪದ ಮುನ್ಸೂಚನೆಯನ್ನು ಒದಗಿಸುತ್ತ
+igris_phase17_synthetic_multilingual.json,syn_rec_000169,NON_TARGET_SCRIPT,Bengali,74,Bengali,এই বহুভাষিক ট্রান্সফরমার মডেল ভাষা প্রক্রিয়াকরণে অভূতপূর্ব 
+igris_phase17_synthetic_multilingual.json,syn_rec_000170,NON_TARGET_SCRIPT,Gujarati,85,Gujarati,ડીપ લર્નિંગ આધારિત ટ્રાન્સફોર્મર કુદરતી ભાષાના વિશ્લેષણમાં મ
+igris_phase17_synthetic_multilingual.json,syn_rec_000173,NON_TARGET_SCRIPT,Devanagari,80,Devanagari,यह न्यूरल आर्किटेक्चर स्वदेशी लिपियों के लिए कुशल टोकनाइज़ेश
+igris_phase17_synthetic_multilingual.json,syn_rec_000175,NON_TARGET_SCRIPT,Telugu,69,Telugu,గ్రూప్డ్ క్వెరీ అటెన్షన్ మెమరీ వినియోగాన్ని సమర్థవంతంగా తగ్గ
+igris_phase17_synthetic_multilingual.json,syn_rec_000176,NON_TARGET_SCRIPT,Malayalam,90,Malayalam,കമ്പ്യൂട്ടേഷണൽ ലിംഗ്വിസ്റ്റിക്സിൽ മലയാളം അക്ഷരങ്ങളുടെ കൃത്യമ
+igris_phase17_synthetic_multilingual.json,syn_rec_000177,NON_TARGET_SCRIPT,Kannada,63,Kannada,ಟ್ರಾನ್ಸ್‌ಫಾರ್ಮರ್ ಮಾದರಿಯು ನಿಖರವಾದ ಪದ ಮುನ್ಸೂಚನೆಯನ್ನು ಒದಗಿಸುತ್ತ
+igris_phase17_synthetic_multilingual.json,syn_rec_000178,NON_TARGET_SCRIPT,Bengali,74,Bengali,এই বহুভাষিক ট্রান্সফরমার মডেল ভাষা প্রক্রিয়াকরণে অভূতপূর্ব 
+igris_phase17_synthetic_multilingual.json,syn_rec_000179,NON_TARGET_SCRIPT,Gujarati,85,Gujarati,ડીપ લર્નિંગ આધારિત ટ્રાન્સફોર્મર કુદરતી ભાષાના વિશ્લેષણમાં મ
+igris_phase17_synthetic_multilingual.json,syn_rec_000182,NON_TARGET_SCRIPT,Devanagari,80,Devanagari,कंप्यूटेशनल भाषाविज्ञान में सभी भारतीय भाषाओं का संतुलित प्र
+igris_phase17_synthetic_multilingual.json,syn_rec_000184,NON_TARGET_SCRIPT,Telugu,71,Telugu,భాషా నమూనాలు పెద్ద ఎత్తున టెక్స్ట్ డేటాను విశ్లేషించడానికి ఉ
+igris_phase17_synthetic_multilingual.json,syn_rec_000185,NON_TARGET_SCRIPT,Malayalam,90,Malayalam,കമ്പ്യൂട്ടേഷണൽ ലിംഗ്വിസ്റ്റിക്സിൽ മലയാളം അക്ഷരങ്ങളുടെ കൃത്യമ
+igris_phase17_synthetic_multilingual.json,syn_rec_000186,NON_TARGET_SCRIPT,Kannada,63,Kannada,ಟ್ರಾನ್ಸ್‌ಫಾರ್ಮರ್ ಮಾದರಿಯು ನಿಖರವಾದ ಪದ ಮುನ್ಸೂಚನೆಯನ್ನು ಒದಗಿಸುತ್ತ
+igris_phase17_synthetic_multilingual.json,syn_rec_000187,NON_TARGET_SCRIPT,Bengali,74,Bengali,এই বহুভাষিক ট্রান্সফরমার মডেল ভাষা প্রক্রিয়াকরণে অভূতপূর্ব 
+igris_phase17_synthetic_multilingual.json,syn_rec_000188,NON_TARGET_SCRIPT,Gujarati,85,Gujarati,ડીપ લર્નિંગ આધારિત ટ્રાન્સફોર્મર કુદરતી ભાષાના વિશ્લેષણમાં મ
+igris_phase17_synthetic_multilingual.json,syn_rec_000191,NON_TARGET_SCRIPT,Devanagari,81,Devanagari,यह बहुभाषी ट्रांसफार्मर मॉडल विभिन्न लिपियों के प्रतिनिधित्व
+igris_phase17_synthetic_multilingual.json,syn_rec_000193,NON_TARGET_SCRIPT,Telugu,80,Telugu,ఈ బహుభాషా న్యూరల్ నెట్వర్క్ భారతీయ భాషల సహజ భాషా ప్రాసెసింగ్
+igris_phase17_synthetic_multilingual.json,syn_rec_000194,NON_TARGET_SCRIPT,Malayalam,90,Malayalam,കമ്പ്യൂട്ടേഷണൽ ലിംഗ്വിസ്റ്റിക്സിൽ മലയാളം അക്ഷരങ്ങളുടെ കൃത്യമ
+igris_phase17_synthetic_multilingual.json,syn_rec_000195,NON_TARGET_SCRIPT,Kannada,63,Kannada,ಟ್ರಾನ್ಸ್‌ಫಾರ್ಮರ್ ಮಾದರಿಯು ನಿಖರವಾದ ಪದ ಮುನ್ಸೂಚನೆಯನ್ನು ಒದಗಿಸುತ್ತ
+igris_phase17_synthetic_multilingual.json,syn_rec_000196,NON_TARGET_SCRIPT,Bengali,74,Bengali,এই বহুভাষিক ট্রান্সফরমার মডেল ভাষা প্রক্রিয়াকরণে অভূতপূর্ব 
+igris_phase17_synthetic_multilingual.json,syn_rec_000197,NON_TARGET_SCRIPT,Gujarati,85,Gujarati,ડીપ લર્નિંગ આધારિત ટ્રાન્સફોર્મર કુદરતી ભાષાના વિશ્લેષણમાં મ
+igris_phase17_synthetic_multilingual.json,syn_rec_000200,NON_TARGET_SCRIPT,Devanagari,65,Devanagari,पूर्वानुमानित टोकन वितरण बहुभाषी समझ को सशक्त और सुसंगत बनात
+igris_phase17_synthetic_multilingual.json,syn_rec_000202,NON_TARGET_SCRIPT,Telugu,82,Telugu,ట్రాన్స్ఫార్మర్ నమూనా పదాల ప్రాతినిధ్యాలను ఖచ్చితంగా నేర్చుక
+igris_phase17_synthetic_multilingual.json,syn_rec_000203,NON_TARGET_SCRIPT,Malayalam,90,Malayalam,കമ്പ്യൂട്ടേഷണൽ ലിംഗ്വിസ്റ്റിക്സിൽ മലയാളം അക്ഷരങ്ങളുടെ കൃത്യമ
+igris_phase17_synthetic_multilingual.json,syn_rec_000204,NON_TARGET_SCRIPT,Kannada,63,Kannada,ಟ್ರಾನ್ಸ್‌ಫಾರ್ಮರ್ ಮಾದರಿಯು ನಿಖರವಾದ ಪದ ಮುನ್ಸೂಚನೆಯನ್ನು ಒದಗಿಸುತ್ತ
+igris_phase17_synthetic_multilingual.json,syn_rec_000205,NON_TARGET_SCRIPT,Bengali,74,Bengali,এই বহুভাষিক ট্রান্সফরমার মডেল ভাষা প্রক্রিয়াকরণে অভূতপূর্ব 
+igris_phase17_synthetic_multilingual.json,syn_rec_000206,NON_TARGET_SCRIPT,Gujarati,85,Gujarati,ડીપ લર્નિંગ આધારિત ટ્રાન્સફોર્મર કુદરતી ભાષાના વિશ્લેષણમાં મ
+igris_phase17_synthetic_multilingual.json,syn_rec_000209,NON_TARGET_SCRIPT,Devanagari,77,Devanagari,ग्रूप्ड क्वेरी अटेंशन और रोटरी एम्बेडिंग मॉडल की गति और सटीक
+igris_phase17_synthetic_multilingual.json,syn_rec_000211,NON_TARGET_SCRIPT,Telugu,69,Telugu,గ్రూప్డ్ క్వెరీ అటెన్షన్ మెమరీ వినియోగాన్ని సమర్థవంతంగా తగ్గ
+igris_phase17_synthetic_multilingual.json,syn_rec_000212,NON_TARGET_SCRIPT,Malayalam,90,Malayalam,കമ്പ്യൂട്ടേഷണൽ ലിംഗ്വിസ്റ്റിക്സിൽ മലയാളം അക്ഷരങ്ങളുടെ കൃത്യമ
+igris_phase17_synthetic_multilingual.json,syn_rec_000213,NON_TARGET_SCRIPT,Kannada,63,Kannada,ಟ್ರಾನ್ಸ್‌ಫಾರ್ಮರ್ ಮಾದರಿಯು ನಿಖರವಾದ ಪದ ಮುನ್ಸೂಚನೆಯನ್ನು ಒದಗಿಸುತ್ತ
+igris_phase17_synthetic_multilingual.json,syn_rec_000214,NON_TARGET_SCRIPT,Bengali,74,Bengali,এই বহুভাষিক ট্রান্সফরমার মডেল ভাষা প্রক্রিয়াকরণে অভূতপূর্ব 
+igris_phase17_synthetic_multilingual.json,syn_rec_000215,NON_TARGET_SCRIPT,Gujarati,85,Gujarati,ડીપ લર્નિંગ આધારિત ટ્રાન્સફોર્મર કુદરતી ભાષાના વિશ્લેષણમાં મ
+igris_phase17_synthetic_multilingual.json,syn_rec_000218,NON_TARGET_SCRIPT,Devanagari,80,Devanagari,यह न्यूरल आर्किटेक्चर स्वदेशी लिपियों के लिए कुशल टोकनाइज़ेश
+igris_phase17_synthetic_multilingual.json,syn_rec_000220,NON_TARGET_SCRIPT,Telugu,71,Telugu,భాషా నమూనాలు పెద్ద ఎత్తున టెక్స్ట్ డేటాను విశ్లేషించడానికి ఉ
+igris_phase17_synthetic_multilingual.json,syn_rec_000221,NON_TARGET_SCRIPT,Malayalam,90,Malayalam,കമ്പ്യൂട്ടേഷണൽ ലിംഗ്വിസ്റ്റിക്സിൽ മലയാളം അക്ഷരങ്ങളുടെ കൃത്യമ
+igris_phase17_synthetic_multilingual.json,syn_rec_000222,NON_TARGET_SCRIPT,Kannada,63,Kannada,ಟ್ರಾನ್ಸ್‌ಫಾರ್ಮರ್ ಮಾದರಿಯು ನಿಖರವಾದ ಪದ ಮುನ್ಸೂಚನೆಯನ್ನು ಒದಗಿಸುತ್ತ
+igris_phase17_synthetic_multilingual.json,syn_rec_000223,NON_TARGET_SCRIPT,Bengali,74,Bengali,এই বহুভাষিক ট্রান্সফরমার মডেল ভাষা প্রক্রিয়াকরণে অভূতপূর্ব 
+igris_phase17_synthetic_multilingual.json,syn_rec_000224,NON_TARGET_SCRIPT,Gujarati,85,Gujarati,ડીપ લર્નિંગ આધારિત ટ્રાન્સફોર્મર કુદરતી ભાષાના વિશ્લેષણમાં મ
+igris_phase17_synthetic_multilingual.json,syn_rec_000227,NON_TARGET_SCRIPT,Devanagari,80,Devanagari,कंप्यूटेशनल भाषाविज्ञान में सभी भारतीय भाषाओं का संतुलित प्र
+igris_phase17_synthetic_multilingual.json,syn_rec_000229,NON_TARGET_SCRIPT,Telugu,80,Telugu,ఈ బహుభాషా న్యూరల్ నెట్వర్క్ భారతీయ భాషల సహజ భాషా ప్రాసెసింగ్
+igris_phase17_synthetic_multilingual.json,syn_rec_000230,NON_TARGET_SCRIPT,Malayalam,90,Malayalam,കമ്പ്യൂട്ടേഷണൽ ലിംഗ്വിസ്റ്റിക്സിൽ മലയാളം അക്ഷരങ്ങളുടെ കൃത്യമ
+igris_phase17_synthetic_multilingual.json,syn_rec_000231,NON_TARGET_SCRIPT,Kannada,63,Kannada,ಟ್ರಾನ್ಸ್‌ಫಾರ್ಮರ್ ಮಾದರಿಯು ನಿಖರವಾದ ಪದ ಮುನ್ಸೂಚನೆಯನ್ನು ಒದಗಿಸುತ್ತ
+igris_phase17_synthetic_multilingual.json,syn_rec_000232,NON_TARGET_SCRIPT,Bengali,74,Bengali,এই বহুভাষিক ট্রান্সফরমার মডেল ভাষা প্রক্রিয়াকরণে অভূতপূর্ব 
+igris_phase17_synthetic_multilingual.json,syn_rec_000233,NON_TARGET_SCRIPT,Gujarati,85,Gujarati,ડીપ લર્નિંગ આધારિત ટ્રાન્સફોર્મર કુદરતી ભાષાના વિશ્લેષણમાં મ
+igris_phase17_synthetic_multilingual.json,syn_rec_000236,NON_TARGET_SCRIPT,Devanagari,81,Devanagari,यह बहुभाषी ट्रांसफार्मर मॉडल विभिन्न लिपियों के प्रतिनिधित्व
+igris_phase17_synthetic_multilingual.json,syn_rec_000238,NON_TARGET_SCRIPT,Telugu,82,Telugu,ట్రాన్స్ఫార్మర్ నమూనా పదాల ప్రాతినిధ్యాలను ఖచ్చితంగా నేర్చుక
+igris_phase17_synthetic_multilingual.json,syn_rec_000239,NON_TARGET_SCRIPT,Malayalam,90,Malayalam,കമ്പ്യൂട്ടേഷണൽ ലിംഗ്വിസ്റ്റിക്സിൽ മലയാളം അക്ഷരങ്ങളുടെ കൃത്യമ
+igris_phase17_synthetic_multilingual.json,syn_rec_000240,NON_TARGET_SCRIPT,Kannada,63,Kannada,ಟ್ರಾನ್ಸ್‌ಫಾರ್ಮರ್ ಮಾದರಿಯು ನಿಖರವಾದ ಪದ ಮುನ್ಸೂಚನೆಯನ್ನು ಒದಗಿಸುತ್ತ
+igris_phase17_synthetic_multilingual.json,syn_rec_000241,NON_TARGET_SCRIPT,Bengali,74,Bengali,এই বহুভাষিক ট্রান্সফরমার মডেল ভাষা প্রক্রিয়াকরণে অভূতপূর্ব 
+igris_phase17_synthetic_multilingual.json,syn_rec_000242,NON_TARGET_SCRIPT,Gujarati,85,Gujarati,ડીપ લર્નિંગ આધારિત ટ્રાન્સફોર્મર કુદરતી ભાષાના વિશ્લેષણમાં મ
+igris_phase17_synthetic_multilingual.json,syn_rec_000245,NON_TARGET_SCRIPT,Devanagari,65,Devanagari,पूर्वानुमानित टोकन वितरण बहुभाषी समझ को सशक्त और सुसंगत बनात
+igris_phase17_synthetic_multilingual.json,syn_rec_000247,NON_TARGET_SCRIPT,Telugu,69,Telugu,గ్రూప్డ్ క్వెరీ అటెన్షన్ మెమరీ వినియోగాన్ని సమర్థవంతంగా తగ్గ
+igris_phase17_synthetic_multilingual.json,syn_rec_000248,NON_TARGET_SCRIPT,Malayalam,90,Malayalam,കമ്പ്യൂട്ടേഷണൽ ലിംഗ്വിസ്റ്റിക്സിൽ മലയാളം അക്ഷരങ്ങളുടെ കൃത്യമ
+igris_phase17_synthetic_multilingual.json,syn_rec_000249,NON_TARGET_SCRIPT,Kannada,63,Kannada,ಟ್ರಾನ್ಸ್‌ಫಾರ್ಮರ್ ಮಾದರಿಯು ನಿಖರವಾದ ಪದ ಮುನ್ಸೂಚನೆಯನ್ನು ಒದಗಿಸುತ್ತ
+igris_phase17_synthetic_multilingual.json,syn_rec_000250,NON_TARGET_SCRIPT,Bengali,74,Bengali,এই বহুভাষিক ট্রান্সফরমার মডেল ভাষা প্রক্রিয়াকরণে অভূতপূর্ব 
+igris_phase17_synthetic_multilingual.json,syn_rec_000251,NON_TARGET_SCRIPT,Gujarati,85,Gujarati,ડીપ લર્નિંગ આધારિત ટ્રાન્સફોર્મર કુદરતી ભાષાના વિશ્લેષણમાં મ
+igris_phase17_synthetic_multilingual.json,syn_rec_000254,NON_TARGET_SCRIPT,Devanagari,77,Devanagari,ग्रूप्ड क्वेरी अटेंशन और रोटरी एम्बेडिंग मॉडल की गति और सटीक
+igris_phase17_synthetic_multilingual.json,syn_rec_000256,NON_TARGET_SCRIPT,Telugu,71,Telugu,భాషా నమూనాలు పెద్ద ఎత్తున టెక్స్ట్ డేటాను విశ్లేషించడానికి ఉ
+igris_phase17_synthetic_multilingual.json,syn_rec_000257,NON_TARGET_SCRIPT,Malayalam,90,Malayalam,കമ്പ്യൂട്ടേഷണൽ ലിംഗ്വിസ്റ്റിക്സിൽ മലയാളം അക്ഷരങ്ങളുടെ കൃത്യമ
+igris_phase17_synthetic_multilingual.json,syn_rec_000258,NON_TARGET_SCRIPT,Kannada,63,Kannada,ಟ್ರಾನ್ಸ್‌ಫಾರ್ಮರ್ ಮಾದರಿಯು ನಿಖರವಾದ ಪದ ಮುನ್ಸೂಚನೆಯನ್ನು ಒದಗಿಸುತ್ತ
+igris_phase17_synthetic_multilingual.json,syn_rec_000259,NON_TARGET_SCRIPT,Bengali,74,Bengali,এই বহুভাষিক ট্রান্সফরমার মডেল ভাষা প্রক্রিয়াকরণে অভূতপূর্ব 
+igris_phase17_synthetic_multilingual.json,syn_rec_000260,NON_TARGET_SCRIPT,Gujarati,85,Gujarati,ડીપ લર્નિંગ આધારિત ટ્રાન્સફોર્મર કુદરતી ભાષાના વિશ્લેષણમાં મ
+igris_phase17_synthetic_multilingual.json,syn_rec_000263,NON_TARGET_SCRIPT,Devanagari,80,Devanagari,यह न्यूरल आर्किटेक्चर स्वदेशी लिपियों के लिए कुशल टोकनाइज़ेश
+igris_phase17_synthetic_multilingual.json,syn_rec_000265,NON_TARGET_SCRIPT,Telugu,80,Telugu,ఈ బహుభాషా న్యూరల్ నెట్వర్క్ భారతీయ భాషల సహజ భాషా ప్రాసెసింగ్
+igris_phase17_synthetic_multilingual.json,syn_rec_000266,NON_TARGET_SCRIPT,Malayalam,90,Malayalam,കമ്പ്യൂട്ടേഷണൽ ലിംഗ്വിസ്റ്റിക്സിൽ മലയാളം അക്ഷരങ്ങളുടെ കൃത്യമ
+igris_phase17_synthetic_multilingual.json,syn_rec_000267,NON_TARGET_SCRIPT,Kannada,63,Kannada,ಟ್ರಾನ್ಸ್‌ಫಾರ್ಮರ್ ಮಾದರಿಯು ನಿಖರವಾದ ಪದ ಮುನ್ಸೂಚನೆಯನ್ನು ಒದಗಿಸುತ್ತ
+igris_phase17_synthetic_multilingual.json,syn_rec_000268,NON_TARGET_SCRIPT,Bengali,74,Bengali,এই বহুভাষিক ট্রান্সফরমার মডেল ভাষা প্রক্রিয়াকরণে অভূতপূর্ব 
+igris_phase17_synthetic_multilingual.json,syn_rec_000269,NON_TARGET_SCRIPT,Gujarati,85,Gujarati,ડીપ લર્નિંગ આધારિત ટ્રાન્સફોર્મર કુદરતી ભાષાના વિશ્લેષણમાં મ
+igris_phase17_synthetic_multilingual.json,syn_rec_000272,NON_TARGET_SCRIPT,Devanagari,80,Devanagari,कंप्यूटेशनल भाषाविज्ञान में सभी भारतीय भाषाओं का संतुलित प्र
+igris_phase17_synthetic_multilingual.json,syn_rec_000274,NON_TARGET_SCRIPT,Telugu,82,Telugu,ట్రాన్స్ఫార్మర్ నమూనా పదాల ప్రాతినిధ్యాలను ఖచ్చితంగా నేర్చుక
+igris_phase17_synthetic_multilingual.json,syn_rec_000275,NON_TARGET_SCRIPT,Malayalam,90,Malayalam,കമ്പ്യൂട്ടേഷണൽ ലിംഗ്വിസ്റ്റിക്സിൽ മലയാളം അക്ഷരങ്ങളുടെ കൃത്യമ
+igris_phase17_synthetic_multilingual.json,syn_rec_000276,NON_TARGET_SCRIPT,Kannada,63,Kannada,ಟ್ರಾನ್ಸ್‌ಫಾರ್ಮರ್ ಮಾದರಿಯು ನಿಖರವಾದ ಪದ ಮುನ್ಸೂಚನೆಯನ್ನು ಒದಗಿಸುತ್ತ
+igris_phase17_synthetic_multilingual.json,syn_rec_000277,NON_TARGET_SCRIPT,Bengali,74,Bengali,এই বহুভাষিক ট্রান্সফরমার মডেল ভাষা প্রক্রিয়াকরণে অভূতপূর্ব 
+igris_phase17_synthetic_multilingual.json,syn_rec_000278,NON_TARGET_SCRIPT,Gujarati,85,Gujarati,ડીપ લર્નિંગ આધારિત ટ્રાન્સફોર્મર કુદરતી ભાષાના વિશ્લેષણમાં મ
+igris_phase17_synthetic_multilingual.json,syn_rec_000281,NON_TARGET_SCRIPT,Devanagari,81,Devanagari,यह बहुभाषी ट्रांसफार्मर मॉडल विभिन्न लिपियों के प्रतिनिधित्व
+igris_phase17_synthetic_multilingual.json,syn_rec_000283,NON_TARGET_SCRIPT,Telugu,69,Telugu,గ్రూప్డ్ క్వెరీ అటెన్షన్ మెమరీ వినియోగాన్ని సమర్థవంతంగా తగ్గ
+igris_phase17_synthetic_multilingual.json,syn_rec_000284,NON_TARGET_SCRIPT,Malayalam,90,Malayalam,കമ്പ്യൂട്ടേഷണൽ ലിംഗ്വിസ്റ്റിക്സിൽ മലയാളം അക്ഷരങ്ങളുടെ കൃത്യമ
+igris_phase17_synthetic_multilingual.json,syn_rec_000285,NON_TARGET_SCRIPT,Kannada,63,Kannada,ಟ್ರಾನ್ಸ್‌ಫಾರ್ಮರ್ ಮಾದರಿಯು ನಿಖರವಾದ ಪದ ಮುನ್ಸೂಚನೆಯನ್ನು ಒದಗಿಸುತ್ತ
+igris_phase17_synthetic_multilingual.json,syn_rec_000286,NON_TARGET_SCRIPT,Bengali,74,Bengali,এই বহুভাষিক ট্রান্সফরমার মডেল ভাষা প্রক্রিয়াকরণে অভূতপূর্ব 
+igris_phase17_synthetic_multilingual.json,syn_rec_000287,NON_TARGET_SCRIPT,Gujarati,85,Gujarati,ડીપ લર્નિંગ આધારિત ટ્રાન્સફોર્મર કુદરતી ભાષાના વિશ્લેષણમાં મ
+igris_phase17_synthetic_multilingual.json,syn_rec_000290,NON_TARGET_SCRIPT,Devanagari,65,Devanagari,पूर्वानुमानित टोकन वितरण बहुभाषी समझ को सशक्त और सुसंगत बनात
+igris_phase17_synthetic_multilingual.json,syn_rec_000292,NON_TARGET_SCRIPT,Telugu,71,Telugu,భాషా నమూనాలు పెద్ద ఎత్తున టెక్స్ట్ డేటాను విశ్లేషించడానికి ఉ
+igris_phase17_synthetic_multilingual.json,syn_rec_000293,NON_TARGET_SCRIPT,Malayalam,90,Malayalam,കമ്പ്യൂട്ടേഷണൽ ലിംഗ്വിസ്റ്റിക്സിൽ മലയാളം അക്ഷരങ്ങളുടെ കൃത്യമ
+igris_phase17_synthetic_multilingual.json,syn_rec_000294,NON_TARGET_SCRIPT,Kannada,63,Kannada,ಟ್ರಾನ್ಸ್‌ಫಾರ್ಮರ್ ಮಾದರಿಯು ನಿಖರವಾದ ಪದ ಮುನ್ಸೂಚನೆಯನ್ನು ಒದಗಿಸುತ್ತ
+igris_phase17_synthetic_multilingual.json,syn_rec_000295,NON_TARGET_SCRIPT,Bengali,74,Bengali,এই বহুভাষিক ট্রান্সফরমার মডেল ভাষা প্রক্রিয়াকরণে অভূতপূর্ব 
+igris_phase17_synthetic_multilingual.json,syn_rec_000296,NON_TARGET_SCRIPT,Gujarati,85,Gujarati,ડીપ લર્નિંગ આધારિત ટ્રાન્સફોર્મર કુદરતી ભાષાના વિશ્લેષણમાં મ
+igris_phase17_synthetic_multilingual.json,syn_rec_000299,NON_TARGET_SCRIPT,Devanagari,77,Devanagari,ग्रूप्ड क्वेरी अटेंशन और रोटरी एम्बेडिंग मॉडल की गति और सटीक
+igris_phase17_synthetic_multilingual.json,syn_rec_000301,NON_TARGET_SCRIPT,Telugu,80,Telugu,ఈ బహుభాషా న్యూరల్ నెట్వర్క్ భారతీయ భాషల సహజ భాషా ప్రాసెసింగ్
+igris_phase17_synthetic_multilingual.json,syn_rec_000302,NON_TARGET_SCRIPT,Malayalam,90,Malayalam,കമ്പ്യൂട്ടേഷണൽ ലിംഗ്വിസ്റ്റിക്സിൽ മലയാളം അക്ഷരങ്ങളുടെ കൃത്യമ
+igris_phase17_synthetic_multilingual.json,syn_rec_000303,NON_TARGET_SCRIPT,Kannada,63,Kannada,ಟ್ರಾನ್ಸ್‌ಫಾರ್ಮರ್ ಮಾದರಿಯು ನಿಖರವಾದ ಪದ ಮುನ್ಸೂಚನೆಯನ್ನು ಒದಗಿಸುತ್ತ
+igris_phase17_synthetic_multilingual.json,syn_rec_000304,NON_TARGET_SCRIPT,Bengali,74,Bengali,এই বহুভাষিক ট্রান্সফরমার মডেল ভাষা প্রক্রিয়াকরণে অভূতপূর্ব 
+igris_phase17_synthetic_multilingual.json,syn_rec_000305,NON_TARGET_SCRIPT,Gujarati,85,Gujarati,ડીપ લર્નિંગ આધારિત ટ્રાન્સફોર્મર કુદરતી ભાષાના વિશ્લેષણમાં મ
+igris_phase17_synthetic_multilingual.json,syn_rec_000308,NON_TARGET_SCRIPT,Devanagari,80,Devanagari,यह न्यूरल आर्किटेक्चर स्वदेशी लिपियों के लिए कुशल टोकनाइज़ेश
+igris_phase17_synthetic_multilingual.json,syn_rec_000310,NON_TARGET_SCRIPT,Telugu,82,Telugu,ట్రాన్స్ఫార్మర్ నమూనా పదాల ప్రాతినిధ్యాలను ఖచ్చితంగా నేర్చుక
+igris_phase17_synthetic_multilingual.json,syn_rec_000311,NON_TARGET_SCRIPT,Malayalam,90,Malayalam,കമ്പ്യൂട്ടേഷണൽ ലിംഗ്വിസ്റ്റിക്സിൽ മലയാളം അക്ഷരങ്ങളുടെ കൃത്യമ
+igris_phase17_synthetic_multilingual.json,syn_rec_000312,NON_TARGET_SCRIPT,Kannada,63,Kannada,ಟ್ರಾನ್ಸ್‌ಫಾರ್ಮರ್ ಮಾದರಿಯು ನಿಖರವಾದ ಪದ ಮುನ್ಸೂಚನೆಯನ್ನು ಒದಗಿಸುತ್ತ
+igris_phase17_synthetic_multilingual.json,syn_rec_000313,NON_TARGET_SCRIPT,Bengali,74,Bengali,এই বহুভাষিক ট্রান্সফরমার মডেল ভাষা প্রক্রিয়াকরণে অভূতপূর্ব 
+igris_phase17_synthetic_multilingual.json,syn_rec_000314,NON_TARGET_SCRIPT,Gujarati,85,Gujarati,ડીપ લર્નિંગ આધારિત ટ્રાન્સફોર્મર કુદરતી ભાષાના વિશ્લેષણમાં મ
+igris_phase17_synthetic_multilingual.json,syn_rec_000317,NON_TARGET_SCRIPT,Devanagari,80,Devanagari,कंप्यूटेशनल भाषाविज्ञान में सभी भारतीय भाषाओं का संतुलित प्र
+igris_phase17_synthetic_multilingual.json,syn_rec_000319,NON_TARGET_SCRIPT,Telugu,69,Telugu,గ్రూప్డ్ క్వెరీ అటెన్షన్ మెమరీ వినియోగాన్ని సమర్థవంతంగా తగ్గ
+igris_phase17_synthetic_multilingual.json,syn_rec_000320,NON_TARGET_SCRIPT,Malayalam,90,Malayalam,കമ്പ്യൂട്ടേഷണൽ ലിംഗ്വിസ്റ്റിക്സിൽ മലയാളം അക്ഷരങ്ങളുടെ കൃത്യമ
+igris_phase17_synthetic_multilingual.json,syn_rec_000321,NON_TARGET_SCRIPT,Kannada,63,Kannada,ಟ್ರಾನ್ಸ್‌ಫಾರ್ಮರ್ ಮಾದರಿಯು ನಿಖರವಾದ ಪದ ಮುನ್ಸೂಚನೆಯನ್ನು ಒದಗಿಸುತ್ತ
+igris_phase17_synthetic_multilingual.json,syn_rec_000322,NON_TARGET_SCRIPT,Bengali,74,Bengali,এই বহুভাষিক ট্রান্সফরমার মডেল ভাষা প্রক্রিয়াকরণে অভূতপূর্ব 
+igris_phase17_synthetic_multilingual.json,syn_rec_000323,NON_TARGET_SCRIPT,Gujarati,85,Gujarati,ડીપ લર્નિંગ આધારિત ટ્રાન્સફોર્મર કુદરતી ભાષાના વિશ્લેષણમાં મ
+igris_phase17_synthetic_multilingual.json,syn_rec_000326,NON_TARGET_SCRIPT,Devanagari,81,Devanagari,यह बहुभाषी ट्रांसफार्मर मॉडल विभिन्न लिपियों के प्रतिनिधित्व
+igris_phase17_synthetic_multilingual.json,syn_rec_000328,NON_TARGET_SCRIPT,Telugu,71,Telugu,భాషా నమూనాలు పెద్ద ఎత్తున టెక్స్ట్ డేటాను విశ్లేషించడానికి ఉ
+igris_phase17_synthetic_multilingual.json,syn_rec_000329,NON_TARGET_SCRIPT,Malayalam,90,Malayalam,കമ്പ്യൂട്ടേഷണൽ ലിംഗ്വിസ്റ്റിക്സിൽ മലയാളം അക്ഷരങ്ങളുടെ കൃത്യമ
+igris_phase17_synthetic_multilingual.json,syn_rec_000330,NON_TARGET_SCRIPT,Kannada,63,Kannada,ಟ್ರಾನ್ಸ್‌ಫಾರ್ಮರ್ ಮಾದರಿಯು ನಿಖರವಾದ ಪದ ಮುನ್ಸೂಚನೆಯನ್ನು ಒದಗಿಸುತ್ತ
+igris_phase17_synthetic_multilingual.json,syn_rec_000331,NON_TARGET_SCRIPT,Bengali,74,Bengali,এই বহুভাষিক ট্রান্সফরমার মডেল ভাষা প্রক্রিয়াকরণে অভূতপূর্ব 
+igris_phase17_synthetic_multilingual.json,syn_rec_000332,NON_TARGET_SCRIPT,Gujarati,85,Gujarati,ડીપ લર્નિંગ આધારિત ટ્રાન્સફોર્મર કુદરતી ભાષાના વિશ્લેષણમાં મ
+igris_phase17_synthetic_multilingual.json,syn_rec_000335,NON_TARGET_SCRIPT,Devanagari,65,Devanagari,पूर्वानुमानित टोकन वितरण बहुभाषी समझ को सशक्त और सुसंगत बनात
+igris_phase17_synthetic_multilingual.json,syn_rec_000337,NON_TARGET_SCRIPT,Telugu,80,Telugu,ఈ బహుభాషా న్యూరల్ నెట్వర్క్ భారతీయ భాషల సహజ భాషా ప్రాసెసింగ్
+igris_phase17_synthetic_multilingual.json,syn_rec_000338,NON_TARGET_SCRIPT,Malayalam,90,Malayalam,കമ്പ്യൂട്ടേഷണൽ ലിംഗ്വിസ്റ്റിക്സിൽ മലയാളം അക്ഷരങ്ങളുടെ കൃത്യമ
+igris_phase17_synthetic_multilingual.json,syn_rec_000339,NON_TARGET_SCRIPT,Kannada,63,Kannada,ಟ್ರಾನ್ಸ್‌ಫಾರ್ಮರ್ ಮಾದರಿಯು ನಿಖರವಾದ ಪದ ಮುನ್ಸೂಚನೆಯನ್ನು ಒದಗಿಸುತ್ತ
+igris_phase17_synthetic_multilingual.json,syn_rec_000340,NON_TARGET_SCRIPT,Bengali,74,Bengali,এই বহুভাষিক ট্রান্সফরমার মডেল ভাষা প্রক্রিয়াকরণে অভূতপূর্ব 
+igris_phase17_synthetic_multilingual.json,syn_rec_000341,NON_TARGET_SCRIPT,Gujarati,85,Gujarati,ડીપ લર્નિંગ આધારિત ટ્રાન્સફોર્મર કુદરતી ભાષાના વિશ્લેષણમાં મ
+igris_phase17_synthetic_multilingual.json,syn_rec_000344,NON_TARGET_SCRIPT,Devanagari,77,Devanagari,ग्रूप्ड क्वेरी अटेंशन और रोटरी एम्बेडिंग मॉडल की गति और सटीक
+igris_phase17_synthetic_multilingual.json,syn_rec_000346,NON_TARGET_SCRIPT,Telugu,82,Telugu,ట్రాన్స్ఫార్మర్ నమూనా పదాల ప్రాతినిధ్యాలను ఖచ్చితంగా నేర్చుక
+igris_phase17_synthetic_multilingual.json,syn_rec_000347,NON_TARGET_SCRIPT,Malayalam,90,Malayalam,കമ്പ്യൂട്ടേഷണൽ ലിംഗ്വിസ്റ്റിക്സിൽ മലയാളം അക്ഷരങ്ങളുടെ കൃത്യമ
+igris_phase17_synthetic_multilingual.json,syn_rec_000348,NON_TARGET_SCRIPT,Kannada,63,Kannada,ಟ್ರಾನ್ಸ್‌ಫಾರ್ಮರ್ ಮಾದರಿಯು ನಿಖರವಾದ ಪದ ಮುನ್ಸೂಚನೆಯನ್ನು ಒದಗಿಸುತ್ತ
+igris_phase17_synthetic_multilingual.json,syn_rec_000349,NON_TARGET_SCRIPT,Bengali,74,Bengali,এই বহুভাষিক ট্রান্সফরমার মডেল ভাষা প্রক্রিয়াকরণে অভূতপূর্ব 
+igris_phase17_synthetic_multilingual.json,syn_rec_000350,NON_TARGET_SCRIPT,Gujarati,85,Gujarati,ડીપ લર્નિંગ આધારિત ટ્રાન્સફોર્મર કુદરતી ભાષાના વિશ્લેષણમાં મ
+igris_phase17_synthetic_multilingual.json,syn_rec_000353,NON_TARGET_SCRIPT,Devanagari,80,Devanagari,यह न्यूरल आर्किटेक्चर स्वदेशी लिपियों के लिए कुशल टोकनाइज़ेश
+igris_phase17_synthetic_multilingual.json,syn_rec_000355,NON_TARGET_SCRIPT,Telugu,69,Telugu,గ్రూప్డ్ క్వెరీ అటెన్షన్ మెమరీ వినియోగాన్ని సమర్థవంతంగా తగ్గ
+igris_phase17_synthetic_multilingual.json,syn_rec_000356,NON_TARGET_SCRIPT,Malayalam,90,Malayalam,കമ്പ്യൂട്ടേഷണൽ ലിംഗ്വിസ്റ്റിക്സിൽ മലയാളം അക്ഷരങ്ങളുടെ കൃത്യമ
+igris_phase17_synthetic_multilingual.json,syn_rec_000357,NON_TARGET_SCRIPT,Kannada,63,Kannada,ಟ್ರಾನ್ಸ್‌ಫಾರ್ಮರ್ ಮಾದರಿಯು ನಿಖರವಾದ ಪದ ಮುನ್ಸೂಚನೆಯನ್ನು ಒದಗಿಸುತ್ತ
+igris_phase17_synthetic_multilingual.json,syn_rec_000358,NON_TARGET_SCRIPT,Bengali,74,Bengali,এই বহুভাষিক ট্রান্সফরমার মডেল ভাষা প্রক্রিয়াকরণে অভূতপূর্ব 
+igris_phase17_synthetic_multilingual.json,syn_rec_000359,NON_TARGET_SCRIPT,Gujarati,85,Gujarati,ડીપ લર્નિંગ આધારિત ટ્રાન્સફોર્મર કુદરતી ભાષાના વિશ્લેષણમાં મ
+igris_phase17_synthetic_multilingual.json,syn_rec_000362,NON_TARGET_SCRIPT,Devanagari,80,Devanagari,कंप्यूटेशनल भाषाविज्ञान में सभी भारतीय भाषाओं का संतुलित प्र
+igris_phase17_synthetic_multilingual.json,syn_rec_000364,NON_TARGET_SCRIPT,Telugu,71,Telugu,భాషా నమూనాలు పెద్ద ఎత్తున టెక్స్ట్ డేటాను విశ్లేషించడానికి ఉ
+igris_phase17_synthetic_multilingual.json,syn_rec_000365,NON_TARGET_SCRIPT,Malayalam,90,Malayalam,കമ്പ്യൂട്ടേഷണൽ ലിംഗ്വിസ്റ്റിക്സിൽ മലയാളം അക്ഷരങ്ങളുടെ കൃത്യമ
+igris_phase17_synthetic_multilingual.json,syn_rec_000366,NON_TARGET_SCRIPT,Kannada,63,Kannada,ಟ್ರಾನ್ಸ್‌ಫಾರ್ಮರ್ ಮಾದರಿಯು ನಿಖರವಾದ ಪದ ಮುನ್ಸೂಚನೆಯನ್ನು ಒದಗಿಸುತ್ತ
+igris_phase17_synthetic_multilingual.json,syn_rec_000367,NON_TARGET_SCRIPT,Bengali,74,Bengali,এই বহুভাষিক ট্রান্সফরমার মডেল ভাষা প্রক্রিয়াকরণে অভূতপূর্ব 
+igris_phase17_synthetic_multilingual.json,syn_rec_000368,NON_TARGET_SCRIPT,Gujarati,85,Gujarati,ડીપ લર્નિંગ આધારિત ટ્રાન્સફોર્મર કુદરતી ભાષાના વિશ્લેષણમાં મ
+igris_phase17_synthetic_multilingual.json,syn_rec_000371,NON_TARGET_SCRIPT,Devanagari,81,Devanagari,यह बहुभाषी ट्रांसफार्मर मॉडल विभिन्न लिपियों के प्रतिनिधित्व
+igris_phase17_synthetic_multilingual.json,syn_rec_000373,NON_TARGET_SCRIPT,Telugu,80,Telugu,ఈ బహుభాషా న్యూరల్ నెట్వర్క్ భారతీయ భాషల సహజ భాషా ప్రాసెసింగ్
+igris_phase17_synthetic_multilingual.json,syn_rec_000374,NON_TARGET_SCRIPT,Malayalam,90,Malayalam,കമ്പ്യൂട്ടേഷണൽ ലിംഗ്വിസ്റ്റിക്സിൽ മലയാളം അക്ഷരങ്ങളുടെ കൃത്യമ
+igris_phase17_synthetic_multilingual.json,syn_rec_000375,NON_TARGET_SCRIPT,Kannada,63,Kannada,ಟ್ರಾನ್ಸ್‌ಫಾರ್ಮರ್ ಮಾದರಿಯು ನಿಖರವಾದ ಪದ ಮುನ್ಸೂಚನೆಯನ್ನು ಒದಗಿಸುತ್ತ
+igris_phase17_synthetic_multilingual.json,syn_rec_000376,NON_TARGET_SCRIPT,Bengali,74,Bengali,এই বহুভাষিক ট্রান্সফরমার মডেল ভাষা প্রক্রিয়াকরণে অভূতপূর্ব 
+igris_phase17_synthetic_multilingual.json,syn_rec_000377,NON_TARGET_SCRIPT,Gujarati,85,Gujarati,ડીપ લર્નિંગ આધારિત ટ્રાન્સફોર્મર કુદરતી ભાષાના વિશ્લેષણમાં મ
+igris_phase17_synthetic_multilingual.json,syn_rec_000380,NON_TARGET_SCRIPT,Devanagari,65,Devanagari,पूर्वानुमानित टोकन वितरण बहुभाषी समझ को सशक्त और सुसंगत बनात
+igris_phase17_synthetic_multilingual.json,syn_rec_000382,NON_TARGET_SCRIPT,Telugu,82,Telugu,ట్రాన్స్ఫార్మర్ నమూనా పదాల ప్రాతినిధ్యాలను ఖచ్చితంగా నేర్చుక
+igris_phase17_synthetic_multilingual.json,syn_rec_000383,NON_TARGET_SCRIPT,Malayalam,90,Malayalam,കമ്പ്യൂട്ടേഷണൽ ലിംഗ്വിസ്റ്റിക്സിൽ മലയാളം അക്ഷരങ്ങളുടെ കൃത്യമ
+igris_phase17_synthetic_multilingual.json,syn_rec_000384,NON_TARGET_SCRIPT,Kannada,63,Kannada,ಟ್ರಾನ್ಸ್‌ಫಾರ್ಮರ್ ಮಾದರಿಯು ನಿಖರವಾದ ಪದ ಮುನ್ಸೂಚನೆಯನ್ನು ಒದಗಿಸುತ್ತ
+igris_phase17_synthetic_multilingual.json,syn_rec_000385,NON_TARGET_SCRIPT,Bengali,74,Bengali,এই বহুভাষিক ট্রান্সফরমার মডেল ভাষা প্রক্রিয়াকরণে অভূতপূর্ব 
+igris_phase17_synthetic_multilingual.json,syn_rec_000386,NON_TARGET_SCRIPT,Gujarati,85,Gujarati,ડીપ લર્નિંગ આધારિત ટ્રાન્સફોર્મર કુદરતી ભાષાના વિશ્લેષણમાં મ
+igris_phase17_synthetic_multilingual.json,syn_rec_000389,NON_TARGET_SCRIPT,Devanagari,77,Devanagari,ग्रूप्ड क्वेरी अटेंशन और रोटरी एम्बेडिंग मॉडल की गति और सटीक
+igris_phase17_synthetic_multilingual.json,syn_rec_000391,NON_TARGET_SCRIPT,Telugu,69,Telugu,గ్రూప్డ్ క్వెరీ అటెన్షన్ మెమరీ వినియోగాన్ని సమర్థవంతంగా తగ్గ
+igris_phase17_synthetic_multilingual.json,syn_rec_000392,NON_TARGET_SCRIPT,Malayalam,90,Malayalam,കമ്പ്യൂട്ടേഷണൽ ലിംഗ്വിസ്റ്റിക്സിൽ മലയാളം അക്ഷരങ്ങളുടെ കൃത്യമ
+igris_phase17_synthetic_multilingual.json,syn_rec_000393,NON_TARGET_SCRIPT,Kannada,63,Kannada,ಟ್ರಾನ್ಸ್‌ಫಾರ್ಮರ್ ಮಾದರಿಯು ನಿಖರವಾದ ಪದ ಮುನ್ಸೂಚನೆಯನ್ನು ಒದಗಿಸುತ್ತ
+igris_phase17_synthetic_multilingual.json,syn_rec_000394,NON_TARGET_SCRIPT,Bengali,74,Bengali,এই বহুভাষিক ট্রান্সফরমার মডেল ভাষা প্রক্রিয়াকরণে অভূতপূর্ব 
+igris_phase17_synthetic_multilingual.json,syn_rec_000395,NON_TARGET_SCRIPT,Gujarati,85,Gujarati,ડીપ લર્નિંગ આધારિત ટ્રાન્સફોર્મર કુદરતી ભાષાના વિશ્લેષણમાં મ
+igris_phase17_synthetic_multilingual.json,syn_rec_000398,NON_TARGET_SCRIPT,Devanagari,80,Devanagari,यह न्यूरल आर्किटेक्चर स्वदेशी लिपियों के लिए कुशल टोकनाइज़ेश
+igris_phase17_synthetic_multilingual.json,syn_rec_000400,NON_TARGET_SCRIPT,Telugu,71,Telugu,భాషా నమూనాలు పెద్ద ఎత్తున టెక్స్ట్ డేటాను విశ్లేషించడానికి ఉ
+igris_phase17_synthetic_multilingual.json,syn_rec_000401,NON_TARGET_SCRIPT,Malayalam,90,Malayalam,കമ്പ്യൂട്ടേഷണൽ ലിംഗ്വിസ്റ്റിക്സിൽ മലയാളം അക്ഷരങ്ങളുടെ കൃത്യമ
+igris_phase17_synthetic_multilingual.json,syn_rec_000402,NON_TARGET_SCRIPT,Kannada,63,Kannada,ಟ್ರಾನ್ಸ್‌ಫಾರ್ಮರ್ ಮಾದರಿಯು ನಿಖರವಾದ ಪದ ಮುನ್ಸೂಚನೆಯನ್ನು ಒದಗಿಸುತ್ತ
+igris_phase17_synthetic_multilingual.json,syn_rec_000403,NON_TARGET_SCRIPT,Bengali,74,Bengali,এই বহুভাষিক ট্রান্সফরমার মডেল ভাষা প্রক্রিয়াকরণে অভূতপূর্ব 
+igris_phase17_synthetic_multilingual.json,syn_rec_000404,NON_TARGET_SCRIPT,Gujarati,85,Gujarati,ડીપ લર્નિંગ આધારિત ટ્રાન્સફોર્મર કુદરતી ભાષાના વિશ્લેષણમાં મ
+igris_phase17_synthetic_multilingual.json,syn_rec_000407,NON_TARGET_SCRIPT,Devanagari,80,Devanagari,कंप्यूटेशनल भाषाविज्ञान में सभी भारतीय भाषाओं का संतुलित प्र
+igris_phase17_synthetic_multilingual.json,syn_rec_000409,NON_TARGET_SCRIPT,Telugu,80,Telugu,ఈ బహుభాషా న్యూరల్ నెట్వర్క్ భారతీయ భాషల సహజ భాషా ప్రాసెసింగ్
+igris_phase17_synthetic_multilingual.json,syn_rec_000410,NON_TARGET_SCRIPT,Malayalam,90,Malayalam,കമ്പ്യൂട്ടേഷണൽ ലിംഗ്വിസ്റ്റിക്സിൽ മലയാളം അക്ഷരങ്ങളുടെ കൃത്യമ
+igris_phase17_synthetic_multilingual.json,syn_rec_000411,NON_TARGET_SCRIPT,Kannada,63,Kannada,ಟ್ರಾನ್ಸ್‌ಫಾರ್ಮರ್ ಮಾದರಿಯು ನಿಖರವಾದ ಪದ ಮುನ್ಸೂಚನೆಯನ್ನು ಒದಗಿಸುತ್ತ
+igris_phase17_synthetic_multilingual.json,syn_rec_000412,NON_TARGET_SCRIPT,Bengali,74,Bengali,এই বহুভাষিক ট্রান্সফরমার মডেল ভাষা প্রক্রিয়াকরণে অভূতপূর্ব 
+igris_phase17_synthetic_multilingual.json,syn_rec_000413,NON_TARGET_SCRIPT,Gujarati,85,Gujarati,ડીપ લર્નિંગ આધારિત ટ્રાન્સફોર્મર કુદરતી ભાષાના વિશ્લેષણમાં મ
+igris_phase17_synthetic_multilingual.json,syn_rec_000416,NON_TARGET_SCRIPT,Devanagari,81,Devanagari,यह बहुभाषी ट्रांसफार्मर मॉडल विभिन्न लिपियों के प्रतिनिधित्व
+igris_phase17_synthetic_multilingual.json,syn_rec_000418,NON_TARGET_SCRIPT,Telugu,82,Telugu,ట్రాన్స్ఫార్మర్ నమూనా పదాల ప్రాతినిధ్యాలను ఖచ్చితంగా నేర్చుక
+igris_phase17_synthetic_multilingual.json,syn_rec_000419,NON_TARGET_SCRIPT,Malayalam,90,Malayalam,കമ്പ്യൂട്ടേഷണൽ ലിംഗ്വിസ്റ്റിക്സിൽ മലയാളം അക്ഷരങ്ങളുടെ കൃത്യമ
+igris_phase17_synthetic_multilingual.json,syn_rec_000420,NON_TARGET_SCRIPT,Kannada,63,Kannada,ಟ್ರಾನ್ಸ್‌ಫಾರ್ಮರ್ ಮಾದರಿಯು ನಿಖರವಾದ ಪದ ಮುನ್ಸೂಚನೆಯನ್ನು ಒದಗಿಸುತ್ತ
+igris_phase17_synthetic_multilingual.json,syn_rec_000421,NON_TARGET_SCRIPT,Bengali,74,Bengali,এই বহুভাষিক ট্রান্সফরমার মডেল ভাষা প্রক্রিয়াকরণে অভূতপূর্ব 
+igris_phase17_synthetic_multilingual.json,syn_rec_000422,NON_TARGET_SCRIPT,Gujarati,85,Gujarati,ડીપ લર્નિંગ આધારિત ટ્રાન્સફોર્મર કુદરતી ભાષાના વિશ્લેષણમાં મ
+igris_phase17_synthetic_multilingual.json,syn_rec_000425,NON_TARGET_SCRIPT,Devanagari,65,Devanagari,पूर्वानुमानित टोकन वितरण बहुभाषी समझ को सशक्त और सुसंगत बनात
+igris_phase17_synthetic_multilingual.json,syn_rec_000427,NON_TARGET_SCRIPT,Telugu,69,Telugu,గ్రూప్డ్ క్వెరీ అటెన్షన్ మెమరీ వినియోగాన్ని సమర్థవంతంగా తగ్గ
+igris_phase17_synthetic_multilingual.json,syn_rec_000428,NON_TARGET_SCRIPT,Malayalam,90,Malayalam,കമ്പ്യൂട്ടേഷണൽ ലിംഗ്വിസ്റ്റിക്സിൽ മലയാളം അക്ഷരങ്ങളുടെ കൃത്യമ
+igris_phase17_synthetic_multilingual.json,syn_rec_000429,NON_TARGET_SCRIPT,Kannada,63,Kannada,ಟ್ರಾನ್ಸ್‌ಫಾರ್ಮರ್ ಮಾದರಿಯು ನಿಖರವಾದ ಪದ ಮುನ್ಸೂಚನೆಯನ್ನು ಒದಗಿಸುತ್ತ
+igris_phase17_synthetic_multilingual.json,syn_rec_000430,NON_TARGET_SCRIPT,Bengali,74,Bengali,এই বহুভাষিক ট্রান্সফরমার মডেল ভাষা প্রক্রিয়াকরণে অভূতপূর্ব 
+igris_phase17_synthetic_multilingual.json,syn_rec_000431,NON_TARGET_SCRIPT,Gujarati,85,Gujarati,ડીપ લર્નિંગ આધારિત ટ્રાન્સફોર્મર કુદરતી ભાષાના વિશ્લેષણમાં મ
+igris_phase17_synthetic_multilingual.json,syn_rec_000434,NON_TARGET_SCRIPT,Devanagari,77,Devanagari,ग्रूप्ड क्वेरी अटेंशन और रोटरी एम्बेडिंग मॉडल की गति और सटीक
+igris_phase17_synthetic_multilingual.json,syn_rec_000436,NON_TARGET_SCRIPT,Telugu,71,Telugu,భాషా నమూనాలు పెద్ద ఎత్తున టెక్స్ట్ డేటాను విశ్లేషించడానికి ఉ
+igris_phase17_synthetic_multilingual.json,syn_rec_000437,NON_TARGET_SCRIPT,Malayalam,90,Malayalam,കമ്പ്യൂട്ടേഷണൽ ലിംഗ്വിസ്റ്റിക്സിൽ മലയാളം അക്ഷരങ്ങളുടെ കൃത്യമ
+igris_phase17_synthetic_multilingual.json,syn_rec_000438,NON_TARGET_SCRIPT,Kannada,63,Kannada,ಟ್ರಾನ್ಸ್‌ಫಾರ್ಮರ್ ಮಾದರಿಯು ನಿಖರವಾದ ಪದ ಮುನ್ಸೂಚನೆಯನ್ನು ಒದಗಿಸುತ್ತ
+igris_phase17_synthetic_multilingual.json,syn_rec_000439,NON_TARGET_SCRIPT,Bengali,74,Bengali,এই বহুভাষিক ট্রান্সফরমার মডেল ভাষা প্রক্রিয়াকরণে অভূতপূর্ব 
+igris_phase17_synthetic_multilingual.json,syn_rec_000440,NON_TARGET_SCRIPT,Gujarati,85,Gujarati,ડીપ લર્નિંગ આધારિત ટ્રાન્સફોર્મર કુદરતી ભાષાના વિશ્લેષણમાં મ
+igris_phase17_synthetic_multilingual.json,syn_rec_000443,NON_TARGET_SCRIPT,Devanagari,80,Devanagari,यह न्यूरल आर्किटेक्चर स्वदेशी लिपियों के लिए कुशल टोकनाइज़ेश
+igris_phase17_synthetic_multilingual.json,syn_rec_000445,NON_TARGET_SCRIPT,Telugu,80,Telugu,ఈ బహుభాషా న్యూరల్ నెట్వర్క్ భారతీయ భాషల సహజ భాషా ప్రాసెసింగ్
+igris_phase17_synthetic_multilingual.json,syn_rec_000446,NON_TARGET_SCRIPT,Malayalam,90,Malayalam,കമ്പ്യൂട്ടേഷണൽ ലിംഗ്വിസ്റ്റിക്സിൽ മലയാളം അക്ഷരങ്ങളുടെ കൃത്യമ
+igris_phase17_synthetic_multilingual.json,syn_rec_000447,NON_TARGET_SCRIPT,Kannada,63,Kannada,ಟ್ರಾನ್ಸ್‌ಫಾರ್ಮರ್ ಮಾದರಿಯು ನಿಖರವಾದ ಪದ ಮುನ್ಸೂಚನೆಯನ್ನು ಒದಗಿಸುತ್ತ
+igris_phase17_synthetic_multilingual.json,syn_rec_000448,NON_TARGET_SCRIPT,Bengali,74,Bengali,এই বহুভাষিক ট্রান্সফরমার মডেল ভাষা প্রক্রিয়াকরণে অভূতপূর্ব 
+igris_phase17_synthetic_multilingual.json,syn_rec_000449,NON_TARGET_SCRIPT,Gujarati,85,Gujarati,ડીપ લર્નિંગ આધારિત ટ્રાન્સફોર્મર કુદરતી ભાષાના વિશ્લેષણમાં મ
+igris_phase17_synthetic_multilingual.json,syn_rec_000452,NON_TARGET_SCRIPT,Devanagari,80,Devanagari,कंप्यूटेशनल भाषाविज्ञान में सभी भारतीय भाषाओं का संतुलित प्र
+igris_phase17_synthetic_multilingual.json,syn_rec_000454,NON_TARGET_SCRIPT,Telugu,82,Telugu,ట్రాన్స్ఫార్మర్ నమూనా పదాల ప్రాతినిధ్యాలను ఖచ్చితంగా నేర్చుక
+igris_phase17_synthetic_multilingual.json,syn_rec_000455,NON_TARGET_SCRIPT,Malayalam,90,Malayalam,കമ്പ്യൂട്ടേഷണൽ ലിംഗ്വിസ്റ്റിക്സിൽ മലയാളം അക്ഷരങ്ങളുടെ കൃത്യമ
+igris_phase17_synthetic_multilingual.json,syn_rec_000456,NON_TARGET_SCRIPT,Kannada,63,Kannada,ಟ್ರಾನ್ಸ್‌ಫಾರ್ಮರ್ ಮಾದರಿಯು ನಿಖರವಾದ ಪದ ಮುನ್ಸೂಚನೆಯನ್ನು ಒದಗಿಸುತ್ತ
+igris_phase17_synthetic_multilingual.json,syn_rec_000457,NON_TARGET_SCRIPT,Bengali,74,Bengali,এই বহুভাষিক ট্রান্সফরমার মডেল ভাষা প্রক্রিয়াকরণে অভূতপূর্ব 
+igris_phase17_synthetic_multilingual.json,syn_rec_000458,NON_TARGET_SCRIPT,Gujarati,85,Gujarati,ડીપ લર્નિંગ આધારિત ટ્રાન્સફોર્મર કુદરતી ભાષાના વિશ્લેષણમાં મ
+igris_phase17_synthetic_multilingual.json,syn_rec_000461,NON_TARGET_SCRIPT,Devanagari,81,Devanagari,यह बहुभाषी ट्रांसफार्मर मॉडल विभिन्न लिपियों के प्रतिनिधित्व
+igris_phase17_synthetic_multilingual.json,syn_rec_000463,NON_TARGET_SCRIPT,Telugu,69,Telugu,గ్రూప్డ్ క్వెరీ అటెన్షన్ మెమరీ వినియోగాన్ని సమర్థవంతంగా తగ్గ
+igris_phase17_synthetic_multilingual.json,syn_rec_000464,NON_TARGET_SCRIPT,Malayalam,90,Malayalam,കമ്പ്യൂട്ടേഷണൽ ലിംഗ്വിസ്റ്റിക്സിൽ മലയാളം അക്ഷരങ്ങളുടെ കൃത്യമ
+igris_phase17_synthetic_multilingual.json,syn_rec_000465,NON_TARGET_SCRIPT,Kannada,63,Kannada,ಟ್ರಾನ್ಸ್‌ಫಾರ್ಮರ್ ಮಾದರಿಯು ನಿಖರವಾದ ಪದ ಮುನ್ಸೂಚನೆಯನ್ನು ಒದಗಿಸುತ್ತ
+igris_phase17_synthetic_multilingual.json,syn_rec_000466,NON_TARGET_SCRIPT,Bengali,74,Bengali,এই বহুভাষিক ট্রান্সফরমার মডেল ভাষা প্রক্রিয়াকরণে অভূতপূর্ব 
+igris_phase17_synthetic_multilingual.json,syn_rec_000467,NON_TARGET_SCRIPT,Gujarati,85,Gujarati,ડીપ લર્નિંગ આધારિત ટ્રાન્સફોર્મર કુદરતી ભાષાના વિશ્લેષણમાં મ
+igris_phase17_synthetic_multilingual.json,syn_rec_000470,NON_TARGET_SCRIPT,Devanagari,65,Devanagari,पूर्वानुमानित टोकन वितरण बहुभाषी समझ को सशक्त और सुसंगत बनात
+igris_phase17_synthetic_multilingual.json,syn_rec_000472,NON_TARGET_SCRIPT,Telugu,71,Telugu,భాషా నమూనాలు పెద్ద ఎత్తున టెక్స్ట్ డేటాను విశ్లేషించడానికి ఉ
+igris_phase17_synthetic_multilingual.json,syn_rec_000473,NON_TARGET_SCRIPT,Malayalam,90,Malayalam,കമ്പ്യൂട്ടേഷണൽ ലിംഗ്വിസ്റ്റിക്സിൽ മലയാളം അക്ഷരങ്ങളുടെ കൃത്യമ
+igris_phase17_synthetic_multilingual.json,syn_rec_000474,NON_TARGET_SCRIPT,Kannada,63,Kannada,ಟ್ರಾನ್ಸ್‌ಫಾರ್ಮರ್ ಮಾದರಿಯು ನಿಖರವಾದ ಪದ ಮುನ್ಸೂಚನೆಯನ್ನು ಒದಗಿಸುತ್ತ
+igris_phase17_synthetic_multilingual.json,syn_rec_000475,NON_TARGET_SCRIPT,Bengali,74,Bengali,এই বহুভাষিক ট্রান্সফরমার মডেল ভাষা প্রক্রিয়াকরণে অভূতপূর্ব 
+igris_phase17_synthetic_multilingual.json,syn_rec_000476,NON_TARGET_SCRIPT,Gujarati,85,Gujarati,ડીપ લર્નિંગ આધારિત ટ્રાન્સફોર્મર કુદરતી ભાષાના વિશ્લેષણમાં મ
+igris_phase17_synthetic_multilingual.json,syn_rec_000479,NON_TARGET_SCRIPT,Devanagari,77,Devanagari,ग्रूप्ड क्वेरी अटेंशन और रोटरी एम्बेडिंग मॉडल की गति और सटीक
+igris_phase17_synthetic_multilingual.json,syn_rec_000481,NON_TARGET_SCRIPT,Telugu,80,Telugu,ఈ బహుభాషా న్యూరల్ నెట్వర్క్ భారతీయ భాషల సహజ భాషా ప్రాసెసింగ్
+igris_phase17_synthetic_multilingual.json,syn_rec_000482,NON_TARGET_SCRIPT,Malayalam,90,Malayalam,കമ്പ്യൂട്ടേഷണൽ ലിംഗ്വിസ്റ്റിക്സിൽ മലയാളം അക്ഷരങ്ങളുടെ കൃത്യമ
+igris_phase17_synthetic_multilingual.json,syn_rec_000483,NON_TARGET_SCRIPT,Kannada,63,Kannada,ಟ್ರಾನ್ಸ್‌ಫಾರ್ಮರ್ ಮಾದರಿಯು ನಿಖರವಾದ ಪದ ಮುನ್ಸೂಚನೆಯನ್ನು ಒದಗಿಸುತ್ತ
+igris_phase17_synthetic_multilingual.json,syn_rec_000484,NON_TARGET_SCRIPT,Bengali,74,Bengali,এই বহুভাষিক ট্রান্সফরমার মডেল ভাষা প্রক্রিয়াকরণে অভূতপূর্ব 
+igris_phase17_synthetic_multilingual.json,syn_rec_000485,NON_TARGET_SCRIPT,Gujarati,85,Gujarati,ડીપ લર્નિંગ આધારિત ટ્રાન્સફોર્મર કુદરતી ભાષાના વિશ્લેષણમાં મ
+igris_phase17_synthetic_multilingual.json,syn_rec_000488,NON_TARGET_SCRIPT,Devanagari,80,Devanagari,यह न्यूरल आर्किटेक्चर स्वदेशी लिपियों के लिए कुशल टोकनाइज़ेश
+igris_phase17_synthetic_multilingual.json,syn_rec_000490,NON_TARGET_SCRIPT,Telugu,82,Telugu,ట్రాన్స్ఫార్మర్ నమూనా పదాల ప్రాతినిధ్యాలను ఖచ్చితంగా నేర్చుక
+igris_phase17_synthetic_multilingual.json,syn_rec_000491,NON_TARGET_SCRIPT,Malayalam,90,Malayalam,കമ്പ്യൂട്ടേഷണൽ ലിംഗ്വിസ്റ്റിക്സിൽ മലയാളം അക്ഷരങ്ങളുടെ കൃത്യമ
+igris_phase17_synthetic_multilingual.json,syn_rec_000492,NON_TARGET_SCRIPT,Kannada,63,Kannada,ಟ್ರಾನ್ಸ್‌ಫಾರ್ಮರ್ ಮಾದರಿಯು ನಿಖರವಾದ ಪದ ಮುನ್ಸೂಚನೆಯನ್ನು ಒದಗಿಸುತ್ತ
+igris_phase17_synthetic_multilingual.json,syn_rec_000493,NON_TARGET_SCRIPT,Bengali,74,Bengali,এই বহুভাষিক ট্রান্সফরমার মডেল ভাষা প্রক্রিয়াকরণে অভূতপূর্ব 
+igris_phase17_synthetic_multilingual.json,syn_rec_000494,NON_TARGET_SCRIPT,Gujarati,85,Gujarati,ડીપ લર્નિંગ આધારિત ટ્રાન્સફોર્મર કુદરતી ભાષાના વિશ્લેષણમાં મ
+igris_phase17_synthetic_multilingual.json,syn_rec_000497,NON_TARGET_SCRIPT,Devanagari,80,Devanagari,कंप्यूटेशनल भाषाविज्ञान में सभी भारतीय भाषाओं का संतुलित प्र
+igris_phase17_synthetic_multilingual.json,syn_rec_000499,NON_TARGET_SCRIPT,Telugu,69,Telugu,గ్రూప్డ్ క్వెరీ అటెన్షన్ మెమరీ వినియోగాన్ని సమర్థవంతంగా తగ్గ
+igris_phase17_synthetic_multilingual.json,syn_rec_000500,NON_TARGET_SCRIPT,Malayalam,90,Malayalam,കമ്പ്യൂട്ടേഷണൽ ലിംഗ്വിസ്റ്റിക്സിൽ മലയാളം അക്ഷരങ്ങളുടെ കൃത്യമ
+synthetic_dryrun_dataset.json,IGRIS-SYNTH-DRYRUN-0004,NON_TARGET_SCRIPT,Devanagari,81,Devanagari,यह बहुभाषी ट्रांसफार्मर मॉडल विभिन्न लिपियों के प्रतिनिधित्व
+synthetic_dryrun_dataset.json,IGRIS-SYNTH-DRYRUN-0005,NON_TARGET_SCRIPT,Devanagari,77,Devanagari,ग्रूप्ड क्वेरी अटेंशन और रोटरी एम्बेडिंग मॉडल की गति और सटीक
+synthetic_dryrun_dataset.json,IGRIS-SYNTH-DRYRUN-0006,NON_TARGET_SCRIPT,Devanagari,72,Devanagari,कम्प्यूटेशनल भाषाविज्ञान में भारतीय लिपियों का संरक्षण अत्यं
+synthetic_dryrun_dataset.json,IGRIS-SYNTH-DRYRUN-0009,NON_TARGET_SCRIPT,Telugu,80,Telugu,ఈ బహుభాషా న్యూరల్ నెట్వర్క్ భారతీయ భాషల సహజ భాషా ప్రాసెసింగ్
+synthetic_dryrun_dataset.json,IGRIS-SYNTH-DRYRUN-0010,NON_TARGET_SCRIPT,Telugu,82,Telugu,ట్రాన్స్ఫార్మర్ నమూనా పదాల ప్రాతినిధ్యాలను ఖచ్చితంగా నేర్చుక
+synthetic_dryrun_dataset.json,IGRIS-SYNTH-DRYRUN-0011,NON_TARGET_SCRIPT,Bengali,90,Bengali,এই বহুভাষিক ট্রান্সফরমার মডেল ভারতীয় ভাষাগুলির প্রাকৃতিক ভা
+synthetic_dryrun_dataset.json,IGRIS-SYNTH-DRYRUN-0012,NON_TARGET_SCRIPT,Bengali,57,Bengali,রোটারি পজিশন এমবেডিং মডেলের গতি এবং নির্ভুলতা বৃদ্ধি করে।
+synthetic_dryrun_dataset.json,IGRIS-SYNTH-DRYRUN-0013,NON_TARGET_SCRIPT,Devanagari,83,Devanagari,हा बहुभाषिक ट्रान्सफॉर्मर मॉडेल भारतीय भाषांच्या संगणकीय प्र
+synthetic_dryrun_dataset.json,IGRIS-SYNTH-DRYRUN-0014,NON_TARGET_SCRIPT,Gujarati,85,Gujarati,આ બહુભાષી ટ્રાન્સફોર્મર મોડેલ ભારતીય ભાષાઓના કુદરતી ભાષા પ્ર
+synthetic_dryrun_dataset.json,IGRIS-SYNTH-DRYRUN-0015,UNCLASSIFIABLE_NOISE,OUT_OF_SCOPE_METADATA_OR_NOISE,86,LATIN_OR_SYMBOL_NOISE,"def compute_attention(q, k, v, mask=None): return torch.matm"

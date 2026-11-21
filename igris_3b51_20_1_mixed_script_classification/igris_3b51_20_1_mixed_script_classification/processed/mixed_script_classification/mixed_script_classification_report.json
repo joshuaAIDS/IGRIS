@@ -1,0 +1,40 @@
+{
+  "status": "PASS_WITH_REVIEW",
+  "input": "C:\\IGRIS\\igris_3b51_19_1_tamil_remediation\\igris_3b51_19_1_tamil_remediation\\processed\\tamil_mixed_script_review.jsonl",
+  "input_bytes": 727574,
+  "input_sha256": "b957db99e9abf197a32d14d0f4f4198f97d3e33f5eb5266d8780a8c294b4251b",
+  "utf8_valid": true,
+  "input_nonempty_records": 723,
+  "malformed_json_lines": 0,
+  "classification_counts": {
+    "likely_valid": 597,
+    "contamination_candidate": 13,
+    "ambiguous": 113
+  },
+  "classification_reason_counts": {
+    "mixed_script_or_record_context_not_established": 101,
+    "tamil_and_latin_without_strong_contamination_indicators": 597,
+    "url_or_structural_token_requires_contextual_review": 12,
+    "web_markup_script_or_navigation_indicator": 13
+  },
+  "indicator_record_counts": {
+    "html": 8,
+    "script": 2,
+    "seo_or_navigation": 3,
+    "url": 12
+  },
+  "policy": [
+    "No source record is deleted.",
+    "all_records_preserved.jsonl retains every non-empty input line.",
+    "Classification is heuristic and is not proof of contamination.",
+    "likely_valid records still require sampling and human review.",
+    "URLs and structural-token-like text are ambiguous, not automatically discarded.",
+    "Do not use these classifications as licensing or commercial-rights approval."
+  ],
+  "outputs": {
+    "all_records_preserved": "all_records_preserved.jsonl",
+    "likely_valid": "likely_valid.jsonl",
+    "contamination_candidate": "contamination_candidate.jsonl",
+    "ambiguous": "ambiguous.jsonl"
+  }
+}

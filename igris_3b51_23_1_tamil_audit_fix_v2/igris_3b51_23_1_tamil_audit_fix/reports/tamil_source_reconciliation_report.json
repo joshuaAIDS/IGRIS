@@ -1,0 +1,137 @@
+{
+  "status": "PASS_WITH_REVIEW",
+  "raw_source": "C:\\IGRIS\\igris_3b51_18_1_tamil_pilot_acquisition_fix\\igris_3b51_18_1_tamil_pilot_acquisition\\data\\raw\\tamil\\indiccorp_v2_tamil_pilot.txt",
+  "raw_source_bytes": 8418479,
+  "raw_source_sha256": "54dffb4960bf1e3c48477ef6bc9a7933dea68687c4ea9fcf097a69425d5d019d",
+  "recovery_report_expected_sha256": "54dffb4960bf1e3c48477ef6bc9a7933dea68687c4ea9fcf097a69425d5d019d",
+  "raw_source_hash_matches_recovery_report": true,
+  "raw_source_line_count": 10000,
+  "unresolved_records_checked": 10,
+  "comparison_counts": {
+    "NO_MATCH": 7,
+    "NFC_MATCH": 3
+  },
+  "cases": [
+    {
+      "case": 1,
+      "source_line_1_based": 500,
+      "recovery_status_original": "MISMATCH",
+      "truncated_flag": true,
+      "comparison": "NO_MATCH",
+      "preview_present": true,
+      "preview_chars": 500,
+      "source_chars": 1399,
+      "preview_encoding_repaired": false
+    },
+    {
+      "case": 2,
+      "source_line_1_based": 1357,
+      "recovery_status_original": "MISMATCH",
+      "truncated_flag": false,
+      "comparison": "NFC_MATCH",
+      "preview_present": true,
+      "preview_chars": 319,
+      "source_chars": 325,
+      "preview_encoding_repaired": false
+    },
+    {
+      "case": 3,
+      "source_line_1_based": 3944,
+      "recovery_status_original": "MISMATCH",
+      "truncated_flag": false,
+      "comparison": "NFC_MATCH",
+      "preview_present": true,
+      "preview_chars": 479,
+      "source_chars": 480,
+      "preview_encoding_repaired": false
+    },
+    {
+      "case": 4,
+      "source_line_1_based": 4236,
+      "recovery_status_original": "MISMATCH",
+      "truncated_flag": false,
+      "comparison": "NFC_MATCH",
+      "preview_present": true,
+      "preview_chars": 374,
+      "source_chars": 381,
+      "preview_encoding_repaired": false
+    },
+    {
+      "case": 5,
+      "source_line_1_based": 5218,
+      "recovery_status_original": "MISMATCH",
+      "truncated_flag": true,
+      "comparison": "NO_MATCH",
+      "preview_present": true,
+      "preview_chars": 500,
+      "source_chars": 1123,
+      "preview_encoding_repaired": false
+    },
+    {
+      "case": 6,
+      "source_line_1_based": 6017,
+      "recovery_status_original": "MISMATCH",
+      "truncated_flag": true,
+      "comparison": "NO_MATCH",
+      "preview_present": true,
+      "preview_chars": 500,
+      "source_chars": 667,
+      "preview_encoding_repaired": false
+    },
+    {
+      "case": 7,
+      "source_line_1_based": 586,
+      "recovery_status_original": "MISMATCH",
+      "truncated_flag": true,
+      "comparison": "NO_MATCH",
+      "preview_present": true,
+      "preview_chars": 500,
+      "source_chars": 2812,
+      "preview_encoding_repaired": false
+    },
+    {
+      "case": 8,
+      "source_line_1_based": 4249,
+      "recovery_status_original": "MISMATCH",
+      "truncated_flag": true,
+      "comparison": "NO_MATCH",
+      "preview_present": true,
+      "preview_chars": 500,
+      "source_chars": 2124,
+      "preview_encoding_repaired": false
+    },
+    {
+      "case": 9,
+      "source_line_1_based": 6241,
+      "recovery_status_original": "MISMATCH",
+      "truncated_flag": true,
+      "comparison": "NO_MATCH",
+      "preview_present": true,
+      "preview_chars": 500,
+      "source_chars": 3030,
+      "preview_encoding_repaired": false
+    },
+    {
+      "case": 10,
+      "source_line_1_based": 6454,
+      "recovery_status_original": "MISMATCH",
+      "truncated_flag": true,
+      "comparison": "NO_MATCH",
+      "preview_present": true,
+      "preview_chars": 500,
+      "source_chars": 2959,
+      "preview_encoding_repaired": false
+    }
+  ],
+  "blockers": [],
+  "review_items": [
+    "one_or_more_unresolved_records_need_manual_review"
+  ],
+  "notes": [
+    "Read-only: no input files were modified.",
+    "The script reads the preview from original_classification_record.original_record.text.",
+    "Mojibake repair is attempted only as a diagnostic comparison; original records are not rewritten.",
+    "A prefix match is not proof that a truncated record has been fully recovered.",
+    "This comparison does not approve content quality, dataset inclusion, licensing, or commercial rights."
+  ]
+}

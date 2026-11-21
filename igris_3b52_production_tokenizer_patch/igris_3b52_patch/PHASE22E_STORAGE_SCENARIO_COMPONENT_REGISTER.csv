@@ -1,0 +1,14 @@
+component_id,component_name,size_gb_dec,size_gib_bin,physical_or_planned_path,persistence_type,creation_stage,deletion_stage,is_duplicated,evidence_supporting_inclusion,classification
+COMP_00,Operating System and Base Tooling,50.00,46.57,/ or C:\,PERSISTENT,Baseline,Never,NO,Host OS CUDA drivers virtualenv baseline,MEASURED_BASELINE
+COMP_01,Quarantined Raw Corpus (9 files 7 languages),183.70,171.08,quarantine/raw/,PERSISTENT_UNTIL_CLEANED,Ingress,Post-cleaning verification,NO,Phase 21B3 immutable IndicCorp v2 metadata,MEASURED_PAYLOAD
+COMP_02,Streaming Transfer Buffer in RAM,0.00,0.00,Resident RAM (64 KiB),TRANSIENT_RAM,Ingress,End of chunk read,NO,secure_acquisition_engine.py L326 L453,MEASURED_CODE_REALITY
+COMP_03,In-Flight Shard Buffer Allowance,26.70,24.87,quarantine/raw/*.part,TRANSIENT_DISK,Ingress,Atomic rename os.replace(),NO,Phase 22B largest Hindi shard allowance,UNVERIFIED_CONSERVATIVE_ALLOWANCE
+COMP_04,Validation Scratch Buffer,5.00,4.66,scratch/validation/,TRANSIENT_DISK,Validation,Validation completion,NO,File integrity SHA-256 and sample validation,ESTIMATED_OPERATIONAL_BUFFER
+COMP_05,Cleaned and Normalized Dataset,130.00,121.07,data/cleaned/,PERSISTENT_DURING_PIPELINE,Cleaning,Post-tokenization verification,NO,Pilot yield data (~70.7% retention of raw),MEASURED_TRANSFORMATION_OUTPUT
+COMP_06,Cleaning and Sorting Workspace,20.00,18.63,scratch/cleaning/,TRANSIENT_DISK,Cleaning,Cleaning completion,NO,Text sorting and batch chunk workspace,ESTIMATED_OPERATIONAL_BUFFER
+COMP_07,Deduplication Index,10.00,9.31,data/indices/dedup/,TRANSIENT_STAGE_INDEX,Deduplication,Deduplication completion,NO,64-bit MinHash signature hash tables,ESTIMATED_PIPELINE_INDEX
+COMP_08,Tokenized Binary Dataset Shards,12.00,11.18,data/tokenized/,PERSISTENT_DURING_TRAINING,Tokenization,Project decommission,NO,3.0B–5.5B tokens in compressed int32 Arrow,MEASURED_TOKENIZER_OUTPUT
+COMP_09,Tokenization Scratch Workspace,20.00,18.63,scratch/tokenization/,TRANSIENT_DISK,Tokenization,Tokenization completion,NO,Batch token encoding and shard serialization buffer,ESTIMATED_OPERATIONAL_BUFFER
+COMP_10,Pretraining Model Checkpoints,15.00,13.97,checkpoints/pretraining/,PERSISTENT_ROLLING_WINDOW,Pretraining,Rolling purge (retaining 3–10 ckpts),NO,Model weights and optimizer states (~1.5 GB/ckpt),MEASURED_MODEL_STATE
+COMP_11,Training Telemetry and Logs,10.00,9.31,logs/pretraining/,PERSISTENT_PROJECT_LOGS,Pretraining,Project decommission,NO,TensorBoard logs and eval metrics,ESTIMATED_LOGGING_BUFFER
+COMP_12,Unmanaged Raw Download Duplicate,183.70,171.08,downloads/raw/ (external),PERSISTENT_UNMANAGED,Ingress,Manual administrative purge,YES,Hypothetical external CLI or browser staging,CONSERVATIVE_HYPOTHETICAL_COPY

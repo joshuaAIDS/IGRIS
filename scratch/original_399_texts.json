@@ -1,0 +1,1598 @@
+[
+  {
+    "id": "SYN-CAND-A-0001",
+    "text": "இந்த server configuration ரொம்ப complex-ஆ இருக்கு, restart பண்ணவா?"
+  },
+  {
+    "id": "SYN-CAND-A-0002",
+    "text": "API latency அதிகமா இருக்கு, Redis caching implement பண்ணனும்."
+  },
+  {
+    "id": "SYN-CAND-A-0003",
+    "text": "Database migration script-ஐ staging environment-ல் test பண்ணிட்டேன்."
+  },
+  {
+    "id": "SYN-CAND-A-0004",
+    "text": "Production cluster-ல் memory leak detect ஆகியிருக்கு, alert notify பண்ணியாச்சு."
+  },
+  {
+    "id": "SYN-CAND-A-0005",
+    "text": "Authentication token expire ஆகிட்டா user login page-க்கு redirect ஆகிடும்."
+  },
+  {
+    "id": "SYN-CAND-A-0006",
+    "text": "Continuous integration pipeline-ல் build test cases pass ஆகிடுச்சு."
+  },
+  {
+    "id": "SYN-CAND-A-0007",
+    "text": "Model weights checkpoint save பண்ணிட்டு GPU memory release பண்ணுங்க."
+  },
+  {
+    "id": "SYN-CAND-A-0008",
+    "text": "Docker container logs-ஐ check பண்ணி error message என்னன்னு பாருங்க."
+  },
+  {
+    "id": "SYN-CAND-A-0009",
+    "text": "Pull request review முடிஞ்சது, merge conflict எதுவும் இல்லை."
+  },
+  {
+    "id": "SYN-CAND-A-0010",
+    "text": "Network bandwidth optimize பண்ண load balancer configure பண்ணனும்."
+  },
+  {
+    "id": "SYN-CAND-A-0011",
+    "text": "Backend microservices-க்கு message queue setup பண்ணியாச்சு."
+  },
+  {
+    "id": "SYN-CAND-A-0012",
+    "text": "Frontend framework upgrade பண்ணும்போது dependency issues வருது."
+  },
+  {
+    "id": "SYN-CAND-A-0013",
+    "text": "Batch size increase பண்ணா out-of-memory error வருது, gradient accumulation use பண்ணலாம்."
+  },
+  {
+    "id": "SYN-CAND-A-0014",
+    "text": "Query optimization பண்ணின பிறகு database response time improve ஆகியிருக்கு."
+  },
+  {
+    "id": "SYN-CAND-A-0015",
+    "text": "Security audit report-ல் zero critical vulnerabilities காமிக்குது."
+  },
+  {
+    "id": "SYN-CAND-A-0016",
+    "text": "Configuration file-ல் environment variables change பண்ணிட்டு server reload பண்ணுங்க."
+  },
+  {
+    "id": "SYN-CAND-A-0017",
+    "text": "Cloud storage bucket permissions-ஐ verify பண்ணிட்டு download script run பண்ணலாம்."
+  },
+  {
+    "id": "SYN-CAND-A-0018",
+    "text": "Training loss steady-ஆ decrease ஆகுது, validation perplexity monitor பண்ணுங்க."
+  },
+  {
+    "id": "SYN-CAND-A-0019",
+    "text": "Websocket connection drop ஆனா automatic reconnect trigger ஆகணும்."
+  },
+  {
+    "id": "SYN-CAND-A-0020",
+    "text": "Release notes draft பண்ணி repository documentation-ல் update பண்ணியாச்சு."
+  },
+  {
+    "id": "SYN-CAND-A-0021",
+    "text": "Innaiku evening tea sapda polama? Enaku romba tired-ah iruku."
+  },
+  {
+    "id": "SYN-CAND-A-0022",
+    "text": "Nalla movie pathiya nethu? Climax scene romba emotionally touch aayiduchu."
+  },
+  {
+    "id": "SYN-CAND-A-0023",
+    "text": "Naalaiku kaalaila seekiram kelambanum, reminder set panni vechuruken."
+  },
+  {
+    "id": "SYN-CAND-A-0024",
+    "text": "Avan kitta pesinen, execution plan pathi avanukum nalla understanding iruku."
+  },
+  {
+    "id": "SYN-CAND-A-0025",
+    "text": "Enna aachu da? Romba nerama message pakkama iruka, edhavadhu problem-ah?"
+  },
+  {
+    "id": "SYN-CAND-A-0026",
+    "text": "Office-ku vandha udane unaku call panren, tension aagadha."
+  },
+  {
+    "id": "SYN-CAND-A-0027",
+    "text": "Indha restaurant-la biryani super-ah irukum, kandippa try pannanum."
+  },
+  {
+    "id": "SYN-CAND-A-0028",
+    "text": "Veetla ellarum epdi irukanga? Amma kitta pesi romba naal aachu."
+  },
+  {
+    "id": "SYN-CAND-A-0029",
+    "text": "Enoda laptop charger marandhuten, yaradhu spare vachurukengala?"
+  },
+  {
+    "id": "SYN-CAND-A-0030",
+    "text": "Macha, nethu night sonna code snippet work aayiduchu, thanks da!"
+  },
+  {
+    "id": "SYN-CAND-A-0031",
+    "text": "Weekend plan edhavadhu iruka illai full day rest eduka poriya?"
+  },
+  {
+    "id": "SYN-CAND-A-0032",
+    "text": "Kandippa serndhu prepare pannalam, exam romba easy-ah clear pannidalam."
+  },
+  {
+    "id": "SYN-CAND-A-0033",
+    "text": "Train time aayiduchu, station-ku auto la poyitu iruken."
+  },
+  {
+    "id": "SYN-CAND-A-0034",
+    "text": "Adhu pathi kavala padadha, ellam correct-ah nadakkum."
+  },
+  {
+    "id": "SYN-CAND-A-0035",
+    "text": "Unoda presentation super-ah vandhudhu, manager romba appreciate pannaru."
+  },
+  {
+    "id": "SYN-CAND-A-0036",
+    "text": "Indha logic puriyala na kekka vendiyadhu dhane, ethuku silent-ah iruka?"
+  },
+  {
+    "id": "SYN-CAND-A-0037",
+    "text": "Pasi edukkudhu pa, seekiram lunch polaam vaanga."
+  },
+  {
+    "id": "SYN-CAND-A-0038",
+    "text": "Pudhu phone vaangiyaacha? Camera quality epdi iruku?"
+  },
+  {
+    "id": "SYN-CAND-A-0039",
+    "text": "Romba nalla idea idhu, implementation pathi pesalaam."
+  },
+  {
+    "id": "SYN-CAND-A-0040",
+    "text": "Nalaiku meeting cancel aayiduchu, vera slot book pannanum."
+  },
+  {
+    "id": "SYN-CAND-A-0041",
+    "text": "Let us wrap up this release quickly da, otherwise deployment will get delayed."
+  },
+  {
+    "id": "SYN-CAND-A-0042",
+    "text": "Aiyo, the network latency is spiking again, please check the load balancer."
+  },
+  {
+    "id": "SYN-CAND-A-0043",
+    "text": "Don't worry pa, the pipeline will auto-recover in a couple of minutes."
+  },
+  {
+    "id": "SYN-CAND-A-0044",
+    "text": "Seri, let us schedule the sprint retrospective for tomorrow morning."
+  },
+  {
+    "id": "SYN-CAND-A-0045",
+    "text": "Machan, did you review the latest architectural diagram for the gateway?"
+  },
+  {
+    "id": "SYN-CAND-A-0046",
+    "text": "That pull request is looking romba clean, nice refactoring effort!"
+  },
+  {
+    "id": "SYN-CAND-A-0047",
+    "text": "Apdiya? I thought the authentication service was already migrated to the cloud."
+  },
+  {
+    "id": "SYN-CAND-A-0048",
+    "text": "Please finish this documentation ticket today itself da, client is waiting."
+  },
+  {
+    "id": "SYN-CAND-A-0049",
+    "text": "Kandippa we will meet the project deadline, the team velocity is very high."
+  },
+  {
+    "id": "SYN-CAND-A-0050",
+    "text": "Aiyo, I forgot to commit the configuration template before branching."
+  },
+  {
+    "id": "SYN-CAND-A-0051",
+    "text": "Hey thambi, can you verify the SHA-256 checksum of the downloaded archive?"
+  },
+  {
+    "id": "SYN-CAND-A-0052",
+    "text": "Seri pa, let us merge this hotfix and monitor the Grafana dashboard."
+  },
+  {
+    "id": "SYN-CAND-A-0053",
+    "text": "Machan, the new tokenizer candidate has a much lower fertility rate."
+  },
+  {
+    "id": "SYN-CAND-A-0054",
+    "text": "No problem da, we can easily reproduce the test failure in our local sandbox."
+  },
+  {
+    "id": "SYN-CAND-A-0055",
+    "text": "Aiyo, the disk space on the root partition is critically low!"
+  },
+  {
+    "id": "SYN-CAND-A-0056",
+    "text": "Seri, I will write the unit tests for the cryptographic validator."
+  },
+  {
+    "id": "SYN-CAND-A-0057",
+    "text": "That model checkpoint achieved romba good validation accuracy in epoch five."
+  },
+  {
+    "id": "SYN-CAND-A-0058",
+    "text": "Don't touch the production database directly da, always use the migration scripts."
+  },
+  {
+    "id": "SYN-CAND-A-0059",
+    "text": "Kandippa we should follow the solo developer owner review protocol."
+  },
+  {
+    "id": "SYN-CAND-A-0060",
+    "text": "Seri, let us double check the licensing metadata before signing off."
+  },
+  {
+    "id": "SYN-CAND-A-0061",
+    "text": "Client requirement-la sudden change, so frontend layout-ஐ restructure பண்ண வேண்டியிருக்கு."
+  },
+  {
+    "id": "SYN-CAND-A-0062",
+    "text": "Initial commit push panniten, pull request open pannava illai direct-ah merge pannalama?"
+  },
+  {
+    "id": "SYN-CAND-A-0063",
+    "text": "Cache memory clear panniyum issue persist aagudhu, log files check pannunga."
+  },
+  {
+    "id": "SYN-CAND-A-0064",
+    "text": "Code review comments address பண்ணியாச்சு, unit tests ellam pass aagudhu."
+  },
+  {
+    "id": "SYN-CAND-A-0065",
+    "text": "Server reboot aana piragu microservices automatically start aagala, script execute பண்ணனும்."
+  },
+  {
+    "id": "SYN-CAND-A-0066",
+    "text": "Tokenization efficiency optimize panna, byte-fallback mechanism enable பண்ண வேண்டியிருக்கு."
+  },
+  {
+    "id": "SYN-CAND-A-0067",
+    "text": "Staging cluster-ல் load testing execute pannom, throughput expectations-க்கு match aagudhu."
+  },
+  {
+    "id": "SYN-CAND-A-0068",
+    "text": "Ingress gate lock-ஆ இருக்கறதால, zero external network calls allowed nu enforce பண்ணியாச்சு."
+  },
+  {
+    "id": "SYN-CAND-A-0069",
+    "text": "Data cleaning pipeline run பண்ணும்போது, non-target languages ellam filter aayidum."
+  },
+  {
+    "id": "SYN-CAND-A-0070",
+    "text": "Dependency upgrade pannina udane, build artifacts verify பண்ணிட்டு report generate பண்ணலாம்."
+  },
+  {
+    "id": "SYN-CAND-A-0071",
+    "text": "Feature branch create பண்ணி working copy isolate பண்ணியாச்சு, development start pannalam."
+  },
+  {
+    "id": "SYN-CAND-A-0072",
+    "text": "Database connection pool timeout increase பண்ணினா, concurrency issues solve aagidum."
+  },
+  {
+    "id": "SYN-CAND-A-0073",
+    "text": "Storage matrix calculations verify pannitom, local disk capacity deficit clearly documented."
+  },
+  {
+    "id": "SYN-CAND-A-0074",
+    "text": "Continuous integration workflow fail aagama iruka, temporary directories cleanup pannanum."
+  },
+  {
+    "id": "SYN-CAND-A-0075",
+    "text": "Production configuration freeze பண்ணியachu, unauthorized modifications strictly reject aagum."
+  },
+  {
+    "id": "SYN-CAND-A-0076",
+    "text": "Model evaluation benchmark run aagum bothu, zero evaluation data leakage ensure பண்ணனும்."
+  },
+  {
+    "id": "SYN-CAND-A-0077",
+    "text": "Audit trail logging configure பண்ணிட்டோம், all filesystem changes track aagudhu."
+  },
+  {
+    "id": "SYN-CAND-A-0078",
+    "text": "Vocabulary size 32768 tokens-க்கு pin panniyachu, structural tokens safely preserved."
+  },
+  {
+    "id": "SYN-CAND-A-0079",
+    "text": "Hardware probe output inspect பண்ணி, compute budget and RAM limits confirm பண்ணியாச்சு."
+  },
+  {
+    "id": "SYN-CAND-A-0080",
+    "text": "Licensing compliance review mudinjudhu, owner authorization package ready-ah iruku."
+  },
+  {
+    "id": "SYN-CAND-A-0081",
+    "text": "கணினி வலையமைப்பு (computer network) பாதுகாப்பு protocol-கள் முறையாக configure செய்யப்பட வேண்டும்."
+  },
+  {
+    "id": "SYN-CAND-A-0082",
+    "text": "System architecture design document-ல் data flow diagrams மற்றும் interface specifications சேர்க்கப்பட்டுள்ளன."
+  },
+  {
+    "id": "SYN-CAND-A-0083",
+    "text": "மென்பொருள் உருவாக்க சுழற்சியில் (software development lifecycle) automated regression testing முக்கிய பங்கு வகிக்கிறது."
+  },
+  {
+    "id": "SYN-CAND-A-0084",
+    "text": "Distributed database clusters-ல் consensus algorithm implementation உயர் நம்பகத்தன்மையை (high availability) உறுதி செய்கிறது."
+  },
+  {
+    "id": "SYN-CAND-A-0085",
+    "text": "தகவல் பாதுகாப்பு விதிமுறைகளின்படி (data security compliance), sensitive configuration variables அனைத்தும் encrypt செய்யப்பட வேண்டும்."
+  },
+  {
+    "id": "SYN-CAND-A-0086",
+    "text": "Decoder-only transformer architecture-ல் multi-head self-attention mechanisms language representations-ஐ generate செய்கின்றன."
+  },
+  {
+    "id": "SYN-CAND-A-0087",
+    "text": "இயக்க முறைமை (operating system) வள மேலாண்மை மூலமாக GPU allocation மற்றும் CPU utilization கண்காணிக்கப்படுகிறது."
+  },
+  {
+    "id": "SYN-CAND-A-0088",
+    "text": "Microservice communication protocols-ல் gRPC மற்றும் REST endpoints-க்கான rate limiting rules வகுக்கப்பட்டுள்ளன."
+  },
+  {
+    "id": "SYN-CAND-A-0089",
+    "text": "தரவு பகுப்பாய்வு (data analytics) மற்றும் feature engineering பணிகளில் memory-mapped files செயல்திறனை அதிகரிக்கின்றன."
+  },
+  {
+    "id": "SYN-CAND-A-0090",
+    "text": "Cryptographic hash verification மூலமாக software packages மற்றும் model checkpoints-ன் integrity உறுதிப்படுத்தப்படுகிறது."
+  },
+  {
+    "id": "SYN-CAND-A-0091",
+    "text": "ஆராய்ச்சி சூழலில் (research environment) deterministic random seed அமைப்பது experimental reproducibility-க்கு அவசியமானது."
+  },
+  {
+    "id": "SYN-CAND-A-0092",
+    "text": "Neural network optimization-ல் learning rate schedule மற்றும் gradient clipping hyperparameters converge ஆவதற்கு உதவுகின்றன."
+  },
+  {
+    "id": "SYN-CAND-A-0093",
+    "text": "கோப்பு முறைமை (file system) தனிமைப்படுத்தல் மூலமாக test environments மற்றும் production pipelines பிரிக்கப்பட்டுள்ளன."
+  },
+  {
+    "id": "SYN-CAND-A-0094",
+    "text": "Access control policies மற்றும் cryptographic signatures மூலமாக unauthorized data ingress தடுக்கப்படுகிறது."
+  },
+  {
+    "id": "SYN-CAND-A-0095",
+    "text": "மென்பொருள் தர உறுதிப்பாட்டு குழு (quality assurance team) functional testing மற்றும் load testing அறிக்கைகளை சமர்ப்பித்துள்ளது."
+  },
+  {
+    "id": "SYN-CAND-A-0096",
+    "text": "Asynchronous event-driven architecture-ல் message brokers throughput மற்றும் scalability-ஐ கணிசமாக மேம்படுத்துகின்றன."
+  },
+  {
+    "id": "SYN-CAND-A-0097",
+    "text": "நினைவக மேலாண்மை (memory management) குறைபாடுகளை கண்டறிய profiling tools மற்றும் heap dump analysis பயன்படுத்தப்படுகிறது."
+  },
+  {
+    "id": "SYN-CAND-A-0098",
+    "text": "Source code version control களஞ்சியத்தில் (repository) atomic commits மற்றும் linear branch history பராமரிக்கப்படுகிறது."
+  },
+  {
+    "id": "SYN-CAND-A-0099",
+    "text": "Cloud deployment automation-ல் infrastructure as code (IaC) templates consistency மற்றும் security-ஐ நிலைநிறுத்துகின்றன."
+  },
+  {
+    "id": "SYN-CAND-A-0100",
+    "text": "செயற்கை நுண்ணறிவு நெறிமுறைகளின்படி (AI ethics guidelines), dataset provenance மற்றும் licensing transparency உறுதி செய்யப்பட்டுள்ளது."
+  },
+  {
+    "id": "SYN-CAND-A-0101",
+    "text": "தமிழ் மொழியானது உலகின் மிகத் தொன்மையான செம்மொழிகளில் ஒன்றாகக் கருதப்படுகிறது."
+  },
+  {
+    "id": "SYN-CAND-A-0102",
+    "text": "இயற்கை வளங்களைப் பாதுகாப்பது நமது எதிர்கால சந்ததியினரின் நலனுக்கு மிகவும் இன்றியமையாதது ஆகும்."
+  },
+  {
+    "id": "SYN-CAND-A-0103",
+    "text": "கணினி அறிவியல் துறையில் செயற்கை நுண்ணறிவு மற்றும் இயந்திரக் கற்றல் பெரும் மாற்றங்களை ஏற்படுத்தி வருகின்றன."
+  },
+  {
+    "id": "SYN-CAND-A-0104",
+    "text": "அறிவியல் ஆராய்ச்சிகள் மனித சமுதாயத்தின் வளர்ச்சிக்கும் நல்வாழ்விற்கும் வழிவகுக்கின்றன."
+  },
+  {
+    "id": "SYN-CAND-A-0105",
+    "text": "நூலகங்கள் அறிவின் களஞ்சியங்களாகவும் பண்பாட்டு மையங்களாகவும் திகழ்கின்றன."
+  },
+  {
+    "id": "SYN-CAND-A-0106",
+    "text": "சூரிய குடும்பத்தில் பூமி மூன்றாவது கோளாகவும், உயிரினங்கள் வாழக்கூடிய ஒரே இடமாகவும் உள்ளது."
+  },
+  {
+    "id": "SYN-CAND-A-0107",
+    "text": "மருத்துவத் துறையில் புதிய தொழில்நுட்பங்களின் பயன்பாடு மனித ஆயுளை நீட்டிக்க உதவுகிறது."
+  },
+  {
+    "id": "SYN-CAND-A-0108",
+    "text": "தமிழ்நாட்டில் உள்ள தஞ்சைப் பெருவுடையார் கோயில் சோழர்களின் கட்டிடக்கலைக்கு ஒரு சிறந்த எடுத்துக்காட்டாகும்."
+  },
+  {
+    "id": "SYN-CAND-A-0109",
+    "text": "விவசாயம் நாட்டின் பொருளாதாரத்தின் முதுகெலும்பாக விளங்குகிறது, உழவர்கள் உணவு உற்பத்தியில் முன்னிற்கின்றனர்."
+  },
+  {
+    "id": "SYN-CAND-A-0110",
+    "text": "தொல்காப்பியம் தமிழ் இலக்கணத்தின் மிகப்பழமையான நூலாக இன்றும் அறிஞர்களால் போற்றப்படுகிறது."
+  },
+  {
+    "id": "SYN-CAND-A-0111",
+    "text": "நீர்வள மேலாண்மை எதிர்கால வறட்சியைத் தடுக்கவும் உணவுப் பாதுகாப்பை உறுதிப்படுத்தவும் அவசியம்."
+  },
+  {
+    "id": "SYN-CAND-A-0112",
+    "text": "இணையத்தின் வருகை உலகளாவிய தொடர்புகளை எளிமையாக்கி தகவல்களை உடனடியாகப் பகிர உதவுகிறது."
+  },
+  {
+    "id": "SYN-CAND-A-0113",
+    "text": "காற்றாலை மின்சாரம் மற்றும் சூரிய ஒளி மின்சாரம் போன்ற புதுப்பிக்கத்தக்க ஆற்றல் உற்பத்தி அதிகரித்து வருகிறது."
+  },
+  {
+    "id": "SYN-CAND-A-0114",
+    "text": "வானிலை முன்னறிவிப்பு செயற்கைக்கோள் தரவுகளை அடிப்படையாகக் கொண்டு விவசாயிகளுக்கு முன்கூட்டியே வழங்கப்படுகிறது."
+  },
+  {
+    "id": "SYN-CAND-A-0115",
+    "text": "ஒவ்வொரு மனிதனும் மற்றவர்களின் கருத்துக்களை மதித்து அமைதியான சமுதாயத்தை உருவாக்க பாடுபட வேண்டும்."
+  },
+  {
+    "id": "SYN-CAND-A-0116",
+    "text": "திருக்குறள் உலக மக்கள் அனைவருக்கும் பொதுவான வாழ்வியல் நெறிகளை எடுத்துரைக்கும் உன்னத நூல்."
+  },
+  {
+    "id": "SYN-CAND-A-0117",
+    "text": "The decoder-only transformer architecture forms the foundation of modern large language models."
+  },
+  {
+    "id": "SYN-CAND-A-0118",
+    "text": "Operating system processes manage virtual memory allocation and inter-process communication channels."
+  },
+  {
+    "id": "SYN-CAND-A-0119",
+    "text": "Cryptographic hash functions produce fixed-size deterministic digests from arbitrary input byte streams."
+  },
+  {
+    "id": "SYN-CAND-A-0120",
+    "text": "Distributed consensus protocols ensure data consistency across replicated state machines in the cluster."
+  },
+  {
+    "id": "SYN-CAND-A-0121",
+    "text": "Database indexing structures such as B-trees significantly reduce the latency of query lookups."
+  },
+  {
+    "id": "SYN-CAND-A-0122",
+    "text": "Software compilation involves lexical analysis, parsing, semantic verification, and code generation."
+  },
+  {
+    "id": "SYN-CAND-A-0123",
+    "text": "Network transport layers establish reliable end-to-end connections using transmission control protocols."
+  },
+  {
+    "id": "SYN-CAND-A-0124",
+    "text": "Version control systems maintain complete history logs of repository modifications over time."
+  },
+  {
+    "id": "SYN-CAND-A-0125",
+    "text": "Containerization encapsulates applications with their dependencies to enable consistent runtime environments."
+  },
+  {
+    "id": "SYN-CAND-A-0126",
+    "text": "Asynchronous event loops handle multiple concurrent non-blocking input and output operations efficiently."
+  },
+  {
+    "id": "SYN-CAND-A-0127",
+    "text": "Information retrieval algorithms rank relevant documents using statistical token frequencies and vector similarity."
+  },
+  {
+    "id": "SYN-CAND-A-0128",
+    "text": "Cache coherence mechanisms maintain memory uniformity across multiple processing cores in modern processors."
+  },
+  {
+    "id": "SYN-CAND-A-0129",
+    "text": "Static code analysis detects potential security vulnerabilities and logic defects prior to deployment."
+  },
+  {
+    "id": "SYN-CAND-A-0130",
+    "text": "High-availability architectures eliminate single points of failure through automated failover mechanisms."
+  },
+  {
+    "id": "SYN-CAND-A-0131",
+    "text": "Microservice architectures decouple application components into independently deployable units communicating over HTTP."
+  },
+  {
+    "id": "SYN-CAND-A-0132",
+    "text": "Memory safety guarantees prevent buffer overflows and dangling pointer dereferences in low-level systems."
+  },
+  {
+    "id": "SYN-CAND-A-0133",
+    "text": "Innaiku kaalaila romba mazhai peyudhu, veliya poga mudiyala pa."
+  },
+  {
+    "id": "SYN-CAND-A-0134",
+    "text": "Naalaiku office-ku seekiram kelambanum, mukkiyamaana client meeting irukku."
+  },
+  {
+    "id": "SYN-CAND-A-0135",
+    "text": "Indha hotel-la biryani taste romba nalla iruku, kandippa marubadiyum varanum."
+  },
+  {
+    "id": "SYN-CAND-A-0136",
+    "text": "Weekend-la friends ellarum serndhu cinema-ku polama nu yosikirom."
+  },
+  {
+    "id": "SYN-CAND-A-0137",
+    "text": "Unakku enna problem, edhuku ipdi kavalappattutu irukka, ellam seri aayidum."
+  },
+  {
+    "id": "SYN-CAND-A-0138",
+    "text": "Pudhiya laptop vangiyachu, build quality super-aa iruku, performance semma speed."
+  },
+  {
+    "id": "SYN-CAND-A-0139",
+    "text": "Exam-ku nalla prepare pannitiya? Enaku innum konjam portions padikka vendiyirukku."
+  },
+  {
+    "id": "SYN-CAND-A-0140",
+    "text": "Train tickets confirm aayiducha illai waiting list-la dhaan iruka nu check pannu."
+  },
+  {
+    "id": "SYN-CAND-A-0141",
+    "text": "Amma samachadhu eppovume super taste, oorukku poganum nu aasaia irukku."
+  },
+  {
+    "id": "SYN-CAND-A-0142",
+    "text": "Avan kitta andha project files ellam kuduthuten, innum review pannala nu sonnan."
+  },
+  {
+    "id": "SYN-CAND-A-0143",
+    "text": "Nethu night football match paathiya, climax-la semma goal pottanga thala."
+  },
+  {
+    "id": "SYN-CAND-A-0144",
+    "text": "Romba tired-aa irukku, oru cup tea kudinga, appuram velaiya thodangalaam."
+  },
+  {
+    "id": "SYN-CAND-A-0145",
+    "text": "Phone battery seekiram discharge aagudhu, service center-la kudukka vendiyirukkum."
+  },
+  {
+    "id": "SYN-CAND-A-0146",
+    "text": "Namma oorla pudhusa oru supermarket thirandhurukaanga, anga poyi paakalam."
+  },
+  {
+    "id": "SYN-CAND-A-0147",
+    "text": "Enakku indha vishayam theriyadhu, avana kettu solren, konjam wait pannu."
+  },
+  {
+    "id": "SYN-CAND-A-0148",
+    "text": "Bus stand-ku poga autokaaran kitta pesi paathen, romba adhigama kekkuraan da."
+  },
+  {
+    "id": "SYN-CAND-A-0149",
+    "text": "Indha API endpoint-ku JSON response structure validate பண்ணியாச்சு, frontend integrate பண்ணலாம்."
+  },
+  {
+    "id": "SYN-CAND-A-0150",
+    "text": "Model training loss stabilize aaga 50 epochs வரை run பண்ண வேண்டியிருக்கும்."
+  },
+  {
+    "id": "SYN-CAND-A-0151",
+    "text": "Production deployment-க்கு முன்னாடி regression tests run பண்ணி report generate பண்ணுங்க."
+  },
+  {
+    "id": "SYN-CAND-A-0152",
+    "text": "Code review-ல performance optimization suggestions கொடுத்திருக்காங்க, change பண்ணனும்."
+  },
+  {
+    "id": "SYN-CAND-A-0153",
+    "text": "Security audit-ல் cryptographic tokens check பண்ணி authorization headers verify பண்ணினோம்."
+  },
+  {
+    "id": "SYN-CAND-A-0154",
+    "text": "Docker container restart loop-ல மாட்டிக்கிச்சு, container logs inspect பண்ணி debug பண்ணு."
+  },
+  {
+    "id": "SYN-CAND-A-0155",
+    "text": "User authentication token expire ஆயிடுச்சு, session refresh பண்ணி retry பண்ணுங்க."
+  },
+  {
+    "id": "SYN-CAND-A-0156",
+    "text": "Cloud storage bucket permissions properly configure செய்யப்பட வேண்டும்."
+  },
+  {
+    "id": "SYN-CAND-A-0157",
+    "text": "Distributed cache miss rate அதிகமா இருக்கு, TTL duration adjust பண்ணி பாருங்க."
+  },
+  {
+    "id": "SYN-CAND-A-0158",
+    "text": "Unit test suite execute ஆகும்போது memory leak warning காண்பிக்கிறது."
+  },
+  {
+    "id": "SYN-CAND-A-0159",
+    "text": "Load balancer health check fail ஆனா traffic secondary instance-க்கு route ஆகும்."
+  },
+  {
+    "id": "SYN-CAND-A-0160",
+    "text": "Dataset tokenization process complete ஆகிவிட்டது, vocabulary hash verify பண்ணலாம்."
+  },
+  {
+    "id": "SYN-CAND-A-0161",
+    "text": "Kubernetes cluster node status ready-ஆ இல்லை, worker node logs analyse பண்ண வேண்டும்."
+  },
+  {
+    "id": "SYN-CAND-A-0162",
+    "text": "Hey machan, check the build logs, everything compiled smoothly without errors."
+  },
+  {
+    "id": "SYN-CAND-A-0163",
+    "text": "Seri, let us schedule the database backup window for midnight tonight."
+  },
+  {
+    "id": "SYN-CAND-A-0164",
+    "text": "Romba carefully review the pull request, it touches the core payment flow."
+  },
+  {
+    "id": "SYN-CAND-A-0165",
+    "text": "Thambi, don't push code without running the pre-commit linting checks first."
+  },
+  {
+    "id": "SYN-CAND-A-0166",
+    "text": "Aiyoo, the entire monitoring dashboard is showing timeout errors across all nodes."
+  },
+  {
+    "id": "SYN-CAND-A-0167",
+    "text": "You must verify the cryptographic signatures before approving the release da."
+  },
+  {
+    "id": "SYN-CAND-A-0168",
+    "text": "Dei, did you push the latest schema migrations to the staging environment yet?"
+  },
+  {
+    "id": "SYN-CAND-A-0169",
+    "text": "Tokenizer vocabulary-யில் 32,768 structural and subword tokens முறையாக allocate செய்யப்பட்டுள்ளன."
+  },
+  {
+    "id": "SYN-CAND-A-0170",
+    "text": "Gradient clipping threshold 1.0-க்கு மேலாக செல்லாமல் training stability ensure செய்யப்படுகிறது."
+  },
+  {
+    "id": "SYN-CAND-A-0171",
+    "text": "Checkpoint integrity verification SHA-256 hash validation மூலமாக confirm செய்யப்படுகிறது."
+  },
+  {
+    "id": "SYN-CAND-A-0172",
+    "text": "Context window length 2048 tokens-க்கு உட்பட்டு input sequences truncate செய்யப்படுகின்றன."
+  },
+  {
+    "id": "SYN-CAND-A-0173",
+    "text": "Rotary position embeddings (RoPE) relative token distances-ஐ encode செய்ய உதவுகின்றன."
+  },
+  {
+    "id": "SYN-CAND-A-0174",
+    "text": "SwiGLU activation function feed-forward network layers-ல் gradient flow-ஐ மேம்படுத்துகிறது."
+  },
+  {
+    "id": "SYN-CAND-A-0175",
+    "text": "Grouped-query attention (GQA) key-value cache memory overhead-ஐ 50% reduce செய்கிறது."
+  },
+  {
+    "id": "SYN-CAND-A-0176",
+    "text": "Root Mean Square Normalization (RMSNorm) layer outputs-ஐ stabilize செய்து training speed-ஐ அதிகரிக்கிறது."
+  },
+  {
+    "id": "SYN-CAND-A-0177",
+    "text": "FlashAttention v2 memory-efficient exact attention computation-ஐ GPU hardware-ல் execute செய்கிறது."
+  },
+  {
+    "id": "SYN-CAND-A-0178",
+    "text": "AdamW optimizer decoupled weight decay mechanism மூலமாக model overfitting-ஐ தடுக்கிறது."
+  },
+  {
+    "id": "SYN-CAND-A-0179",
+    "text": "Cosine annealing learning rate schedule training loss convergence-ஐ smooth ஆக்குகிறது."
+  },
+  {
+    "id": "SYN-CAND-A-0180",
+    "text": "Bfloat16 precision training numerical stability-ஐ maintain செய்து GPU memory-ஐ மிச்சப்படுத்துகிறது."
+  },
+  {
+    "id": "SYN-CAND-A-0181",
+    "text": "Data loader pipeline multithreaded workers மூலமாக tokenized shards-ஐ stream செய்கிறது."
+  },
+  {
+    "id": "SYN-CAND-A-0182",
+    "text": "Cross-entropy loss function target probability distribution-ஐ evaluate செய்து gradients calculate செய்கிறது."
+  },
+  {
+    "id": "SYN-CAND-A-0183",
+    "text": "கா கி கீ கு கூ கெ கே கை கொ கோ கௌ ஆகிய உயிர்மெய் எழுத்துக்கள் சரியாக பராமரிக்கப்பட வேண்டும்."
+  },
+  {
+    "id": "SYN-CAND-A-0184",
+    "text": "மெய்யெழுத்துக்கள் க் ங் ச் ஞ் ட் ண் த் ந் ப் ம் ய் ர் ல் வ் ழ் ள் ற் ன் புள்ளி எழுத்துக்கள் ஆகும்."
+  },
+  {
+    "id": "SYN-CAND-A-0185",
+    "text": "தமிழ் எண்கள் ௧ ௨ ௩ ௪ ௫ ௬ ௭ ௮ ௯ ௰ பண்டைய ஆவணங்களில் பரவலாகப் பயன்படுத்தப்பட்டன."
+  },
+  {
+    "id": "SYN-CAND-A-0186",
+    "text": "சொற்களைப் பிழை திருத்தம் செய்தல் மற்றும் கற்றல் கற்பித்தல் முறைகள் செம்மைப்படுத்தப்படுகின்றன."
+  },
+  {
+    "id": "SYN-CAND-A-0187",
+    "text": "நன்றாகப் படித்து தேர்வில் முதல் மதிப்பெண் பெற்ற மாணவர்களுக்கு வாழ்த்துகள் தெரிவிக்கப்பட்டது."
+  },
+  {
+    "id": "SYN-CAND-A-0188",
+    "text": "ஸ்ரீ ராமன் என்ற அடைமொழி மற்றும் கிரந்த எழுத்துக்கள் ஜ, ஷ, ஸ, ஹ, க்ஷ பயன்பாட்டில் உள்ளன."
+  },
+  {
+    "id": "SYN-CAND-A-0189",
+    "text": "க்‍க மற்றும் க்‌க போன்ற ZWJ மற்றும் ZWNJ குறியீடுகள் ரெண்டரிங்கில் பாதுகாக்கப்படுகின்றன."
+  },
+  {
+    "id": "SYN-CAND-A-0190",
+    "text": "க்் இரட்டைப் புள்ளி உள்ள பிழையான சொல்."
+  },
+  {
+    "id": "SYN-CAND-A-0191",
+    "text": "ா தனித்த உயிர்மெய்க் குறியீடு பிழையானது."
+  },
+  {
+    "id": "SYN-CAND-A-0192",
+    "text": "This text contains an invalid replacement character � causing encoding rejection."
+  },
+  {
+    "id": "SYN-CAND-A-0193",
+    "text": "கணினி\u0000கட்டுப்பாடு\u0001எழுத்துக்கள் நீக்கப்பட வேண்டும்."
+  },
+  {
+    "id": "SYN-CAND-A-0194",
+    "text": "நவீன தமிழ் உரைநடை மற்றும் பழங்கால இலக்கண மரபுகள் ஆகியவற்றுக்கு இடையேயான ஒப்பீடு."
+  },
+  {
+    "id": "SYN-CAND-A-0195",
+    "text": "ஆங்கிலம் மற்றும் தமிழ் சொற்கள் கலந்து வருவது தற்கால பேச்சு வழக்கில் இயல்பாகிவிட்டது da."
+  },
+  {
+    "id": "SYN-CAND-A-0196",
+    "text": "Microprocessor architecture-ல் cache hierarchy instructions-ஐ prefetch செய்கிறது."
+  },
+  {
+    "id": "SYN-CAND-A-0197",
+    "text": "Deep learning models require balanced multilingual datasets for optimal representation."
+  },
+  {
+    "id": "SYN-CAND-A-0198",
+    "text": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+  },
+  {
+    "id": "SYN-CAND-A-0199",
+    "text": "ஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹ"
+  },
+  {
+    "id": "SYN-CAND-A-0200",
+    "text": "https://example.com/a https://example.com/b https://example.com/c https://test.org/d https://links.net/e more links https://final.com"
+  },
+  {
+    "id": "SYN-CAND-A-0201",
+    "text": "Please accept our cookie policy and review our terms of service before using this site."
+  },
+  {
+    "id": "SYN-CAND-A-0202",
+    "text": "Click here to subscribe now and read our privacy policy advertisement."
+  },
+  {
+    "id": "SYN-CAND-A-0203",
+    "text": "Hello � world with corrupted � bytes � in stream"
+  },
+  {
+    "id": "SYN-CAND-A-0204",
+    "text": "Error 404 not found page not found on web server."
+  },
+  {
+    "id": "SYN-CAND-A-0205",
+    "text": "காலை வேளையில் நடைப்பயிற்சி மேற்கொள்வது உடல் நலத்திற்கும் மன அமைதிக்கும் நல்லது."
+  },
+  {
+    "id": "SYN-CAND-A-0206",
+    "text": "நேற்று மாலை நண்பர்களுடன் கடற்கரைக்குச் சென்று இனிமையாகப் பொழுதைக் கழித்தோம்."
+  },
+  {
+    "id": "SYN-CAND-A-0207",
+    "text": "புதிய தொழில் தொடங்குவதற்குத் தேவையான திட்ட அறிக்கையை வங்கி அதிகாரிகளிடம் சமர்ப்பித்தார்."
+  },
+  {
+    "id": "SYN-CAND-A-0208",
+    "text": "சுற்றுச்சூழல் விழிப்புணர்வு பேரணியில் கல்லூரி மாணவர்கள் அனைவரும் ஆர்வத்துடன் கலந்துகொண்டனர்."
+  },
+  {
+    "id": "SYN-CAND-A-0209",
+    "text": "மருத்துவ பரிசோதனை முடிவுகள் அனைத்தும் திருப்திகரமாக இருப்பதாக மருத்துவர் தெரிவித்தார்."
+  },
+  {
+    "id": "SYN-CAND-A-0210",
+    "text": "தரவுத்தள அட்டவணைகளில் உள்ள குறியீடுகள் வினவல் வேகத்தை பல மடங்கு அதிகரிக்க உதவுகின்றன."
+  },
+  {
+    "id": "SYN-CAND-A-0211",
+    "text": "வலைப்பின்னல் பாதுகாப்பு நெறிமுறைகள் அங்கீகரிக்கப்படாத தரவு அணுகலைத் திறம்பட தடுக்கின்றன."
+  },
+  {
+    "id": "SYN-CAND-A-0212",
+    "text": "செயலி நிரலாக்கத்தில் நினைவக மேலாண்மை கசிவுகளைத் தவிர்ப்பது முதன்மையான பணியாகும்."
+  },
+  {
+    "id": "SYN-CAND-A-0213",
+    "text": "செயற்கைக்கோள் தொலை உணர்வுத் தரவுகள் பயிர் விளைச்சல் மதிப்பீட்டிற்குப் பயன்படுகின்றன."
+  },
+  {
+    "id": "SYN-CAND-A-0214",
+    "text": "மின்னாற்றல் பகிர்வு வலையமைப்பில் தானியங்கி சுவிட்சுகள் தடங்கலற்ற மின்சாரத்தை வழங்குகின்றன."
+  },
+  {
+    "id": "SYN-CAND-A-0215",
+    "text": "கற்பவை கற்று வல்லுநராய் விளங்குதல் சான்றோரின் தலையாய கடமையாகப் போற்றப்படுகிறது."
+  },
+  {
+    "id": "SYN-CAND-A-0216",
+    "text": "சொற்பொழிவாளர் கூறிய கருத்துக்கள் அவையோரின் சிந்தனையைத் தூண்டுவனவாக அமைந்திருந்தன."
+  },
+  {
+    "id": "SYN-CAND-A-0217",
+    "text": "வளர்ந்தோங்கும் அறிவியல் உலகில் தமிழ்ச் சொற்களஞ்சியத்தை விரிவுபடுத்துவது அவசியமாகிறது."
+  },
+  {
+    "id": "SYN-CAND-A-0218",
+    "text": "பண்பாட்டு விழுமியங்களைப் பேணிப் பாதுகாத்தல் இளைய தலைமுறையினரின் நற்கடமையாகும்."
+  },
+  {
+    "id": "SYN-CAND-A-0219",
+    "text": "திருக்குறள் அறத்துப்பால் மனிதனின் நன்னடத்தைக்கான அடிப்படைக் கொள்கைகளை விளக்குகிறது."
+  },
+  {
+    "id": "SYN-CAND-A-0220",
+    "text": "We should discuss the quarterly project milestones during our weekly synchronization meeting tomorrow."
+  },
+  {
+    "id": "SYN-CAND-A-0221",
+    "text": "Please ensure all unit test cases are executed before opening a pull request for team review."
+  },
+  {
+    "id": "SYN-CAND-A-0222",
+    "text": "The restaurant downtown serves excellent Italian pasta with freshly baked sourdough bread and olive oil."
+  },
+  {
+    "id": "SYN-CAND-A-0223",
+    "text": "Regular physical exercise combined with balanced nutrition contributes significantly to cardiovascular health."
+  },
+  {
+    "id": "SYN-CAND-A-0224",
+    "text": "Autonomous navigation algorithms utilize real-time sensor streams to detect obstacles in urban environments."
+  },
+  {
+    "id": "SYN-CAND-A-0225",
+    "text": "Static analysis tools inspect syntax trees to enforce architectural boundary constraints across modules."
+  },
+  {
+    "id": "SYN-CAND-A-0226",
+    "text": "Garbage collection routines traverse object reference graphs to reclaim unreachable heap allocations safely."
+  },
+  {
+    "id": "SYN-CAND-A-0227",
+    "text": "The primary objective of automated unit testing is isolating components to verify behavioral invariants."
+  },
+  {
+    "id": "SYN-CAND-A-0228",
+    "text": "தமிழ் எண்கள் ௧ ௨ ௩ ௪ ௫ ௬ ௭ ௮ ௯ ௰ ஆவணங்களில் பாதுகாப்பாக பராமரிக்கப்படுகின்றன."
+  },
+  {
+    "id": "SYN-CAND-A-0229",
+    "text": "க்் இரட்டைப் புள்ளி உள்ள பிழையான சொல் திருத்தப்பட வேண்டும்."
+  },
+  {
+    "id": "SYN-CAND-A-0230",
+    "text": "ா தனித்த உயிர்மெய்க் குறியீடு வாக்கியத்தின் தொடக்கத்தில் பிழையானது."
+  },
+  {
+    "id": "SYN-CAND-A-0231",
+    "text": "This record contains corrupted bytes � in stream causing strict encoding rejection."
+  },
+  {
+    "id": "SYN-CAND-A-0232",
+    "text": "Data corruption � occurred during transmission across unverified socket channel."
+  },
+  {
+    "id": "SYN-CAND-A-0233",
+    "text": "த்் தவறான மெய்க்குறியீடு வரிசை சரிபார்க்கப்பட வேண்டும்."
+  },
+  {
+    "id": "SYN-CAND-A-0234",
+    "text": "Hi ok"
+  },
+  {
+    "id": "SYN-CAND-A-0235",
+    "text": "https://site.com/a https://site.com/b https://site.com/c https://site.com/d https://site.com/e more links https://site.com/f"
+  },
+  {
+    "id": "SYN-CAND-A-0236",
+    "text": "தொன்மை வாய்ந்த தமிழ் இலக்கியங்கள் மனித வாழ்வின் விழுமியங்களை மிக அழகாக எடுத்துரைக்கின்றன."
+  },
+  {
+    "id": "SYN-CAND-A-0237",
+    "text": "மழைநீர் சேகரிப்பு அமைப்புகளை வீடுகளில் அமைப்பது நிலத்தடி நீர்மட்டத்தை உயர்த்த மிகவும் உதவும்."
+  },
+  {
+    "id": "SYN-CAND-A-0238",
+    "text": "செயற்கை நுண்ணறிவு மாதிரிகள் பெரிய அளவிலான தரவுத்தொகுப்புகளைக் கொண்டு பயிற்றுவிக்கப்படுகின்றன."
+  },
+  {
+    "id": "SYN-CAND-A-0239",
+    "text": "பண்டைய சோழர்களின் கடல்சார் வணிகம் தென்கிழக்கு ஆசிய நாடுகளில் பரவியிருந்ததை வரலாறு கூறுகிறது."
+  },
+  {
+    "id": "SYN-CAND-A-0240",
+    "text": "ஆசிரியர் மாணவர்களுக்கு கணிதக் கோட்பாடுகளை எளிய உதாரணங்களுடன் புரியும்படி விளக்கினார்."
+  },
+  {
+    "id": "SYN-CAND-A-0241",
+    "text": "இன்று மதியம் அலுவலக உணவகத்தில் சுவையான சாம்பார் சாதம் மற்றும் அப்பளம் வழங்கப்பட்டது."
+  },
+  {
+    "id": "SYN-CAND-A-0242",
+    "text": "வார இறுதியில் குடும்பத்தினருடன் கிராமத்திற்குச் சென்று அமைதியான சூழலில் தங்கி வந்தோம்."
+  },
+  {
+    "id": "SYN-CAND-A-0243",
+    "text": "நகராட்சி நிர்வாகம் சாலை விரிவாக்கப் பணிகளை விரைந்து முடிக்குமாறு ஒப்பந்ததாரருக்கு உத்தரவிட்டது."
+  },
+  {
+    "id": "SYN-CAND-A-0244",
+    "text": "மாவட்ட அளவிலான அறிவியல் கண்காட்சியில் பள்ளி மாணவர்களின் கண்டுபிடிப்புகள் பாராட்டப்பட்டன."
+  },
+  {
+    "id": "SYN-CAND-A-0245",
+    "text": "யோகா மற்றும் தியானப் பயிற்சிகள் மன அழுத்தத்தைக் குறைத்து உடல் சுறுசுறுப்பை அதிகரிக்கின்றன."
+  },
+  {
+    "id": "SYN-CAND-A-0246",
+    "text": "விநியோகிக்கப்பட்ட அமைப்புகளில் தரவு ஒருமைப்பாட்டைப் பராமரிக்க ஒருமித்த நெறிமுறைகள் பயன்படுகின்றன."
+  },
+  {
+    "id": "SYN-CAND-A-0247",
+    "text": "இயக்க முறைமை செயல்முறைகளுக்கு இடையேயான தொடர்புகளை பாதுகாப்பான நினைவகப் பாதையில் அமைக்கிறது."
+  },
+  {
+    "id": "SYN-CAND-A-0248",
+    "text": "நுண்செயலி வடிவமைப்பு வழிமுறைகள் மின் நுகர்வைக் குறைத்து செயலாக்கத் திறனை மேம்படுத்துகின்றன."
+  },
+  {
+    "id": "SYN-CAND-A-0249",
+    "text": "மேகக்கணி சேமிப்பகத்தில் தரவுகள் குறியாக்கப்பட்டு அங்கீகரிக்கப்பட்ட பயனர்களுக்கு மட்டுமே பகிரப்படுகின்றன."
+  },
+  {
+    "id": "SYN-CAND-A-0250",
+    "text": "தானியங்கி வாகனங்கள் சென்சார் தகவல்களை நிகழ்நேரத்தில் பகுப்பாய்வு செய்து பாதையைத் தீர்மானிக்கின்றன."
+  },
+  {
+    "id": "SYN-CAND-A-0251",
+    "text": "எப்பொருள் யார்யார்வாய்க் கேட்பினும் அப்பொருள் மெய்ப்பொருள் காண்பது அறிவு என்பது தமிழ் மரபு."
+  },
+  {
+    "id": "SYN-CAND-A-0252",
+    "text": "பழங்காலக் கல்வெட்டுகள் அக்காலத்து ஆட்சிமுறை மற்றும் சமூக நிலையைப் படம்பிடித்துக் காட்டுகின்றன."
+  },
+  {
+    "id": "SYN-CAND-A-0253",
+    "text": "மொழிபெயர்ப்புத் துறையில் சொல்லாக்க நெறிகளைப் பின்பற்றி புதிய கலைச்சொற்கள் உருவாக்கப்படுகின்றன."
+  },
+  {
+    "id": "SYN-CAND-A-0254",
+    "text": "மகிழ்ச்சியான மனநிலையே ஒரு மனிதனின் ஆரோக்கியமான நீண்ட ஆயுளுக்கு முதன்மையான காரணியாகும்."
+  },
+  {
+    "id": "SYN-CAND-A-0255",
+    "text": "பாரதியாரின் கவிதைகள் விடுதலை உணர்வையும் பெண் கல்வியின் அவசியத்தையும் ஓங்கி முழங்கின."
+  },
+  {
+    "id": "SYN-CAND-A-0256",
+    "text": "Modern operating systems enforce hardware-assisted address space separation to secure user processes."
+  },
+  {
+    "id": "SYN-CAND-A-0257",
+    "text": "Relational database engines rely on cost-based optimizers to select efficient physical execution plans."
+  },
+  {
+    "id": "SYN-CAND-A-0258",
+    "text": "Public key cryptography enables confidential communication over insecure channels using asymmetric key pairs."
+  },
+  {
+    "id": "SYN-CAND-A-0259",
+    "text": "Fault-tolerant message queues buffer incoming requests to decouple ingestion from asynchronous processing workers."
+  },
+  {
+    "id": "SYN-CAND-A-0260",
+    "text": "Deep learning frameworks construct dynamic computation graphs to compute backward gradients automatically."
+  },
+  {
+    "id": "SYN-CAND-A-0261",
+    "text": "Could you review the proposed schema migration before we apply it to the staging environment tonight?"
+  },
+  {
+    "id": "SYN-CAND-A-0262",
+    "text": "The conference speaker presented fascinating research on sustainable urban transportation infrastructure."
+  },
+  {
+    "id": "SYN-CAND-A-0263",
+    "text": "Continuous integration pipelines run linting, security scanning, and unit tests upon every commit."
+  },
+  {
+    "id": "SYN-CAND-A-0264",
+    "text": "Effective documentation clarifies architectural design decisions and simplifies onboarding for new engineers."
+  },
+  {
+    "id": "SYN-CAND-A-0265",
+    "text": "Browser rendering engines parse cascading style sheets and construct the visual render tree incrementally."
+  },
+  {
+    "id": "SYN-CAND-A-0266",
+    "text": "Virtual machines provide isolated guest operating systems by virtualizing underlying hardware resources."
+  },
+  {
+    "id": "SYN-CAND-A-0267",
+    "text": "Distributed transactions utilize two-phase commit protocols to guarantee atomic commit across multiple partitions."
+  },
+  {
+    "id": "SYN-CAND-A-0268",
+    "text": "Scalable architectures assemble stateless backend services fronted by resilient load balancers."
+  },
+  {
+    "id": "SYN-CAND-A-0269",
+    "text": "Web frameworks handle incoming HTTP requests through composable middleware filter pipelines."
+  },
+  {
+    "id": "SYN-CAND-A-0270",
+    "text": "Reliable data transmission protocols retransmit dropped packets using sliding window flow control mechanisms."
+  },
+  {
+    "id": "SYN-CAND-A-0271",
+    "text": "Event-driven architectures decouple state mutation publishers from independent downstream subscribers cleanly."
+  },
+  {
+    "id": "SYN-CAND-A-0272",
+    "text": "Low-latency trading platforms optimize network interface ring buffers to minimize serialization delays."
+  },
+  {
+    "id": "SYN-CAND-A-0273",
+    "text": "Content delivery networks cache static media assets at geographic edge locations near end users."
+  },
+  {
+    "id": "SYN-CAND-A-0274",
+    "text": "Container orchestrators reconcile cluster desired states by scheduling workload replicas across compute nodes."
+  },
+  {
+    "id": "SYN-CAND-A-0275",
+    "text": "Comprehensive observability platforms ingest structured logs, distributed traces, and metric time series."
+  },
+  {
+    "id": "SYN-CAND-A-0276",
+    "text": "The memory footprint looks completely stable now pa, no signs of memory leaks."
+  },
+  {
+    "id": "SYN-CAND-A-0277",
+    "text": "பா பி பீ பு பூ பெ பே பை பொ போ பௌ அனைத்து பா வரிசை உயிர்மெய் எழுத்துக்களும் உள்ளன."
+  },
+  {
+    "id": "SYN-CAND-A-0278",
+    "text": "வல்லினம் மெல்லினம் இடையினம் க் ச் ட் த் ப் ற் எழுத்துக்கள் முறையாக அமைக்கப்பட்டுள்ளன."
+  },
+  {
+    "id": "SYN-CAND-A-0279",
+    "text": "பழங்கால கணக்கு வழக்குகளில் ௱ மற்றும் ௲ ஆகிய தமிழ் நூறு மற்றும் ஆயிரம் எண்கள் வழங்கின."
+  },
+  {
+    "id": "SYN-CAND-A-0280",
+    "text": "ரிஷப ராசி மற்றும் கஜமுகன் போன்ற கிரந்த சொற்கள் தமிழ் உரைநடையில் பயன்படுகின்றன."
+  },
+  {
+    "id": "SYN-CAND-A-0281",
+    "text": "தமிழ் உரை‍நடை மற்றும் சொல்‌வளம் சீராக பராமரிக்கப்பட வேண்டும்."
+  },
+  {
+    "id": "SYN-CAND-A-0282",
+    "text": "ப்் இரட்டைப் புள்ளி வரிசை நிராகரிக்கப்பட வேண்டும்."
+  },
+  {
+    "id": "SYN-CAND-A-0283",
+    "text": "ீ தனித்த நெடில் குறியீடு சொல் தொடக்கத்தில் அமையக்கூடாது."
+  },
+  {
+    "id": "SYN-CAND-A-0284",
+    "text": "Network socket stream received invalid surrogate � replacement byte entity."
+  },
+  {
+    "id": "SYN-CAND-A-0285",
+    "text": "Database transaction log corrupted with � invalid Unicode codepoint marker."
+  },
+  {
+    "id": "SYN-CAND-A-0286",
+    "text": "ச்் இரட்டைப் புள்ளி உள்ள பிழையான சொல் அச்சுக்கோர்ப்பில் தவிர்க்கப்பட வேண்டும்."
+  },
+  {
+    "id": "SYN-CAND-A-0287",
+    "text": "வா போ"
+  },
+  {
+    "id": "SYN-CAND-A-0288",
+    "text": "ஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹஹ"
+  },
+  {
+    "id": "SYN-CAND-A-0289",
+    "text": "http://link1.org/test http://link2.org/test http://link3.org/test http://link4.org/test http://link5.org/test url list"
+  },
+  {
+    "id": "SYN-CAND-A-0290",
+    "text": "சங்க இலக்கியங்கள் தமிழர்களின் உயரிய காதல் மற்றும் வீர வாழ்வை விவரிக்கும் ஒப்பற்ற கருவூலமாகும்."
+  },
+  {
+    "id": "SYN-CAND-A-0291",
+    "text": "காடுகளைப் பாதுகாப்பதன் மூலமே பருவமழை பொய்க்காமல் விவசாயம் தழைத்தோங்க வழிவகை செய்ய இயலும்."
+  },
+  {
+    "id": "SYN-CAND-A-0292",
+    "text": "நரம்பியல் வலையமைப்புகள் மனித மூளையின் செயல்பாடுகளைப் போன்ற கற்றல் திறனைப் பெற்று விளங்குகின்றன."
+  },
+  {
+    "id": "SYN-CAND-A-0293",
+    "text": "காவிரி டெல்டா பாசன விவசாயிகள் நவீன நெல் சாகுபடி முறைகளை வெற்றிகரமாகக் கையாண்டு வருகின்றனர்."
+  },
+  {
+    "id": "SYN-CAND-A-0294",
+    "text": "பல்கலைக்கழகப் பட்டமளிப்பு விழாவில் சாதனை படைத்த மாணவர்களுக்கு தங்கப் பதக்கங்கள் வழங்கப்பட்டன."
+  },
+  {
+    "id": "SYN-CAND-A-0295",
+    "text": "கடும் வேலைப்பளுவுக்குப் பிறகு ஒரு சிறிய விடுமுறை எடுத்துக்கொண்டு மலை வாசஸ்தலம் செல்லவிருக்கிறேன்."
+  },
+  {
+    "id": "SYN-CAND-A-0296",
+    "text": "என் செல்லப் பிராணிக்கு உடல்நிலை சரியில்லாததால் கால்நடை மருத்துவமனைக்கு அழைத்துச் சென்றேன்."
+  },
+  {
+    "id": "SYN-CAND-A-0297",
+    "text": "பாதுகாப்பு அமைச்சகம் எல்லைப் பகுதிகளில் நவீன கண்காணிப்பு உபகரணங்களைப் பொருத்தியுள்ளது."
+  },
+  {
+    "id": "SYN-CAND-A-0298",
+    "text": "சர்வதேச திரைப்பட விழாவில் தமிழ் திரைப்படம் ஒன்றுக்கு சிறந்த ஒளிப்பதிவுக்கான விருது கிடைத்தது."
+  },
+  {
+    "id": "SYN-CAND-A-0299",
+    "text": "பாரம்பரிய சித்த மருத்துவ முறைகள் பல நாள்பட்ட நோய்களுக்கு பக்கவிளைவுகளற்ற தீர்வை வழங்குகின்றன."
+  },
+  {
+    "id": "SYN-CAND-A-0300",
+    "text": "குவாண்டம் கணினி தொழில்நுட்பம் எதிர்காலத்தில் சிக்கலான குறியாக்க அமைப்புகளைத் தீர்க்க வல்லது."
+  },
+  {
+    "id": "SYN-CAND-A-0301",
+    "text": "வலைதள சேவையகங்கள் அதிக அளவிலான கோரிக்கைகளை கையாள சுமை சமநிலைக் கருவிகளைப் பயன்படுத்துகின்றன."
+  },
+  {
+    "id": "SYN-CAND-A-0302",
+    "text": "நிகழ்நேர இயக்க முறைமைகள் வினாடியின் மைக்ரோ பகுதிக்குள் பணிகளை முடிக்கும் உத்தரவாதத்தை அளிக்கின்றன."
+  },
+  {
+    "id": "SYN-CAND-A-0303",
+    "text": "குறியாக்கவியல் வழிமுறைகள் மின்னணு பணப்பரிவர்த்தனைகளை இணைய மோசடிகளில் இருந்து பாதுகாக்கின்றன."
+  },
+  {
+    "id": "SYN-CAND-A-0304",
+    "text": "ரோபோட்டிக்ஸ் தொழில்நுட்பம் தொழிற்சாலைகளில் உற்பத்தித்திறனையும் பாதுகாப்பையும் பெருமளவில் கூட்டுகிறது."
+  },
+  {
+    "id": "SYN-CAND-A-0305",
+    "text": "கற்பனைக் கதைகளைக் காட்டிலும் வரலாற்று உண்மைகளை ஆதாரங்களுடன் விளக்குவதே ஆய்வின் நோக்கம்."
+  },
+  {
+    "id": "SYN-CAND-A-0306",
+    "text": "தன் கடமையை செவ்வனே ஆற்றுவோருக்கு வெற்றியானது தானாகவே வந்து சேரும் என்பது உறுதி."
+  },
+  {
+    "id": "SYN-CAND-A-0307",
+    "text": "தமிழறிஞர்கள் பலரும் உலகெங்கிலும் பரவி தமிழ் பண்பாட்டை அடுத்த தலைமுறைக்குக் கடத்துகின்றனர்."
+  },
+  {
+    "id": "SYN-CAND-A-0308",
+    "text": "இளைய தலைமுறை மாணவர்கள் நூல்களை வாசிக்கும் பழக்கத்தை வளர்த்துக்கொள்வது அவர்களின் சிந்தனைக்கு நலம்."
+  },
+  {
+    "id": "SYN-CAND-A-0309",
+    "text": "சிலப்பதிகாரம் கண்ணகியின் கற்பின் மாண்பையும் பாண்டிய மன்னனின் நீதி தவறாத தன்மையையும் விவரிக்கிறது."
+  },
+  {
+    "id": "SYN-CAND-A-0310",
+    "text": "Hardware abstraction layers encapsulate device-specific register operations behind uniform kernel driver interfaces."
+  },
+  {
+    "id": "SYN-CAND-A-0311",
+    "text": "Columnar storage formats optimize analytical queries by compressing homogeneous column vectors independently."
+  },
+  {
+    "id": "SYN-CAND-A-0312",
+    "text": "Zero-trust security models authenticate and authorize every identity before granting access to network perimeters."
+  },
+  {
+    "id": "SYN-CAND-A-0313",
+    "text": "Raft consensus clusters elect a unique leader node to sequence log entries across peer replica nodes."
+  },
+  {
+    "id": "SYN-CAND-A-0314",
+    "text": "Quantization techniques compress neural network weights into low-bit integers to accelerate edge inference."
+  },
+  {
+    "id": "SYN-CAND-A-0315",
+    "text": "I checked the production monitoring metrics and verified that request error rates remained well below threshold."
+  },
+  {
+    "id": "SYN-CAND-A-0316",
+    "text": "The local botanical garden features thousands of rare indigenous plant species and educational walking tours."
+  },
+  {
+    "id": "SYN-CAND-A-0317",
+    "text": "Automated canary deployments route a small fraction of live user traffic to newly deployed revisions."
+  },
+  {
+    "id": "SYN-CAND-A-0318",
+    "text": "Strong typing disciplines detect representational bugs at compile time before binaries execute in production."
+  },
+  {
+    "id": "SYN-CAND-A-0319",
+    "text": "WebAssembly provides a sandboxed stack-based bytecode virtual machine running with near-native speed in browsers."
+  },
+  {
+    "id": "SYN-CAND-A-0320",
+    "text": "Non-volatile storage controllers utilize wear leveling algorithms to maximize flash memory durability."
+  },
+  {
+    "id": "SYN-CAND-A-0321",
+    "text": "Resilient software systems handle transient network partitions by employing exponential backoff and jitter."
+  },
+  {
+    "id": "SYN-CAND-A-0322",
+    "text": "Modular codebases decouple domain business logic from infrastructure persistence adapters through interfaces."
+  },
+  {
+    "id": "SYN-CAND-A-0323",
+    "text": "High-throughput stream processors assemble unbounded record streams into sliding window aggregations."
+  },
+  {
+    "id": "SYN-CAND-A-0324",
+    "text": "Distributed tracing libraries correlate individual service spans by propagating unique trace identifiers."
+  },
+  {
+    "id": "SYN-CAND-A-0325",
+    "text": "Extensible microkernel architectures isolate device drivers into user space to prevent kernel panics."
+  },
+  {
+    "id": "SYN-CAND-A-0326",
+    "text": "Connection pooling libraries manage database socket lifecycles to eliminate repetitive handshake latency overhead."
+  },
+  {
+    "id": "SYN-CAND-A-0327",
+    "text": "Load testing tools simulate peak concurrent user traffic to identify database connection bottlenecks."
+  },
+  {
+    "id": "SYN-CAND-A-0328",
+    "text": "Stateless microservices scale horizontally by provisioning additional container replicas behind traffic balancers."
+  },
+  {
+    "id": "SYN-CAND-A-0329",
+    "text": "Immutable infrastructure patterns replace misbehaving virtual servers rather than applying in-place mutations."
+  },
+  {
+    "id": "SYN-CAND-A-0330",
+    "text": "Enaku innum rendunaal-la assignment submit pannanum, aana matter innum ready aagala."
+  },
+  {
+    "id": "SYN-CAND-A-0331",
+    "text": "Pudhusa release aana web series pathiya? Semma suspense, climax twist vera level."
+  },
+  {
+    "id": "SYN-CAND-A-0332",
+    "text": "Kalyanathuku poitu vandhom, sapadu laaddu semma sweet, relatives ellarayum meet pannom."
+  },
+  {
+    "id": "SYN-CAND-A-0333",
+    "text": "Bike service pottu vandhutten, engine sound ippo smooth-aa iruku, mileage epdi irukunu paakanum."
+  },
+  {
+    "id": "SYN-CAND-A-0334",
+    "text": "Interview round romba tough-aa irunthuchu da, system design questions ellam depth-aa kettanga."
+  },
+  {
+    "id": "SYN-CAND-A-0335",
+    "text": "Online order potta parcel innum varala, tracking status check pannina transit-la dhaan kaatuthu."
+  },
+  {
+    "id": "SYN-CAND-A-0336",
+    "text": "Gym-ku daily poganum nu mudivu panniruken, morning 6 manikke alarm vechu elundhirikanum."
+  },
+  {
+    "id": "SYN-CAND-A-0337",
+    "text": "Raincoat eduthu vechuko da, sky dark-aa irukku, eppo venaalum heavy rain start aagalaam."
+  },
+  {
+    "id": "SYN-CAND-A-0338",
+    "text": "Please don't forget to push the git tags after merge da, otherwise the build will fail."
+  },
+  {
+    "id": "SYN-CAND-A-0339",
+    "text": "Aiyo, the SSL certificate expired this morning, clients are seeing security warnings!"
+  },
+  {
+    "id": "SYN-CAND-A-0340",
+    "text": "Everything will be completely fine pa, our database replicas are fully in sync."
+  },
+  {
+    "id": "SYN-CAND-A-0341",
+    "text": "Hey machan, check the benchmark report, throughput has jumped by thirty percent."
+  },
+  {
+    "id": "SYN-CAND-A-0342",
+    "text": "Seri, I will create the Jira tickets and assign the bug fixes to the morning sprint."
+  },
+  {
+    "id": "SYN-CAND-A-0343",
+    "text": "Dei, did you verify the database connection pool settings on the staging server?"
+  },
+  {
+    "id": "SYN-CAND-A-0344",
+    "text": "Romba strictly avoid running administrative commands directly inside production pods."
+  },
+  {
+    "id": "SYN-CAND-A-0345",
+    "text": "Aiyoo, someone accidentally deleted the shared testing branch on GitHub!"
+  },
+  {
+    "id": "SYN-CAND-A-0346",
+    "text": "Ingress controller routing rules update பண்ணியாச்சு, traffic new canary deployment-க்கு போகுது."
+  },
+  {
+    "id": "SYN-CAND-A-0347",
+    "text": "Web socket connection disconnect ஆனா, client automatically exponential backoff-ல reconnect பண்ணும்."
+  },
+  {
+    "id": "SYN-CAND-A-0348",
+    "text": "Kafka topic partitioning key balance ஆகல, consumer lag increase ஆயிட்டே போகுது."
+  },
+  {
+    "id": "SYN-CAND-A-0349",
+    "text": "PostgreSQL database query plan analyze பண்ணினோம், missing index add பண்ண உடனே speed ஆச்சு."
+  },
+  {
+    "id": "SYN-CAND-A-0350",
+    "text": "Microservice health checks pass ஆனா மட்டும் தான் traffic route பண்ண வேண்டும்."
+  },
+  {
+    "id": "SYN-CAND-A-0351",
+    "text": "Security firewall rules modify பண்ணி, external IP range-க்கு access restrict பண்ணியாச்சு."
+  },
+  {
+    "id": "SYN-CAND-A-0352",
+    "text": "CI/CD pipeline build fail ஆயிடுச்சு, dependency cache clean பண்ணி retry பண்ணுங்க."
+  },
+  {
+    "id": "SYN-CAND-A-0353",
+    "text": "Attention matrix softmax normalization token attention weights-ஐ compute செய்ய உதவுகிறது."
+  },
+  {
+    "id": "SYN-CAND-A-0354",
+    "text": "Gradient accumulation steps effective batch size-ஐ GPU memory limits-க்கு உட்பட கூட்டுகின்றன."
+  },
+  {
+    "id": "SYN-CAND-A-0355",
+    "text": "Linear layer weight initialization variance exploding gradients-ஐ ஆரம்ப நிலையிலேயே தடுக்கிறது."
+  },
+  {
+    "id": "SYN-CAND-A-0356",
+    "text": "Residual connections deep neural network layers-ல் vanishing gradient problem-ஐ தீர்க்கின்றன."
+  },
+  {
+    "id": "SYN-CAND-A-0357",
+    "text": "Byte-Pair Encoding (BPE) subword segmentation algorithm rare words-ஐ character sequences-ஆ பிரிக்கிறது."
+  },
+  {
+    "id": "SYN-CAND-A-0358",
+    "text": "Cross-entropy validation loss early stopping mechanism மூலமாக model training-ஐ நிறைவு செய்கிறது."
+  },
+  {
+    "id": "SYN-CAND-A-0359",
+    "text": "தா தி தீ து தூ தெ தே தை தொ தோ தௌ ஆகிய உயிர்மெய் வரிசைகள் சரியாக உள்ளன."
+  },
+  {
+    "id": "SYN-CAND-A-0360",
+    "text": "மெய்யெழுத்துக்களின் ஒலிப்பு முறைகள் ங் ஞ் ண் ந் ம் ன் மெல்லின எழுத்துக்களில் தெளிவாகின்றன."
+  },
+  {
+    "id": "SYN-CAND-A-0361",
+    "text": "கல்வெட்டுகளில் ௧௫ மற்றும் ௨௦ போன்ற தமிழ் எண் குறியீடுகள் பொறிக்கப்பட்டுள்ளன."
+  },
+  {
+    "id": "SYN-CAND-A-0362",
+    "text": "புஷ்பம் மற்றும் சந்தோஷம் போன்ற சொற்களில் கிரந்த எழுத்துக்கள் நிறைந்துள்ளன."
+  },
+  {
+    "id": "SYN-CAND-A-0363",
+    "text": "கணினி‍வலையமைப்பு மற்றும் தரவு‌த்தளம் ரெண்டரிங் பாதுகாக்கப்படுகிறது."
+  },
+  {
+    "id": "SYN-CAND-A-0364",
+    "text": "ம்் இரட்டைப் புள்ளி சொல் பிழையாக பதியப்பட்டுள்ளது."
+  },
+  {
+    "id": "SYN-CAND-A-0365",
+    "text": "ொ தனித்த ஒற்றைக் கொம்பு குறியீடு சொல் தொடக்கத்தில் பிழையானது."
+  },
+  {
+    "id": "SYN-CAND-A-0366",
+    "text": "Incoming message packet failed decoding with replacement character � detected."
+  },
+  {
+    "id": "SYN-CAND-A-0367",
+    "text": "Storage sector sector dump contains corrupted � unmapped character symbol."
+  },
+  {
+    "id": "SYN-CAND-A-0368",
+    "text": "ல்் இரட்டைப் புள்ளி சொல் நிராகரிக்கப்பட வேண்டிய ஒன்றாகும்."
+  },
+  {
+    "id": "SYN-CAND-A-0369",
+    "text": "https://alpha.io https://beta.io https://gamma.io https://delta.io https://epsilon.io https://zeta.io spam links"
+  },
+  {
+    "id": "SYN-CAND-A-0370",
+    "text": "The multilingual decoder model evaluates representations across linguistic topologies."
+  },
+  {
+    "id": "SYN-CAND-A-0371",
+    "text": "செயற்கை நுண்ணறிவு கட்டமைப்புகள் மொழிகளுக்கு இடையேயான தொடர்புகளை எளிதாக்குகின்றன."
+  },
+  {
+    "id": "SYN-CAND-A-0372",
+    "text": "Speed and accuracy renderum semma balanced ah irukku on GPU hardware."
+  },
+  {
+    "id": "SYN-CAND-A-0373",
+    "text": "The neural architecture combines grouped query attention with rotary position embeddings."
+  },
+  {
+    "id": "SYN-CAND-A-0374",
+    "text": "கணினி மொழியியல் ஆய்வில் தமிழ் எழுத்துருக்களின் பயன்பாடு மிக முக்கிய பங்கு வகிக்கிறது."
+  },
+  {
+    "id": "SYN-CAND-A-0375",
+    "text": "இந்த பலமொழி மின்மாற்றி மாதிரி இந்திய மொழிகளுக்கான ஆழமான பிரதிநிதித்துவத்தை வழங்குகிறது."
+  },
+  {
+    "id": "SYN-CAND-A-0376",
+    "text": "குழு வினவல் கவனம் அமைப்பு நினைவக தேவையை குறைத்து வேகத்தை அதிகரிக்கிறது."
+  },
+  {
+    "id": "SYN-CAND-A-0377",
+    "text": "ரோட்டரி பொசிஷன் எம்பட்டிங் முறையானது தொடர் குறியாக்கத்தை திறம்பட செய்கிறது."
+  },
+  {
+    "id": "SYN-CAND-A-0378",
+    "text": "The multilingual decoder evaluates representations across distinct linguistic topologies."
+  },
+  {
+    "id": "SYN-CAND-A-0379",
+    "text": "Rotary position embeddings provide relative token awareness in causal transformers."
+  },
+  {
+    "id": "SYN-CAND-A-0380",
+    "text": "Hardware acceleration on local tensor cores optimizes sustained pretraining throughput."
+  },
+  {
+    "id": "SYN-CAND-A-0381",
+    "text": "Gradient clipping bounds numerical updates and prevents explosive divergence."
+  },
+  {
+    "id": "SYN-CAND-A-0382",
+    "text": "Assignment submission deadline nalaiku evening five PM kulla mudiyanum la?"
+  },
+  {
+    "id": "SYN-CAND-A-0383",
+    "text": "பல்கலைக்கழக தேர்வு அட்டவணை (university exam schedule) துறை அறிவிப்பு பலகையில் வெளியிடப்பட்டுள்ளது."
+  },
+  {
+    "id": "SYN-CAND-A-0384",
+    "text": "Library-la reference books renew பண்ணிட்டு, lab viva-க்கு prepare பண்ணலாம்."
+  },
+  {
+    "id": "SYN-CAND-A-0385",
+    "text": "Order dispatch aayiduchu nu SMS vandhudhu, delivery tracking link check பண்ணிட்டியா?"
+  },
+  {
+    "id": "SYN-CAND-A-0386",
+    "text": "Return policy seven days dhan iruku, size fit aagala na immediately replace pannanum."
+  },
+  {
+    "id": "SYN-CAND-A-0387",
+    "text": "UPI transaction fail aagi amount deduct aayiduchu, bank customer care-க்கு dispute raise பண்ணியாச்சு."
+  },
+  {
+    "id": "SYN-CAND-A-0388",
+    "text": "Metro card recharge online-la mudinjadhum, platform ticket eduka queue-la nikkavendiyadhilla."
+  },
+  {
+    "id": "SYN-CAND-A-0389",
+    "text": "Flight departure delay aana kooda, lounge access irukardhala comfortable-ah wait pannalam."
+  },
+  {
+    "id": "SYN-CAND-A-0390",
+    "text": "பொது போக்குவரத்து வழித்தடங்கள் (public transit routes) ஜிபிஎஸ் (GPS) தொழில்நுட்பம் மூலம் கண்காணிக்கப்படுகின்றன."
+  },
+  {
+    "id": "SYN-CAND-A-0391",
+    "text": "Doctor consultation-க்கு appointment book panniyachu, blood test reports-ஐ attach பண்ணிட்டேன்."
+  },
+  {
+    "id": "SYN-CAND-A-0392",
+    "text": "Hydration level maintain panna vendiyadhu romba mukkiyam, daily three liters water kudinga."
+  },
+  {
+    "id": "SYN-CAND-A-0393",
+    "text": "ஆரோக்கிய பராமரிப்பு நெறிமுறைகள் (healthcare guidelines) சீரான உடற்பயிற்சி மற்றும் சத்தான உணவை வலியுறுத்துகின்றன."
+  },
+  {
+    "id": "SYN-CAND-A-0394",
+    "text": "Git stash apply பண்ணும்போது merge conflict varala, unit tests clean-ah run aagudhu."
+  },
+  {
+    "id": "SYN-CAND-A-0395",
+    "text": "Type hints use பண்ணினா static analysis tool easily bugs-ஐ catch பண்ணிடும்."
+  },
+  {
+    "id": "SYN-CAND-A-0396",
+    "text": "இணையதள பயன்பாட்டு இடைமுகங்கள் (web application interfaces) பயனாளர் அனுபவத்தை (user experience) மையமாகக் கொண்டு வடிவமைக்கப்படுகின்றன."
+  },
+  {
+    "id": "SYN-CAND-A-0397",
+    "text": "Return the Euclidean distance between two points p and q, each given as a sequence (or iterable) of coordinates. Both points must have the same dimension."
+  },
+  {
+    "id": "SYN-CAND-A-0398",
+    "text": "Thanks to core developer Alex Smith (alex.smith@python.org) and review from Jane Doe (jdoe@example.com) for their patches on the async subsystem."
+  },
+  {
+    "id": "SYN-CAND-A-0399",
+    "text": "Table of Contents\n=================\n* Index\n* Module Index\n* Search Page"
+  }
+]

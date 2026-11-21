@@ -1,0 +1,200 @@
+{
+  "timestamp_utc": "2026-11-19T12:24:53.453274+00:00",
+  "pipeline_version": "IGRIS-P25-V2.0",
+  "total_benchmark_records": 150,
+  "reproducibility": {
+    "passed": true,
+    "mismatches": 0
+  },
+  "language_identification": {
+    "overall_accuracy": 0.94,
+    "total_correct": 141,
+    "total_evaluated": 150,
+    "confusion_matrix": {
+      "ENGLISH": {
+        "ENGLISH": 22,
+        "OUT_OF_SCOPE": 0,
+        "TAMIL": 0,
+        "TANGLISH": 7,
+        "UNKNOWN": 0
+      },
+      "OUT_OF_SCOPE": {
+        "ENGLISH": 0,
+        "OUT_OF_SCOPE": 12,
+        "TAMIL": 0,
+        "TANGLISH": 0,
+        "UNKNOWN": 0
+      },
+      "TAMIL": {
+        "ENGLISH": 0,
+        "OUT_OF_SCOPE": 0,
+        "TAMIL": 31,
+        "TANGLISH": 1,
+        "UNKNOWN": 0
+      },
+      "TANGLISH": {
+        "ENGLISH": 0,
+        "OUT_OF_SCOPE": 0,
+        "TAMIL": 1,
+        "TANGLISH": 71,
+        "UNKNOWN": 0
+      },
+      "UNKNOWN": {
+        "ENGLISH": 0,
+        "OUT_OF_SCOPE": 0,
+        "TAMIL": 0,
+        "TANGLISH": 0,
+        "UNKNOWN": 5
+      }
+    },
+    "per_class_metrics": {
+      "ENGLISH": {
+        "precision": 1.0,
+        "recall": 0.7586,
+        "f1": 0.8627,
+        "tp": 22,
+        "fp": 0,
+        "fn": 7,
+        "support": 29
+      },
+      "OUT_OF_SCOPE": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 12,
+        "fp": 0,
+        "fn": 0,
+        "support": 12
+      },
+      "TAMIL": {
+        "precision": 0.9688,
+        "recall": 0.9688,
+        "f1": 0.9688,
+        "tp": 31,
+        "fp": 1,
+        "fn": 1,
+        "support": 32
+      },
+      "TANGLISH": {
+        "precision": 0.8987,
+        "recall": 0.9861,
+        "f1": 0.9404,
+        "tp": 71,
+        "fp": 8,
+        "fn": 1,
+        "support": 72
+      },
+      "UNKNOWN": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "tp": 5,
+        "fp": 0,
+        "fn": 0,
+        "support": 5
+      }
+    },
+    "phase24_baseline_accuracy": 0.88,
+    "phase25_accuracy": 0.94,
+    "delta_improvement": 0.06
+  },
+  "unicode_processing": {
+    "nfc_stability_failures": 0,
+    "combining_marks_preserved": 700,
+    "virama_preserved": 500,
+    "zwj_zwnj_preserved": 2,
+    "malformed_sequences_detected": 4
+  },
+  "quality_filter": {
+    "accuracy": 0.9867,
+    "precision": 0.9851,
+    "recall": 1.0,
+    "f1": 0.9925,
+    "confusion": {
+      "tp": 132,
+      "tn": 16,
+      "fp": 2,
+      "fn": 0
+    }
+  },
+  "duplicate_detection": {
+    "precision": 1.0,
+    "recall": 0.8667,
+    "f1": 0.9286,
+    "confusion": {
+      "tp": 13,
+      "tn": 135,
+      "fp": 0,
+      "fn": 2
+    }
+  },
+  "pipeline_classification": {
+    "action_accuracy": 0.9733,
+    "action_counts": {
+      "ACCEPTED": 109,
+      "REJECTED": 28,
+      "DUPLICATE_FLAGGED": 13
+    },
+    "rejection_reasons_distribution": {
+      "MALFORMED_UNICODE": 2,
+      "DUPLICATE_EXACT: matches P25-SYN-0001": 1,
+      "DUPLICATE_EXACT: matches P25-SYN-0017": 1,
+      "DUPLICATE_EXACT: matches P25-SYN-0033": 1,
+      "DUPLICATE_EXACT: matches P25-SYN-0049": 1,
+      "DUPLICATE_EXACT: matches P25-SYN-0064": 1,
+      "DUPLICATE_NORMALIZED: matches P25-SYN-0002": 1,
+      "DUPLICATE_NORMALIZED: matches P25-SYN-0018": 1,
+      "DUPLICATE_NORMALIZED: matches P25-SYN-0034": 1,
+      "DUPLICATE_NORMALIZED: matches P25-SYN-0050": 1,
+      "DUPLICATE_NORMALIZED: matches P25-SYN-0065": 1,
+      "DUPLICATE_NEAR_DUPLICATE: matches P25-SYN-0003": 1,
+      "DUPLICATE_NEAR_DUPLICATE: matches P25-SYN-0051": 1,
+      "DUPLICATE_NEAR_DUPLICATE: matches P25-SYN-0066": 1,
+      "EMPTY_RECORD": 2,
+      "TOO_SHORT": 3,
+      "TOO_FEW_WORDS": 7,
+      "REPEATED_CHAR_SPAM": 2,
+      "URL_HEAVY": 1,
+      "EXCESSIVE_PUNCTUATION": 2,
+      "NO_ALPHABETIC_CHARS": 3,
+      "BOILERPLATE_DETECTED": 3,
+      "OUT_OF_SCOPE_LANGUAGE: DEVANAGARI": 5,
+      "OUT_OF_SCOPE_LANGUAGE: TELUGU": 5,
+      "OUT_OF_SCOPE_LANGUAGE: KANNADA": 1,
+      "OUT_OF_SCOPE_LANGUAGE: MALAYALAM": 1
+    }
+  },
+  "tokenizer_evaluation": {
+    "candidate_a_hash": "ac7e18b13973450b43bfff18609a833e4ef0e642b8dc5803e39ab1e81ba4c561",
+    "candidate_a_match": true,
+    "candidate_b_hash": "d3a3431e07c87ecce863647202ddc9b47b964718adbae7bf2bb2459223b94888",
+    "candidate_b_match": true,
+    "accepted_records_evaluated": 109,
+    "overall_fertility": 7.884,
+    "overall_unk_rate": 0.0,
+    "roundtrip_lossless_rate": 1.0,
+    "per_language_fertility": {
+      "TAMIL": {
+        "fertility": 9.6889,
+        "tokens": 2616,
+        "words": 270,
+        "unk": 0,
+        "records": 27
+      },
+      "ENGLISH": {
+        "fertility": 7.3145,
+        "tokens": 1163,
+        "words": 159,
+        "unk": 0,
+        "records": 13
+      },
+      "TANGLISH": {
+        "fertility": 7.3375,
+        "tokens": 5327,
+        "words": 726,
+        "unk": 0,
+        "records": 69
+      }
+    }
+  }
+}

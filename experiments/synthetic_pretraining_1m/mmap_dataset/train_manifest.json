@@ -1,0 +1,19 @@
+{
+  "split_name": "train",
+  "num_documents": 2400,
+  "total_tokens": 808743,
+  "bin_file": "train.bin",
+  "bin_sha256": "d2ca42820cafdd979d412d16c453e7a8192a76e99a14e2e2d39bc5c0a2fbcb9f",
+  "idx_file": "train.idx",
+  "idx_sha256": "956e77a9c8ead25c73e437b1a912153553123df4d95b4e9ebf8f0f2fe059f91f",
+  "language_counts": {
+    "TAMIL": 800,
+    "ENGLISH": 800,
+    "TANGLISH": 800
+  },
+  "max_doc_len": 509,
+  "min_doc_len": 130,
+  "avg_doc_len": 336.98,
+  "created_at": "2026-11-21T08:36:59",
+  "schema_version": "v1.0.0-mmap"
+}

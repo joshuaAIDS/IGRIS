@@ -1,0 +1,67 @@
+{
+  "overall_accuracy": 0.88,
+  "total_correct": 88,
+  "total_incorrect": 12,
+  "per_category": {
+    "ENGLISH_TAMIL_COLLOQUIAL": {
+      "total": 20,
+      "correct": 12,
+      "accuracy": 0.6,
+      "predictions": {
+        "ENGLISH": 8,
+        "TANGLISH": 12
+      }
+    },
+    "FORMAL_TECHNICAL_TANGLISH": {
+      "total": 20,
+      "correct": 19,
+      "accuracy": 0.95,
+      "predictions": {
+        "TANGLISH": 19,
+        "UNKNOWN": 1
+      }
+    },
+    "INTRA_SENTENTIAL_CODE_SWITCH": {
+      "total": 20,
+      "correct": 17,
+      "accuracy": 0.85,
+      "predictions": {
+        "TANGLISH": 17,
+        "ENGLISH": 3
+      }
+    },
+    "ROMANIZED_TAMIL_INFORMAL": {
+      "total": 20,
+      "correct": 20,
+      "accuracy": 1.0,
+      "predictions": {
+        "TANGLISH": 20
+      }
+    },
+    "TAMIL_SCRIPT_ENGLISH_TECH": {
+      "total": 20,
+      "correct": 20,
+      "accuracy": 1.0,
+      "predictions": {
+        "TANGLISH": 20
+      }
+    }
+  },
+  "per_class": {
+    "ENGLISH": {
+      "P": 0.0,
+      "R": 0,
+      "F1": 0
+    },
+    "TANGLISH": {
+      "P": 1.0,
+      "R": 0.88,
+      "F1": 0.9362
+    },
+    "UNKNOWN": {
+      "P": 0.0,
+      "R": 0,
+      "F1": 0
+    }
+  }
+}

@@ -1,0 +1,6 @@
+scope_id,scope_name,command_line,test_files_count,collected_cases,passed_count,failed_count,skipped_count,deselected_count,exit_code,duration_seconds,reconciliation_notes
+FULL_REPOSITORY_COLLECTION,Full Repository Collection,pytest igris_3b52_production_tokenizer_patch/igris_3b52_patch/tests --collect-only,43,530,0,0,0,0,0,3.92,Discovers all 530 unique test cases across all 43 test files.
+FULL_REPOSITORY_EXECUTION,Full Repository Test Execution,pytest igris_3b52_production_tokenizer_patch/igris_3b52_patch/tests -v,43,530,530,0,0,0,0,35.91,100% pass rate across entire repository with clean test isolation.
+INDEPENDENT_READINESS,Independent Readiness Suite,pytest igris_3b52_production_tokenizer_patch/igris_3b52_patch/tests/test_readiness.py -v,1,5,5,0,0,0,0,0.18,Confirms test_governance_isolation_check passes cleanly.
+ACQUISITION_SECURITY_GROUP,Acquisition Security Group (Phases 12/13/20/20B/21/21A),pytest [6 acquisition test files] -v,6,59,59,0,0,0,0,5.77,Confirms negative acquisition tests correctly reject and clean up.
+FOCUSED_PHASE21B_GROUP,Focused Phase Extension Group (Phases 20B through 21B3B),pytest [9 focused test files] -v,9,60,60,0,0,0,0,6.36,Confirms all governance and invariant assertions across Phase 20B-21B3B pass.

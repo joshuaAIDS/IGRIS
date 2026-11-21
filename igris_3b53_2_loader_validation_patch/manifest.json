@@ -1,0 +1,12 @@
+{
+  "patch": "IGRIS 3B.53.2",
+  "purpose": "Candidate A/B artifact metadata validators",
+  "training_started": false,
+  "corpus_read": false,
+  "production_repo_modified": false,
+  "real_artifact_tests_run": false,
+  "files": [
+    "README.md",
+    "src/igris/tokenizer/artifact_validation.py"
+  ]
+}

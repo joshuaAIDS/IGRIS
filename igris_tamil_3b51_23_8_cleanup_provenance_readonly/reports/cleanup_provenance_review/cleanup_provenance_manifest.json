@@ -1,0 +1,360 @@
+[
+  {
+    "source_line": 749,
+    "classification": "KEEP_WITH_CLEANUP_REVIEW",
+    "approval_status": "APPROVED_CLASSIFICATION_ONLY",
+    "stage3_flag_reason": "url_marker",
+    "manual_review_rationale": "Tamil government e-pass informational content; URL/source reference needs review.",
+    "record_characters": 422,
+    "record_sha256_utf8": "f6e7a0e865b658dd25c8172643cae3fc6e981faeec5805c09017c6082da00d51",
+    "automated_review_flags": [
+      "URL_OR_WEB_REFERENCE"
+    ],
+    "cleanup_action": "MANUAL_DECISION_REQUIRED; no automatic cleanup applied",
+    "provenance_status": "UNVERIFIED_FROM_TEXT_FILE",
+    "privacy_status": "NOT_ASSESSED",
+    "source_url_or_publication": "NOT_PRESENT_IN_APPROVED_REGISTER",
+    "license_and_rights": "NOT_VERIFIED",
+    "training_eligibility": "NOT_APPROVED"
+  },
+  {
+    "source_line": 1215,
+    "classification": "KEEP_WITH_CLEANUP_REVIEW",
+    "approval_status": "APPROVED_CLASSIFICATION_ONLY",
+    "stage3_flag_reason": "html_or_entity_marker",
+    "manual_review_rationale": "Tamil descriptive content with trailing HTML markup.",
+    "record_characters": 335,
+    "record_sha256_utf8": "48f1e1734da6c0e91f2d2d9bf328a5dc84dd6c70517dd77ebe94aef8bfec2031",
+    "automated_review_flags": [
+      "HTML_OR_ENTITY_MARKUP"
+    ],
+    "cleanup_action": "MANUAL_DECISION_REQUIRED; no automatic cleanup applied",
+    "provenance_status": "UNVERIFIED_FROM_TEXT_FILE",
+    "privacy_status": "NOT_ASSESSED",
+    "source_url_or_publication": "NOT_PRESENT_IN_APPROVED_REGISTER",
+    "license_and_rights": "NOT_VERIFIED",
+    "training_eligibility": "NOT_APPROVED"
+  },
+  {
+    "source_line": 1602,
+    "classification": "KEEP_WITH_CLEANUP_REVIEW",
+    "approval_status": "APPROVED_CLASSIFICATION_ONLY",
+    "stage3_flag_reason": "url_marker",
+    "manual_review_rationale": "Tamil coastal-community report with an external URL.",
+    "record_characters": 195,
+    "record_sha256_utf8": "20ae3f5189db9cef3581e6f3a5974cf8ad38a94d9d2b22ba2200769429e4f3cb",
+    "automated_review_flags": [
+      "URL_OR_WEB_REFERENCE",
+      "REPEATED_OR_TAB_WHITESPACE"
+    ],
+    "cleanup_action": "MANUAL_DECISION_REQUIRED; no automatic cleanup applied",
+    "provenance_status": "UNVERIFIED_FROM_TEXT_FILE",
+    "privacy_status": "NOT_ASSESSED",
+    "source_url_or_publication": "NOT_PRESENT_IN_APPROVED_REGISTER",
+    "license_and_rights": "NOT_VERIFIED",
+    "training_eligibility": "NOT_APPROVED"
+  },
+  {
+    "source_line": 1695,
+    "classification": "KEEP_WITH_CLEANUP_REVIEW",
+    "approval_status": "APPROVED_CLASSIFICATION_ONLY",
+    "stage3_flag_reason": "url_marker",
+    "manual_review_rationale": "Sports hydration explanation appears coherent; bibliographic/source references need cleanup and provenance review.",
+    "record_characters": 634,
+    "record_sha256_utf8": "7f39d832598564f70007e05d04779dc4fbf68df70cb28b796e03738dc779830f",
+    "automated_review_flags": [],
+    "cleanup_action": "MANUAL_DECISION_REQUIRED; no automatic cleanup applied",
+    "provenance_status": "UNVERIFIED_FROM_TEXT_FILE",
+    "privacy_status": "NOT_ASSESSED",
+    "source_url_or_publication": "NOT_PRESENT_IN_APPROVED_REGISTER",
+    "license_and_rights": "NOT_VERIFIED",
+    "training_eligibility": "NOT_APPROVED"
+  },
+  {
+    "source_line": 2008,
+    "classification": "KEEP_WITH_CLEANUP_REVIEW",
+    "approval_status": "APPROVED_CLASSIFICATION_ONLY",
+    "stage3_flag_reason": "repeated_sentence_chunk_review",
+    "manual_review_rationale": "Tamil automotive article appears coherent but has a repeated headline; date/source context needs review.",
+    "record_characters": 2107,
+    "record_sha256_utf8": "695ed8fbff225bc8569a25ed2119f60ef911dbb9e6c420227cb50dfe54ec7420",
+    "automated_review_flags": [],
+    "cleanup_action": "MANUAL_DECISION_REQUIRED; no automatic cleanup applied",
+    "provenance_status": "UNVERIFIED_FROM_TEXT_FILE",
+    "privacy_status": "NOT_ASSESSED",
+    "source_url_or_publication": "NOT_PRESENT_IN_APPROVED_REGISTER",
+    "license_and_rights": "NOT_VERIFIED",
+    "training_eligibility": "NOT_APPROVED"
+  },
+  {
+    "source_line": 3480,
+    "classification": "KEEP_WITH_CLEANUP_REVIEW",
+    "approval_status": "APPROVED_CLASSIFICATION_ONLY",
+    "stage3_flag_reason": "html_or_entity_marker",
+    "manual_review_rationale": "Tamil radio-history content with trailing HTML markup.",
+    "record_characters": 351,
+    "record_sha256_utf8": "4fe0ca9391b2622a631332c008882bdf41344189fe32fa429496758d6d352a29",
+    "automated_review_flags": [
+      "HTML_OR_ENTITY_MARKUP"
+    ],
+    "cleanup_action": "MANUAL_DECISION_REQUIRED; no automatic cleanup applied",
+    "provenance_status": "UNVERIFIED_FROM_TEXT_FILE",
+    "privacy_status": "NOT_ASSESSED",
+    "source_url_or_publication": "NOT_PRESENT_IN_APPROVED_REGISTER",
+    "license_and_rights": "NOT_VERIFIED",
+    "training_eligibility": "NOT_APPROVED"
+  },
+  {
+    "source_line": 3514,
+    "classification": "KEEP_WITH_CLEANUP_REVIEW",
+    "approval_status": "APPROVED_CLASSIFICATION_ONLY",
+    "stage3_flag_reason": "html_or_entity_marker",
+    "manual_review_rationale": "Tamil biographical fragment; leading markup/NBSP and incomplete sentence need review.",
+    "record_characters": 106,
+    "record_sha256_utf8": "8ae0e70927139a37444326a3f9dea4b1faae45215e8f88ce8199c14c7845f01e",
+    "automated_review_flags": [
+      "HTML_OR_ENTITY_MARKUP",
+      "NBSP_WHITESPACE"
+    ],
+    "cleanup_action": "MANUAL_DECISION_REQUIRED; no automatic cleanup applied",
+    "provenance_status": "UNVERIFIED_FROM_TEXT_FILE",
+    "privacy_status": "NOT_ASSESSED",
+    "source_url_or_publication": "NOT_PRESENT_IN_APPROVED_REGISTER",
+    "license_and_rights": "NOT_VERIFIED",
+    "training_eligibility": "NOT_APPROVED"
+  },
+  {
+    "source_line": 3778,
+    "classification": "KEEP_WITH_CLEANUP_REVIEW",
+    "approval_status": "APPROVED_CLASSIFICATION_ONLY",
+    "stage3_flag_reason": "url_marker",
+    "manual_review_rationale": "Tamil technical explanation of NVIDIA graphics drivers appears coherent; references/provenance need review.",
+    "record_characters": 914,
+    "record_sha256_utf8": "fb9e21b60b50f29e29ee7a08a47302b67f1f7a8fd11071da8d5bea1a65c5ead5",
+    "automated_review_flags": [],
+    "cleanup_action": "MANUAL_DECISION_REQUIRED; no automatic cleanup applied",
+    "provenance_status": "UNVERIFIED_FROM_TEXT_FILE",
+    "privacy_status": "NOT_ASSESSED",
+    "source_url_or_publication": "NOT_PRESENT_IN_APPROVED_REGISTER",
+    "license_and_rights": "NOT_VERIFIED",
+    "training_eligibility": "NOT_APPROVED"
+  },
+  {
+    "source_line": 4166,
+    "classification": "KEEP_WITH_CLEANUP_REVIEW",
+    "approval_status": "APPROVED_CLASSIFICATION_ONLY",
+    "stage3_flag_reason": "url_marker",
+    "manual_review_rationale": "Substantial Tamil literary interview with a website reference.",
+    "record_characters": 2121,
+    "record_sha256_utf8": "9fdbb2a329ad9c29e979dd1dd3083cb128a05bb64c91fa4a16e1b591c71e0f9e",
+    "automated_review_flags": [
+      "URL_OR_WEB_REFERENCE"
+    ],
+    "cleanup_action": "MANUAL_DECISION_REQUIRED; no automatic cleanup applied",
+    "provenance_status": "UNVERIFIED_FROM_TEXT_FILE",
+    "privacy_status": "NOT_ASSESSED",
+    "source_url_or_publication": "NOT_PRESENT_IN_APPROVED_REGISTER",
+    "license_and_rights": "NOT_VERIFIED",
+    "training_eligibility": "NOT_APPROVED"
+  },
+  {
+    "source_line": 4308,
+    "classification": "KEEP_WITH_CLEANUP_REVIEW",
+    "approval_status": "APPROVED_CLASSIFICATION_ONLY",
+    "stage3_flag_reason": "url_marker",
+    "manual_review_rationale": "Tamil Aadhaar/PAN informational content with government URL.",
+    "record_characters": 316,
+    "record_sha256_utf8": "5933632a78967429a90e8b138afa826a18fda9f40bca44dc69d576f65e9001a6",
+    "automated_review_flags": [
+      "URL_OR_WEB_REFERENCE"
+    ],
+    "cleanup_action": "MANUAL_DECISION_REQUIRED; no automatic cleanup applied",
+    "provenance_status": "UNVERIFIED_FROM_TEXT_FILE",
+    "privacy_status": "MANUAL_REVIEW_REQUIRED",
+    "source_url_or_publication": "NOT_PRESENT_IN_APPROVED_REGISTER",
+    "license_and_rights": "NOT_VERIFIED",
+    "training_eligibility": "NOT_APPROVED"
+  },
+  {
+    "source_line": 4401,
+    "classification": "KEEP_WITH_CLEANUP_REVIEW",
+    "approval_status": "APPROVED_CLASSIFICATION_ONLY",
+    "stage3_flag_reason": "url_marker",
+    "manual_review_rationale": "Tamil government salary-information request; contains email addresses and administrative identifiers requiring privacy/source review.",
+    "record_characters": 497,
+    "record_sha256_utf8": "ddb3bdcbdc2792e4d65f12131995850890c64917dee270f003bf96baff6ac3c5",
+    "automated_review_flags": [
+      "EMAIL_ADDRESS_POSSIBLE"
+    ],
+    "cleanup_action": "MANUAL_DECISION_REQUIRED; no automatic cleanup applied",
+    "provenance_status": "UNVERIFIED_FROM_TEXT_FILE",
+    "privacy_status": "MANUAL_REVIEW_REQUIRED",
+    "source_url_or_publication": "NOT_PRESENT_IN_APPROVED_REGISTER",
+    "license_and_rights": "NOT_VERIFIED",
+    "training_eligibility": "NOT_APPROVED"
+  },
+  {
+    "source_line": 5073,
+    "classification": "KEEP_WITH_CLEANUP_REVIEW",
+    "approval_status": "APPROVED_CLASSIFICATION_ONLY",
+    "stage3_flag_reason": "html_or_entity_marker",
+    "manual_review_rationale": "Tamil scientific/biographical content; NBSP/markup flag may be a heuristic false positive.",
+    "record_characters": 520,
+    "record_sha256_utf8": "bda1911d0b27f976bf5f6219fc2e428ce92e94a130f8fab8d56505d42fd29fa8",
+    "automated_review_flags": [
+      "HTML_OR_ENTITY_MARKUP",
+      "NBSP_WHITESPACE"
+    ],
+    "cleanup_action": "MANUAL_DECISION_REQUIRED; no automatic cleanup applied",
+    "provenance_status": "UNVERIFIED_FROM_TEXT_FILE",
+    "privacy_status": "NOT_ASSESSED",
+    "source_url_or_publication": "NOT_PRESENT_IN_APPROVED_REGISTER",
+    "license_and_rights": "NOT_VERIFIED",
+    "training_eligibility": "NOT_APPROVED"
+  },
+  {
+    "source_line": 5781,
+    "classification": "KEEP_WITH_CLEANUP_REVIEW",
+    "approval_status": "APPROVED_CLASSIFICATION_ONLY",
+    "stage3_flag_reason": "url_marker",
+    "manual_review_rationale": "Tamil encyclopedic content with Wikipedia retrieval URL metadata.",
+    "record_characters": 511,
+    "record_sha256_utf8": "02908f2967918690d6f706feb272bd08ad345a86030381bfee6bd0d1ea0be59d",
+    "automated_review_flags": [
+      "URL_OR_WEB_REFERENCE"
+    ],
+    "cleanup_action": "MANUAL_DECISION_REQUIRED; no automatic cleanup applied",
+    "provenance_status": "UNVERIFIED_FROM_TEXT_FILE",
+    "privacy_status": "NOT_ASSESSED",
+    "source_url_or_publication": "NOT_PRESENT_IN_APPROVED_REGISTER",
+    "license_and_rights": "NOT_VERIFIED",
+    "training_eligibility": "NOT_APPROVED"
+  },
+  {
+    "source_line": 6132,
+    "classification": "KEEP_WITH_CLEANUP_REVIEW",
+    "approval_status": "APPROVED_CLASSIFICATION_ONLY",
+    "stage3_flag_reason": "url_marker",
+    "manual_review_rationale": "Tamil genomics explanation with Wikipedia retrieval URL metadata.",
+    "record_characters": 2049,
+    "record_sha256_utf8": "d00d56a9176c8d8242a5f19ccbc5586f94047f33756a414c7ab166ca2c50fa1a",
+    "automated_review_flags": [
+      "URL_OR_WEB_REFERENCE",
+      "REPEATED_OR_TAB_WHITESPACE"
+    ],
+    "cleanup_action": "MANUAL_DECISION_REQUIRED; no automatic cleanup applied",
+    "provenance_status": "UNVERIFIED_FROM_TEXT_FILE",
+    "privacy_status": "NOT_ASSESSED",
+    "source_url_or_publication": "NOT_PRESENT_IN_APPROVED_REGISTER",
+    "license_and_rights": "NOT_VERIFIED",
+    "training_eligibility": "NOT_APPROVED"
+  },
+  {
+    "source_line": 7326,
+    "classification": "KEEP_WITH_CLEANUP_REVIEW",
+    "approval_status": "APPROVED_CLASSIFICATION_ONLY",
+    "stage3_flag_reason": "html_or_entity_marker",
+    "manual_review_rationale": "Tamil explanation of deaf cricket appears coherent; incomplete reference tag needs cleanup.",
+    "record_characters": 327,
+    "record_sha256_utf8": "5a74808f042caec79816cfa3539ac908c45454d85f323176fdb9c07cb21e8d62",
+    "automated_review_flags": [
+      "HTML_OR_ENTITY_MARKUP"
+    ],
+    "cleanup_action": "MANUAL_DECISION_REQUIRED; no automatic cleanup applied",
+    "provenance_status": "UNVERIFIED_FROM_TEXT_FILE",
+    "privacy_status": "NOT_ASSESSED",
+    "source_url_or_publication": "NOT_PRESENT_IN_APPROVED_REGISTER",
+    "license_and_rights": "NOT_VERIFIED",
+    "training_eligibility": "NOT_APPROVED"
+  },
+  {
+    "source_line": 7349,
+    "classification": "KEEP_WITH_CLEANUP_REVIEW",
+    "approval_status": "APPROVED_CLASSIFICATION_ONLY",
+    "stage3_flag_reason": "html_or_entity_marker",
+    "manual_review_rationale": "Tamil article about professional wrestling appears coherent; reference markup needs cleanup.",
+    "record_characters": 1632,
+    "record_sha256_utf8": "fb2f5c48d82b3f2c652b9bd700a03590d372d57136deccf0a724073fb3540367",
+    "automated_review_flags": [
+      "HTML_OR_ENTITY_MARKUP"
+    ],
+    "cleanup_action": "MANUAL_DECISION_REQUIRED; no automatic cleanup applied",
+    "provenance_status": "UNVERIFIED_FROM_TEXT_FILE",
+    "privacy_status": "NOT_ASSESSED",
+    "source_url_or_publication": "NOT_PRESENT_IN_APPROVED_REGISTER",
+    "license_and_rights": "NOT_VERIFIED",
+    "training_eligibility": "NOT_APPROVED"
+  },
+  {
+    "source_line": 7486,
+    "classification": "KEEP_WITH_CLEANUP_REVIEW",
+    "approval_status": "APPROVED_CLASSIFICATION_ONLY",
+    "stage3_flag_reason": "url_marker",
+    "manual_review_rationale": "Short Tamil Redmi 9A launch/sales item; date and source provenance need review.",
+    "record_characters": 181,
+    "record_sha256_utf8": "5ae5a2c362d4df1dc6246401b84fc13bba0aaadd91060f46cb67d5e8ebadd6cc",
+    "automated_review_flags": [],
+    "cleanup_action": "MANUAL_DECISION_REQUIRED; no automatic cleanup applied",
+    "provenance_status": "UNVERIFIED_FROM_TEXT_FILE",
+    "privacy_status": "NOT_ASSESSED",
+    "source_url_or_publication": "NOT_PRESENT_IN_APPROVED_REGISTER",
+    "license_and_rights": "NOT_VERIFIED",
+    "training_eligibility": "NOT_APPROVED"
+  },
+  {
+    "source_line": 8103,
+    "classification": "KEEP_WITH_CLEANUP_REVIEW",
+    "approval_status": "APPROVED_CLASSIFICATION_ONLY",
+    "stage3_flag_reason": "url_marker",
+    "manual_review_rationale": "Tamil clock-history content with Wikipedia metadata; possible corrupted phrase needs review.",
+    "record_characters": 1358,
+    "record_sha256_utf8": "a499b6d9ad96cefaf62658e3929e6843eae8c845cfdb85f9ee21bd50bb42ba12",
+    "automated_review_flags": [
+      "URL_OR_WEB_REFERENCE",
+      "REPEATED_OR_TAB_WHITESPACE"
+    ],
+    "cleanup_action": "MANUAL_DECISION_REQUIRED; no automatic cleanup applied",
+    "provenance_status": "UNVERIFIED_FROM_TEXT_FILE",
+    "privacy_status": "NOT_ASSESSED",
+    "source_url_or_publication": "NOT_PRESENT_IN_APPROVED_REGISTER",
+    "license_and_rights": "NOT_VERIFIED",
+    "training_eligibility": "NOT_APPROVED"
+  },
+  {
+    "source_line": 8197,
+    "classification": "KEEP_WITH_CLEANUP_REVIEW",
+    "approval_status": "APPROVED_CLASSIFICATION_ONLY",
+    "stage3_flag_reason": "url_marker",
+    "manual_review_rationale": "Tamil explanation of educational benefits of neutrino research appears coherent; email/contact detail requires privacy review.",
+    "record_characters": 808,
+    "record_sha256_utf8": "eee0e7016cb0fa97205f141256157cfadfb0aab791243eef92c9daa049e4542b",
+    "automated_review_flags": [
+      "EMAIL_ADDRESS_POSSIBLE",
+      "REPEATED_OR_TAB_WHITESPACE"
+    ],
+    "cleanup_action": "MANUAL_DECISION_REQUIRED; no automatic cleanup applied",
+    "provenance_status": "UNVERIFIED_FROM_TEXT_FILE",
+    "privacy_status": "MANUAL_REVIEW_REQUIRED",
+    "source_url_or_publication": "NOT_PRESENT_IN_APPROVED_REGISTER",
+    "license_and_rights": "NOT_VERIFIED",
+    "training_eligibility": "NOT_APPROVED"
+  },
+  {
+    "source_line": 9675,
+    "classification": "KEEP_WITH_CLEANUP_REVIEW",
+    "approval_status": "APPROVED_CLASSIFICATION_ONLY",
+    "stage3_flag_reason": "html_or_entity_marker",
+    "manual_review_rationale": "Meaningful Tamil sentence with leading HTML markup.",
+    "record_characters": 50,
+    "record_sha256_utf8": "23b73f1d903f6a3d8b3cb709aee08b5818f6f28ae82c7c20d3b050b0fcbfd78c",
+    "automated_review_flags": [
+      "HTML_OR_ENTITY_MARKUP"
+    ],
+    "cleanup_action": "MANUAL_DECISION_REQUIRED; no automatic cleanup applied",
+    "provenance_status": "UNVERIFIED_FROM_TEXT_FILE",
+    "privacy_status": "NOT_ASSESSED",
+    "source_url_or_publication": "NOT_PRESENT_IN_APPROVED_REGISTER",
+    "license_and_rights": "NOT_VERIFIED",
+    "training_eligibility": "NOT_APPROVED"
+  }
+]

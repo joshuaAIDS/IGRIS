@@ -1,0 +1,32 @@
+INDICCORP V2 DATASET PROVENANCE, METHODOLOGY, AND CITATION
+
+Publisher:
+AI4Bharat, IIT Madras, in collaboration with EkStep Foundation.
+
+Key Researchers:
+Divyanshu Kakwani, Anoop Kunchukuttan, Satish Golla, Gokul N.C., Avik Bhattacharyya,
+Mitesh M. Khapra, Pratyush Kumar (IIT Madras & AI4Bharat).
+
+Publication:
+"IndicNLPSuite: Monolingual Corpora, Evaluation Benchmarks and Pre-trained Multilingual
+Language Models for Indian Languages"
+Proceedings of the Findings of the Association for Computational Linguistics: EMNLP 2020, pages 4948–4961.
+DOI / Anthology: https://aclanthology.org/2020.findings-emnlp.411/
+
+Corpus Construction Methodology:
+1. Web Scraping & Source Aggregation:
+   - Aggregated text from news portals, magazines, blogs, and public web domains in 22 scheduled Indian languages.
+   - Crawled national and regional news portals with high editorial standards to ensure native fluency.
+   - Integrated Indic Wikipedia dumps and open public cultural archives.
+2. Cleaning & Normalization Pipeline:
+   - Indic NLP Library text cleaning: Unicode NFC normalization, script-specific zero-width character handling
+     (ZWJ U+200D and ZWNJ U+200C retention for morphological validity).
+   - Language identification filtering using fastText and Indic-specific CLD models (threshold > 0.85).
+   - Document-level and sentence-level deduplication via MinHash and strict line hashing.
+   - Structural punctuation normalization and HTML tag stripping.
+3. Dataset Releases:
+   - IndicCorp v1 (2020): Initial release covering 11 major languages, ~450 million tokens total.
+   - IndicCorp v2 (2022): Substantially expanded release covering 22 languages, >8.8 billion tokens total across all languages.
+4. Downstream Pretraining Validation:
+   - IndicCorp has served as the canonical pretraining foundation for IndicBERT, IndicBART, Llama-3-Indic extensions,
+     Gemma-Indic adaptations, and numerous state-of-the-art multilingual LLMs.

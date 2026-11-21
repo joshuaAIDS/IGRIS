@@ -1,0 +1,14 @@
+============================= test session starts =============================
+platform win32 -- Python 3.11.9, pytest-9.2.0, pluggy-1.7.0 -- C:\IGRIS\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\IGRIS
+plugins: anyio-4.16.0
+collecting ... collected 5 items
+
+igris_3b52_production_tokenizer_patch/igris_3b52_patch/tests/test_readiness.py::TestReadiness::test_acceptance_threshold_evaluator_mandatory_fail PASSED [ 20%]
+igris_3b52_production_tokenizer_patch/igris_3b52_patch/tests/test_readiness.py::TestReadiness::test_acceptance_threshold_evaluator_mandatory_pass PASSED [ 40%]
+igris_3b52_production_tokenizer_patch/igris_3b52_patch/tests/test_readiness.py::TestReadiness::test_artifact_hashes_in_manifest PASSED [ 60%]
+igris_3b52_production_tokenizer_patch/igris_3b52_patch/tests/test_readiness.py::TestReadiness::test_environment_manifest PASSED [ 80%]
+igris_3b52_production_tokenizer_patch/igris_3b52_patch/tests/test_readiness.py::TestReadiness::test_governance_isolation_check PASSED [100%]
+
+============================== 5 passed in 0.18s ==============================

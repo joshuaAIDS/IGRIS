@@ -1,0 +1,16 @@
+{
+  "status": "PASS_READ_ONLY_AUDIT",
+  "audit_type": "APPROVAL_AND_SOURCE_INTEGRITY_VALIDATION_ONLY",
+  "clean_corpus_path": "C:\\IGRIS\\igris_3b51_19_1_tamil_remediation\\igris_3b51_19_1_tamil_remediation\\processed\\tamil_nfc_deduplicated.txt",
+  "clean_corpus_sha256": "8b26af54e5b77c1434d583b487cec4db8af6a2560bdfdff015e85d8e8ea45064",
+  "clean_corpus_line_count": 9766,
+  "register_path": "C:\\IGRIS\\igris_tamil_42_approved_classification_register\\tamil_42_record_consolidated_review_register_APPROVED.csv",
+  "register_row_count": 42,
+  "approved_classification_count": 42,
+  "keep_with_cleanup_review_count": 20,
+  "quarantine_review_count": 22,
+  "source_line_bounds_valid": true,
+  "errors": [],
+  "decision": "CLASSIFICATION_APPROVAL_ONLY_QUARANTINE_ROWS_REMAIN_EXCLUDED_FROM_CLEAN_TRAINING_CANDIDATES_NO_CORPUS_MODIFICATION_NO_TRAINING",
+  "note": "User approval is interpreted as approval of the review classifications, not approval to train on quarantined records or as dataset/license clearance."
+}

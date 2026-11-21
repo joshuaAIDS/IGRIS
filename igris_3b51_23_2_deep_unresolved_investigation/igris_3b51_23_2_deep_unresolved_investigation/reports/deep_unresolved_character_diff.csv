@@ -1,0 +1,11 @@
+﻿case,source_line_1_based,truncated_flag,comparison,preview_chars,source_chars,first_diff_index,utf8_common_prefix_bytes,preview_is_source_prefix,nfc_preview_is_nfc_source_prefix,diagnostic_encoding_candidates
+1,500,True,TRUNCATED_NFC_PREFIX_MATCH,500,1399,86,218,False,True,[]
+2,1357,False,NFC_MATCH,319,325,5,17,False,True,[]
+3,3944,False,NFC_MATCH,479,480,162,458,False,True,[]
+4,4236,False,NFC_MATCH,374,381,44,120,False,True,[]
+5,5218,True,TRUNCATED_NFC_PREFIX_MATCH,500,1123,1,5,False,True,[]
+6,6017,True,TRUNCATED_NFC_PREFIX_MATCH,500,667,17,47,False,True,[]
+7,586,True,TRUNCATED_NFC_PREFIX_MATCH,500,2812,1,5,False,True,[]
+8,4249,True,TRUNCATED_NFC_PREFIX_MATCH,500,2124,7,21,False,True,[]
+9,6241,True,TRUNCATED_NFC_PREFIX_MATCH,500,3030,247,671,False,True,[]
+10,6454,True,TRUNCATED_NFC_PREFIX_MATCH,500,2959,452,1238,False,True,[]

@@ -1,0 +1,67 @@
+{
+  "status": "AUDIT_COMPLETE_REVIEW_REQUIRED",
+  "audit_scope": "READ_ONLY_PROFILE_AND_HEURISTIC_FLAGS",
+  "decision": "NO_SOURCE_MODIFICATION_NO_RECORD_DELETION_NO_MERGE_NO_DATASET_OR_LICENSE_APPROVAL_NO_TOKENIZER_TRAINING",
+  "input": {
+    "path": "C:\\IGRIS\\igris_3b51_19_1_tamil_remediation\\igris_3b51_19_1_tamil_remediation\\processed\\tamil_nfc_deduplicated.txt",
+    "bytes": 7003182,
+    "sha256": "8b26af54e5b77c1434d583b487cec4db8af6a2560bdfdff015e85d8e8ea45064",
+    "line_count_including_blank": 9766,
+    "nonempty_records": 9766
+  },
+  "unicode_database_version": "15.1.0",
+  "profile": {
+    "record_characters": {
+      "min": 5,
+      "median": 185.0,
+      "p95": 732.75,
+      "p99": 1789.45,
+      "max": 3942
+    },
+    "grapheme_clusters": {
+      "total": 0,
+      "median_per_record": 0.0
+    },
+    "sentence_terminator_count": 32067,
+    "tamil_records": 0,
+    "latin_present_records": 0,
+    "tamil_and_latin_records": 0,
+    "records_without_tamil": 9766,
+    "character_totals": {
+      "characters": 2591920,
+      "grapheme_clusters": 0,
+      "tamil_codepoints": 0,
+      "latin_codepoints": 0
+    }
+  },
+  "quality_signals": {
+    "flagged_records": 344,
+    "flag_reason_counts": {
+      "control_character": 327,
+      "repeated_sentence_chunk_review": 7,
+      "structural_token_spelling": 25,
+      "url_marker": 17
+    },
+    "exact_duplicate_pairs_after_nfc_whitespace_key": 0,
+    "duplicate_pair_examples": []
+  },
+  "stage2_review_register": {
+    "sha256": "e9ffea10e26f0cacc474e022b57a1f7bbad9f7ffe4404549bf9fb2974bb02b1b",
+    "records": 24,
+    "classification_counts": {
+      "KEEP_WITH_CLEANUP_REVIEW": 12,
+      "QUARANTINE_REVIEW": 12
+    },
+    "human_approval_counts": {
+      "PENDING": 24
+    }
+  },
+  "limitations": [
+    "Sentence and repeated-passage checks are heuristic, not linguistic validation.",
+    "Tamil/Latin proportions do not determine whether a record is Tanglish or contaminated.",
+    "URL/markup markers are review signals, not automatic rejection decisions.",
+    "Grapheme counts do not prove one tokenizer token per grapheme.",
+    "This audit does not verify provenance, copyright, licensing, factual accuracy, or commercial-training suitability.",
+    "No record is automatically deleted, changed, merged, promoted, or approved."
+  ]
+}

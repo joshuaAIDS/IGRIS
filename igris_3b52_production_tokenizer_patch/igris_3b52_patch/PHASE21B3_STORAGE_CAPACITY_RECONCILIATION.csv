@@ -1,0 +1,9 @@
+source_id,language,file_count,historical_phase21b_bytes,historical_phase21b_decimal_gb,verified_upstream_bytes,verified_upstream_decimal_gb,verified_upstream_binary_gib,variance_bytes,variance_decimal_gb,variance_ratio,correction_explanation
+SRC-TM-01,Tamil,1,3800000000,3.80,11800000000,11.80,10.99,+8000000000,+8.00,+210.5%,Historical 3.8GB represented estimated clean text slice; verified upstream data/ta.txt is full uncleaned LFS object (~11.8GB).
+SRC-HI-01,Hindi (3 shards),3,12500000000,12.50,80100000000,80.10,74.60,+67600000000,+67.60,+540.8%,"Historical 12.5GB modeled single sample slice; verified upstream sharded into data/hi-1.txt, hi-2.txt, hi-3.txt (~26.7GB each, ~80.1GB total)."
+SRC-OI-01,Telugu,1,4200000000,4.20,15800000000,15.80,14.71,+11600000000,+11.60,+276.2%,Historical 4.2GB was heuristic clean slice; verified upstream data/te.txt is ~15.8GB raw web dump.
+SRC-OI-02,Malayalam,1,2600000000,2.60,26300000000,26.30,24.49,+23700000000,+23.70,+911.5%,Historical 2.6GB was estimated news partition; verified upstream data/ml.txt is ~26.3GB raw LFS object.
+SRC-OI-03,Kannada,1,2100000000,2.10,19600000000,19.60,18.25,+17500000000,+17.50,+833.3%,Historical 2.1GB was post-dedup target slice; verified upstream data/kn.txt is ~19.6GB raw LFS object.
+SRC-OI-04,Bengali,1,7800000000,7.80,16000000000,16.00,14.90,+8200000000,+8.20,+105.1%,Historical 7.8GB represented preliminary text estimate; verified upstream data/bn.txt is ~16.0GB raw LFS object.
+SRC-OI-05,Gujarati,1,4100000000,4.10,14100000000,14.10,13.13,+10000000000,+10.00,+243.9%,Historical 4.1GB represented clean target slice; verified upstream data/gu.txt is ~14.1GB raw LFS object.
+TOTAL,7 Languages (9 files),9,37100000000,37.10,183700000000,183.70,171.08,+146600000000,+146.60,+395.1%,Reconciled full upstream physical storage (~183.7GB / 171.08 GiB) vs early estimated clean text slices (37.1GB).

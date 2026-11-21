@@ -1,0 +1,11 @@
+{
+  "exact_hashes": {
+    "eaf6ead073bd4496b61d64819cce086603c05d3b33ab9425096aa46142899c6f": "DET-1",
+    "3b41de541e06299ce4998bc4a6bc04254e4ea6ab699fe115dbe5978222a153e9": "PROV-1"
+  },
+  "norm_hashes": {
+    "eaf6ead073bd4496b61d64819cce086603c05d3b33ab9425096aa46142899c6f": "DET-1",
+    "3b41de541e06299ce4998bc4a6bc04254e4ea6ab699fe115dbe5978222a153e9": "PROV-1"
+  },
+  "last_updated": "2026-11-18T06:15:16Z"
+}

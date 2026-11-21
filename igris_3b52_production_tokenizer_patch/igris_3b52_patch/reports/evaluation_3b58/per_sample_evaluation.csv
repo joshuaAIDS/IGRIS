@@ -1,0 +1,41 @@
+sample_id,category,description,char_count,word_count,cand_a_tokens,cand_a_tpw,cand_a_tpc,cand_a_correct,cand_b_tokens,cand_b_tpw,cand_b_tpc,cand_b_correct,diff_tokens_b_minus_a,compression_ratio_b_vs_a
+tamil_01,Tamil,Classical Tamil (Tirukkural couplets with philosophical commentary),272,34,296,8.706,1.088,True,327,9.618,1.202,True,31,1.105
+tamil_02,Tamil,Modern Tamil news and formal editorial prose,273,27,304,11.259,1.114,True,327,12.111,1.198,True,23,1.076
+tamil_03,Tamil,"Agglutinative morphology, complex verb forms and inflected suffixes",260,18,310,17.222,1.192,True,348,19.333,1.338,True,38,1.123
+tamil_04,Tamil,"Tamil technical, computing and administrative vocabulary",251,24,306,12.75,1.219,True,337,14.042,1.343,True,31,1.101
+tamil_05,Tamil,"Grantha characters, Sanskrit loanwords and Tamil ligatures",239,24,280,11.667,1.172,True,331,13.792,1.385,True,51,1.182
+english_01,English,Technical computer science and transformer model architecture,325,37,293,7.919,0.902,True,297,8.027,0.914,True,4,1.014
+english_02,English,"Conversational dialogue with contractions, idioms and colloquial phrasings",240,41,208,5.073,0.867,True,207,5.049,0.863,True,-1,0.995
+english_03,English,Literary descriptive prose with rich vocabulary,259,39,205,5.256,0.792,True,217,5.564,0.838,True,12,1.059
+english_04,English,Formal legal and regulatory disclaimer text,312,46,261,5.674,0.837,True,274,5.957,0.878,True,13,1.05
+english_05,English,"Short prompt instructions, system queries, and command directives",257,27,219,8.111,0.852,True,221,8.185,0.86,True,2,1.009
+tanglish_01,Tanglish,Everyday casual conversational Tanglish with colloquial particles,171,25,148,5.92,0.865,True,149,5.96,0.871,True,1,1.007
+tanglish_02,Tanglish,Technical developer Tanglish with English computing terminology,211,30,190,6.333,0.9,True,186,6.2,0.882,True,-4,0.979
+tanglish_03,Tanglish,Social media / instant messaging Tanglish,152,24,133,5.542,0.875,True,132,5.5,0.868,True,-1,0.992
+tanglish_04,Tanglish,Expressive emotional Tanglish with local idioms,164,23,147,6.391,0.896,True,144,6.261,0.878,True,-3,0.98
+tanglish_05,Tanglish,Imperative workflow instructions in Tanglish,185,29,164,5.655,0.886,True,166,5.724,0.897,True,2,1.012
+hindi_01,Hindi,Formal news and constitutional / educational Devanagari prose,224,36,320,8.889,1.429,True,334,9.278,1.491,True,14,1.044
+hindi_02,Hindi,Conversational Hindi with common polite formulations,156,31,219,7.065,1.404,True,226,7.29,1.449,True,7,1.032
+hindi_03,Hindi,Complex Devanagari conjuncts and Sanskritized vocabulary,239,33,356,10.788,1.49,True,367,11.121,1.536,True,11,1.031
+hindi_04,Hindi,Technical computing and artificial intelligence prose in Hindi,210,32,309,9.656,1.471,True,310,9.688,1.476,True,1,1.003
+hindi_05,Hindi,Philosophical reflection and moral literature in Hindi,182,35,254,7.257,1.396,True,266,7.6,1.462,True,12,1.047
+multi_01,Multilingual text,"Code-switching between Tamil, English, and Tanglish",241,31,224,7.226,0.929,True,230,7.419,0.954,True,6,1.027
+multi_02,Multilingual text,"Code-switching between Hindi, English, and Hinglish",226,34,230,6.765,1.018,True,229,6.735,1.013,True,-1,0.996
+multi_03,Multilingual text,"Trilingual documentation header (English, Tamil, Hindi)",178,23,205,8.913,1.152,True,194,8.435,1.09,True,-11,0.946
+multi_04,Multilingual text,Interleaved parallel sentences across scripts,169,26,173,6.654,1.024,True,194,7.462,1.148,True,21,1.121
+multi_05,Multilingual text,Multilingual system log and status message with timestamps,219,28,257,9.179,1.174,True,277,9.893,1.265,True,20,1.078
+code_01,Programming code,"Python asynchronous generator, type annotations, and decorator",472,51,426,8.353,0.903,True,444,8.706,0.941,True,18,1.042
+code_02,Programming code,TypeScript React functional component with hooks and generics,648,73,605,8.288,0.934,True,615,8.425,0.949,True,10,1.017
+code_03,Programming code,"Rust systems implementation with traits, lifetime parameters, and pattern matching",567,58,514,8.862,0.907,True,546,9.414,0.963,True,32,1.062
+code_04,Programming code,SQL analytical query with Common Table Expressions (CTEs) and window functions,585,57,531,9.316,0.908,True,540,9.474,0.923,True,9,1.017
+code_05,Programming code,Configuration format specifications (JSON schema and YAML definitions),467,46,437,9.5,0.936,True,444,9.652,0.951,True,7,1.016
+doc_01,Technical documentation,"RESTful API Specification with HTTP verbs, JSON responses, and status codes",420,55,385,7.0,0.917,True,397,7.218,0.945,True,12,1.031
+doc_02,Technical documentation,"Markdown documentation with nested lists, warning alerts, and tables",557,107,501,4.682,0.899,True,508,4.748,0.912,True,7,1.014
+doc_03,Technical documentation,System architecture design specification and SLA guarantees,333,44,273,6.205,0.82,True,283,6.432,0.85,True,10,1.037
+doc_04,Technical documentation,Mathematical description of BPE vs Unigram algorithms,392,56,333,5.946,0.849,True,346,6.179,0.883,True,13,1.039
+doc_05,Technical documentation,Command line interface manual page and flag references,454,49,392,8.0,0.863,True,425,8.673,0.936,True,33,1.084
+emoji_01,Emoji and Unicode edge cases,Compound emojis with Zero-Width Joiner (ZWJ) sequences and skin tones,195,26,329,12.654,1.687,True,332,12.769,1.703,True,3,1.009
+emoji_02,Emoji and Unicode edge cases,"Combining diacritical marks, stacking accents, and decomposed codepoints",183,28,171,6.107,0.934,True,173,6.179,0.945,True,2,1.012
+emoji_03,Emoji and Unicode edge cases,Indic ZWNJ and ZWJ script distinctions (Tamil & Devanagari ligatures),199,28,187,6.679,0.94,True,189,6.75,0.95,True,2,1.011
+emoji_04,Emoji and Unicode edge cases,"Right-to-Left (RTL) marks, directional overrides, and bidirectional text",160,24,184,7.667,1.15,True,185,7.708,1.156,True,1,1.005
+emoji_05,Emoji and Unicode edge cases,"Mathematical symbols, box drawing, dingbats, and high Plane 16 codepoints",209,40,306,7.65,1.464,True,307,7.675,1.469,True,1,1.003

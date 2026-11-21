@@ -1,0 +1,80 @@
+================================================================================
+IGRIS CANDIDATE A TOKENIZER CRYPTOGRAPHIC AUDIT REPORT
+================================================================================
+Verification Timestamp (UTC): 2026-11-20 14:10:12 UTC
+Operating Model: SOLO_DEVELOPER_OWNER_REVIEW
+Accountable Decision-Maker: Sole Project Owner
+
+--------------------------------------------------------------------------------
+1. ORIGINAL PRODUCTION TOKENIZER CRYPTOGRAPHIC INVARIANTS
+--------------------------------------------------------------------------------
+Candidate A (Production Selected):
+  Path:    artifacts/tokenizer/candidate_a/tokenizer.json
+  Backend: tokenizers 0.23.3 (ByteLevel BPE)
+  Vocab:   32,768
+  SHA-256: ac7e18b13973450b43bfff18609a833e4ef0e642b8dc5803e39ab1e81ba4c561
+  Status:  VERIFIED UNTOUCHED (MATCHES BASELINE HASH EXACTLY)
+
+Candidate B (SentencePiece Unigram):
+  Path:    artifacts/tokenizer/candidate_b/tokenizer.model
+  Backend: sentencepiece 0.2.0 (Unigram)
+  Vocab:   32,768
+  SHA-256: d3a3431e07c87ecce863647202ddc9b47b964718adbae7bf2bb2459223b94888
+  Status:  VERIFIED UNTOUCHED (MATCHES BASELINE HASH EXACTLY)
+
+--------------------------------------------------------------------------------
+2. EXPERIMENTAL SYNTHETIC TOKENIZER ARTIFACT
+--------------------------------------------------------------------------------
+Experimental Candidate A:
+  Path:    artifacts/tokenizer/candidate_a_synthetic_experiment/tokenizer.json
+  Backend: tokenizers 0.23.3 (ByteLevel BPE)
+  Vocab:   32,768
+  SHA-256: 3393acbee2214ce09b9e03eaaf1a367a324b29032c61a1e4d0408e991c35c3ce
+  Status:  SEPARATE EXPERIMENTAL ARTIFACT (DOES NOT REPLACE CANDIDATE A)
+
+Metadata Path:
+  Path:    artifacts/tokenizer/candidate_a_synthetic_experiment/build_metadata.json
+
+--------------------------------------------------------------------------------
+3. SYNTHETIC CORPUS SPLIT HASHES (DATA ISOLATION)
+--------------------------------------------------------------------------------
+Training Split (80% / 320 documents):
+  SHA-256: 8b32d0e21ce4a0602e0202957cba05c71b49c4c119e62475f2f77419e7feea26
+
+Validation Split (10% / 40 documents):
+  SHA-256: 53a697792b4ecfb0fd0bf4edaf69f9dbc862cc1eebcf56a6665a7c5a5c87d766
+
+Held-Out Test Split (10% / 39 documents):
+  SHA-256: 2c2e996407098535ef61b43c6903cf328d0aa8e111a84075ddab1c50d210296c
+
+Leakage Verification:
+  Exact Text Duplicates:         0
+  Near-Duplicate Pairs (>=0.80): 0
+  Status:                        100% ISOLATED (ZERO LEAKAGE)
+
+--------------------------------------------------------------------------------
+4. STRUCTURAL TOKEN PINNING VERIFICATION
+--------------------------------------------------------------------------------
+ID  0: <|pad|>             -> VERIFIED
+ID  1: <|begin_of_text|>   -> VERIFIED
+ID  2: <|end_of_text|>     -> VERIFIED
+ID  3: <think>             -> VERIFIED
+ID  4: </think>            -> VERIFIED
+ID  5: <action>            -> VERIFIED
+ID  6: </action>           -> VERIFIED
+ID  7: <action_result>     -> VERIFIED
+ID  8: </action_result>    -> VERIFIED
+ID  9: <|system|>          -> VERIFIED
+ID 10: <|user|>            -> VERIFIED
+ID 11: <|assistant|>       -> VERIFIED
+
+--------------------------------------------------------------------------------
+5. GOVERNANCE CERTIFICATION
+--------------------------------------------------------------------------------
+Acquisition Grants Created: 0
+Production Downloads:       LOCKED
+Production Ingress:         LOCKED
+Quarantine Ingress:         LOCKED
+Cloud Spending:             $0.00
+Verdict:                    VERIFIED STRICT COMPLIANCE
+================================================================================

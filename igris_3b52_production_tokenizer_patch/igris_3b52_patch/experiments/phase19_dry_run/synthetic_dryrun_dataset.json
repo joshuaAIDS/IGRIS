@@ -1,0 +1,116 @@
+{
+  "records": [
+    {
+      "char_length": 89,
+      "governance_tag": "SYNTHETIC_TEST_ONLY",
+      "language": "en",
+      "record_id": "IGRIS-SYNTH-DRYRUN-0000",
+      "text": "The multilingual decoder evaluates representations across distinct linguistic topologies."
+    },
+    {
+      "char_length": 83,
+      "governance_tag": "SYNTHETIC_TEST_ONLY",
+      "language": "en",
+      "record_id": "IGRIS-SYNTH-DRYRUN-0001",
+      "text": "Rotary position embeddings provide relative token awareness in causal transformers."
+    },
+    {
+      "char_length": 87,
+      "governance_tag": "SYNTHETIC_TEST_ONLY",
+      "language": "en",
+      "record_id": "IGRIS-SYNTH-DRYRUN-0002",
+      "text": "Hardware acceleration on local tensor cores optimizes sustained pretraining throughput."
+    },
+    {
+      "char_length": 77,
+      "governance_tag": "SYNTHETIC_TEST_ONLY",
+      "language": "en",
+      "record_id": "IGRIS-SYNTH-DRYRUN-0003",
+      "text": "Gradient clipping bounds numerical updates and prevents explosive divergence."
+    },
+    {
+      "char_length": 81,
+      "governance_tag": "SYNTHETIC_TEST_ONLY",
+      "language": "hi",
+      "record_id": "IGRIS-SYNTH-DRYRUN-0004",
+      "text": "\u092f\u0939 \u092c\u0939\u0941\u092d\u093e\u0937\u0940 \u091f\u094d\u0930\u093e\u0902\u0938\u092b\u093e\u0930\u094d\u092e\u0930 \u092e\u0949\u0921\u0932 \u0935\u093f\u092d\u093f\u0928\u094d\u0928 \u0932\u093f\u092a\u093f\u092f\u094b\u0902 \u0915\u0947 \u092a\u094d\u0930\u0924\u093f\u0928\u093f\u0927\u093f\u0924\u094d\u0935 \u0915\u093e \u0935\u093f\u0936\u094d\u0932\u0947\u0937\u0923 \u0915\u0930\u0924\u093e \u0939\u0948\u0964"
+    },
+    {
+      "char_length": 77,
+      "governance_tag": "SYNTHETIC_TEST_ONLY",
+      "language": "hi",
+      "record_id": "IGRIS-SYNTH-DRYRUN-0005",
+      "text": "\u0917\u094d\u0930\u0942\u092a\u094d\u0921 \u0915\u094d\u0935\u0947\u0930\u0940 \u0905\u091f\u0947\u0902\u0936\u0928 \u0914\u0930 \u0930\u094b\u091f\u0930\u0940 \u090f\u092e\u094d\u092c\u0947\u0921\u093f\u0902\u0917 \u092e\u0949\u0921\u0932 \u0915\u0940 \u0917\u0924\u093f \u0914\u0930 \u0938\u091f\u0940\u0915\u0924\u093e \u0915\u094b \u092c\u0922\u093c\u093e\u0924\u0947 \u0939\u0948\u0902\u0964"
+    },
+    {
+      "char_length": 72,
+      "governance_tag": "SYNTHETIC_TEST_ONLY",
+      "language": "hi",
+      "record_id": "IGRIS-SYNTH-DRYRUN-0006",
+      "text": "\u0915\u092e\u094d\u092a\u094d\u092f\u0942\u091f\u0947\u0936\u0928\u0932 \u092d\u093e\u0937\u093e\u0935\u093f\u091c\u094d\u091e\u093e\u0928 \u092e\u0947\u0902 \u092d\u093e\u0930\u0924\u0940\u092f \u0932\u093f\u092a\u093f\u092f\u094b\u0902 \u0915\u093e \u0938\u0902\u0930\u0915\u094d\u0937\u0923 \u0905\u0924\u094d\u092f\u0902\u0924 \u0906\u0935\u0936\u094d\u092f\u0915 \u0939\u0948\u0964"
+    },
+    {
+      "char_length": 87,
+      "governance_tag": "SYNTHETIC_TEST_ONLY",
+      "language": "ta",
+      "record_id": "IGRIS-SYNTH-DRYRUN-0007",
+      "text": "\u0b87\u0ba8\u0bcd\u0ba4 \u0baa\u0bb2\u0bae\u0bca\u0bb4\u0bbf \u0bae\u0bbf\u0ba9\u0bcd\u0bae\u0bbe\u0bb1\u0bcd\u0bb1\u0bbf \u0bae\u0bbe\u0ba4\u0bbf\u0bb0\u0bbf \u0b87\u0ba8\u0bcd\u0ba4\u0bbf\u0baf \u0bae\u0bca\u0bb4\u0bbf\u0b95\u0bb3\u0bc1\u0b95\u0bcd\u0b95\u0bbe\u0ba9 \u0b86\u0bb4\u0bae\u0bbe\u0ba9 \u0baa\u0bbf\u0bb0\u0ba4\u0bbf\u0ba8\u0bbf\u0ba4\u0bbf\u0ba4\u0bcd\u0ba4\u0bc1\u0bb5\u0ba4\u0bcd\u0ba4\u0bc8 \u0bb5\u0bb4\u0b99\u0bcd\u0b95\u0bc1\u0b95\u0bbf\u0bb1\u0ba4\u0bc1."
+    },
+    {
+      "char_length": 85,
+      "governance_tag": "SYNTHETIC_TEST_ONLY",
+      "language": "ta",
+      "record_id": "IGRIS-SYNTH-DRYRUN-0008",
+      "text": "\u0b95\u0ba3\u0bbf\u0ba9\u0bbf \u0bae\u0bca\u0bb4\u0bbf\u0baf\u0bbf\u0baf\u0bb2\u0bcd \u0b86\u0baf\u0bcd\u0bb5\u0bbf\u0bb2\u0bcd \u0ba4\u0bae\u0bbf\u0bb4\u0bcd \u0b8e\u0bb4\u0bc1\u0ba4\u0bcd\u0ba4\u0bc1\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bb3\u0bbf\u0ba9\u0bcd \u0baa\u0baf\u0ba9\u0bcd\u0baa\u0bbe\u0b9f\u0bc1 \u0bae\u0bbf\u0b95 \u0bae\u0bc1\u0b95\u0bcd\u0b95\u0bbf\u0baf \u0baa\u0b99\u0bcd\u0b95\u0bc1 \u0bb5\u0b95\u0bbf\u0b95\u0bcd\u0b95\u0bbf\u0bb1\u0ba4\u0bc1."
+    },
+    {
+      "char_length": 80,
+      "governance_tag": "SYNTHETIC_TEST_ONLY",
+      "language": "te",
+      "record_id": "IGRIS-SYNTH-DRYRUN-0009",
+      "text": "\u0c08 \u0c2c\u0c39\u0c41\u0c2d\u0c3e\u0c37\u0c3e \u0c28\u0c4d\u0c2f\u0c42\u0c30\u0c32\u0c4d \u0c28\u0c46\u0c1f\u0c4d\u0c35\u0c30\u0c4d\u0c15\u0c4d \u0c2d\u0c3e\u0c30\u0c24\u0c40\u0c2f \u0c2d\u0c3e\u0c37\u0c32 \u0c38\u0c39\u0c1c \u0c2d\u0c3e\u0c37\u0c3e \u0c2a\u0c4d\u0c30\u0c3e\u0c38\u0c46\u0c38\u0c3f\u0c02\u0c17\u0c4d\u0c28\u0c41 \u0c2e\u0c46\u0c30\u0c41\u0c17\u0c41\u0c2a\u0c30\u0c41\u0c38\u0c4d\u0c24\u0c41\u0c02\u0c26\u0c3f."
+    },
+    {
+      "char_length": 82,
+      "governance_tag": "SYNTHETIC_TEST_ONLY",
+      "language": "te",
+      "record_id": "IGRIS-SYNTH-DRYRUN-0010",
+      "text": "\u0c1f\u0c4d\u0c30\u0c3e\u0c28\u0c4d\u0c38\u0c4d\u0c2b\u0c3e\u0c30\u0c4d\u0c2e\u0c30\u0c4d \u0c28\u0c2e\u0c42\u0c28\u0c3e \u0c2a\u0c26\u0c3e\u0c32 \u0c2a\u0c4d\u0c30\u0c3e\u0c24\u0c3f\u0c28\u0c3f\u0c27\u0c4d\u0c2f\u0c3e\u0c32\u0c28\u0c41 \u0c16\u0c1a\u0c4d\u0c1a\u0c3f\u0c24\u0c02\u0c17\u0c3e \u0c28\u0c47\u0c30\u0c4d\u0c1a\u0c41\u0c15\u0c4b\u0c35\u0c21\u0c3e\u0c28\u0c3f\u0c15\u0c3f \u0c38\u0c39\u0c3e\u0c2f\u0c2a\u0c21\u0c41\u0c24\u0c41\u0c02\u0c26\u0c3f."
+    },
+    {
+      "char_length": 90,
+      "governance_tag": "SYNTHETIC_TEST_ONLY",
+      "language": "bn",
+      "record_id": "IGRIS-SYNTH-DRYRUN-0011",
+      "text": "\u098f\u0987 \u09ac\u09b9\u09c1\u09ad\u09be\u09b7\u09bf\u0995 \u099f\u09cd\u09b0\u09be\u09a8\u09cd\u09b8\u09ab\u09b0\u09ae\u09be\u09b0 \u09ae\u09a1\u09c7\u09b2 \u09ad\u09be\u09b0\u09a4\u09c0\u09af\u09bc \u09ad\u09be\u09b7\u09be\u0997\u09c1\u09b2\u09bf\u09b0 \u09aa\u09cd\u09b0\u09be\u0995\u09c3\u09a4\u09bf\u0995 \u09ad\u09be\u09b7\u09be \u09aa\u09cd\u09b0\u0995\u09cd\u09b0\u09bf\u09af\u09bc\u09be\u0995\u09b0\u09a3\u0995\u09c7 \u09b8\u09ae\u09c3\u09a6\u09cd\u09a7 \u0995\u09b0\u09c7\u0964"
+    },
+    {
+      "char_length": 57,
+      "governance_tag": "SYNTHETIC_TEST_ONLY",
+      "language": "bn",
+      "record_id": "IGRIS-SYNTH-DRYRUN-0012",
+      "text": "\u09b0\u09cb\u099f\u09be\u09b0\u09bf \u09aa\u099c\u09bf\u09b6\u09a8 \u098f\u09ae\u09ac\u09c7\u09a1\u09bf\u0982 \u09ae\u09a1\u09c7\u09b2\u09c7\u09b0 \u0997\u09a4\u09bf \u098f\u09ac\u0982 \u09a8\u09bf\u09b0\u09cd\u09ad\u09c1\u09b2\u09a4\u09be \u09ac\u09c3\u09a6\u09cd\u09a7\u09bf \u0995\u09b0\u09c7\u0964"
+    },
+    {
+      "char_length": 83,
+      "governance_tag": "SYNTHETIC_TEST_ONLY",
+      "language": "mr",
+      "record_id": "IGRIS-SYNTH-DRYRUN-0013",
+      "text": "\u0939\u093e \u092c\u0939\u0941\u092d\u093e\u0937\u093f\u0915 \u091f\u094d\u0930\u093e\u0928\u094d\u0938\u092b\u0949\u0930\u094d\u092e\u0930 \u092e\u0949\u0921\u0947\u0932 \u092d\u093e\u0930\u0924\u0940\u092f \u092d\u093e\u0937\u093e\u0902\u091a\u094d\u092f\u093e \u0938\u0902\u0917\u0923\u0915\u0940\u092f \u092a\u094d\u0930\u0915\u094d\u0930\u093f\u092f\u0947\u0938\u093e\u0920\u0940 \u0909\u092a\u092f\u0941\u0915\u094d\u0924 \u0906\u0939\u0947."
+    },
+    {
+      "char_length": 85,
+      "governance_tag": "SYNTHETIC_TEST_ONLY",
+      "language": "gu",
+      "record_id": "IGRIS-SYNTH-DRYRUN-0014",
+      "text": "\u0a86 \u0aac\u0ab9\u0ac1\u0aad\u0abe\u0ab7\u0ac0 \u0a9f\u0acd\u0ab0\u0abe\u0aa8\u0acd\u0ab8\u0aab\u0acb\u0ab0\u0acd\u0aae\u0ab0 \u0aae\u0acb\u0aa1\u0ac7\u0ab2 \u0aad\u0abe\u0ab0\u0aa4\u0ac0\u0aaf \u0aad\u0abe\u0ab7\u0abe\u0a93\u0aa8\u0abe \u0a95\u0ac1\u0aa6\u0ab0\u0aa4\u0ac0 \u0aad\u0abe\u0ab7\u0abe \u0aaa\u0acd\u0ab0\u0a95\u0acd\u0ab0\u0abf\u0aaf\u0abe\u0aa8\u0ac7 \u0ab8\u0aae\u0ac3\u0aa6\u0acd\u0aa7 \u0aac\u0aa8\u0abe\u0ab5\u0ac7 \u0a9b\u0ac7."
+    },
+    {
+      "char_length": 86,
+      "governance_tag": "SYNTHETIC_TEST_ONLY",
+      "language": "code",
+      "record_id": "IGRIS-SYNTH-DRYRUN-0015",
+      "text": "def compute_attention(q, k, v, mask=None): return torch.matmul(q, k.transpose(-1, -2))"
+    }
+  ]
+}

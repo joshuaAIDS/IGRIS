@@ -1,0 +1,330 @@
+{
+  "ELIGIBLE": [
+    {
+      "source_id": "SRC-TM-01",
+      "dataset_name": "IndicCorp v2 (Tamil)",
+      "category": "Tamil",
+      "primary_language": "ta",
+      "published_license": "CC0-1.0",
+      "eligibility": "ELIGIBLE",
+      "provenance_type": "Curated Web & News Corpus",
+      "size": "3.8 GB (~45M sentences)"
+    },
+    {
+      "source_id": "SRC-EN-01",
+      "dataset_name": "Project Gutenberg Open Archive",
+      "category": "English",
+      "primary_language": "en",
+      "published_license": "Public Domain",
+      "eligibility": "ELIGIBLE",
+      "provenance_type": "Classic Literary Texts",
+      "size": "12 GB (~70K books)"
+    },
+    {
+      "source_id": "SRC-TG-01",
+      "dataset_name": "DravidianCodeMix (Tamil-English)",
+      "category": "Tanglish",
+      "primary_language": "ta-Latn",
+      "published_license": "CC-BY-4.0",
+      "eligibility": "ELIGIBLE",
+      "provenance_type": "Social Media Code-Mixed",
+      "size": "45 MB (~44K utterances)"
+    },
+    {
+      "source_id": "SRC-TG-02",
+      "dataset_name": "IndicGLUE Tanglish Sentiment",
+      "category": "Tanglish",
+      "primary_language": "ta-Latn",
+      "published_license": "CC-BY-4.0",
+      "eligibility": "ELIGIBLE",
+      "provenance_type": "Social Media & Reviews",
+      "size": "15 MB (~15K sentences)"
+    },
+    {
+      "source_id": "SRC-HI-01",
+      "dataset_name": "IndicCorp v2 (Hindi)",
+      "category": "Hindi",
+      "primary_language": "hi",
+      "published_license": "CC0-1.0",
+      "eligibility": "ELIGIBLE",
+      "provenance_type": "Curated News & Web",
+      "size": "12.5 GB (~180M sentences)"
+    },
+    {
+      "source_id": "SRC-OI-01",
+      "dataset_name": "IndicCorp v2 (Telugu)",
+      "category": "Other Indian Languages",
+      "primary_language": "te",
+      "published_license": "CC0-1.0",
+      "eligibility": "ELIGIBLE",
+      "provenance_type": "Curated News & Web",
+      "size": "4.2 GB (~52M sentences)"
+    },
+    {
+      "source_id": "SRC-OI-02",
+      "dataset_name": "IndicCorp v2 (Malayalam)",
+      "category": "Other Indian Languages",
+      "primary_language": "ml",
+      "published_license": "CC0-1.0",
+      "eligibility": "ELIGIBLE",
+      "provenance_type": "Curated News & Web",
+      "size": "2.6 GB (~31M sentences)"
+    },
+    {
+      "source_id": "SRC-OI-03",
+      "dataset_name": "IndicCorp v2 (Kannada)",
+      "category": "Other Indian Languages",
+      "primary_language": "kn",
+      "published_license": "CC0-1.0",
+      "eligibility": "ELIGIBLE",
+      "provenance_type": "Curated News & Web",
+      "size": "2.1 GB (~28M sentences)"
+    },
+    {
+      "source_id": "SRC-OI-04",
+      "dataset_name": "IndicCorp v2 (Bengali)",
+      "category": "Other Indian Languages",
+      "primary_language": "bn",
+      "published_license": "CC0-1.0",
+      "eligibility": "ELIGIBLE",
+      "provenance_type": "Curated News & Web",
+      "size": "7.8 GB (~85M sentences)"
+    },
+    {
+      "source_id": "SRC-OI-05",
+      "dataset_name": "IndicCorp v2 (Gujarati)",
+      "category": "Other Indian Languages",
+      "primary_language": "gu",
+      "published_license": "CC0-1.0",
+      "eligibility": "ELIGIBLE",
+      "provenance_type": "Curated News & Web",
+      "size": "4.1 GB (~48M sentences)"
+    },
+    {
+      "source_id": "SRC-CD-01",
+      "dataset_name": "The Stack v2 (Permissive Subset)",
+      "category": "Programming Code",
+      "primary_language": "code",
+      "published_license": "Permissive (MIT/Apache/BSD)",
+      "eligibility": "ELIGIBLE",
+      "provenance_type": "Open Source Repositories",
+      "size": "6 TB (Full) / 2 GB (Sample)"
+    },
+    {
+      "source_id": "SRC-TD-02",
+      "dataset_name": "IETF RFC Archive (Text)",
+      "category": "Technical Documentation",
+      "primary_language": "en",
+      "published_license": "RFC 5378 / IETF Trust",
+      "eligibility": "ELIGIBLE",
+      "provenance_type": "Internet Standards & Protocols",
+      "size": "320 MB (~9500 RFCs)"
+    },
+    {
+      "source_id": "SRC-TD-03",
+      "dataset_name": "Python Official Documentation",
+      "category": "Technical Documentation",
+      "primary_language": "en",
+      "published_license": "PSF-2.0",
+      "eligibility": "ELIGIBLE",
+      "provenance_type": "API Reference & Tutorials",
+      "size": "110 MB"
+    },
+    {
+      "source_id": "SRC-CV-03",
+      "dataset_name": "OpenAssistant Conversations (OASST1)",
+      "category": "Conversational Text",
+      "primary_language": "mul",
+      "published_license": "Apache-2.0",
+      "eligibility": "ELIGIBLE",
+      "provenance_type": "Human Volunteer Crowd Dialogue",
+      "size": "50 MB (~161K messages)"
+    },
+    {
+      "source_id": "SRC-CV-05",
+      "dataset_name": "MultiWOZ 2.4 (Task Dialogue)",
+      "category": "Conversational Text",
+      "primary_language": "en",
+      "published_license": "Apache-2.0",
+      "eligibility": "ELIGIBLE",
+      "provenance_type": "Goal-Oriented Task Dialogue",
+      "size": "15 MB (~10.4K dialogues)"
+    },
+    {
+      "source_id": "SRC-CV-06",
+      "dataset_name": "Project Gutenberg Theatrical Dialogue",
+      "category": "Conversational Text",
+      "primary_language": "en",
+      "published_license": "Public Domain",
+      "eligibility": "ELIGIBLE",
+      "provenance_type": "Historical Theatrical Stage Plays",
+      "size": "25 MB (Dramatic Plays)"
+    },
+    {
+      "source_id": "SRC-EM-01",
+      "dataset_name": "Unicode Standard 15.1.0 Test Suite",
+      "category": "Emoji & Unicode Edge Cases",
+      "primary_language": "mul",
+      "published_license": "Unicode-DFS-2016",
+      "eligibility": "ELIGIBLE",
+      "provenance_type": "Official Unicode Charts & Tests",
+      "size": "35 MB"
+    },
+    {
+      "source_id": "SRC-EM-02",
+      "dataset_name": "Unicode 15.1.0 Emoji Data Files",
+      "category": "Emoji & Unicode Edge Cases",
+      "primary_language": "mul",
+      "published_license": "Unicode-DFS-2016",
+      "eligibility": "ELIGIBLE",
+      "provenance_type": "Official Emoji Sequences",
+      "size": "4 MB"
+    }
+  ],
+  "INELIGIBLE_CONDITIONAL": [
+    {
+      "source_id": "SRC-TM-02",
+      "dataset_name": "Tamil Wikipedia Dump",
+      "category": "Tamil",
+      "primary_language": "ta",
+      "published_license": "CC-BY-SA-4.0",
+      "eligibility": "INELIGIBLE_CONDITIONAL",
+      "provenance_type": "Encyclopedic Articles",
+      "size": "420 MB (~160K articles)"
+    },
+    {
+      "source_id": "SRC-TM-03",
+      "dataset_name": "OSCAR 23.01 Tamil (Filtered)",
+      "category": "Tamil",
+      "primary_language": "ta",
+      "published_license": "ODC-By 1.0",
+      "eligibility": "INELIGIBLE_CONDITIONAL",
+      "provenance_type": "Common Crawl Filtered",
+      "size": "1.9 GB (~12M sentences)"
+    },
+    {
+      "source_id": "SRC-EN-02",
+      "dataset_name": "English Wikipedia Dump",
+      "category": "English",
+      "primary_language": "en",
+      "published_license": "CC-BY-SA-4.0",
+      "eligibility": "INELIGIBLE_CONDITIONAL",
+      "provenance_type": "Encyclopedic Articles",
+      "size": "22 GB (~6.8M articles)"
+    },
+    {
+      "source_id": "SRC-EN-03",
+      "dataset_name": "C4 (Colossal Clean Crawled Corpus)",
+      "category": "English",
+      "primary_language": "en",
+      "published_license": "ODC-By 1.0",
+      "eligibility": "INELIGIBLE_CONDITIONAL",
+      "provenance_type": "Web Text Filtered",
+      "size": "305 GB (Full)"
+    },
+    {
+      "source_id": "SRC-HI-02",
+      "dataset_name": "Hindi Wikipedia Dump",
+      "category": "Hindi",
+      "primary_language": "hi",
+      "published_license": "CC-BY-SA-4.0",
+      "eligibility": "INELIGIBLE_CONDITIONAL",
+      "provenance_type": "Encyclopedic Articles",
+      "size": "380 MB (~160K articles)"
+    },
+    {
+      "source_id": "SRC-ML-01",
+      "dataset_name": "FLORES-200 Multilingual Benchmark",
+      "category": "Multilingual Mixed Text",
+      "primary_language": "mul",
+      "published_license": "CC-BY-SA 4.0",
+      "eligibility": "INELIGIBLE_CONDITIONAL",
+      "provenance_type": "Professional Translations",
+      "size": "85 MB (~200 languages x 3012 sentences)"
+    },
+    {
+      "source_id": "SRC-ML-02",
+      "dataset_name": "mC4 Multilingual Web Corpus (Sample)",
+      "category": "Multilingual Mixed Text",
+      "primary_language": "mul",
+      "published_license": "ODC-By 1.0",
+      "eligibility": "INELIGIBLE_CONDITIONAL",
+      "provenance_type": "Web Crawled",
+      "size": "2.2 TB (Full) / 500 MB (Slice)"
+    },
+    {
+      "source_id": "SRC-TD-01",
+      "dataset_name": "Linux Kernel Documentation",
+      "category": "Technical Documentation",
+      "primary_language": "en",
+      "published_license": "GPL-2.0-with-exception",
+      "eligibility": "INELIGIBLE_CONDITIONAL",
+      "provenance_type": "Technical Manuals & Specs",
+      "size": "85 MB"
+    }
+  ],
+  "INELIGIBLE_PROHIBITED": [
+    {
+      "source_id": "SRC-CD-02",
+      "dataset_name": "HumanEval & MBPP Benchmark",
+      "category": "Programming Code",
+      "primary_language": "code",
+      "published_license": "MIT / Apache-2.0",
+      "eligibility": "INELIGIBLE_PROHIBITED",
+      "provenance_type": "Algorithmic Code",
+      "size": "2 MB (~600 problems)"
+    },
+    {
+      "source_id": "SRC-CV-04",
+      "dataset_name": "Anthropic HH-RLHF",
+      "category": "Conversational Text",
+      "primary_language": "en",
+      "published_license": "MIT",
+      "eligibility": "INELIGIBLE_PROHIBITED",
+      "provenance_type": "Human-Model Preference Dialogue",
+      "size": "40 MB (~160K sessions)"
+    }
+  ],
+  "INELIGIBLE_REJECTED": [
+    {
+      "source_id": "SRC-TG-03",
+      "dataset_name": "Social Dravidian Sentiment Tanglish",
+      "category": "Tanglish",
+      "primary_language": "ta-Latn",
+      "published_license": "Research-Only",
+      "eligibility": "INELIGIBLE_REJECTED",
+      "provenance_type": "YouTube Comments",
+      "size": "25 MB (~20K comments)"
+    },
+    {
+      "source_id": "SRC-HI-03",
+      "dataset_name": "IIT Bombay English-Hindi Parallel Corpus",
+      "category": "Hindi",
+      "primary_language": "hi",
+      "published_license": "CC-BY-NC-SA 4.0",
+      "eligibility": "INELIGIBLE_REJECTED",
+      "provenance_type": "Parallel Academic Text",
+      "size": "220 MB (~1.5M sentence pairs)"
+    },
+    {
+      "source_id": "SRC-CV-01",
+      "dataset_name": "DailyDialog Dataset",
+      "category": "Conversational Text",
+      "primary_language": "en",
+      "published_license": "CC-BY-NC-SA 4.0",
+      "eligibility": "INELIGIBLE_REJECTED",
+      "provenance_type": "Multi-Turn Everyday Dialogues",
+      "size": "12 MB (~13K dialogues)"
+    },
+    {
+      "source_id": "SRC-CV-02",
+      "dataset_name": "OpenSubtitles Multilingual (Filtered)",
+      "category": "Conversational Text",
+      "primary_language": "mul",
+      "published_license": "Non-Standard Scrape",
+      "eligibility": "INELIGIBLE_REJECTED",
+      "provenance_type": "Spoken Subtitles",
+      "size": "4.5 GB"
+    }
+  ]
+}

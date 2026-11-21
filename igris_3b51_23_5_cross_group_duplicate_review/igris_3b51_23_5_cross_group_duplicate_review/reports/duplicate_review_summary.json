@@ -1,0 +1,35 @@
+{
+  "status": "PASS_WITH_REVIEW",
+  "decision": "DUPLICATE_CLASSIFICATION_ONLY_NO_DELETE_NO_MERGE_NO_PROMOTION",
+  "duplicate_keys_reviewed": 439,
+  "category_counts": {
+    "clean;mixed": 427,
+    "clean;recovered_review_only": 7,
+    "clean;mixed;recovered_review_only": 3,
+    "mixed;quarantine": 2
+  },
+  "reference_errors": [],
+  "review_policy": {
+    "clean;mixed": "Mixed-script review is an additional classification layer; do not remove from clean solely because of this overlap.",
+    "clean;recovered_review_only": "Recovered copy already appears in clean; keep recovered copy review-only.",
+    "clean;mixed;recovered_review_only": "Same content appears in clean and mixed review; recovered copy remains review-only.",
+    "mixed;quarantine": "Quarantine reason takes precedence; keep quarantined pending manual review.",
+    "all_other_categories": "Manual review required; no automatic action."
+  },
+  "input_hashes": {
+    "duplicates": "37b231e39a8915a8065dbe1c666a201c14ff7a0a7f433f1e61186f7f06b3b4af",
+    "clean": "8b26af54e5b77c1434d583b487cec4db8af6a2560bdfdff015e85d8e8ea45064",
+    "mixed": "b957db99e9abf197a32d14d0f4f4198f97d3e33f5eb5266d8780a8c294b4251b",
+    "quarantine": "f3e32408d6a96b99d4def3ca4079770d6cf7594a553d57cda1a44cfeedced874",
+    "recovered_review_only": "052c4d2e3cd65b5a9468992be58130040456c777867057515d85640813805837"
+  },
+  "outputs": [
+    "reports\\duplicate_review_register.csv",
+    "reports\\duplicate_review_summary.json"
+  ],
+  "limitations": [
+    "NFC-hash matches identify exact normalized text duplicates, not semantic duplicates.",
+    "This script does not determine licensing, provenance, safety, or commercial-use rights.",
+    "No input records are modified, deleted, merged, or approved."
+  ]
+}

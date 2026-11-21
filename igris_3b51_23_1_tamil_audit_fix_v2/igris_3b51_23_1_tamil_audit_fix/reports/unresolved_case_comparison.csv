@@ -1,0 +1,11 @@
+﻿case,source_line_1_based,recovery_status_original,truncated_flag,comparison,preview_present,preview_chars,source_chars,preview_encoding_repaired
+1,500,MISMATCH,True,NO_MATCH,True,500,1399,False
+2,1357,MISMATCH,False,NFC_MATCH,True,319,325,False
+3,3944,MISMATCH,False,NFC_MATCH,True,479,480,False
+4,4236,MISMATCH,False,NFC_MATCH,True,374,381,False
+5,5218,MISMATCH,True,NO_MATCH,True,500,1123,False
+6,6017,MISMATCH,True,NO_MATCH,True,500,667,False
+7,586,MISMATCH,True,NO_MATCH,True,500,2812,False
+8,4249,MISMATCH,True,NO_MATCH,True,500,2124,False
+9,6241,MISMATCH,True,NO_MATCH,True,500,3030,False
+10,6454,MISMATCH,True,NO_MATCH,True,500,2959,False

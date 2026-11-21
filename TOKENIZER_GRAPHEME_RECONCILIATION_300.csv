@@ -1,0 +1,301 @@
+record_id,original_text,language,category,script,total_graphemes,cand_a_token_count,cand_exp_token_count,cand_a_total_internal_cuts,cand_a_cuts_inside_graphemes,cand_a_cuts_between_graphemes,cand_a_byte_cuts_inside_graphemes,cand_exp_total_internal_cuts,cand_exp_cuts_inside_graphemes,cand_exp_cuts_between_graphemes,cand_exp_byte_cuts_inside_graphemes,reconciliation_notes
+REV-TA-001,செய்,TAMIL,roots_and_suffixes,TAMIL_SCRIPT,2,6,4,5,3,2,4,3,2,1,2,Char cuts inside graphemes: Exp A eliminates 1 character-level cuts
+REV-TA-002,செய்தல்,TAMIL,roots_and_suffixes,TAMIL_SCRIPT,4,9,6,8,4,4,5,5,3,2,3,Char cuts inside graphemes: Exp A eliminates 1 character-level cuts
+REV-TA-003,செய்கிறான்,TAMIL,roots_and_suffixes,TAMIL_SCRIPT,5,12,10,11,6,5,7,9,5,4,5,Char cuts inside graphemes: Exp A eliminates 1 character-level cuts
+REV-TA-004,செய்தான்,TAMIL,roots_and_suffixes,TAMIL_SCRIPT,4,10,8,9,5,4,6,7,4,3,4,Char cuts inside graphemes: Exp A eliminates 1 character-level cuts
+REV-TA-005,செய்வான்,TAMIL,roots_and_suffixes,TAMIL_SCRIPT,4,11,8,10,6,4,7,7,4,3,4,Char cuts inside graphemes: Exp A eliminates 2 character-level cuts
+REV-TA-006,செய்யப்படுதல்,TAMIL,roots_and_suffixes,TAMIL_SCRIPT,8,18,10,17,8,9,10,9,5,4,5,Char cuts inside graphemes: Exp A eliminates 3 character-level cuts
+REV-TA-007,செய்துகொண்டிருக்கிறான்,TAMIL,roots_and_suffixes,TAMIL_SCRIPT,11,26,22,25,14,11,15,21,11,10,11,Char cuts inside graphemes: Exp A eliminates 3 character-level cuts
+REV-TA-008,செய்வித்தான்,TAMIL,roots_and_suffixes,TAMIL_SCRIPT,6,15,12,14,8,6,9,11,6,5,6,Char cuts inside graphemes: Exp A eliminates 2 character-level cuts
+REV-TA-009,படிக்கிறேன்,TAMIL,roots_and_suffixes,TAMIL_SCRIPT,6,14,10,13,6,7,8,9,5,4,5,Char cuts inside graphemes: Exp A eliminates 1 character-level cuts
+REV-TA-010,படித்தல்,TAMIL,roots_and_suffixes,TAMIL_SCRIPT,5,10,6,9,4,5,5,5,3,2,3,Char cuts inside graphemes: Exp A eliminates 1 character-level cuts
+REV-TA-011,வந்தேன்,TAMIL,tense_and_person,TAMIL_SCRIPT,4,10,7,9,4,5,6,6,3,3,3,Char cuts inside graphemes: Exp A eliminates 1 character-level cuts
+REV-TA-012,வந்தாய்,TAMIL,tense_and_person,TAMIL_SCRIPT,4,9,7,8,4,4,5,6,3,3,3,Char cuts inside graphemes: Exp A eliminates 1 character-level cuts
+REV-TA-013,வந்தார்,TAMIL,tense_and_person,TAMIL_SCRIPT,4,9,7,8,4,4,5,6,3,3,3,Char cuts inside graphemes: Exp A eliminates 1 character-level cuts
+REV-TA-014,வந்தான்,TAMIL,tense_and_person,TAMIL_SCRIPT,4,9,7,8,4,4,5,6,3,3,3,Char cuts inside graphemes: Exp A eliminates 1 character-level cuts
+REV-TA-015,வந்தாள்,TAMIL,tense_and_person,TAMIL_SCRIPT,4,10,7,9,5,4,6,6,3,3,3,Char cuts inside graphemes: Exp A eliminates 2 character-level cuts
+REV-TA-016,வந்தது,TAMIL,tense_and_person,TAMIL_SCRIPT,4,8,5,7,3,4,4,4,2,2,2,Char cuts inside graphemes: Exp A eliminates 1 character-level cuts
+REV-TA-017,வந்தோம்,TAMIL,tense_and_person,TAMIL_SCRIPT,4,10,7,9,4,5,6,6,3,3,3,Char cuts inside graphemes: Exp A eliminates 1 character-level cuts
+REV-TA-018,வருகிறோம்,TAMIL,tense_and_person,TAMIL_SCRIPT,5,11,8,10,4,6,6,7,4,3,4,Char cuts inside graphemes: Identical character-level cuts (combining marks detached in both)
+REV-TA-019,வருவீர்கள்,TAMIL,tense_and_person,TAMIL_SCRIPT,6,14,8,13,6,7,8,7,4,3,4,Char cuts inside graphemes: Exp A eliminates 2 character-level cuts
+REV-TA-020,வருவார்கள்,TAMIL,tense_and_person,TAMIL_SCRIPT,6,13,8,12,6,6,7,7,4,3,4,Char cuts inside graphemes: Exp A eliminates 2 character-level cuts
+REV-TA-021,மரங்கள்,TAMIL,singular_and_plural,TAMIL_SCRIPT,5,9,5,8,4,4,4,4,2,2,2,Char cuts inside graphemes: Exp A eliminates 2 character-level cuts
+REV-TA-022,கற்கள்,TAMIL,singular_and_plural,TAMIL_SCRIPT,4,7,4,6,3,3,3,3,2,1,2,Char cuts inside graphemes: Exp A eliminates 1 character-level cuts
+REV-TA-023,நாடுகள்,TAMIL,singular_and_plural,TAMIL_SCRIPT,4,10,6,9,6,3,6,5,3,2,3,Char cuts inside graphemes: Exp A eliminates 3 character-level cuts
+REV-TA-024,மாணவர்கள்,TAMIL,singular_and_plural,TAMIL_SCRIPT,6,12,6,11,4,7,6,5,3,2,3,Char cuts inside graphemes: Exp A eliminates 1 character-level cuts
+REV-TA-025,குழந்தைகள்,TAMIL,singular_and_plural,TAMIL_SCRIPT,6,12,9,11,6,5,6,8,4,4,4,Char cuts inside graphemes: Exp A eliminates 2 character-level cuts
+REV-TA-026,புத்தகங்கள்,TAMIL,singular_and_plural,TAMIL_SCRIPT,7,14,9,13,7,6,7,8,4,4,4,Char cuts inside graphemes: Exp A eliminates 3 character-level cuts
+REV-TA-027,ஆசிரியர்கள்,TAMIL,singular_and_plural,TAMIL_SCRIPT,7,14,9,13,6,7,7,8,4,4,4,Char cuts inside graphemes: Exp A eliminates 2 character-level cuts
+REV-TA-028,நகரங்கள்,TAMIL,singular_and_plural,TAMIL_SCRIPT,6,11,6,10,4,6,5,5,2,3,2,Char cuts inside graphemes: Exp A eliminates 2 character-level cuts
+REV-TA-029,சொற்கள்,TAMIL,singular_and_plural,TAMIL_SCRIPT,4,9,6,8,5,3,5,5,3,2,3,Char cuts inside graphemes: Exp A eliminates 2 character-level cuts
+REV-TA-030,பறவைகள்,TAMIL,singular_and_plural,TAMIL_SCRIPT,5,10,5,9,4,5,5,4,2,2,2,Char cuts inside graphemes: Exp A eliminates 2 character-level cuts
+REV-TA-031,செந்தமிழ்,TAMIL,compound_words,TAMIL_SCRIPT,5,12,8,11,6,5,7,7,4,3,4,Char cuts inside graphemes: Exp A eliminates 2 character-level cuts
+REV-TA-032,பல்கலைக்கழகம்,TAMIL,compound_words,TAMIL_SCRIPT,9,14,10,13,4,9,5,9,4,5,4,Char cuts inside graphemes: Identical character-level cuts (combining marks detached in both)
+REV-TA-033,நீர்வளம்,TAMIL,compound_words,TAMIL_SCRIPT,5,12,7,11,4,7,7,6,3,3,3,Char cuts inside graphemes: Exp A eliminates 1 character-level cuts
+REV-TA-034,நிலப்பரப்பு,TAMIL,compound_words,TAMIL_SCRIPT,7,16,10,15,8,7,9,9,4,5,4,Char cuts inside graphemes: Exp A eliminates 4 character-level cuts
+REV-TA-035,மணிக்கூண்டு,TAMIL,compound_words,TAMIL_SCRIPT,6,15,11,14,8,6,9,10,5,5,5,Char cuts inside graphemes: Exp A eliminates 3 character-level cuts
+REV-TA-036,காவல்துறை,TAMIL,compound_words,TAMIL_SCRIPT,5,10,9,9,4,5,5,8,4,4,4,Char cuts inside graphemes: Identical character-level cuts (combining marks detached in both)
+REV-TA-037,செம்மொழி,TAMIL,compound_words,TAMIL_SCRIPT,4,10,8,9,5,4,6,7,4,3,4,Char cuts inside graphemes: Exp A eliminates 1 character-level cuts
+REV-TA-038,வானூர்தி,TAMIL,compound_words,TAMIL_SCRIPT,4,10,8,9,5,4,6,7,4,3,4,Char cuts inside graphemes: Exp A eliminates 1 character-level cuts
+REV-TA-039,கைப்பேசி,TAMIL,compound_words,TAMIL_SCRIPT,4,12,8,11,7,4,8,7,4,3,4,Char cuts inside graphemes: Exp A eliminates 3 character-level cuts
+REV-TA-040,மின்சாரம்,TAMIL,compound_words,TAMIL_SCRIPT,5,10,8,9,5,4,5,7,4,3,4,Char cuts inside graphemes: Exp A eliminates 1 character-level cuts
+REV-TA-041,போறேன்,TAMIL,spoken_vs_formal,TAMIL_SCRIPT,3,9,6,8,4,4,6,5,3,2,3,Char cuts inside graphemes: Exp A eliminates 1 character-level cuts
+REV-TA-042,வரேன்,TAMIL,spoken_vs_formal,TAMIL_SCRIPT,3,7,4,6,2,4,4,3,2,1,2,Char cuts inside graphemes: Identical character-level cuts (combining marks detached in both)
+REV-TA-043,பண்ணினேன்,TAMIL,spoken_vs_formal,TAMIL_SCRIPT,5,13,8,12,6,6,8,7,4,3,4,Char cuts inside graphemes: Exp A eliminates 2 character-level cuts
+REV-TA-044,என்ன பண்ற,TAMIL,spoken_vs_formal,TAMIL_SCRIPT,7,11,7,10,3,7,5,6,2,4,2,Char cuts inside graphemes: Exp A eliminates 1 character-level cuts
+REV-TA-045,எங்க போற,TAMIL,spoken_vs_formal,TAMIL_SCRIPT,6,11,7,10,4,6,6,6,2,4,2,Char cuts inside graphemes: Exp A eliminates 2 character-level cuts
+REV-TA-046,எப்படி இருக்கீங்க,TAMIL,spoken_vs_formal,TAMIL_SCRIPT,11,23,14,22,9,13,13,13,6,7,6,Char cuts inside graphemes: Exp A eliminates 3 character-level cuts
+REV-TA-047,இல்ல,TAMIL,spoken_vs_formal,TAMIL_SCRIPT,3,5,4,4,1,3,2,3,1,2,1,Char cuts inside graphemes: Identical character-level cuts (combining marks detached in both)
+REV-TA-048,சாப்ட்டேன்,TAMIL,spoken_vs_formal,TAMIL_SCRIPT,5,15,10,14,9,5,10,9,5,4,5,Char cuts inside graphemes: Exp A eliminates 4 character-level cuts
+REV-TA-049,முடியல,TAMIL,spoken_vs_formal,TAMIL_SCRIPT,4,7,5,6,3,3,3,4,2,2,2,Char cuts inside graphemes: Exp A eliminates 1 character-level cuts
+REV-TA-050,தெரியல,TAMIL,spoken_vs_formal,TAMIL_SCRIPT,4,7,5,6,2,4,3,4,2,2,2,Char cuts inside graphemes: Identical character-level cuts (combining marks detached in both)
+REV-TA-051,க்,TAMIL,pulli_and_virama,TAMIL_SCRIPT,1,2,2,1,1,0,1,1,1,0,1,Char cuts inside graphemes: Identical character-level cuts (combining marks detached in both)
+REV-TA-052,ச்,TAMIL,pulli_and_virama,TAMIL_SCRIPT,1,3,2,2,2,0,2,1,1,0,1,Char cuts inside graphemes: Exp A eliminates 1 character-level cuts
+REV-TA-053,த்,TAMIL,pulli_and_virama,TAMIL_SCRIPT,1,2,2,1,1,0,1,1,1,0,1,Char cuts inside graphemes: Identical character-level cuts (combining marks detached in both)
+REV-TA-054,ப்,TAMIL,pulli_and_virama,TAMIL_SCRIPT,1,3,2,2,2,0,2,1,1,0,1,Char cuts inside graphemes: Exp A eliminates 1 character-level cuts
+REV-TA-055,ங்,TAMIL,pulli_and_virama,TAMIL_SCRIPT,1,3,2,2,2,0,2,1,1,0,1,Char cuts inside graphemes: Exp A eliminates 1 character-level cuts
+REV-TA-056,ஞ்,TAMIL,pulli_and_virama,TAMIL_SCRIPT,1,3,2,2,2,0,2,1,1,0,1,Char cuts inside graphemes: Exp A eliminates 1 character-level cuts
+REV-TA-057,ண்,TAMIL,pulli_and_virama,TAMIL_SCRIPT,1,3,2,2,2,0,2,1,1,0,1,Char cuts inside graphemes: Exp A eliminates 1 character-level cuts
+REV-TA-058,ந்,TAMIL,pulli_and_virama,TAMIL_SCRIPT,1,3,2,2,2,0,2,1,1,0,1,Char cuts inside graphemes: Exp A eliminates 1 character-level cuts
+REV-TA-059,ம்,TAMIL,pulli_and_virama,TAMIL_SCRIPT,1,2,2,1,1,0,1,1,1,0,1,Char cuts inside graphemes: Identical character-level cuts (combining marks detached in both)
+REV-TA-060,ன்,TAMIL,pulli_and_virama,TAMIL_SCRIPT,1,2,2,1,1,0,1,1,1,0,1,Char cuts inside graphemes: Identical character-level cuts (combining marks detached in both)
+REV-TA-061,கா,TAMIL,uyirmei_combinations,TAMIL_SCRIPT,1,2,2,1,1,0,1,1,1,0,1,Char cuts inside graphemes: Identical character-level cuts (combining marks detached in both)
+REV-TA-062,கி,TAMIL,uyirmei_combinations,TAMIL_SCRIPT,1,2,2,1,1,0,1,1,1,0,1,Char cuts inside graphemes: Identical character-level cuts (combining marks detached in both)
+REV-TA-063,கீ,TAMIL,uyirmei_combinations,TAMIL_SCRIPT,1,3,2,2,1,1,2,1,1,0,1,Char cuts inside graphemes: Identical character-level cuts (combining marks detached in both)
+REV-TA-064,கு,TAMIL,uyirmei_combinations,TAMIL_SCRIPT,1,2,2,1,1,0,1,1,1,0,1,Char cuts inside graphemes: Identical character-level cuts (combining marks detached in both)
+REV-TA-065,கூ,TAMIL,uyirmei_combinations,TAMIL_SCRIPT,1,3,2,2,1,1,2,1,1,0,1,Char cuts inside graphemes: Identical character-level cuts (combining marks detached in both)
+REV-TA-066,கெ,TAMIL,uyirmei_combinations,TAMIL_SCRIPT,1,3,2,2,1,1,2,1,1,0,1,Char cuts inside graphemes: Identical character-level cuts (combining marks detached in both)
+REV-TA-067,கே,TAMIL,uyirmei_combinations,TAMIL_SCRIPT,1,3,2,2,1,1,2,1,1,0,1,Char cuts inside graphemes: Identical character-level cuts (combining marks detached in both)
+REV-TA-068,கை,TAMIL,uyirmei_combinations,TAMIL_SCRIPT,1,2,2,1,1,0,1,1,1,0,1,Char cuts inside graphemes: Identical character-level cuts (combining marks detached in both)
+REV-TA-069,கொ,TAMIL,uyirmei_combinations,TAMIL_SCRIPT,1,2,2,1,1,0,1,1,1,0,1,Char cuts inside graphemes: Identical character-level cuts (combining marks detached in both)
+REV-TA-070,கோ,TAMIL,uyirmei_combinations,TAMIL_SCRIPT,1,3,2,2,1,1,2,1,1,0,1,Char cuts inside graphemes: Identical character-level cuts (combining marks detached in both)
+REV-TA-071,ஸ்ரீ,TAMIL,grantha_and_conjuncts,TAMIL_SCRIPT,2,6,4,5,3,2,4,3,2,1,2,Char cuts inside graphemes: Exp A eliminates 1 character-level cuts
+REV-TA-072,ஜப்பான்,TAMIL,grantha_and_conjuncts,TAMIL_SCRIPT,4,10,8,9,5,4,6,7,3,4,4,Char cuts inside graphemes: Exp A eliminates 2 character-level cuts
+REV-TA-073,ஷண்முகம்,TAMIL,grantha_and_conjuncts,TAMIL_SCRIPT,5,10,7,9,4,5,5,6,3,3,3,Char cuts inside graphemes: Exp A eliminates 1 character-level cuts
+REV-TA-074,ஸரஸ்வதி,TAMIL,grantha_and_conjuncts,TAMIL_SCRIPT,5,10,6,9,3,6,5,5,2,3,2,Char cuts inside graphemes: Exp A eliminates 1 character-level cuts
+REV-TA-075,ஹரி,TAMIL,grantha_and_conjuncts,TAMIL_SCRIPT,2,4,3,3,1,2,2,2,1,1,1,Char cuts inside graphemes: Identical character-level cuts (combining marks detached in both)
+REV-TA-076,லக்ஷ்மி,TAMIL,grantha_and_conjuncts,TAMIL_SCRIPT,4,8,6,7,4,3,4,5,3,2,3,Char cuts inside graphemes: Exp A eliminates 1 character-level cuts
+REV-TA-077,புஷ்பம்,TAMIL,grantha_and_conjuncts,TAMIL_SCRIPT,4,10,6,9,5,4,6,5,3,2,3,Char cuts inside graphemes: Exp A eliminates 2 character-level cuts
+REV-TA-078,கஷ்டம்,TAMIL,grantha_and_conjuncts,TAMIL_SCRIPT,4,8,5,7,3,4,4,4,2,2,2,Char cuts inside graphemes: Exp A eliminates 1 character-level cuts
+REV-TA-079,நஷ்டம்,TAMIL,grantha_and_conjuncts,TAMIL_SCRIPT,4,9,5,8,3,5,5,4,2,2,2,Char cuts inside graphemes: Exp A eliminates 1 character-level cuts
+REV-TA-080,ராஜா,TAMIL,grantha_and_conjuncts,TAMIL_SCRIPT,2,5,5,4,3,1,3,4,3,1,3,Char cuts inside graphemes: Identical character-level cuts (combining marks detached in both)
+REV-TA-081,கோயில்,TAMIL,unicode_normalization,TAMIL_SCRIPT,3,7,6,6,3,3,4,5,3,2,3,Char cuts inside graphemes: Identical character-level cuts (combining marks detached in both)
+REV-TA-082,கைபேசி,TAMIL,unicode_normalization,TAMIL_SCRIPT,3,9,6,8,5,3,6,5,3,2,3,Char cuts inside graphemes: Exp A eliminates 2 character-level cuts
+REV-TA-083,கௌதமன்,TAMIL,unicode_normalization,TAMIL_SCRIPT,4,7,5,6,2,4,3,4,2,2,2,Char cuts inside graphemes: Identical character-level cuts (combining marks detached in both)
+REV-TA-084,பொன்,TAMIL,unicode_normalization,TAMIL_SCRIPT,2,5,4,4,3,1,3,3,2,1,2,Char cuts inside graphemes: Exp A eliminates 1 character-level cuts
+REV-TA-085,பேரரசு,TAMIL,unicode_normalization,TAMIL_SCRIPT,4,9,6,8,4,4,5,5,2,3,2,Char cuts inside graphemes: Exp A eliminates 2 character-level cuts
+REV-TA-086,பாறை,TAMIL,unicode_normalization,TAMIL_SCRIPT,2,5,4,4,3,1,3,3,2,1,2,Char cuts inside graphemes: Exp A eliminates 1 character-level cuts
+REV-TA-087,பூமி,TAMIL,unicode_normalization,TAMIL_SCRIPT,2,6,4,5,3,2,4,3,2,1,2,Char cuts inside graphemes: Exp A eliminates 1 character-level cuts
+REV-TA-088,போராட்டம்,TAMIL,unicode_normalization,TAMIL_SCRIPT,5,13,8,12,6,6,8,7,4,3,4,Char cuts inside graphemes: Exp A eliminates 2 character-level cuts
+REV-TA-089,பௌத்தம்,TAMIL,unicode_normalization,TAMIL_SCRIPT,4,9,6,8,4,4,5,5,3,2,3,Char cuts inside graphemes: Exp A eliminates 1 character-level cuts
+REV-TA-090,ஸ்ரீராம்,TAMIL,unicode_normalization,TAMIL_SCRIPT,4,10,8,9,5,4,6,7,4,3,4,Char cuts inside graphemes: Exp A eliminates 1 character-level cuts
+REV-TA-091,வீட்டிற்குள்,TAMIL,agglutinative_inflections,TAMIL_SCRIPT,6,17,12,16,10,6,11,11,6,5,6,Char cuts inside graphemes: Exp A eliminates 4 character-level cuts
+REV-TA-092,மரத்திலிருந்து,TAMIL,agglutinative_inflections,TAMIL_SCRIPT,8,15,13,14,7,7,7,12,6,6,6,Char cuts inside graphemes: Exp A eliminates 1 character-level cuts
+REV-TA-093,அவனுடைய,TAMIL,agglutinative_inflections,TAMIL_SCRIPT,5,10,8,9,3,6,5,7,2,5,3,Char cuts inside graphemes: Exp A eliminates 1 character-level cuts
+REV-TA-094,புத்தகத்தை,TAMIL,agglutinative_inflections,TAMIL_SCRIPT,6,11,9,10,5,5,5,8,4,4,4,Char cuts inside graphemes: Exp A eliminates 1 character-level cuts
+REV-TA-095,கத்தியால்,TAMIL,agglutinative_inflections,TAMIL_SCRIPT,5,9,8,8,4,4,4,7,4,3,4,Char cuts inside graphemes: Identical character-level cuts (combining marks detached in both)
+REV-TA-096,ஊருக்கு,TAMIL,agglutinative_inflections,TAMIL_SCRIPT,4,8,8,7,3,4,4,7,3,4,4,Char cuts inside graphemes: Identical character-level cuts (combining marks detached in both)
+REV-TA-097,மலையின்,TAMIL,agglutinative_inflections,TAMIL_SCRIPT,4,7,6,6,3,3,3,5,3,2,3,Char cuts inside graphemes: Identical character-level cuts (combining marks detached in both)
+REV-TA-098,அவனிடம்,TAMIL,agglutinative_inflections,TAMIL_SCRIPT,5,10,7,9,2,7,5,6,2,4,3,Char cuts inside graphemes: Identical character-level cuts (combining marks detached in both)
+REV-TA-099,கண்களால்,TAMIL,agglutinative_inflections,TAMIL_SCRIPT,5,10,6,9,5,4,5,5,3,2,3,Char cuts inside graphemes: Exp A eliminates 2 character-level cuts
+REV-TA-100,நாடுகளிலிருந்து,TAMIL,agglutinative_inflections,TAMIL_SCRIPT,8,19,14,18,11,7,11,13,7,6,7,Char cuts inside graphemes: Exp A eliminates 4 character-level cuts
+REV-EN-001,the,ENGLISH,common_words,LATIN_SCRIPT,3,2,2,1,0,1,0,1,0,1,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-002,of,ENGLISH,common_words,LATIN_SCRIPT,2,2,2,1,0,1,0,1,0,1,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-003,and,ENGLISH,common_words,LATIN_SCRIPT,3,1,1,0,0,0,0,0,0,0,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-004,to,ENGLISH,common_words,LATIN_SCRIPT,2,2,1,1,0,1,0,0,0,0,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-005,in,ENGLISH,common_words,LATIN_SCRIPT,2,1,1,0,0,0,0,0,0,0,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-006,have,ENGLISH,common_words,LATIN_SCRIPT,4,4,3,3,0,3,0,2,0,2,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-007,that,ENGLISH,common_words,LATIN_SCRIPT,4,3,2,2,0,2,0,1,0,1,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-008,for,ENGLISH,common_words,LATIN_SCRIPT,3,3,1,2,0,2,0,0,0,0,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-009,with,ENGLISH,common_words,LATIN_SCRIPT,4,3,2,2,0,2,0,1,0,1,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-010,about,ENGLISH,common_words,LATIN_SCRIPT,5,5,2,4,0,4,0,1,0,1,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-011,idiosyncrasy,ENGLISH,rare_words,LATIN_SCRIPT,12,12,8,11,0,11,0,7,0,7,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-012,sesquipedalian,ENGLISH,rare_words,LATIN_SCRIPT,14,11,8,10,0,10,0,7,0,7,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-013,obfuscation,ENGLISH,rare_words,LATIN_SCRIPT,11,11,6,10,0,10,0,5,0,5,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-014,defenestration,ENGLISH,rare_words,LATIN_SCRIPT,14,12,6,11,0,11,0,5,0,5,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-015,ubiquitous,ENGLISH,rare_words,LATIN_SCRIPT,10,10,4,9,0,9,0,3,0,3,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-016,serendipity,ENGLISH,rare_words,LATIN_SCRIPT,11,9,4,8,0,8,0,3,0,3,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-017,pusillanimous,ENGLISH,rare_words,LATIN_SCRIPT,13,12,6,11,0,11,0,5,0,5,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-018,perspicacious,ENGLISH,rare_words,LATIN_SCRIPT,13,10,7,9,0,9,0,6,0,6,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-019,magnanimous,ENGLISH,rare_words,LATIN_SCRIPT,11,10,6,9,0,9,0,5,0,5,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-020,quixotic,ENGLISH,rare_words,LATIN_SCRIPT,8,8,4,7,0,7,0,3,0,3,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-021,microservice,ENGLISH,technical_vocabulary,LATIN_SCRIPT,12,11,3,10,0,10,0,2,0,2,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-022,containerization,ENGLISH,technical_vocabulary,LATIN_SCRIPT,16,14,5,13,0,13,0,4,0,4,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-023,idempotency,ENGLISH,technical_vocabulary,LATIN_SCRIPT,11,10,5,9,0,9,0,4,0,4,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-024,telemetry,ENGLISH,technical_vocabulary,LATIN_SCRIPT,9,9,5,8,0,8,0,4,0,4,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-025,virtualization,ENGLISH,technical_vocabulary,LATIN_SCRIPT,14,13,4,12,0,12,0,3,0,3,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-026,observability,ENGLISH,technical_vocabulary,LATIN_SCRIPT,13,12,5,11,0,11,0,4,0,4,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-027,deserialization,ENGLISH,technical_vocabulary,LATIN_SCRIPT,15,12,5,11,0,11,0,4,0,4,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-028,infrastructure,ENGLISH,technical_vocabulary,LATIN_SCRIPT,14,13,4,12,0,12,0,3,0,3,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-029,orchestration,ENGLISH,technical_vocabulary,LATIN_SCRIPT,13,12,4,11,0,11,0,3,0,3,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-030,scalability,ENGLISH,technical_vocabulary,LATIN_SCRIPT,11,10,4,9,0,9,0,3,0,3,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-031,asynchronous,ENGLISH,programming_terminology,LATIN_SCRIPT,12,12,2,11,0,11,0,1,0,1,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-032,multithreading,ENGLISH,programming_terminology,LATIN_SCRIPT,14,12,5,11,0,11,0,4,0,4,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-033,polymorphism,ENGLISH,programming_terminology,LATIN_SCRIPT,12,11,8,10,0,10,0,7,0,7,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-034,encapsulation,ENGLISH,programming_terminology,LATIN_SCRIPT,13,12,3,11,0,11,0,2,0,2,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-035,immutability,ENGLISH,programming_terminology,LATIN_SCRIPT,12,12,4,11,0,11,0,3,0,3,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-036,recursion,ENGLISH,programming_terminology,LATIN_SCRIPT,9,9,4,8,0,8,0,3,0,3,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-037,middleware,ENGLISH,programming_terminology,LATIN_SCRIPT,10,10,5,9,0,9,0,4,0,4,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-038,abstraction,ENGLISH,programming_terminology,LATIN_SCRIPT,11,10,3,9,0,9,0,2,0,2,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-039,backpressure,ENGLISH,programming_terminology,LATIN_SCRIPT,12,10,6,9,0,9,0,5,0,5,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-040,garbage_collection,ENGLISH,programming_terminology,LATIN_SCRIPT,18,18,10,17,0,17,0,9,0,9,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-041,standalone,ENGLISH,compound_words,LATIN_SCRIPT,10,7,5,6,0,6,0,4,0,4,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-042,bottleneck,ENGLISH,compound_words,LATIN_SCRIPT,10,9,6,8,0,8,0,5,0,5,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-043,deadlock,ENGLISH,compound_words,LATIN_SCRIPT,8,7,6,6,0,6,0,5,0,5,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-044,lifecycle,ENGLISH,compound_words,LATIN_SCRIPT,9,9,4,8,0,8,0,3,0,3,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-045,codebase,ENGLISH,compound_words,LATIN_SCRIPT,8,8,4,7,0,7,0,3,0,3,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-046,workflow,ENGLISH,compound_words,LATIN_SCRIPT,8,7,3,6,0,6,0,2,0,2,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-047,breakdown,ENGLISH,compound_words,LATIN_SCRIPT,9,9,5,8,0,8,0,4,0,4,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-048,benchmark,ENGLISH,compound_words,LATIN_SCRIPT,9,8,3,7,0,7,0,2,0,2,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-049,threshold,ENGLISH,compound_words,LATIN_SCRIPT,9,7,3,6,0,6,0,2,0,2,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-050,throughput,ENGLISH,compound_words,LATIN_SCRIPT,10,9,3,8,0,8,0,2,0,2,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-051,unavoidable,ENGLISH,prefixes_and_suffixes,LATIN_SCRIPT,11,10,5,9,0,9,0,4,0,4,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-052,unpredictable,ENGLISH,prefixes_and_suffixes,LATIN_SCRIPT,13,13,6,12,0,12,0,5,0,5,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-053,redispatch,ENGLISH,prefixes_and_suffixes,LATIN_SCRIPT,10,9,5,8,0,8,0,4,0,4,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-054,preallocation,ENGLISH,prefixes_and_suffixes,LATIN_SCRIPT,13,11,4,10,0,10,0,3,0,3,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-055,postprocessing,ENGLISH,prefixes_and_suffixes,LATIN_SCRIPT,14,12,5,11,0,11,0,4,0,4,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-056,deterministic,ENGLISH,prefixes_and_suffixes,LATIN_SCRIPT,13,10,4,9,0,9,0,3,0,3,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-057,institutionalization,ENGLISH,prefixes_and_suffixes,LATIN_SCRIPT,20,18,7,17,0,17,0,6,0,6,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-058,counterproductive,ENGLISH,prefixes_and_suffixes,LATIN_SCRIPT,17,16,7,15,0,15,0,6,0,6,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-059,compartmentalization,ENGLISH,prefixes_and_suffixes,LATIN_SCRIPT,20,18,6,17,0,17,0,5,0,5,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-060,reversibility,ENGLISH,prefixes_and_suffixes,LATIN_SCRIPT,13,11,4,10,0,10,0,3,0,3,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-061,internationalization,ENGLISH,long_words,LATIN_SCRIPT,20,16,4,15,0,15,0,3,0,3,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-062,decentralization,ENGLISH,long_words,LATIN_SCRIPT,16,14,6,13,0,13,0,5,0,5,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-063,anthropomorphism,ENGLISH,long_words,LATIN_SCRIPT,16,13,9,12,0,12,0,8,0,8,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-064,incomprehensibility,ENGLISH,long_words,LATIN_SCRIPT,19,17,7,16,0,16,0,6,0,6,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-065,oversimplification,ENGLISH,long_words,LATIN_SCRIPT,18,16,6,15,0,15,0,5,0,5,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-066,disproportionality,ENGLISH,long_words,LATIN_SCRIPT,18,16,6,15,0,15,0,5,0,5,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-067,interoperability,ENGLISH,long_words,LATIN_SCRIPT,16,13,5,12,0,12,0,4,0,4,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-068,uncharacteristically,ENGLISH,long_words,LATIN_SCRIPT,20,16,6,15,0,15,0,5,0,5,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-069,microspectrophotometries,ENGLISH,long_words,LATIN_SCRIPT,24,23,11,22,0,22,0,10,0,10,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-070,electroencephalography,ENGLISH,long_words,LATIN_SCRIPT,22,20,8,19,0,19,0,7,0,7,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-071,API,ENGLISH,acronyms_initialisms,LATIN_SCRIPT,3,3,2,2,0,2,0,1,0,1,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-072,JSON,ENGLISH,acronyms_initialisms,LATIN_SCRIPT,4,4,4,3,0,3,0,3,0,3,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-073,HTTP,ENGLISH,acronyms_initialisms,LATIN_SCRIPT,4,4,2,3,0,3,0,1,0,1,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-074,REST,ENGLISH,acronyms_initialisms,LATIN_SCRIPT,4,4,4,3,0,3,0,3,0,3,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-075,CPU,ENGLISH,acronyms_initialisms,LATIN_SCRIPT,3,3,3,2,0,2,0,2,0,2,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-076,GPU,ENGLISH,acronyms_initialisms,LATIN_SCRIPT,3,3,2,2,0,2,0,1,0,1,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-077,JWT,ENGLISH,acronyms_initialisms,LATIN_SCRIPT,3,3,3,2,0,2,0,2,0,2,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-078,HTML,ENGLISH,acronyms_initialisms,LATIN_SCRIPT,4,4,3,3,0,3,0,2,0,2,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-079,SQL,ENGLISH,acronyms_initialisms,LATIN_SCRIPT,3,3,3,2,0,2,0,2,0,2,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-080,UUID,ENGLISH,acronyms_initialisms,LATIN_SCRIPT,4,4,4,3,0,3,0,3,0,3,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-081,3.14159,ENGLISH,numbers_punctuation,PUNCT_OR_OTHER,7,7,7,6,0,6,0,6,0,6,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-082,"10,000",ENGLISH,numbers_punctuation,PUNCT_OR_OTHER,6,6,6,5,0,5,0,5,0,5,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-083,"100,000,000",ENGLISH,numbers_punctuation,PUNCT_OR_OTHER,11,11,11,10,0,10,0,10,0,10,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-084,v2.1.0,ENGLISH,numbers_punctuation,LATIN_SCRIPT,6,6,6,5,0,5,0,5,0,5,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-085,user_id,ENGLISH,numbers_punctuation,LATIN_SCRIPT,7,6,4,5,0,5,0,3,0,3,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-086,parseToken(),ENGLISH,numbers_punctuation,LATIN_SCRIPT,12,11,5,10,0,10,0,4,0,4,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-087,handle-request,ENGLISH,numbers_punctuation,LATIN_SCRIPT,14,11,7,10,0,10,0,6,0,6,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-088,user@domain.com,ENGLISH,numbers_punctuation,LATIN_SCRIPT,15,13,8,12,0,12,0,7,0,7,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-089,"$1,500",ENGLISH,numbers_punctuation,PUNCT_OR_OTHER,6,6,5,5,0,5,0,4,0,4,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-090,+91-9876543210,ENGLISH,numbers_punctuation,PUNCT_OR_OTHER,14,14,13,13,0,13,0,12,0,12,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-091,runs npm install,ENGLISH,code_adjacent_text,LATIN_SCRIPT,16,14,9,13,0,13,0,8,0,8,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-092,raises KeyError,ENGLISH,code_adjacent_text,LATIN_SCRIPT,15,13,9,12,0,12,0,8,0,8,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-093,"returns dict[str, Any]",ENGLISH,code_adjacent_text,LATIN_SCRIPT,22,22,15,21,0,21,0,14,0,14,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-094,calls os.path.join(),ENGLISH,code_adjacent_text,LATIN_SCRIPT,20,15,14,14,0,14,0,13,0,13,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-095,implements Comparable<T>,ENGLISH,code_adjacent_text,LATIN_SCRIPT,24,23,11,22,0,22,0,10,0,10,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-096,executes SELECT * FROM users,ENGLISH,code_adjacent_text,LATIN_SCRIPT,28,24,18,23,0,23,0,17,0,17,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-097,catches NullPointerException,ENGLISH,code_adjacent_text,LATIN_SCRIPT,28,25,16,24,0,24,0,15,0,15,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-098,triggers SIGTERM signal,ENGLISH,code_adjacent_text,LATIN_SCRIPT,23,20,14,19,0,19,0,13,0,13,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-099,uses async/await syntax,ENGLISH,code_adjacent_text,LATIN_SCRIPT,23,22,13,21,0,21,0,12,0,12,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-EN-100,binds 0.0.0.0:8080 socket,ENGLISH,code_adjacent_text,LATIN_SCRIPT,25,24,17,23,0,23,0,16,0,16,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-TG-001,server-ல்,TANGLISH,english_with_tamil_suffixes,MIXED_SCRIPT,8,7,5,6,1,5,1,4,1,3,1,Char cuts inside graphemes: Identical character-level cuts (combining marks detached in both)
+REV-TG-002,complex-ஆ,TANGLISH,english_with_tamil_suffixes,MIXED_SCRIPT,9,9,5,8,0,8,1,4,0,4,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-TG-003,testing-க்கு,TANGLISH,english_with_tamil_suffixes,MIXED_SCRIPT,10,10,8,9,2,7,2,7,2,5,2,Char cuts inside graphemes: Identical character-level cuts (combining marks detached in both)
+REV-TG-004,database-லிருந்து,TANGLISH,english_with_tamil_suffixes,MIXED_SCRIPT,13,18,12,17,5,12,5,11,4,7,4,Char cuts inside graphemes: Exp A eliminates 1 character-level cuts
+REV-TG-005,table-ஐ,TANGLISH,english_with_tamil_suffixes,MIXED_SCRIPT,7,8,4,7,0,7,1,3,0,3,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-TG-006,cluster-க்காக,TANGLISH,english_with_tamil_suffixes,MIXED_SCRIPT,11,12,9,11,2,9,2,8,2,6,2,Char cuts inside graphemes: Identical character-level cuts (combining marks detached in both)
+REV-TG-007,API-க்கு,TANGLISH,english_with_tamil_suffixes,MIXED_SCRIPT,6,8,7,7,2,5,2,6,2,4,2,Char cuts inside graphemes: Identical character-level cuts (combining marks detached in both)
+REV-TG-008,memory-ல்,TANGLISH,english_with_tamil_suffixes,MIXED_SCRIPT,8,9,4,8,1,7,1,3,1,2,1,Char cuts inside graphemes: Identical character-level cuts (combining marks detached in both)
+REV-TG-009,request-ஐ,TANGLISH,english_with_tamil_suffixes,MIXED_SCRIPT,9,9,5,8,0,8,1,4,0,4,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-TG-010,token-ஆல்,TANGLISH,english_with_tamil_suffixes,MIXED_SCRIPT,8,9,6,8,1,7,2,5,1,4,1,Char cuts inside graphemes: Identical character-level cuts (combining marks detached in both)
+REV-TG-011,endpoint-லிருந்து,TANGLISH,english_with_tamil_suffixes,MIXED_SCRIPT,13,16,11,15,5,10,5,10,4,6,4,Char cuts inside graphemes: Exp A eliminates 1 character-level cuts
+REV-TG-012,code-ஐ,TANGLISH,english_with_tamil_suffixes,MIXED_SCRIPT,6,7,4,6,0,6,1,3,0,3,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-TG-013,production-ல்,TANGLISH,english_with_tamil_suffixes,MIXED_SCRIPT,12,13,5,12,1,11,1,4,1,3,1,Char cuts inside graphemes: Identical character-level cuts (combining marks detached in both)
+REV-TG-014,pod-க்கு,TANGLISH,english_with_tamil_suffixes,MIXED_SCRIPT,6,8,7,7,2,5,2,6,2,4,2,Char cuts inside graphemes: Identical character-level cuts (combining marks detached in both)
+REV-TG-015,error-ஆ,TANGLISH,english_with_tamil_suffixes,MIXED_SCRIPT,7,7,4,6,0,6,1,3,0,3,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-TG-016,romba,TANGLISH,romanized_colloquial_tamil,LATIN_SCRIPT,5,5,2,4,0,4,0,1,0,1,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-TG-017,kandippa,TANGLISH,romanized_colloquial_tamil,LATIN_SCRIPT,8,6,2,5,0,5,0,1,0,1,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-TG-018,mudikanum,TANGLISH,romanized_colloquial_tamil,LATIN_SCRIPT,9,7,4,6,0,6,0,3,0,3,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-TG-019,nalla,TANGLISH,romanized_colloquial_tamil,LATIN_SCRIPT,5,4,2,3,0,3,0,1,0,1,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-TG-020,eppadi,TANGLISH,romanized_colloquial_tamil,LATIN_SCRIPT,6,6,4,5,0,5,0,3,0,3,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-TG-021,innaiku,TANGLISH,romanized_colloquial_tamil,LATIN_SCRIPT,7,5,3,4,0,4,0,2,0,2,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-TG-022,seekiram,TANGLISH,romanized_colloquial_tamil,LATIN_SCRIPT,8,8,3,7,0,7,0,2,0,2,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-TG-023,theriyaathu,TANGLISH,romanized_colloquial_tamil,LATIN_SCRIPT,11,7,5,6,0,6,0,4,0,4,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-TG-024,panren,TANGLISH,romanized_colloquial_tamil,LATIN_SCRIPT,6,4,3,3,0,3,0,2,0,2,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-TG-025,vanthuten,TANGLISH,romanized_colloquial_tamil,LATIN_SCRIPT,9,6,5,5,0,5,0,4,0,4,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-TG-026,sollunga,TANGLISH,romanized_colloquial_tamil,LATIN_SCRIPT,8,8,6,7,0,7,0,5,0,5,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-TG-027,kelunga,TANGLISH,romanized_colloquial_tamil,LATIN_SCRIPT,7,7,5,6,0,6,0,4,0,4,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-TG-028,paakalam,TANGLISH,romanized_colloquial_tamil,LATIN_SCRIPT,8,7,4,6,0,6,0,3,0,3,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-TG-029,irukku,TANGLISH,romanized_colloquial_tamil,LATIN_SCRIPT,6,6,2,5,0,5,0,1,0,1,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-TG-030,pochu,TANGLISH,romanized_colloquial_tamil,LATIN_SCRIPT,5,5,3,4,0,4,0,2,0,2,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-TG-031,deploy பண்ணினோம்,TANGLISH,intra_sentential_code_switch,MIXED_SCRIPT,12,18,11,17,6,11,8,10,4,6,4,Char cuts inside graphemes: Exp A eliminates 2 character-level cuts
+REV-TG-032,code review mudinjathum,TANGLISH,intra_sentential_code_switch,LATIN_SCRIPT,23,19,8,18,0,18,0,7,0,7,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-TG-033,memory allocation,TANGLISH,intra_sentential_code_switch,LATIN_SCRIPT,17,15,3,14,0,14,0,2,0,2,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-TG-034,sprint planning முடிஞ்சிருச்சு,TANGLISH,intra_sentential_code_switch,MIXED_SCRIPT,23,31,20,30,12,18,12,19,7,12,7,Char cuts inside graphemes: Exp A eliminates 5 character-level cuts
+REV-TG-035,algorithm romba slow-ஆ இருக்கு,TANGLISH,intra_sentential_code_switch,MIXED_SCRIPT,27,28,15,27,3,24,5,14,3,11,3,Char cuts inside graphemes: Identical character-level cuts (combining marks detached in both)
+REV-TG-036,query optimize பண்ணியாச்சு,TANGLISH,intra_sentential_code_switch,MIXED_SCRIPT,21,28,13,27,9,18,10,12,5,7,5,Char cuts inside graphemes: Exp A eliminates 4 character-level cuts
+REV-TG-037,cache invalidate பண்ணனும்,TANGLISH,intra_sentential_code_switch,MIXED_SCRIPT,22,23,10,22,4,18,6,9,3,6,3,Char cuts inside graphemes: Exp A eliminates 1 character-level cuts
+REV-TG-038,unit tests pass ஆச்சு,TANGLISH,intra_sentential_code_switch,MIXED_SCRIPT,19,18,10,17,4,13,4,9,2,7,2,Char cuts inside graphemes: Exp A eliminates 2 character-level cuts
+REV-TG-039,PR merge பண்ணுங்க,TANGLISH,intra_sentential_code_switch,MIXED_SCRIPT,14,19,10,18,6,12,7,9,3,6,3,Char cuts inside graphemes: Exp A eliminates 3 character-level cuts
+REV-TG-040,regression fix பண்ணிட்டோம்,TANGLISH,intra_sentential_code_switch,MIXED_SCRIPT,21,30,14,29,9,20,11,13,5,8,5,Char cuts inside graphemes: Exp A eliminates 4 character-level cuts
+REV-TG-041,feature release பண்ண போறோம்,TANGLISH,intra_sentential_code_switch,MIXED_SCRIPT,23,31,12,30,6,24,10,11,4,7,4,Char cuts inside graphemes: Exp A eliminates 2 character-level cuts
+REV-TG-042,cluster crash ஆயிடுச்சு,TANGLISH,intra_sentential_code_switch,MIXED_SCRIPT,19,24,15,23,7,16,7,14,4,10,4,Char cuts inside graphemes: Exp A eliminates 3 character-level cuts
+REV-TG-043,logs check பண்ணுங்க,TANGLISH,intra_sentential_code_switch,MIXED_SCRIPT,16,20,11,19,6,13,7,10,3,7,3,Char cuts inside graphemes: Exp A eliminates 3 character-level cuts
+REV-TG-044,pipeline deploy ஆகுது,TANGLISH,intra_sentential_code_switch,MIXED_SCRIPT,19,18,9,17,2,15,2,8,2,6,2,Char cuts inside graphemes: Identical character-level cuts (combining marks detached in both)
+REV-TG-045,latency decrease பண்ணினோம்,TANGLISH,intra_sentential_code_switch,MIXED_SCRIPT,22,28,13,27,6,21,8,12,4,8,4,Char cuts inside graphemes: Exp A eliminates 2 character-level cuts
+REV-TG-046,இந்த microservice architecture-ல்,TANGLISH,tamil_script_with_english_tech,MIXED_SCRIPT,31,34,10,33,3,30,4,9,2,7,2,Char cuts inside graphemes: Exp A eliminates 1 character-level cuts
+REV-TG-047,நமது backend database-ல்,TANGLISH,tamil_script_with_english_tech,MIXED_SCRIPT,22,23,10,22,2,20,3,9,2,7,2,Char cuts inside graphemes: Identical character-level cuts (combining marks detached in both)
+REV-TG-048,புதிய React frontend-ல்,TANGLISH,tamil_script_with_english_tech,MIXED_SCRIPT,20,22,13,21,4,17,4,12,3,9,3,Char cuts inside graphemes: Exp A eliminates 1 character-level cuts
+REV-TG-049,இந்த Kubernetes cluster-ல்,TANGLISH,tamil_script_with_english_tech,MIXED_SCRIPT,24,25,14,24,3,21,4,13,2,11,2,Char cuts inside graphemes: Exp A eliminates 1 character-level cuts
+REV-TG-050,API gateway மூலமாக,TANGLISH,tamil_script_with_english_tech,MIXED_SCRIPT,16,18,10,17,2,15,3,9,2,7,2,Char cuts inside graphemes: Identical character-level cuts (combining marks detached in both)
+REV-TG-051,containerization முறைப்படி,TANGLISH,tamil_script_with_english_tech,MIXED_SCRIPT,22,26,13,25,6,19,7,12,4,8,4,Char cuts inside graphemes: Exp A eliminates 2 character-level cuts
+REV-TG-052,cloud infrastructure-ல்,TANGLISH,tamil_script_with_english_tech,MIXED_SCRIPT,22,21,7,20,1,19,1,6,1,5,1,Char cuts inside graphemes: Identical character-level cuts (combining marks detached in both)
+REV-TG-053,CI/CD pipeline-ல்,TANGLISH,tamil_script_with_english_tech,MIXED_SCRIPT,16,16,9,15,1,14,1,8,1,7,1,Char cuts inside graphemes: Identical character-level cuts (combining marks detached in both)
+REV-TG-054,distributed system-ல்,TANGLISH,tamil_script_with_english_tech,MIXED_SCRIPT,20,20,6,19,1,18,1,5,1,4,1,Char cuts inside graphemes: Identical character-level cuts (combining marks detached in both)
+REV-TG-055,encryption முறையை,TANGLISH,tamil_script_with_english_tech,MIXED_SCRIPT,14,15,10,14,3,11,3,9,3,6,3,Char cuts inside graphemes: Identical character-level cuts (combining marks detached in both)
+REV-TG-056,firewall policy-ஐ,TANGLISH,tamil_script_with_english_tech,MIXED_SCRIPT,17,17,7,16,0,16,1,6,0,6,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-TG-057,schema migration-ல்,TANGLISH,tamil_script_with_english_tech,MIXED_SCRIPT,18,18,8,17,1,16,1,7,1,6,1,Char cuts inside graphemes: Identical character-level cuts (combining marks detached in both)
+REV-TG-058,load balancing-க்கு,TANGLISH,tamil_script_with_english_tech,MIXED_SCRIPT,17,15,9,14,2,12,2,8,2,6,2,Char cuts inside graphemes: Identical character-level cuts (combining marks detached in both)
+REV-TG-059,message broker-ல்,TANGLISH,tamil_script_with_english_tech,MIXED_SCRIPT,16,15,10,14,1,13,1,9,1,8,1,Char cuts inside graphemes: Identical character-level cuts (combining marks detached in both)
+REV-TG-060,security audit-ல்,TANGLISH,tamil_script_with_english_tech,MIXED_SCRIPT,16,17,6,16,1,15,1,5,1,4,1,Char cuts inside graphemes: Identical character-level cuts (combining marks detached in both)
+REV-TG-061,Please check the logs da,TANGLISH,english_with_tamil_discourse_markers,LATIN_SCRIPT,24,19,5,18,0,18,0,4,0,4,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-TG-062,The server crashed pa,TANGLISH,english_with_tamil_discourse_markers,LATIN_SCRIPT,21,17,8,16,0,16,0,7,0,7,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-TG-063,Machan approve this PR quickly,TANGLISH,english_with_tamil_discourse_markers,LATIN_SCRIPT,30,26,12,25,0,25,0,11,0,11,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-TG-064,Aiyo the database timed out again,TANGLISH,english_with_tamil_discourse_markers,LATIN_SCRIPT,33,27,9,26,0,26,0,8,0,8,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-TG-065,Seri let us start the meeting,TANGLISH,english_with_tamil_discourse_markers,LATIN_SCRIPT,29,24,6,23,0,23,0,5,0,5,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-TG-066,Dei do not push to production,TANGLISH,english_with_tamil_discourse_markers,LATIN_SCRIPT,29,28,7,27,0,27,0,6,0,6,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-TG-067,Thambi can you help me with this,TANGLISH,english_with_tamil_discourse_markers,LATIN_SCRIPT,32,26,12,25,0,25,0,11,0,11,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-TG-068,It is working fine da,TANGLISH,english_with_tamil_discourse_markers,LATIN_SCRIPT,21,17,8,16,0,16,0,7,0,7,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-TG-069,Everything looks good pa,TANGLISH,english_with_tamil_discourse_markers,LATIN_SCRIPT,24,20,11,19,0,19,0,10,0,10,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-TG-070,Wait a minute machan,TANGLISH,english_with_tamil_discourse_markers,LATIN_SCRIPT,20,17,7,16,0,16,0,6,0,6,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-TG-071,Aiyo another build failure,TANGLISH,english_with_tamil_discourse_markers,LATIN_SCRIPT,26,23,7,22,0,22,0,6,0,6,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-TG-072,Seri pa we will do it tomorrow,TANGLISH,english_with_tamil_discourse_markers,LATIN_SCRIPT,30,26,8,25,0,25,0,7,0,7,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-TG-073,Dei check the memory usage,TANGLISH,english_with_tamil_discourse_markers,LATIN_SCRIPT,26,22,6,21,0,21,0,5,0,5,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-TG-074,Tell me the status da,TANGLISH,english_with_tamil_discourse_markers,LATIN_SCRIPT,21,18,8,17,0,17,0,7,0,7,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-TG-075,No problem pa,TANGLISH,english_with_tamil_discourse_markers,LATIN_SCRIPT,13,13,4,12,0,12,0,3,0,3,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-TG-076,pannirukkom,TANGLISH,spoken_informal_tanglish_verbs,LATIN_SCRIPT,11,10,6,9,0,9,0,5,0,5,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-TG-077,varalaama,TANGLISH,spoken_informal_tanglish_verbs,LATIN_SCRIPT,9,8,4,7,0,7,0,3,0,3,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-TG-078,solren,TANGLISH,spoken_informal_tanglish_verbs,LATIN_SCRIPT,6,5,3,4,0,4,0,2,0,2,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-TG-079,kelunga pa,TANGLISH,spoken_informal_tanglish_verbs,LATIN_SCRIPT,10,10,6,9,0,9,0,5,0,5,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-TG-080,mudinjithu da,TANGLISH,spoken_informal_tanglish_verbs,LATIN_SCRIPT,13,11,7,10,0,10,0,6,0,6,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-TG-081,pannidalam,TANGLISH,spoken_informal_tanglish_verbs,LATIN_SCRIPT,10,8,4,7,0,7,0,3,0,3,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-TG-082,paathutiya,TANGLISH,spoken_informal_tanglish_verbs,LATIN_SCRIPT,10,8,5,7,0,7,0,4,0,4,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-TG-083,varum pa,TANGLISH,spoken_informal_tanglish_verbs,LATIN_SCRIPT,8,7,4,6,0,6,0,3,0,3,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-TG-084,poirukku da,TANGLISH,spoken_informal_tanglish_verbs,LATIN_SCRIPT,11,11,4,10,0,10,0,3,0,3,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-TG-085,vachirukken,TANGLISH,spoken_informal_tanglish_verbs,LATIN_SCRIPT,11,9,5,8,0,8,0,4,0,4,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-TG-086,eduthukko,TANGLISH,spoken_informal_tanglish_verbs,LATIN_SCRIPT,9,8,4,7,0,7,0,3,0,3,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-TG-087,panniru,TANGLISH,spoken_informal_tanglish_verbs,LATIN_SCRIPT,7,6,3,5,0,5,0,2,0,2,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-TG-088,therinjikalam,TANGLISH,spoken_informal_tanglish_verbs,LATIN_SCRIPT,13,9,6,8,0,8,0,5,0,5,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-TG-089,pesalama,TANGLISH,spoken_informal_tanglish_verbs,LATIN_SCRIPT,8,6,4,5,0,5,0,3,0,3,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-TG-090,seyyalama,TANGLISH,spoken_informal_tanglish_verbs,LATIN_SCRIPT,9,8,5,7,0,7,0,4,0,4,0,Char cuts inside graphemes: None (Clean boundaries in both)
+REV-TG-091,கம்ப்யூட்டர்,TANGLISH,tamil_script_loanwords,TAMIL_SCRIPT,7,16,10,15,7,8,9,9,5,4,5,Char cuts inside graphemes: Exp A eliminates 2 character-level cuts
+REV-TG-092,சர்வர்,TANGLISH,tamil_script_loanwords,TAMIL_SCRIPT,4,8,5,7,2,5,4,4,2,2,2,Char cuts inside graphemes: Identical character-level cuts (combining marks detached in both)
+REV-TG-093,டேட்டாபேஸ்,TANGLISH,tamil_script_loanwords,TAMIL_SCRIPT,5,17,10,16,10,6,12,9,5,4,5,Char cuts inside graphemes: Exp A eliminates 5 character-level cuts
+REV-TG-094,அல்காரிதம்,TANGLISH,tamil_script_loanwords,TAMIL_SCRIPT,6,11,10,10,4,6,5,9,4,5,5,Char cuts inside graphemes: Identical character-level cuts (combining marks detached in both)
+REV-TG-095,சாப்ட்வேர்,TANGLISH,tamil_script_loanwords,TAMIL_SCRIPT,5,15,10,14,9,5,10,9,5,4,5,Char cuts inside graphemes: Exp A eliminates 4 character-level cuts
+REV-TG-096,இன்டர்நெட்,TANGLISH,tamil_script_loanwords,TAMIL_SCRIPT,6,15,9,14,6,8,9,8,4,4,4,Char cuts inside graphemes: Exp A eliminates 2 character-level cuts
+REV-TG-097,மெமரி,TANGLISH,tamil_script_loanwords,TAMIL_SCRIPT,3,6,4,5,2,3,3,3,2,1,2,Char cuts inside graphemes: Identical character-level cuts (combining marks detached in both)
+REV-TG-098,பிராசசர்,TANGLISH,tamil_script_loanwords,TAMIL_SCRIPT,5,11,8,10,4,6,6,7,3,4,3,Char cuts inside graphemes: Exp A eliminates 1 character-level cuts
+REV-TG-099,நெட்வொர்க்,TANGLISH,tamil_script_loanwords,TAMIL_SCRIPT,5,14,10,13,8,5,9,9,5,4,5,Char cuts inside graphemes: Exp A eliminates 3 character-level cuts
+REV-TG-100,அப்ளிகேஷன்,TANGLISH,tamil_script_loanwords,TAMIL_SCRIPT,6,15,11,14,6,8,9,10,4,6,5,Char cuts inside graphemes: Exp A eliminates 2 character-level cuts

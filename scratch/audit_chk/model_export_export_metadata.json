@@ -1,0 +1,7 @@
+{
+  "file": "model_export.pt",
+  "file_sha256": "3a9babad4bf00426d88f82fdf1255f3e600dd13acb4434ac0349102a22533d1a",
+  "config_fingerprint": "456b4a53d067086a",
+  "candidate_a_sha256": "ac7e18b13973450b43bfff18609a833e4ef0e642b8dc5803e39ab1e81ba4c561",
+  "exported_at": "2026-11-21T06:46:17.064947+00:00"
+}

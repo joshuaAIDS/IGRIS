@@ -1,0 +1,17 @@
+metric_id,metric_name,reported_value_orig,recalculated_value_orig,reported_value_exp,recalculated_value_exp,reconciliation_status,formula_derivation,notes
+AUD-M01,Target Vocabulary Size,32768,32768,32768,32768,CONFIRMED_EXACT,len(model.vocab),"Both tokenizers enforce exactly 32,768 vocabulary slots."
+AUD-M02,Structural Tokens Count,12,12,12,12,CONFIRMED_EXACT,sum(1 for id in 0..11 if is_structural(id)),Structural tokens are pinned at IDs 0–11 in identical sequence.
+AUD-M03,Learned BPE Merges Count,63,63,1755,1755,CONFIRMED_EXACT,len(model.merges),"Original has 63 merge rules; Experimental learned 1,755 merges from synthetic train split."
+AUD-M04,Inert Vocabulary Fillers Count,32437,32437,30745,30745,CONFIRMED_EXACT,count(token.startswith('<|filler_')),Unused vocabulary slots padded with inert fillers; unreachable in inference.
+AUD-M05,Active (Non-Filler) Vocabulary Size,331,331,2023,2023,CONFIRMED_EXACT,vocab_size - inert_fillers,"Actual usable subwords including 12 structural, 256 initial bytes, and learned merges."
+AUD-M06,Test Unique Tokens Emitted,133,133,482,482,CONFIRMED_EXACT,len(set(token_ids in test_set)),Exact count of distinct token IDs generated when encoding all 39 test documents.
+AUD-M07,Padded Vocab Utilization (Reported Coverage),0.41%,0.4059%,1.47%,1.4709%,CONFIRMED_EXACT,(unique_emitted / 32768) * 100,"Reported '0.41%' and '1.47%' measure test token IDs over total 32,768 padded slots."
+AUD-M08,Active Vocab Utilization Rate,N/A,40.18%,N/A,23.83%,NEW_REFINED_METRIC,(unique_emitted / active_vocab) * 100,"Measures test utilization against active subwords: Orig=133/331 (40.18%), Exp=482/2023 (23.83%)."
+AUD-M09,Corpus Text Token Coverage,100.0%,100.0%,100.0%,100.0%,CONFIRMED_EXACT,1.0 - (unk_tokens / total_tokens),ByteLevel fallback ensures 0% UNK; 100% of input text characters are covered.
+AUD-M10,Token Fertility - Tamil (Tokens/Word),10.07,10.0748,6.90,6.8972,CONFIRMED_EXACT,tamil_tokens / tamil_words,Orig: 1078/107 = 10.0748 tok/w; Exp: 738/107 = 6.8972 tok/w.
+AUD-M11,Token Fertility - English (Tokens/Word),9.24,9.2360,3.87,3.8652,CONFIRMED_EXACT,english_tokens / english_words,Orig: 822/89 = 9.2360 tok/w; Exp: 344/89 = 3.8652 tok/w.
+AUD-M12,Token Fertility - Tanglish (Tokens/Word),7.59,7.5916,3.29,3.2932,CONFIRMED_EXACT,tanglish_tokens / tanglish_words,Orig: 1450/191 = 7.5916 tok/w; Exp: 629/191 = 3.2932 tok/w.
+AUD-M13,Average Sequence Length (Tokens),85.9,85.90,43.9,43.87,CONFIRMED_EXACT,total_test_tokens / test_sentences_count,Orig: 3350/39 = 85.90 tokens; Exp: 1711/39 = 43.87 tokens.
+AUD-M14,Unicode Round-Trip Accuracy,100.0%,100.0%,100.0%,100.0%,CONFIRMED_EXACT,(exact_decode_matches / test_sentences_count) * 100,Exact string reconstruction across 100% of test records in both tokenizers.
+AUD-M15,Encoding Throughput,18197.0 sent/s,21282.3 sent/s,19443.7 sent/s,21787.3 sent/s,CONFIRMED_CONSISTENT,sentences_count / encoding_time_seconds,"Measured on 50x repeated test corpus (1,950 sentences) on local CPU."
+AUD-M16,Decoding Throughput,79441.7 sent/s,91133.8 sent/s,126597.9 sent/s,130376.4 sent/s,CONFIRMED_CONSISTENT,sentences_count / decoding_time_seconds,Experimental tokenizer decodes faster because average sequence length is 43.9 vs 85.9.

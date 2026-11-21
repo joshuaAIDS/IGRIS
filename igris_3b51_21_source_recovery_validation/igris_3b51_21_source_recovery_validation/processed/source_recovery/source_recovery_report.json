@@ -1,0 +1,47 @@
+{
+  "status": "PASS_WITH_REVIEW",
+  "raw_source": "C:\\IGRIS\\igris_3b51_18_1_tamil_pilot_acquisition_fix\\igris_3b51_18_1_tamil_pilot_acquisition\\data\\raw\\tamil\\indiccorp_v2_tamil_pilot.txt",
+  "raw_source_bytes": 8418479,
+  "raw_source_sha256": "54dffb4960bf1e3c48477ef6bc9a7933dea68687c4ea9fcf097a69425d5d019d",
+  "raw_source_line_count": 10000,
+  "input_files": {
+    "likely_valid": {
+      "path": "C:\\IGRIS\\igris_3b51_20_1_mixed_script_classification\\igris_3b51_20_1_mixed_script_classification\\processed\\mixed_script_classification\\likely_valid.jsonl",
+      "sha256": "3a439b2772901229a73ae12be883c9977e879e2fe97a74aee5afe69a948493fa"
+    },
+    "contamination_candidate": {
+      "path": "C:\\IGRIS\\igris_3b51_20_1_mixed_script_classification\\igris_3b51_20_1_mixed_script_classification\\processed\\mixed_script_classification\\contamination_candidate.jsonl",
+      "sha256": "77422b54970614366684d3c9e6be7cbec1f31488c326b0e3d31fbc2c944b1aef"
+    },
+    "ambiguous": {
+      "path": "C:\\IGRIS\\igris_3b51_20_1_mixed_script_classification\\igris_3b51_20_1_mixed_script_classification\\processed\\mixed_script_classification\\ambiguous.jsonl",
+      "sha256": "9c9561bad624238c849bf035b9b4b477da8eb4892c5419ee337a6d8d8bfa5d74"
+    }
+  },
+  "counts": {
+    "bucket_ambiguous": 113,
+    "bucket_contamination_candidate": 13,
+    "bucket_likely_valid": 597,
+    "input_records": 723,
+    "mismatch": 10,
+    "recovered_truncated": 284,
+    "source_match_confirmed": 429,
+    "status_MISMATCH": 10,
+    "status_RECOVERED_PREFIX_MATCH": 284,
+    "status_SOURCE_MATCH_CONFIRMED": 429
+  },
+  "duplicate_source_line_references": [],
+  "policy": [
+    "Raw source and classification inputs are read-only.",
+    "Source line references are interpreted as 1-based line numbers.",
+    "Preview matching is checked before recovered text is accepted.",
+    "No record is silently dropped or rewritten.",
+    "A successful source recovery does not establish content quality or licensing.",
+    "All recovered records still require content and provenance review."
+  ],
+  "outputs": {
+    "source_recovery_audit": "C:\\IGRIS\\igris_3b51_21_source_recovery_validation\\igris_3b51_21_source_recovery_validation\\processed\\source_recovery\\source_recovery_audit.jsonl",
+    "recovered_records": "C:\\IGRIS\\igris_3b51_21_source_recovery_validation\\igris_3b51_21_source_recovery_validation\\processed\\source_recovery\\recovered_records.jsonl",
+    "unresolved_records": "C:\\IGRIS\\igris_3b51_21_source_recovery_validation\\igris_3b51_21_source_recovery_validation\\processed\\source_recovery\\unresolved_records.jsonl"
+  }
+}

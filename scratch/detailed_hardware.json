@@ -1,0 +1,46 @@
+{
+  "cpu_model": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+  "machine": "AMD64",
+  "cpu_count_logical": 12,
+  "cpu_name": "13th Gen Intel(R) Core(TM) i5-13420H",
+  "cpu_physical_cores": 8,
+  "cpu_logical_cores": 12,
+  "ram_total_bytes": 16791048192,
+  "ram_total_gib": 15.64,
+  "ram_avail_bytes": 4925583360,
+  "ram_avail_gib": 4.59,
+  "ram_load_percent": 70,
+  "volumes": [
+    {
+      "DriveLetter": null,
+      "FileSystem": "",
+      "FileSystemLabel": "",
+      "Size": 0,
+      "SizeRemaining": 0
+    },
+    {
+      "DriveLetter": null,
+      "FileSystem": "NTFS",
+      "FileSystemLabel": "",
+      "Size": 932179968,
+      "SizeRemaining": 129196032
+    },
+    {
+      "DriveLetter": "C",
+      "FileSystem": "NTFS",
+      "FileSystemLabel": "Windows",
+      "Size": 510880903168,
+      "SizeRemaining": 86449737728
+    }
+  ],
+  "pytorch_version": "2.14.1+cu130",
+  "cuda_available": true,
+  "cuda_version": "13.0",
+  "cudnn_version": 92400,
+  "gpu_name": "NVIDIA GeForce RTX 3050 6GB Laptop GPU",
+  "gpu_vram_total_bytes": 6441926656,
+  "gpu_vram_total_gib": 6.0,
+  "gpu_compute_capability": "8.6",
+  "gpu_sm_count": 20,
+  "bf16_supported": true
+}

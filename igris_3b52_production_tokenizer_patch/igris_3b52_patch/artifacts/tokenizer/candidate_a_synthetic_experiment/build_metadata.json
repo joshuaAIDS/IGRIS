@@ -1,0 +1,41 @@
+{
+  "candidate": "A",
+  "backend": "tokenizers",
+  "backend_version": "0.23.3",
+  "model_type": "BPE",
+  "pre_tokenizer": "ByteLevel",
+  "decoder": "ByteLevel",
+  "post_processor": null,
+  "vocab_size": 32768,
+  "structural_tokens": {
+    "<|pad|>": 0,
+    "<|begin_of_text|>": 1,
+    "<|end_of_text|>": 2,
+    "<think>": 3,
+    "</think>": 4,
+    "<action>": 5,
+    "</action>": 6,
+    "<action_result>": 7,
+    "</action_result>": 8,
+    "<|system|>": 9,
+    "<|user|>": 10,
+    "<|assistant|>": 11
+  },
+  "unicode_version": "15.1.0",
+  "training_config": {
+    "min_frequency": 2,
+    "initial_alphabet_size": 256
+  },
+  "artifact_sha256": "3393acbee2214ce09b9e03eaaf1a367a324b29032c61a1e4d0408e991c35c3ce",
+  "artifact_filename": "tokenizer.json",
+  "build_timestamp": "2026-11-20T14:10:12.226380+00:00",
+  "validation": {
+    "candidate": "A",
+    "model_type": "BPE",
+    "pre_tokenizer": "ByteLevel",
+    "decoder": "ByteLevel",
+    "post_processor": null,
+    "vocab_size": 32768,
+    "structural_tokens": 12
+  }
+}

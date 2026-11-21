@@ -1,0 +1,62 @@
+{
+  "project": "IGRIS",
+  "milestone": "3B.51.17",
+  "stage": "pilot_corpus_acquisition_and_preparation",
+  "training_authorized": false,
+  "sources": [
+    {
+      "id": "indiccorp_v2_tamil",
+      "name": "AI4Bharat IndicCorp V2 Tamil subset",
+      "url": "https://huggingface.co/datasets/ai4bharat/IndicCorpV2",
+      "languages": [
+        "ta"
+      ],
+      "declared_license": "CC0 (dataset card statement)",
+      "status": "conditional_candidate",
+      "conditions": [
+        "Review the dataset card and paper at acquisition time.",
+        "Keep source URL, retrieval date, source revision and SHA-256.",
+        "Use a bounded pilot sample; do not download the full 11.8 GB Tamil file for the pilot."
+      ]
+    },
+    {
+      "id": "dravidiancodemix_ta_en",
+      "name": "DravidianCodeMix Tamil-English subset",
+      "url": "https://zenodo.org/records/4750858",
+      "languages": [
+        "ta",
+        "en",
+        "ta-en"
+      ],
+      "declared_license": "CC BY 4.0",
+      "status": "conditional_candidate",
+      "conditions": [
+        "Preserve author attribution and citation.",
+        "Preserve the dataset licence and source metadata.",
+        "Check the dataset archive's own README and any third-party exclusions before inclusion."
+      ]
+    },
+    {
+      "id": "tanglish_corpus_185k",
+      "name": "Tanglish Corpus 185K",
+      "url": "https://huggingface.co/datasets/vishnu-n/Tanglish-Corpus-185k",
+      "languages": [
+        "ta-en romanized"
+      ],
+      "declared_license": "CC BY 4.0 on dataset card",
+      "status": "hold_for_rights_review",
+      "conditions": [
+        "Dataset card describes YouTube and Reddit-derived material.",
+        "Do not ingest into the commercial corpus until underlying source rights, platform terms and redistribution permissions are reviewed."
+      ]
+    }
+  ],
+  "policy": {
+    "commercial_use_target": true,
+    "default_rule": "Do not include any source unless its licence and provenance are recorded and approved.",
+    "attribution_required_sources": [
+      "dravidiancodemix_ta_en"
+    ],
+    "unverified_sources_excluded": true
+  }
+}

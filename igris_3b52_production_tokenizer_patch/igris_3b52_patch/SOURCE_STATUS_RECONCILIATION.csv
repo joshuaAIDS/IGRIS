@@ -1,0 +1,33 @@
+source_id,dataset_name,canonical_category,published_license,v2_catalog_verification_status,v3_primary_status,reconciliation_explanation
+SRC-TM-01,IndicCorp v2 (Tamil),Tamil,CC0-1.0,VERIFIED,VERIFIED,Unencumbered public domain release under CC0. Primary verified baseline.
+SRC-TM-02,Tamil Wikipedia Dump,Tamil,CC-BY-SA-4.0,VERIFIED,CONDITIONAL,Technically verified text; classified CONDITIONAL due to CC-BY-SA ShareAlike derivative waiver requirement.
+SRC-TM-03,OSCAR 23.01 Tamil (Filtered),Tamil,ODC-By 1.0,UNVERIFIED,UNVERIFIED,Classified UNVERIFIED; Common Crawl pass-through rights and DPDP Act compliance unverified.
+SRC-EN-01,Project Gutenberg Open Archive,English,Public Domain,VERIFIED,VERIFIED,US public domain literature; verified baseline subject to US item-level pre-1928 checks.
+SRC-EN-02,English Wikipedia Dump,English,CC-BY-SA-4.0,VERIFIED,CONDITIONAL,Technically verified text; classified CONDITIONAL due to CC-BY-SA ShareAlike derivative waiver requirement.
+SRC-EN-03,C4 (Colossal Clean Crawled Corpus),English,ODC-By 1.0,VERIFIED,CONDITIONAL,Technically verified; classified CONDITIONAL due to web crawl provenance requiring PII scrub and legal review.
+SRC-TG-01,DravidianCodeMix (Tamil-English),Tanglish,CC-BY-4.0,VERIFIED,VERIFIED,Permissive CC-BY-4.0 academic benchmark; verified baseline with social handle masking.
+SRC-TG-02,IndicGLUE Tanglish Sentiment,Tanglish,CC-BY-4.0,VERIFIED,VERIFIED,Permissive CC-BY-4.0 benchmark; verified baseline with zero copyleft risk.
+SRC-TG-03,Social Dravidian Sentiment Tanglish,Tanglish,Research-Only,INCOMPATIBLE,INCOMPATIBLE,Classified INCOMPATIBLE due to explicit non-commercial competition terms.
+SRC-HI-01,IndicCorp v2 (Hindi),Hindi,CC0-1.0,VERIFIED,VERIFIED,Unencumbered public domain release under CC0. Primary verified baseline.
+SRC-HI-02,Hindi Wikipedia Dump,Hindi,CC-BY-SA-4.0,VERIFIED,CONDITIONAL,Technically verified text; classified CONDITIONAL due to CC-BY-SA ShareAlike derivative waiver requirement.
+SRC-HI-03,IIT Bombay English-Hindi Parallel Corpus,Hindi,CC-BY-NC-SA 4.0,INCOMPATIBLE,INCOMPATIBLE,Classified INCOMPATIBLE due to mandatory Non-Commercial (NC) restriction clause.
+SRC-OI-01,IndicCorp v2 (Telugu),Other Indian Languages,CC0-1.0,VERIFIED,VERIFIED,Unencumbered public domain release under CC0. Primary verified baseline.
+SRC-OI-02,IndicCorp v2 (Malayalam),Other Indian Languages,CC0-1.0,VERIFIED,VERIFIED,Unencumbered public domain release under CC0. Primary verified baseline.
+SRC-OI-03,IndicCorp v2 (Kannada),Other Indian Languages,CC0-1.0,VERIFIED,VERIFIED,Unencumbered public domain release under CC0. Primary verified baseline.
+SRC-OI-04,IndicCorp v2 (Bengali),Other Indian Languages,CC0-1.0,VERIFIED,VERIFIED,Unencumbered public domain release under CC0. Resolves Bengali gap in Category 5.
+SRC-OI-05,IndicCorp v2 (Gujarati),Other Indian Languages,CC0-1.0,VERIFIED,VERIFIED,Unencumbered public domain release under CC0. Resolves Gujarati gap in Category 5.
+SRC-ML-01,FLORES-200 Multilingual Benchmark,Multilingual Mixed Text,CC-BY-SA 4.0,VERIFIED,CONDITIONAL,Classified CONDITIONAL; gold standard evaluation benchmark requiring ShareAlike training waiver.
+SRC-ML-02,mC4 Multilingual Web Corpus (Sample),Multilingual Mixed Text,ODC-By 1.0,VERIFIED,CONDITIONAL,Classified CONDITIONAL; web crawl curation requiring automated PII scrub and fair use review.
+SRC-CD-01,The Stack v2 (Permissive Subset),Programming Code,Permissive (MIT/Apache/BSD),VERIFIED,VERIFIED,ScanCode filtered permissive code; verified baseline with secret scanning and opt-out synchronization.
+SRC-CD-02,HumanEval & MBPP Benchmark,Programming Code,MIT / Apache-2.0,VERIFIED,VERIFIED,Permissive licenses; verified baseline held out strictly for evaluation to prevent contamination.
+SRC-TD-01,Linux Kernel Documentation,Technical Documentation,GPL-2.0-with-exception,VERIFIED,CONDITIONAL,Classified CONDITIONAL; documentation exception requires legal counsel review on copyleft scope.
+SRC-TD-02,IETF RFC Archive (Text),Technical Documentation,RFC 5378 / IETF Trust,VERIFIED,VERIFIED,Royalty-free worldwide license to reproduce specifications; verified baseline.
+SRC-TD-03,Python Official Documentation,Technical Documentation,PSF-2.0,VERIFIED,VERIFIED,Permissive open-source documentation license; verified baseline.
+SRC-CV-01,DailyDialog Dataset,Conversational Text,CC-BY-NC-SA 4.0,INCOMPATIBLE,INCOMPATIBLE,Classified INCOMPATIBLE due to mandatory Non-Commercial (NC) restriction clause.
+SRC-CV-02,OpenSubtitles Multilingual (Filtered),Conversational Text,Non-Standard Scrape,INCOMPATIBLE,INCOMPATIBLE,Classified INCOMPATIBLE due to severe copyright infringement liability on movie scripts.
+SRC-CV-03,OpenAssistant Conversations (OASST1),Conversational Text,Apache-2.0,VERIFIED,VERIFIED,Crowdsourced volunteer dialogue under Apache-2.0; verified baseline.
+SRC-CV-04,Anthropic HH-RLHF,Conversational Text,MIT,VERIFIED,VERIFIED,Permissive MIT license; verified baseline allocated to tokenizer evaluation and alignment.
+SRC-CV-05,MultiWOZ 2.4 (Task Dialogue),Conversational Text,Apache-2.0,VERIFIED,VERIFIED,Restored Cambridge goal-oriented task dialogue under Apache-2.0; verified baseline.
+SRC-CV-06,Project Gutenberg Theatrical Dialogue,Conversational Text,Public Domain,VERIFIED,VERIFIED,US public domain theatrical dialogue; verified baseline subject to pre-1928 check and trademark header stripping.
+SRC-EM-01,Unicode Standard 15.1.0 Test Suite,Emoji & Unicode Edge Cases,Unicode-DFS-2016,VERIFIED,VERIFIED,Authoritative Unicode Consortium test data; perpetual royalty-free verified baseline.
+SRC-EM-02,Unicode 15.1.0 Emoji Data Files,Emoji & Unicode Edge Cases,Unicode-DFS-2016,VERIFIED,VERIFIED,Official emoji sequence test suites; perpetual royalty-free verified baseline.

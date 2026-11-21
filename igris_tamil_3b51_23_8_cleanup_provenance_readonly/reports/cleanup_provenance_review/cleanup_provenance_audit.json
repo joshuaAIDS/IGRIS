@@ -1,0 +1,17 @@
+{
+  "status": "PASS_READ_ONLY_MANIFEST",
+  "audit_type": "READ_ONLY_CLEANUP_AND_PROVENANCE_REVIEW_MANIFEST",
+  "clean_corpus_sha256": "8b26af54e5b77c1434d583b487cec4db8af6a2560bdfdff015e85d8e8ea45064",
+  "clean_corpus_line_count": 9766,
+  "approved_register_rows": 42,
+  "keep_candidates_manifested": 20,
+  "quarantine_rows_count": 22,
+  "errors": [],
+  "decision": "20_KEEP_CANDIDATES_READY_FOR_MANUAL_CLEANUP_AND_PROVENANCE_REVIEW_ONLY; 22_QUARANTINE_ROWS_STAY_EXCLUDED; NO_SOURCE_CHANGES; NO_TRAINING",
+  "limitations": [
+    "Text heuristics are flags, not proof of contamination or privacy exposure.",
+    "Source provenance, original publication, author rights, and license cannot be established from this cleaned text file alone.",
+    "No text has been cleaned, redacted, deleted, merged, or promoted.",
+    "The 20 rows are not yet approved for tokenizer training."
+  ]
+}

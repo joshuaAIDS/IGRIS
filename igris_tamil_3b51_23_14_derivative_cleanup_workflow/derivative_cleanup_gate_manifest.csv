@@ -1,0 +1,21 @@
+﻿source_line,proposed_gate,license_clearance,cleanup_authorization,notes
+749,HOLD_SOURCE_RIGHTS,PENDING,PENDING,No edit; verify source and license.
+1215,HOLD_SOURCE_RIGHTS,PENDING,PENDING,No edit; identify source document.
+1602,EXCLUDE_PENDING_RIGHTS,PENDING,PENDING,Exclude from candidate derivative unless lawful reuse is evidenced.
+1695,HOLD_SOURCE_RIGHTS,PENDING,PENDING,Preserve bibliography until source/rights verified.
+2008,HOLD_SOURCE_RIGHTS,PENDING,PENDING,Duplicate headline removal only after rights clearance.
+3480,HOLD_SOURCE_RIGHTS,PENDING,PENDING,Potential <br> cleanup only after upstream license and attribution confirmed.
+3514,HOLD_SOURCE_RIGHTS,PENDING,PENDING,No reconstruction; recover full source context.
+3778,HOLD_SOURCE_RIGHTS,PENDING,PENDING,Verify upstream revision/license and attribution.
+4166,HOLD_SOURCE_RIGHTS,PENDING,PENDING,Verify original interview rights.
+4308,HOLD_SOURCE_RIGHTS,PENDING,PENDING,Verify exact article/date/rights; factual currency review separate.
+4401,HOLD_PRIVACY_AND_RIGHTS,PENDING,PENDING,Privacy review; no email redaction until separately approved.
+5073,HOLD_SOURCE_RIGHTS,PENDING,PENDING,Whitespace cleanup only after rights clearance.
+5781,HOLD_SOURCE_RIGHTS,PENDING,PENDING,Verify upstream revision/license and attribution.
+6132,QUARANTINE,PENDING,PENDING,Remain excluded; no splitting/reconstruction.
+7326,HOLD_SOURCE_RIGHTS,PENDING,PENDING,No citation reconstruction.
+7349,HOLD_SOURCE_RIGHTS,PENDING,PENDING,Verify upstream article/translation rights.
+7486,QUARANTINE,PENDING,PENDING,Remain excluded pending source/date/rights.
+8103,QUARANTINE,PENDING,PENDING,Remain excluded; resolve corruption/source.
+8197,QUARANTINE,PENDING,PENDING,Remain excluded; privacy/source/rights review.
+9675,HOLD_SOURCE_RIGHTS,PENDING,PENDING,No sentence completion.

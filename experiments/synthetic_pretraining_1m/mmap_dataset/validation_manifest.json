@@ -1,0 +1,19 @@
+{
+  "split_name": "validation",
+  "num_documents": 300,
+  "total_tokens": 279988,
+  "bin_file": "validation.bin",
+  "bin_sha256": "e5b4c11577b7c4c58de3356f9f1dd182181d61d52827d542b324d1c29bf79014",
+  "idx_file": "validation.idx",
+  "idx_sha256": "f9728d014e6698749b7eb5ad06c9d24ef2172080f4fa06887cd8926858e66fce",
+  "language_counts": {
+    "TAMIL": 100,
+    "ENGLISH": 100,
+    "TANGLISH": 100
+  },
+  "max_doc_len": 1125,
+  "min_doc_len": 816,
+  "avg_doc_len": 933.29,
+  "created_at": "2026-11-21T08:36:59",
+  "schema_version": "v1.0.0-mmap"
+}

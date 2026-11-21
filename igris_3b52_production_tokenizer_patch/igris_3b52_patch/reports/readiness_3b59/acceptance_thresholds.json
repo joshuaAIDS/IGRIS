@@ -1,0 +1,24 @@
+{
+  "mandatory": {
+    "round_trip_fidelity_min_pct": 100.0,
+    "structural_token_isolation_min_pct": 100.0,
+    "vocabulary_size_exact": 32768,
+    "structural_token_count_exact": 12,
+    "byte_fallback_count_exact": 256,
+    "unicode_version_exact": "15.1.0",
+    "context_length_exact": 2048
+  },
+  "recommended": {
+    "tokens_per_word_english_max": 1.35,
+    "tokens_per_word_tamil_max": 2.5,
+    "tokens_per_word_hindi_max": 2.2,
+    "tokens_per_word_code_max": 1.8,
+    "encoding_throughput_min_chars_sec": 250000.0,
+    "decoding_throughput_min_tokens_sec": 1000000.0,
+    "sequence_p95_tokens_max": 1800
+  },
+  "informational": {
+    "peak_heap_memory_kb_target": 1024.0,
+    "compression_ratio_bytes_per_token_min": 1.0
+  }
+}

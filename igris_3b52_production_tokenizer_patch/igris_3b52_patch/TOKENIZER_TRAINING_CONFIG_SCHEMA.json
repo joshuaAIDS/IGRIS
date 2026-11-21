@@ -1,0 +1,104 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "IGRIS Tokenizer Training Configuration Schema",
+  "description": "Schema enforcing default-deny, reproducible parameters, tier isolation, and owner authorization for IGRIS tokenizer training.",
+  "version": "1.0.0",
+  "type": "object",
+  "required": [
+    "config_version",
+    "candidate_type",
+    "vocab_size",
+    "structural_tokens",
+    "byte_fallback",
+    "random_seed",
+    "target_environment",
+    "owner_authorization_reference",
+    "corpus_manifest",
+    "output_directory"
+  ],
+  "properties": {
+    "config_version": {
+      "type": "string",
+      "pattern": "^1\\.[0-9]+\\.[0-9]+$"
+    },
+    "candidate_type": {
+      "type": "string",
+      "enum": ["candidate_a_bpe", "candidate_b_unigram"]
+    },
+    "vocab_size": {
+      "type": "integer",
+      "enum": [32768]
+    },
+    "structural_tokens": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 12,
+      "maxItems": 12
+    },
+    "byte_fallback": {
+      "type": "boolean",
+      "enum": [true]
+    },
+    "character_coverage": {
+      "type": "number",
+      "minimum": 0.99,
+      "maximum": 1.0
+    },
+    "min_frequency": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "random_seed": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "target_environment": {
+      "type": "string",
+      "enum": ["synthetic_test", "isolated_test", "production"]
+    },
+    "owner_authorization_reference": {
+      "type": "string",
+      "minLength": 8
+    },
+    "corpus_manifest": {
+      "type": "object",
+      "required": [
+        "manifest_id",
+        "manifest_path",
+        "authorized_sources",
+        "expected_corpus_sha256"
+      ],
+      "properties": {
+        "manifest_id": {
+          "type": "string"
+        },
+        "manifest_path": {
+          "type": "string"
+        },
+        "authorized_sources": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1
+        },
+        "expected_corpus_sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        }
+      },
+      "additionalProperties": false
+    },
+    "output_directory": {
+      "type": "string",
+      "minLength": 1
+    },
+    "provenance_logging": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "additionalProperties": false
+}

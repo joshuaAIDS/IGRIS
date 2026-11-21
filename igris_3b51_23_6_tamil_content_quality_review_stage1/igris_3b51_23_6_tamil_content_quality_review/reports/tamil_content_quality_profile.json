@@ -1,0 +1,250 @@
+{
+  "status": "PROFILE_COMPLETE_REVIEW_REQUIRED",
+  "decision": "READ_ONLY_PROFILING_ONLY_NO_CONTENT_APPROVAL_NO_LICENSE_APPROVAL_NO_TRAINING",
+  "unicode_database_version": "15.1.0",
+  "clean": {
+    "path": "C:\\IGRIS\\igris_3b51_19_1_tamil_remediation\\igris_3b51_19_1_tamil_remediation\\processed\\tamil_nfc_deduplicated.txt",
+    "bytes": 7003182,
+    "sha256": "8b26af54e5b77c1434d583b487cec4db8af6a2560bdfdff015e85d8e8ea45064",
+    "nonempty_records": 9766,
+    "length_chars": {
+      "min": 5,
+      "median": 185,
+      "p95": 732,
+      "p99": 1787,
+      "max": 3942
+    },
+    "script_counts": {
+      "tamil_present": 9766,
+      "latin_present": 683,
+      "tamil_and_latin": 683
+    },
+    "flagged_record_counts": {
+      "url_marker": 19,
+      "html_or_markup_marker": 5
+    },
+    "nfc_duplicate_groups": 0,
+    "records_in_nfc_duplicate_groups": 0,
+    "top_tamil_codepoints": [
+      {
+        "codepoint": "U+0BCD",
+        "character": "்",
+        "count": 365417
+      },
+      {
+        "codepoint": "U+0B95",
+        "character": "க",
+        "count": 165872
+      },
+      {
+        "codepoint": "U+0BC1",
+        "character": "ு",
+        "count": 153788
+      },
+      {
+        "codepoint": "U+0BA4",
+        "character": "த",
+        "count": 152662
+      },
+      {
+        "codepoint": "U+0BBF",
+        "character": "ி",
+        "count": 151429
+      },
+      {
+        "codepoint": "U+0BAA",
+        "character": "ப",
+        "count": 98406
+      },
+      {
+        "codepoint": "U+0BB0",
+        "character": "ர",
+        "count": 95230
+      },
+      {
+        "codepoint": "U+0BAE",
+        "character": "ம",
+        "count": 93678
+      },
+      {
+        "codepoint": "U+0B9F",
+        "character": "ட",
+        "count": 90930
+      },
+      {
+        "codepoint": "U+0BBE",
+        "character": "ா",
+        "count": 86251
+      },
+      {
+        "codepoint": "U+0BB5",
+        "character": "வ",
+        "count": 72053
+      },
+      {
+        "codepoint": "U+0BB2",
+        "character": "ல",
+        "count": 70199
+      },
+      {
+        "codepoint": "U+0BA9",
+        "character": "ன",
+        "count": 67310
+      },
+      {
+        "codepoint": "U+0BC8",
+        "character": "ை",
+        "count": 54708
+      },
+      {
+        "codepoint": "U+0BB3",
+        "character": "ள",
+        "count": 52642
+      },
+      {
+        "codepoint": "U+0BAF",
+        "character": "ய",
+        "count": 52607
+      },
+      {
+        "codepoint": "U+0BB1",
+        "character": "ற",
+        "count": 51254
+      },
+      {
+        "codepoint": "U+0B9A",
+        "character": "ச",
+        "count": 47522
+      },
+      {
+        "codepoint": "U+0BA8",
+        "character": "ந",
+        "count": 39271
+      },
+      {
+        "codepoint": "U+0B85",
+        "character": "அ",
+        "count": 23615
+      },
+      {
+        "codepoint": "U+0BC7",
+        "character": "ே",
+        "count": 22818
+      },
+      {
+        "codepoint": "U+0BA3",
+        "character": "ண",
+        "count": 21957
+      },
+      {
+        "codepoint": "U+0B87",
+        "character": "இ",
+        "count": 20186
+      },
+      {
+        "codepoint": "U+0BC6",
+        "character": "ெ",
+        "count": 19536
+      },
+      {
+        "codepoint": "U+0BCB",
+        "character": "ோ",
+        "count": 15759
+      },
+      {
+        "codepoint": "U+0B8E",
+        "character": "எ",
+        "count": 13814
+      },
+      {
+        "codepoint": "U+0B99",
+        "character": "ங",
+        "count": 13461
+      },
+      {
+        "codepoint": "U+0BCA",
+        "character": "ொ",
+        "count": 13133
+      },
+      {
+        "codepoint": "U+0BB4",
+        "character": "ழ",
+        "count": 11742
+      },
+      {
+        "codepoint": "U+0BC0",
+        "character": "ீ",
+        "count": 9352
+      },
+      {
+        "codepoint": "U+0B89",
+        "character": "உ",
+        "count": 8865
+      },
+      {
+        "codepoint": "U+0BC2",
+        "character": "ூ",
+        "count": 8729
+      },
+      {
+        "codepoint": "U+0B86",
+        "character": "ஆ",
+        "count": 8190
+      },
+      {
+        "codepoint": "U+0BB8",
+        "character": "ஸ",
+        "count": 5478
+      },
+      {
+        "codepoint": "U+0B92",
+        "character": "ஒ",
+        "count": 4803
+      },
+      {
+        "codepoint": "U+0B9C",
+        "character": "ஜ",
+        "count": 3592
+      },
+      {
+        "codepoint": "U+0B8F",
+        "character": "ஏ",
+        "count": 2437
+      },
+      {
+        "codepoint": "U+0BB7",
+        "character": "ஷ",
+        "count": 2049
+      },
+      {
+        "codepoint": "U+0B9E",
+        "character": "ஞ",
+        "count": 1438
+      },
+      {
+        "codepoint": "U+0B8A",
+        "character": "ஊ",
+        "count": 1073
+      }
+    ]
+  },
+  "review_groups": {
+    "mixed_jsonl_records": 723,
+    "quarantine_jsonl_records": 65
+  },
+  "sample_method": "deterministic evenly spaced records by source line; not random or statistically representative",
+  "sample_size": 100,
+  "limitations": [
+    "Script-presence heuristics do not establish that a record is grammatically correct Tamil.",
+    "Latin characters can be valid names, abbreviations, technical terms, or Tanglish; they are not automatically contamination.",
+    "URL/markup markers are review flags, not automatic rejection criteria.",
+    "NFC duplicate groups are exact normalized-text duplicates, not semantic duplicates.",
+    "This profiler does not verify source provenance, copyright, license compatibility, or commercial-use rights.",
+    "Review previews may contain sensitive or inappropriate source text; handle generated reports accordingly."
+  ],
+  "input_hashes": {
+    "clean": "8b26af54e5b77c1434d583b487cec4db8af6a2560bdfdff015e85d8e8ea45064",
+    "mixed": "b957db99e9abf197a32d14d0f4f4198f97d3e33f5eb5266d8780a8c294b4251b",
+    "quarantine": "f3e32408d6a96b99d4def3ca4079770d6cf7594a553d57cda1a44cfeedced874"
+  }
+}

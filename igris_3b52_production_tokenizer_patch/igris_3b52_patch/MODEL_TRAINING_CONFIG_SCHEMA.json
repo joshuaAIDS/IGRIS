@@ -1,0 +1,175 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "IGRIS Transformer Model Training Configuration Schema",
+  "description": "Validation schema for IGRIS model training pipeline configurations, enforcing governance gates, hyperparameter bounds, and reproducibility constraints.",
+  "version": "1.0.0",
+  "type": "object",
+  "required": [
+    "training_version",
+    "model_config",
+    "target_environment",
+    "optimizer",
+    "max_steps",
+    "batch_size",
+    "owner_authorization_reference",
+    "output_checkpoint_dir"
+  ],
+  "properties": {
+    "training_version": {
+      "type": "string",
+      "pattern": "^v[0-9]+\\.[0-9]+.*$"
+    },
+    "model_config": {
+      "type": "object"
+    },
+    "target_environment": {
+      "type": "string",
+      "enum": ["synthetic_test", "isolated_test", "production"]
+    },
+    "random_seed": {
+      "type": "integer",
+      "minimum": 0,
+      "default": 42
+    },
+    "batch_size": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "gradient_accumulation_steps": {
+      "type": "integer",
+      "minimum": 1,
+      "default": 1
+    },
+    "max_steps": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "eval_interval": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "checkpoint_interval": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "gradient_clipping": {
+      "type": "number",
+      "minimum": 0.0,
+      "maximum": 10.0,
+      "default": 1.0
+    },
+    "optimizer": {
+      "type": "object",
+      "required": ["name", "lr"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "enum": ["AdamW", "adamw"]
+        },
+        "lr": {
+          "type": "number",
+          "minimum": 1e-7,
+          "maximum": 1.0
+        },
+        "weight_decay": {
+          "type": "number",
+          "minimum": 0.0,
+          "maximum": 1.0,
+          "default": 0.1
+        },
+        "betas": {
+          "type": "array",
+          "items": { "type": "number" },
+          "minItems": 2,
+          "maxItems": 2,
+          "default": [0.9, 0.95]
+        },
+        "eps": {
+          "type": "number",
+          "minimum": 1e-12,
+          "maximum": 1e-4,
+          "default": 1e-8
+        }
+      },
+      "additionalProperties": false
+    },
+    "scheduler": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "enum": ["cosine", "linear", "constant"]
+        },
+        "warmup_steps": {
+          "type": "integer",
+          "minimum": 0,
+          "default": 100
+        },
+        "min_lr_ratio": {
+          "type": "number",
+          "minimum": 0.0,
+          "maximum": 1.0,
+          "default": 0.1
+        }
+      },
+      "additionalProperties": false
+    },
+    "mixed_precision": {
+      "type": "string",
+      "enum": ["no", "fp16", "bf16"],
+      "default": "no"
+    },
+    "max_seq_len": {
+      "type": "integer",
+      "minimum": 8,
+      "maximum": 2048
+    },
+    "save_top_k": {
+      "type": "integer",
+      "minimum": 1,
+      "default": 3
+    },
+    "owner_authorization_reference": {
+      "type": "string",
+      "minLength": 5
+    },
+    "output_checkpoint_dir": {
+      "type": "string",
+      "minLength": 1
+    },
+    "activation_checkpointing": {
+      "type": "boolean",
+      "default": false
+    },
+    "distributed": {
+      "type": "object",
+      "properties": {
+        "backend": {
+          "type": "string",
+          "enum": ["gloo", "nccl"]
+        },
+        "world_size": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "rank": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "local_rank": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "fsdp_enabled": {
+          "type": "boolean"
+        },
+        "fsdp_sharding_strategy": {
+          "type": "string",
+          "enum": ["FULL_SHARD", "SHARD_GRAD_OP", "NO_SHARD"]
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

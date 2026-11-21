@@ -1,0 +1,8 @@
+analysis_dimension,word_count,total_characters,cand_a_total_tokens,cand_exp_total_tokens,cand_a_fertility,cand_exp_fertility,cand_a_chars_per_tok,cand_exp_chars_per_tok,cand_a_single_token_word_pct,cand_exp_single_token_word_pct,cand_a_fragmented_word_pct,cand_exp_fragmented_word_pct,cand_a_excessively_fragmented_pct,cand_exp_excessively_fragmented_pct,total_graphemes,cand_a_internal_cuts,cand_a_unique_affected_clusters,cand_a_grapheme_preservation_pct,cand_exp_internal_cuts,cand_exp_unique_affected_clusters,cand_exp_grapheme_preservation_pct,token_reduction_pct,cand_a_roundtrip_accuracy,cand_exp_roundtrip_accuracy
+ENTIRE_EVALUATION_CORPUS,437,3412,3429,1943,7.8467,4.4462,0.995,1.756,1.14,5.49,98.86,94.51,70.71,43.94,2990,492,492,83.55,428,428,85.69,43.34,100.0,100.0
+LANGUAGE_TAMIL,103,692,898,632,8.7184,6.1359,0.7706,1.0949,0.0,0.0,100.0,100.0,79.61,67.96,404,334,334,17.33,292,292,27.72,29.62,100.0,100.0
+LANGUAGE_ENGLISH,118,1180,1063,571,9.0085,4.839,1.1101,2.0665,2.54,4.24,97.46,95.76,75.42,47.46,1180,0,0,100.0,0,0,100.0,46.28,100.0,100.0
+LANGUAGE_TANGLISH,216,1540,1468,740,6.7963,3.4259,1.049,2.0811,0.93,8.8,99.07,91.2,63.89,30.56,1406,158,158,88.76,136,136,90.33,49.59,100.0,100.0
+SCRIPT_TAMIL_SCRIPT,113,783,1026,719,9.0796,6.3628,0.7632,1.089,0.0,0.0,100.0,100.0,81.42,69.91,456,383,383,16.01,333,333,26.97,29.92,100.0,100.0
+SCRIPT_LATIN_SCRIPT,228,1808,1591,781,6.9781,3.4254,1.1364,2.315,2.19,10.53,97.81,89.47,59.21,28.51,1808,0,0,100.0,0,0,100.0,50.91,100.0,100.0
+SCRIPT_MIXED_SCRIPT,91,777,768,401,8.4396,4.4066,1.0117,1.9377,0.0,0.0,100.0,100.0,84.62,47.25,682,109,109,84.02,95,95,86.07,47.79,100.0,100.0

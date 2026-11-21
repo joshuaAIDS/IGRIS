@@ -1,0 +1,579 @@
+{
+  "hardware": {
+    "gpu_model": "NVIDIA GeForce RTX 3050 6GB Laptop GPU",
+    "driver_version": "610.91",
+    "cuda_version": "13.0",
+    "pytorch_version": "2.14.1+cu130",
+    "compute_capability": "8.6",
+    "sm_count": 20,
+    "physical_vram_bytes": 6441926656,
+    "physical_vram_mib": 6143.5,
+    "physical_vram_mb": 6441.93,
+    "physical_vram_gib": 5.9995,
+    "physical_vram_gb": 6.4419,
+    "initial_free_vram_bytes": 5411700736,
+    "initial_free_vram_mib": 5161.0,
+    "initial_free_vram_mb": 5411.7,
+    "os_dwm_overhead_bytes": 1030225920,
+    "os_dwm_overhead_mib": 982.5,
+    "system_ram_total_bytes": 16791048192,
+    "system_ram_total_gib": 15.64,
+    "system_ram_available_bytes": 4211916800,
+    "system_ram_available_gib": 3.92,
+    "system_ram_percent_used": 74.9,
+    "other_compute_processes": [
+      "11304, C:\\Users\\joshu\\AppData\\Local\\Programs\\Python\\Python311\\python.exe, [N/A]",
+      "22836, C:\\Users\\joshu\\AppData\\Local\\Programs\\Python\\Python311\\python.exe, [N/A]"
+    ]
+  },
+  "safety_limits": {
+    "vram_15pct_headroom_bytes": 966288998,
+    "vram_15pct_headroom_mib": 921.52,
+    "vram_safety_ceiling_bytes": 4445411738,
+    "vram_safety_ceiling_mib": 4239.48
+  },
+  "lifecycle_phases": {
+    "0_initial_clean": {
+      "allocated_bytes": 0,
+      "allocated_mib": 0.0,
+      "allocated_mb": 0.0,
+      "reserved_bytes": 0,
+      "reserved_mib": 0.0,
+      "reserved_mb": 0.0,
+      "driver_free_bytes": 5411700736,
+      "driver_free_mib": 5161.0,
+      "driver_free_mb": 5411.7
+    },
+    "1_model_weights_instantiated": {
+      "mem": {
+        "allocated_bytes": 318842880,
+        "allocated_mib": 304.07,
+        "allocated_mb": 318.84,
+        "reserved_bytes": 329252864,
+        "reserved_mib": 314.0,
+        "reserved_mb": 329.25,
+        "driver_free_bytes": 5082447872,
+        "driver_free_mib": 4847.0,
+        "driver_free_mb": 5082.45
+      },
+      "peak": {
+        "max_allocated_bytes": 318842880,
+        "max_allocated_mib": 304.07,
+        "max_allocated_mb": 318.84,
+        "max_reserved_bytes": 329252864,
+        "max_reserved_mib": 314.0,
+        "max_reserved_mb": 329.25
+      },
+      "duration_sec": 1.3949,
+      "param_count": 79708672
+    },
+    "2_optimizer_instantiated": {
+      "mem": {
+        "allocated_bytes": 318842880,
+        "allocated_mib": 304.07,
+        "allocated_mb": 318.84,
+        "reserved_bytes": 329252864,
+        "reserved_mib": 314.0,
+        "reserved_mb": 329.25,
+        "driver_free_bytes": 5082447872,
+        "driver_free_mib": 4847.0,
+        "driver_free_mb": 5082.45
+      },
+      "peak": {
+        "max_allocated_bytes": 318842880,
+        "max_allocated_mib": 304.07,
+        "max_allocated_mb": 318.84,
+        "max_reserved_bytes": 329252864,
+        "max_reserved_mib": 314.0,
+        "max_reserved_mb": 329.25
+      },
+      "duration_sec": 4.6327
+    },
+    "3_forward_pass_peak": {
+      "mem": {
+        "allocated_bytes": 438255616,
+        "allocated_mib": 417.95,
+        "allocated_mb": 438.26,
+        "reserved_bytes": 572522496,
+        "reserved_mib": 546.0,
+        "reserved_mb": 572.52,
+        "driver_free_bytes": 4809818112,
+        "driver_free_mib": 4587.0,
+        "driver_free_mb": 4809.82
+      },
+      "peak": {
+        "max_allocated_bytes": 564084736,
+        "max_allocated_mib": 537.95,
+        "max_allocated_mb": 564.08,
+        "max_reserved_bytes": 572522496,
+        "max_reserved_mib": 546.0,
+        "max_reserved_mb": 572.52
+      },
+      "duration_sec": 0.8627
+    },
+    "4_backward_pass_peak": {
+      "mem": {
+        "allocated_bytes": 672023040,
+        "allocated_mib": 640.89,
+        "allocated_mb": 672.02,
+        "reserved_bytes": 765460480,
+        "reserved_mib": 730.0,
+        "reserved_mb": 765.46,
+        "driver_free_bytes": 4608491520,
+        "driver_free_mib": 4395.0,
+        "driver_free_mb": 4608.49
+      },
+      "peak": {
+        "max_allocated_bytes": 739656704,
+        "max_allocated_mib": 705.39,
+        "max_allocated_mb": 739.66,
+        "max_reserved_bytes": 765460480,
+        "max_reserved_mib": 730.0,
+        "max_reserved_mb": 765.46
+      },
+      "duration_sec": 0.2824
+    },
+    "5_optimizer_step_peak": {
+      "mem": {
+        "allocated_bytes": 990857728,
+        "allocated_mib": 944.96,
+        "allocated_mb": 990.86,
+        "reserved_bytes": 1648361472,
+        "reserved_mib": 1572.0,
+        "reserved_mb": 1648.36,
+        "driver_free_bytes": 3725590528,
+        "driver_free_mib": 3553.0,
+        "driver_free_mb": 3725.59
+      },
+      "peak": {
+        "max_allocated_bytes": 1628527104,
+        "max_allocated_mib": 1553.08,
+        "max_allocated_mb": 1628.53,
+        "max_reserved_bytes": 1648361472,
+        "max_reserved_mib": 1572.0,
+        "max_reserved_mb": 1648.36
+      },
+      "duration_sec": 0.2598
+    },
+    "6_checkpoint_save": {
+      "mem": {
+        "allocated_bytes": 990857728,
+        "allocated_mib": 944.96,
+        "allocated_mb": 990.86,
+        "reserved_bytes": 1648361472,
+        "reserved_mib": 1572.0,
+        "reserved_mb": 1648.36,
+        "driver_free_bytes": 3725590528,
+        "driver_free_mib": 3553.0,
+        "driver_free_mb": 3725.59
+      },
+      "peak": {
+        "max_allocated_bytes": 1628527104,
+        "max_allocated_mib": 1553.08,
+        "max_allocated_mb": 1628.53,
+        "max_reserved_bytes": 1648361472,
+        "max_reserved_mib": 1572.0,
+        "max_reserved_mb": 1648.36
+      },
+      "save_duration_sec": 9.4184,
+      "checkpoint_size_bytes": 956702139,
+      "checkpoint_size_mib": 912.38,
+      "checkpoint_size_mb": 956.7
+    },
+    "7_model_only_export": {
+      "mem": {
+        "allocated_bytes": 990857728,
+        "allocated_mib": 944.96,
+        "allocated_mb": 990.86,
+        "reserved_bytes": 1648361472,
+        "reserved_mib": 1572.0,
+        "reserved_mb": 1648.36,
+        "driver_free_bytes": 3725590528,
+        "driver_free_mib": 3553.0,
+        "driver_free_mb": 3725.59
+      },
+      "export_duration_sec": 2.0391,
+      "export_size_bytes": 318895227,
+      "export_size_mib": 304.12,
+      "export_size_mb": 318.9
+    },
+    "8_checkpoint_load": {
+      "mem": {
+        "allocated_bytes": 990932480,
+        "allocated_mib": 945.03,
+        "allocated_mb": 990.93,
+        "reserved_bytes": 1952448512,
+        "reserved_mib": 1862.0,
+        "reserved_mb": 1952.45,
+        "driver_free_bytes": 3421503488,
+        "driver_free_mib": 3263.0,
+        "driver_free_mb": 3421.5
+      },
+      "peak": {
+        "max_allocated_bytes": 1947442176,
+        "max_allocated_mib": 1857.23,
+        "max_allocated_mb": 1947.44,
+        "max_reserved_bytes": 1952448512,
+        "max_reserved_mib": 1862.0,
+        "max_reserved_mb": 1952.45
+      },
+      "load_duration_sec": 3.8393
+    }
+  },
+  "sweep_results": [
+    {
+      "name": "Conservative Baseline (T=256, B=1)",
+      "sequence_length": 256,
+      "micro_batch_size": 1,
+      "accum_steps": 2,
+      "effective_batch_tokens": 512,
+      "peak_allocated_bytes": 1628572672,
+      "peak_allocated_mib": 1553.13,
+      "peak_allocated_mb": 1628.57,
+      "peak_reserved_bytes": 1709178880,
+      "peak_reserved_mib": 1630.0,
+      "peak_reserved_mb": 1709.18,
+      "driver_free_bytes": 3664773120,
+      "driver_free_mib": 3495.0,
+      "host_ram_rss_bytes": 1557159936,
+      "host_ram_rss_mib": 1485.02,
+      "avg_step_duration_sec": 0.7654,
+      "avg_steps_per_sec": 1.31,
+      "measured_tokens_per_sec": 669.0,
+      "vram_headroom_bytes": 3664773120,
+      "vram_headroom_mib": 3495.0,
+      "vram_headroom_pct_physical": 56.89,
+      "is_safe_under_15pct_rule": true
+    },
+    {
+      "name": "Safe Scaled (T=512, B=1)",
+      "sequence_length": 512,
+      "micro_batch_size": 1,
+      "accum_steps": 2,
+      "effective_batch_tokens": 1024,
+      "peak_allocated_bytes": 1645923328,
+      "peak_allocated_mib": 1569.67,
+      "peak_allocated_mb": 1645.92,
+      "peak_reserved_bytes": 1746927616,
+      "peak_reserved_mib": 1666.0,
+      "peak_reserved_mb": 1746.93,
+      "driver_free_bytes": 3627024384,
+      "driver_free_mib": 3459.0,
+      "host_ram_rss_bytes": 1629106176,
+      "host_ram_rss_mib": 1553.64,
+      "avg_step_duration_sec": 0.7852,
+      "avg_steps_per_sec": 1.27,
+      "measured_tokens_per_sec": 1304.1,
+      "vram_headroom_bytes": 3627024384,
+      "vram_headroom_mib": 3459.0,
+      "vram_headroom_pct_physical": 56.3,
+      "is_safe_under_15pct_rule": true
+    },
+    {
+      "name": "Medium Batch (T=512, B=2)",
+      "sequence_length": 512,
+      "micro_batch_size": 2,
+      "accum_steps": 2,
+      "effective_batch_tokens": 2048,
+      "peak_allocated_bytes": 1897629696,
+      "peak_allocated_mib": 1809.72,
+      "peak_allocated_mb": 1897.63,
+      "peak_reserved_bytes": 2078277632,
+      "peak_reserved_mib": 1982.0,
+      "peak_reserved_mb": 2078.28,
+      "driver_free_bytes": 3293577216,
+      "driver_free_mib": 3141.0,
+      "host_ram_rss_bytes": 1659023360,
+      "host_ram_rss_mib": 1582.17,
+      "avg_step_duration_sec": 0.675,
+      "avg_steps_per_sec": 1.48,
+      "measured_tokens_per_sec": 3034.1,
+      "vram_headroom_bytes": 3293577216,
+      "vram_headroom_mib": 3141.0,
+      "vram_headroom_pct_physical": 51.13,
+      "is_safe_under_15pct_rule": true
+    },
+    {
+      "name": "Production Context (T=1024, B=1)",
+      "sequence_length": 1024,
+      "micro_batch_size": 1,
+      "accum_steps": 2,
+      "effective_batch_tokens": 2048,
+      "peak_allocated_bytes": 1830512640,
+      "peak_allocated_mib": 1745.71,
+      "peak_allocated_mb": 1830.51,
+      "peak_reserved_bytes": 1994391552,
+      "peak_reserved_mib": 1902.0,
+      "peak_reserved_mb": 1994.39,
+      "driver_free_bytes": 3377463296,
+      "driver_free_mib": 3221.0,
+      "host_ram_rss_bytes": 1676324864,
+      "host_ram_rss_mib": 1598.67,
+      "avg_step_duration_sec": 0.7301,
+      "avg_steps_per_sec": 1.37,
+      "measured_tokens_per_sec": 2805.0,
+      "vram_headroom_bytes": 3377463296,
+      "vram_headroom_mib": 3221.0,
+      "vram_headroom_pct_physical": 52.43,
+      "is_safe_under_15pct_rule": true
+    },
+    {
+      "name": "Extended Context (T=2048, B=1)",
+      "sequence_length": 2048,
+      "micro_batch_size": 1,
+      "accum_steps": 2,
+      "effective_batch_tokens": 4096,
+      "peak_allocated_bytes": 2213448192,
+      "peak_allocated_mib": 2110.91,
+      "peak_allocated_mb": 2213.45,
+      "peak_reserved_bytes": 2585788416,
+      "peak_reserved_mib": 2466.0,
+      "peak_reserved_mb": 2585.79,
+      "driver_free_bytes": 2786066432,
+      "driver_free_mib": 2657.0,
+      "host_ram_rss_bytes": 1643634688,
+      "host_ram_rss_mib": 1567.49,
+      "avg_step_duration_sec": 1.7462,
+      "avg_steps_per_sec": 0.57,
+      "measured_tokens_per_sec": 2345.6,
+      "vram_headroom_bytes": 2786066432,
+      "vram_headroom_mib": 2657.0,
+      "vram_headroom_pct_physical": 43.25,
+      "is_safe_under_15pct_rule": true
+    }
+  ],
+  "training_projections": {
+    "Conservative Baseline (T=256, B=1)": [
+      {
+        "target_tokens": 1000000,
+        "target_tokens_label": "1M",
+        "total_steps": 1954,
+        "estimated_seconds": 1494.8,
+        "estimated_hours": 0.42,
+        "estimated_formatted": "0h 24m",
+        "basis": "PROJECTION_FROM_MEASUREMENT",
+        "measured_tokens_per_sec": 669.0
+      },
+      {
+        "target_tokens": 10000000,
+        "target_tokens_label": "10M",
+        "total_steps": 19532,
+        "estimated_seconds": 14947.7,
+        "estimated_hours": 4.15,
+        "estimated_formatted": "4h 9m",
+        "basis": "PROJECTION_FROM_MEASUREMENT",
+        "measured_tokens_per_sec": 669.0
+      },
+      {
+        "target_tokens": 50000000,
+        "target_tokens_label": "50M",
+        "total_steps": 97657,
+        "estimated_seconds": 74738.4,
+        "estimated_hours": 20.76,
+        "estimated_formatted": "20h 45m",
+        "basis": "PROJECTION_FROM_MEASUREMENT",
+        "measured_tokens_per_sec": 669.0
+      },
+      {
+        "target_tokens": 100000000,
+        "target_tokens_label": "100M",
+        "total_steps": 195313,
+        "estimated_seconds": 149476.8,
+        "estimated_hours": 41.52,
+        "estimated_formatted": "41h 31m",
+        "basis": "PROJECTION_FROM_MEASUREMENT",
+        "measured_tokens_per_sec": 669.0
+      }
+    ],
+    "Safe Scaled (T=512, B=1)": [
+      {
+        "target_tokens": 1000000,
+        "target_tokens_label": "1M",
+        "total_steps": 977,
+        "estimated_seconds": 766.8,
+        "estimated_hours": 0.21,
+        "estimated_formatted": "0h 12m",
+        "basis": "PROJECTION_FROM_MEASUREMENT",
+        "measured_tokens_per_sec": 1304.1
+      },
+      {
+        "target_tokens": 10000000,
+        "target_tokens_label": "10M",
+        "total_steps": 9766,
+        "estimated_seconds": 7668.1,
+        "estimated_hours": 2.13,
+        "estimated_formatted": "2h 7m",
+        "basis": "PROJECTION_FROM_MEASUREMENT",
+        "measured_tokens_per_sec": 1304.1
+      },
+      {
+        "target_tokens": 50000000,
+        "target_tokens_label": "50M",
+        "total_steps": 48829,
+        "estimated_seconds": 38340.6,
+        "estimated_hours": 10.65,
+        "estimated_formatted": "10h 39m",
+        "basis": "PROJECTION_FROM_MEASUREMENT",
+        "measured_tokens_per_sec": 1304.1
+      },
+      {
+        "target_tokens": 100000000,
+        "target_tokens_label": "100M",
+        "total_steps": 97657,
+        "estimated_seconds": 76681.2,
+        "estimated_hours": 21.3,
+        "estimated_formatted": "21h 18m",
+        "basis": "PROJECTION_FROM_MEASUREMENT",
+        "measured_tokens_per_sec": 1304.1
+      }
+    ],
+    "Medium Batch (T=512, B=2)": [
+      {
+        "target_tokens": 1000000,
+        "target_tokens_label": "1M",
+        "total_steps": 489,
+        "estimated_seconds": 329.6,
+        "estimated_hours": 0.09,
+        "estimated_formatted": "0h 5m",
+        "basis": "PROJECTION_FROM_MEASUREMENT",
+        "measured_tokens_per_sec": 3034.1
+      },
+      {
+        "target_tokens": 10000000,
+        "target_tokens_label": "10M",
+        "total_steps": 4883,
+        "estimated_seconds": 3295.9,
+        "estimated_hours": 0.92,
+        "estimated_formatted": "0h 54m",
+        "basis": "PROJECTION_FROM_MEASUREMENT",
+        "measured_tokens_per_sec": 3034.1
+      },
+      {
+        "target_tokens": 50000000,
+        "target_tokens_label": "50M",
+        "total_steps": 24415,
+        "estimated_seconds": 16479.4,
+        "estimated_hours": 4.58,
+        "estimated_formatted": "4h 34m",
+        "basis": "PROJECTION_FROM_MEASUREMENT",
+        "measured_tokens_per_sec": 3034.1
+      },
+      {
+        "target_tokens": 100000000,
+        "target_tokens_label": "100M",
+        "total_steps": 48829,
+        "estimated_seconds": 32958.7,
+        "estimated_hours": 9.16,
+        "estimated_formatted": "9h 9m",
+        "basis": "PROJECTION_FROM_MEASUREMENT",
+        "measured_tokens_per_sec": 3034.1
+      }
+    ],
+    "Production Context (T=1024, B=1)": [
+      {
+        "target_tokens": 1000000,
+        "target_tokens_label": "1M",
+        "total_steps": 489,
+        "estimated_seconds": 356.5,
+        "estimated_hours": 0.1,
+        "estimated_formatted": "0h 5m",
+        "basis": "PROJECTION_FROM_MEASUREMENT",
+        "measured_tokens_per_sec": 2805.0
+      },
+      {
+        "target_tokens": 10000000,
+        "target_tokens_label": "10M",
+        "total_steps": 4883,
+        "estimated_seconds": 3565.1,
+        "estimated_hours": 0.99,
+        "estimated_formatted": "0h 59m",
+        "basis": "PROJECTION_FROM_MEASUREMENT",
+        "measured_tokens_per_sec": 2805.0
+      },
+      {
+        "target_tokens": 50000000,
+        "target_tokens_label": "50M",
+        "total_steps": 24415,
+        "estimated_seconds": 17825.3,
+        "estimated_hours": 4.95,
+        "estimated_formatted": "4h 57m",
+        "basis": "PROJECTION_FROM_MEASUREMENT",
+        "measured_tokens_per_sec": 2805.0
+      },
+      {
+        "target_tokens": 100000000,
+        "target_tokens_label": "100M",
+        "total_steps": 48829,
+        "estimated_seconds": 35650.6,
+        "estimated_hours": 9.9,
+        "estimated_formatted": "9h 54m",
+        "basis": "PROJECTION_FROM_MEASUREMENT",
+        "measured_tokens_per_sec": 2805.0
+      }
+    ],
+    "Extended Context (T=2048, B=1)": [
+      {
+        "target_tokens": 1000000,
+        "target_tokens_label": "1M",
+        "total_steps": 245,
+        "estimated_seconds": 426.3,
+        "estimated_hours": 0.12,
+        "estimated_formatted": "0h 7m",
+        "basis": "PROJECTION_FROM_MEASUREMENT",
+        "measured_tokens_per_sec": 2345.6
+      },
+      {
+        "target_tokens": 10000000,
+        "target_tokens_label": "10M",
+        "total_steps": 2442,
+        "estimated_seconds": 4263.3,
+        "estimated_hours": 1.18,
+        "estimated_formatted": "1h 11m",
+        "basis": "PROJECTION_FROM_MEASUREMENT",
+        "measured_tokens_per_sec": 2345.6
+      },
+      {
+        "target_tokens": 50000000,
+        "target_tokens_label": "50M",
+        "total_steps": 12208,
+        "estimated_seconds": 21316.5,
+        "estimated_hours": 5.92,
+        "estimated_formatted": "5h 55m",
+        "basis": "PROJECTION_FROM_MEASUREMENT",
+        "measured_tokens_per_sec": 2345.6
+      },
+      {
+        "target_tokens": 100000000,
+        "target_tokens_label": "100M",
+        "total_steps": 24415,
+        "estimated_seconds": 42633.0,
+        "estimated_hours": 11.84,
+        "estimated_formatted": "11h 50m",
+        "basis": "PROJECTION_FROM_MEASUREMENT",
+        "measured_tokens_per_sec": 2345.6
+      }
+    ]
+  },
+  "reconciliation": {
+    "previous_512_tokens_allocated_mb": 5796,
+    "previous_512_tokens_reserved_mb": 5996,
+    "previous_1024_tokens_allocated_mb": 6221,
+    "previous_1024_tokens_reserved_mb": 6508,
+    "previous_2048_tokens_allocated_mb": 6097,
+    "previous_2048_tokens_reserved_mb": 6508,
+    "physical_vram_capacity_bytes": 6441926656,
+    "physical_vram_capacity_mib": 6143.5,
+    "physical_vram_capacity_mb": 6441.93,
+    "unit_clarification": "Previous code calculated bytes / (1024**2) and labeled it 'MB'. It was actually MiB.",
+    "6508_mib_in_bytes": 6824132608,
+    "6508_mib_in_decimal_mb": 6824.13,
+    "6508_mib_percent_of_physical_vram": 105.93,
+    "root_cause_1": "Cumulative lingering model instances from Section 3 (evaluation) and Section 4 (checkpoint validation with 3 models: model_a, model_b, model_c) without garbage collection or torch.cuda.empty_cache().",
+    "root_cause_2": "Sequential loop over configurations in Section 5 instantiated new IgrisTrainer objects without deleting prior trainers or resetting peak stats via torch.cuda.reset_peak_memory_stats().",
+    "root_cause_3": "WDDM 2.x/3.x Shared GPU Memory paging. On Windows, PyTorch requests exceeding physical VRAM page out to host RAM rather than immediately throwing CUDA OOM, causing 6,824 MB to be tracked by PyTorch while thrashing PCIe bus and cratering throughput.",
+    "isolated_true_allocated_mib_t512": 1569.67,
+    "isolated_true_reserved_mib_t512": 1666.0,
+    "isolated_true_allocated_mib_t1024": 1745.71,
+    "isolated_true_reserved_mib_t1024": 1902.0
+  }
+}

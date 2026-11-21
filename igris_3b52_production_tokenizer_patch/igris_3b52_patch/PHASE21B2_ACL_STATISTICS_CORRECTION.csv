@@ -1,0 +1,8 @@
+source_id,language,iso_code,script,acl_2023_table_3_tokens_m,erroneous_phase21b1_tokens_m,variance_m,correction_status,correction_root_cause,authoritative_reference
+SRC-TM-01,Tamil,ta,Tamil,476,476.0,0.0,ALIGNED,Exact match with ACL 2023 Table 3.,Doddapaneni et al. (ACL 2023 Table 3)
+SRC-HI-01,Hindi,hi,Devanagari,6107,6107.0,0.0,ALIGNED,Exact match with ACL 2023 Table 3.,Doddapaneni et al. (ACL 2023 Table 3)
+SRC-OI-01,Telugu,te,Telugu,731,731.0,0.0,ALIGNED,Exact match with ACL 2023 Table 3.,Doddapaneni et al. (ACL 2023 Table 3)
+SRC-OI-02,Malayalam,ml,Malayalam,931,2205.0,-1274.0,CORRECTED,Phase 21B1 erroneously cited a secondary web scrape column (2205M). Replaced with official ACL 2023 Table 3 count (931M).,Doddapaneni et al. (ACL 2023 Table 3)
+SRC-OI-03,Kannada,kn,Kannada,875,1751.0,-876.0,CORRECTED,Phase 21B1 erroneously cited a secondary web scrape column (1751M). Replaced with official ACL 2023 Table 3 count (875M).,Doddapaneni et al. (ACL 2023 Table 3)
+SRC-OI-04,Bengali,bn,Bengali,926,926.0,0.0,ALIGNED,Exact match with ACL 2023 Table 3.,Doddapaneni et al. (ACL 2023 Table 3)
+SRC-OI-05,Gujarati,gu,Gujarati,901,1410.0,-509.0,CORRECTED,Phase 21B1 erroneously cited a secondary web scrape column (1410M). Replaced with official ACL 2023 Table 3 count (901M).,Doddapaneni et al. (ACL 2023 Table 3)

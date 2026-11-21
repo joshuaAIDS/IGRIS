@@ -1,0 +1,11 @@
+{
+  "milestone": "3B.51.23.14",
+  "status": "WORKFLOW_PREPARED_PREVIEW_ONLY",
+  "manifest_rows": 20,
+  "license_clearance_rows_approved": 0,
+  "cleanup_authorization_rows_approved": 0,
+  "source_modified": false,
+  "cleanup_executed": false,
+  "derivative_created": false,
+  "decision": "RUN_FAIL_CLOSED_PREFLIGHT_ONLY; ALL_ROWS_BLOCKED_PENDING_LICENSE_AND_CLEANUP_GATES"
+}

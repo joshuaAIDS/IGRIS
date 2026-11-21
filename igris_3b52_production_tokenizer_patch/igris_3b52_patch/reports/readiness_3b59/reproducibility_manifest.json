@@ -1,0 +1,47 @@
+{
+  "timestamp": "2026-11-17T09:33:46Z",
+  "milestone": "3B.59",
+  "title": "IGRIS Production Evaluation Readiness Manifest",
+  "environment": {
+    "python_version": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "python_executable": "C:\\IGRIS\\.venv\\Scripts\\python.exe",
+    "platform": "Windows-10-10.0.26300-SP0",
+    "os_name": "nt",
+    "processor": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+    "cpu_count_logical": 12,
+    "system_ram_total_gb": 15.64,
+    "system_ram_available_gb": 5.61
+  },
+  "dependencies": {
+    "tokenizers": "0.23.3",
+    "sentencepiece": "0.2.3",
+    "unicodedata2": "15.1.0",
+    "unicode_database_version": "15.1.0",
+    "pytest": "9.2.0"
+  },
+  "tokenizer_artifacts": {
+    "candidate_a": {
+      "name": "Candidate A (ByteLevel BPE)",
+      "path": "C:\\IGRIS\\igris_3b52_production_tokenizer_patch\\igris_3b52_patch\\artifacts\\tokenizer\\candidate_a\\tokenizer.json",
+      "sha256": "ac7e18b13973450b43bfff18609a833e4ef0e642b8dc5803e39ab1e81ba4c561",
+      "vocab_size": 32768,
+      "context_length": 2048
+    },
+    "candidate_b": {
+      "name": "Candidate B (SentencePiece Unigram)",
+      "path": "C:\\IGRIS\\igris_3b52_production_tokenizer_patch\\igris_3b52_patch\\artifacts\\tokenizer\\candidate_b\\tokenizer.model",
+      "sha256": "d3a3431e07c87ecce863647202ddc9b47b964718adbae7bf2bb2459223b94888",
+      "vocab_size": 32768,
+      "context_length": 2048
+    }
+  },
+  "evaluation_configuration": {
+    "random_seed": 42,
+    "benchmark_repetitions": 10,
+    "memory_runs": 5,
+    "normalization_mode": "NFC",
+    "exact_mode_supported": true,
+    "provisional_front_runner": "Candidate A",
+    "winner_declared": false
+  }
+}

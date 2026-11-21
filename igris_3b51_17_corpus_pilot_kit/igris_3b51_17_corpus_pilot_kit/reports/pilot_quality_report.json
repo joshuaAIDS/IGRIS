@@ -1,0 +1,27 @@
+{
+  "files": [],
+  "records_read": 0,
+  "empty": 0,
+  "too_long": 0,
+  "duplicates": 0,
+  "invalid_files": [],
+  "buckets": {
+    "tamil": {
+      "records": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "latin_review": {
+      "records": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "mixed_script": {
+      "records": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "other": {
+      "records": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "note": "latin_review is NOT automatically split into English and Tanglish. Manually label a reviewed sample before balancing or training. This pilot script performs no training and downloads no data."
+}

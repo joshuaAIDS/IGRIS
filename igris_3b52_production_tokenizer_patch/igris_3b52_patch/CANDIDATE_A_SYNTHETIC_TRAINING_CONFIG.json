@@ -1,0 +1,73 @@
+{
+  "model_type": "BPE",
+  "pre_tokenizer": "ByteLevel",
+  "pre_tokenizer_params": {
+    "add_prefix_space": false,
+    "use_regex": true
+  },
+  "decoder": "ByteLevel",
+  "post_processor": null,
+  "vocab_size": 32768,
+  "min_frequency": 2,
+  "initial_alphabet_size": 256,
+  "random_seed": 42,
+  "structural_tokens": {
+    "<|pad|>": 0,
+    "<|begin_of_text|>": 1,
+    "<|end_of_text|>": 2,
+    "<think>": 3,
+    "</think>": 4,
+    "<action>": 5,
+    "</action>": 6,
+    "<action_result>": 7,
+    "</action_result>": 8,
+    "<|system|>": 9,
+    "<|user|>": 10,
+    "<|assistant|>": 11
+  },
+  "unicode_version": "15.1.0",
+  "normalization": "NFC",
+  "approved_languages": [
+    "TAMIL",
+    "ENGLISH",
+    "TANGLISH"
+  ],
+  "excluded_languages": [
+    "HINDI",
+    "TELUGU",
+    "MALAYALAM",
+    "KANNADA",
+    "BENGALI",
+    "GUJARATI"
+  ],
+  "corpus_statistics": {
+    "total_unique_documents": 399,
+    "train_documents": 320,
+    "val_documents": 40,
+    "test_documents": 39,
+    "train_ratio": 0.802,
+    "val_ratio": 0.1003,
+    "test_ratio": 0.0977,
+    "duplicate_threshold": 0.8,
+    "exact_leakage": 0,
+    "near_duplicate_leakage": 0
+  },
+  "split_hashes": {
+    "train_content_sha256": "8b32d0e21ce4a0602e0202957cba05c71b49c4c119e62475f2f77419e7feea26",
+    "val_content_sha256": "53a697792b4ecfb0fd0bf4edaf69f9dbc862cc1eebcf56a6665a7c5a5c87d766",
+    "test_content_sha256": "2c2e996407098535ef61b43c6903cf328d0aa8e111a84075ddab1c50d210296c"
+  },
+  "artifacts": {
+    "original_candidate_a_sha256": "ac7e18b13973450b43bfff18609a833e4ef0e642b8dc5803e39ab1e81ba4c561",
+    "original_candidate_b_sha256": "d3a3431e07c87ecce863647202ddc9b47b964718adbae7bf2bb2459223b94888",
+    "experimental_candidate_a_sha256": "3393acbee2214ce09b9e03eaaf1a367a324b29032c61a1e4d0408e991c35c3ce",
+    "experimental_tokenizer_path": "artifacts/tokenizer/candidate_a_synthetic_experiment/tokenizer.json"
+  },
+  "governance": {
+    "operating_model": "SOLO_DEVELOPER_OWNER_REVIEW",
+    "accountable_decision_maker": "Sole Project Owner",
+    "production_data_used": false,
+    "production_downloads": "LOCKED",
+    "tokenizer_replacement": false
+  }
+}

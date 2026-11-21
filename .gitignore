@@ -1,0 +1,123 @@
+# ==============================================================================
+# IGRIS - Git Ignore Configuration
+# ==============================================================================
+
+# Python Bytecode & Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyTorch Checkpoints & Large Model Weights
+# (Raw weights must not be committed to Git; use external storage/LFS if needed)
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.onnx
+*.engine
+checkpoints/
+weights/
+saved_models/
+
+# Raw Datasets & Large Binary Archives
+data/raw/
+data/cache/
+data/downloads/
+*.tar.gz
+*.tar
+*.zip
+*.zst
+*.parquet
+*.arrow
+
+# Audio Caches & Temporary Recordings
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.pcm
+recordings/
+audio_cache/
+
+# Local Vector Stores & Runtime Databases
+*.db
+*.sqlite
+*.sqlite3
+vector_store/
+memory_store/
+*.log
+
+# C++ / CUDA Build Artifacts
+*.obj
+*.o
+*.lib
+*.a
+*.dll
+*.so
+*.dylib
+*.pyd
+*.exp
+*.pdb
+*.ilk
+cmake-build-*/
+.cmake/
+
+# Jupyter Notebook & Profiling
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Frontend Dependencies & Build Output
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# IDE & Operating System Artifacts
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==============================================================================
+# REPRODUCIBILITY PRESERVATION WHITELIST
+# Explicitly preserve configurations, tokenizer metadata, manifests, and schemas
+# ==============================================================================
+!configs/
+!configs/**
+!*.yaml
+!*.yml
+!*.manifest.json
+!manifests/
+!manifests/**
+!tokenizer.json
+!tokenizer_config.json
+!vocab.json
+!merges.txt
+!special_tokens_map.json

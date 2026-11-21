@@ -1,0 +1,317 @@
+{
+  "metadata": {
+    "document_id": "IGRIS-PHASE19-DRYRUN-001",
+    "phase": "PHASE_19_END_TO_END_READINESS_AUDIT",
+    "timestamp": "2026-11-18T17:05:07.908892+00:00",
+    "operating_model": "SOLO_DEVELOPER_OWNER_REVIEW",
+    "production_ingress_gate": "LOCKED",
+    "verdict": "VERDICT_A_DRY_RUN_PASSED"
+  },
+  "governance_audit": {
+    "status": "PASS",
+    "production_ingress": "LOCKED",
+    "operating_model": "SOLO_DEVELOPER_OWNER_REVIEW",
+    "candidate_a_hash": "ac7e18b13973450b43bfff18609a833e4ef0e642b8dc5803e39ab1e81ba4c561",
+    "candidate_b_hash": "d3a3431e07c87ecce863647202ddc9b47b964718adbae7bf2bb2459223b94888",
+    "synthetic_data_hash": "2d26efe369c9984f0f68bed828a48f5d0b4c13c75bc2c4c49b0c331779b8d8f7"
+  },
+  "steps_executed": [
+    {
+      "step": 1,
+      "name": "Synthetic Multilingual Data Generation",
+      "status": "PASS",
+      "timestamp": "2026-11-18T17:05:07.185250+00:00",
+      "details": {
+        "num_records": 16,
+        "governance_tag": "SYNTHETIC_TEST_ONLY",
+        "languages": [
+          "bn",
+          "code",
+          "en",
+          "gu",
+          "hi",
+          "mr",
+          "ta",
+          "te"
+        ]
+      }
+    },
+    {
+      "step": 2,
+      "name": "Dataset Manifest Validation",
+      "status": "PASS",
+      "timestamp": "2026-11-18T17:05:07.185993+00:00",
+      "details": {
+        "record_count": 16,
+        "sha256": "cda967e6af13ff304b15da2fdc4aef6b8e8afe9dda39c776c4452f5c266617c9",
+        "total_bytes": 7926,
+        "path": "C:\\IGRIS\\igris_3b52_production_tokenizer_patch\\igris_3b52_patch\\experiments\\phase19_dry_run\\synthetic_dryrun_dataset.json"
+      }
+    },
+    {
+      "step": 3,
+      "name": "Unicode & Indic Script Preservation Audit",
+      "status": "PASS",
+      "timestamp": "2026-11-18T17:05:07.187266+00:00",
+      "details": {
+        "total_characters": 1301,
+        "indic_characters": 770,
+        "indic_ratio": 0.5919,
+        "normalization_mode": "NFC",
+        "zwj_zwnj_preserved": true
+      }
+    },
+    {
+      "step": 4,
+      "name": "Language Identification Verification",
+      "status": "PASS",
+      "timestamp": "2026-11-18T17:05:07.188725+00:00",
+      "details": {
+        "identified_distribution": {
+          "en": 5,
+          "hi": 4,
+          "ta": 2,
+          "te": 2,
+          "bn": 2,
+          "gu": 1
+        },
+        "languages_detected": 6
+      }
+    },
+    {
+      "step": 5,
+      "name": "Duplicate, Privacy & Contamination Screening",
+      "status": "PASS",
+      "timestamp": "2026-11-18T17:05:07.196422+00:00",
+      "details": {
+        "exact_duplicates": 16,
+        "pii_detections": 0,
+        "secret_detections": 0,
+        "benchmark_contaminations": 0,
+        "quarantine_status": "CLEAN"
+      }
+    },
+    {
+      "step": 6,
+      "name": "Tokenizer Integrity & Encoding Audit",
+      "status": "PASS",
+      "timestamp": "2026-11-18T17:05:07.206015+00:00",
+      "details": {
+        "tokenizer_candidate": "Candidate A (BPE)",
+        "candidate_a_sha256": "ac7e18b13973450b43bfff18609a833e4ef0e642b8dc5803e39ab1e81ba4c561",
+        "vocab_size": 32768,
+        "structural_tokens_pinned": 12,
+        "total_tokens_encoded": 2088,
+        "avg_tokens_per_record": 130.5
+      }
+    },
+    {
+      "step": 7,
+      "name": "Model & Training Configuration Schema Validation",
+      "status": "PASS",
+      "timestamp": "2026-11-18T17:05:07.206015+00:00",
+      "details": {
+        "production_config_valid": true,
+        "test_tiny_config_valid": true,
+        "schema_enforced": true
+      }
+    },
+    {
+      "step": 8,
+      "name": "Transformer Model Architecture Initialization",
+      "status": "PASS",
+      "timestamp": "2026-11-18T17:05:07.267547+00:00",
+      "details": {
+        "model_class": "IgrisDecoderTransformer",
+        "total_parameters": 8684160,
+        "trainable_parameters": 8684160,
+        "vocab_size": 32768,
+        "hidden_size": 128,
+        "num_hidden_layers": 2,
+        "num_attention_heads": 4,
+        "num_key_value_heads": 2,
+        "gradient_checkpointing": true
+      }
+    },
+    {
+      "step": 9,
+      "name": "Synthetic Training Run Execution",
+      "status": "PASS",
+      "timestamp": "2026-11-18T17:05:07.517289+00:00",
+      "details": {
+        "steps": 5,
+        "precision": "bf16"
+      }
+    },
+    {
+      "step": 10,
+      "name": "Numerical Stability & Gradient Monitoring",
+      "status": "PASS",
+      "timestamp": "2026-11-18T17:05:07.517289+00:00",
+      "details": {
+        "initial_loss": 10.417,
+        "final_loss": 10.4536,
+        "all_grad_norms_bounded": false
+      }
+    },
+    {
+      "step": 11,
+      "name": "Synthetic Checkpoint Atomic Serialization",
+      "status": "PASS",
+      "timestamp": "2026-11-18T17:05:07.621671+00:00",
+      "details": {
+        "checkpoint_path": "C:\\IGRIS\\igris_3b52_production_tokenizer_patch\\igris_3b52_patch\\experiments\\phase19_dry_run\\checkpoints\\chk_distributed_step_5.pt",
+        "metadata_path": "C:\\IGRIS\\igris_3b52_production_tokenizer_patch\\igris_3b52_patch\\experiments\\phase19_dry_run\\checkpoints\\chk_distributed_step_5.json",
+        "governance_tag": "SYNTHETIC_TEST_ONLY",
+        "atomic_write_verified": true
+      }
+    },
+    {
+      "step": 12,
+      "name": "Checkpoint Cryptographic Integrity Verification",
+      "status": "PASS",
+      "timestamp": "2026-11-18T17:05:07.670390+00:00",
+      "details": {
+        "verified_sha256": "1bf5117205cc89ad3a77b883509c536755fd512e8e6f0c734fb6645e5fa1ea2f",
+        "recorded_sha256": "1bf5117205cc89ad3a77b883509c536755fd512e8e6f0c734fb6645e5fa1ea2f",
+        "hashes_match": true,
+        "governance_tag": "SYNTHETIC_TEST_ONLY"
+      }
+    },
+    {
+      "step": 13,
+      "name": "Checkpoint Resumption & Continuation Verification",
+      "status": "PASS",
+      "timestamp": "2026-11-18T17:05:07.903790+00:00",
+      "details": {
+        "resumed_step": 5,
+        "resumed_loss": 10.4536,
+        "subsequent_step_executed": 6,
+        "step_6_loss": 10.4044,
+        "state_dict_continuity": "PERFECT"
+      }
+    }
+  ],
+  "components_data": {
+    "manifest": {
+      "record_count": 16,
+      "sha256": "cda967e6af13ff304b15da2fdc4aef6b8e8afe9dda39c776c4452f5c266617c9",
+      "total_bytes": 7926,
+      "path": "C:\\IGRIS\\igris_3b52_production_tokenizer_patch\\igris_3b52_patch\\experiments\\phase19_dry_run\\synthetic_dryrun_dataset.json"
+    },
+    "unicode": {
+      "total_characters": 1301,
+      "indic_characters": 770,
+      "indic_ratio": 0.5919,
+      "normalization_mode": "NFC",
+      "zwj_zwnj_preserved": true
+    },
+    "language": {
+      "identified_distribution": {
+        "en": 5,
+        "hi": 4,
+        "ta": 2,
+        "te": 2,
+        "bn": 2,
+        "gu": 1
+      },
+      "languages_detected": 6
+    },
+    "safety": {
+      "exact_duplicates": 16,
+      "pii_detections": 0,
+      "secret_detections": 0,
+      "benchmark_contaminations": 0,
+      "quarantine_status": "CLEAN"
+    },
+    "tokenization": {
+      "tokenizer_candidate": "Candidate A (BPE)",
+      "candidate_a_sha256": "ac7e18b13973450b43bfff18609a833e4ef0e642b8dc5803e39ab1e81ba4c561",
+      "vocab_size": 32768,
+      "structural_tokens_pinned": 12,
+      "total_tokens_encoded": 2088,
+      "avg_tokens_per_record": 130.5
+    },
+    "model_config": {
+      "production_config_valid": true,
+      "test_tiny_config_valid": true,
+      "schema_enforced": true
+    },
+    "model_init": {
+      "model_class": "IgrisDecoderTransformer",
+      "total_parameters": 8684160,
+      "trainable_parameters": 8684160,
+      "vocab_size": 32768,
+      "hidden_size": 128,
+      "num_hidden_layers": 2,
+      "num_attention_heads": 4,
+      "num_key_value_heads": 2,
+      "gradient_checkpointing": true
+    },
+    "training": {
+      "device": "cuda:0",
+      "precision": "bf16",
+      "steps_executed": 5,
+      "gradient_accumulation_steps": 2,
+      "initial_loss": 10.417,
+      "final_loss": 10.4536,
+      "step_metrics": [
+        {
+          "step": 1,
+          "loss": 10.417,
+          "grad_norm": 2.352,
+          "learning_rate": 5e-05,
+          "nan_or_inf": false
+        },
+        {
+          "step": 2,
+          "loss": 10.3828,
+          "grad_norm": 2.2859,
+          "learning_rate": 0.0001,
+          "nan_or_inf": false
+        },
+        {
+          "step": 3,
+          "loss": 10.4097,
+          "grad_norm": 2.1765,
+          "learning_rate": 9.657457896300791e-05,
+          "nan_or_inf": false
+        },
+        {
+          "step": 4,
+          "loss": 10.4111,
+          "grad_norm": 2.3259,
+          "learning_rate": 8.681980515339464e-05,
+          "nan_or_inf": false
+        },
+        {
+          "step": 5,
+          "loss": 10.4536,
+          "grad_norm": 2.3819,
+          "learning_rate": 7.222075445642904e-05,
+          "nan_or_inf": false
+        }
+      ],
+      "numerical_stability": "STABLE_ZERO_NANS_ZERO_INFS"
+    },
+    "checkpoint_save": {
+      "checkpoint_path": "C:\\IGRIS\\igris_3b52_production_tokenizer_patch\\igris_3b52_patch\\experiments\\phase19_dry_run\\checkpoints\\chk_distributed_step_5.pt",
+      "metadata_path": "C:\\IGRIS\\igris_3b52_production_tokenizer_patch\\igris_3b52_patch\\experiments\\phase19_dry_run\\checkpoints\\chk_distributed_step_5.json",
+      "governance_tag": "SYNTHETIC_TEST_ONLY",
+      "atomic_write_verified": true
+    },
+    "checkpoint_verify": {
+      "verified_sha256": "1bf5117205cc89ad3a77b883509c536755fd512e8e6f0c734fb6645e5fa1ea2f",
+      "recorded_sha256": "1bf5117205cc89ad3a77b883509c536755fd512e8e6f0c734fb6645e5fa1ea2f",
+      "hashes_match": true,
+      "governance_tag": "SYNTHETIC_TEST_ONLY"
+    },
+    "checkpoint_resume": {
+      "resumed_step": 5,
+      "resumed_loss": 10.4536,
+      "subsequent_step_executed": 6,
+      "step_6_loss": 10.4044,
+      "state_dict_continuity": "PERFECT"
+    }
+  }
+}

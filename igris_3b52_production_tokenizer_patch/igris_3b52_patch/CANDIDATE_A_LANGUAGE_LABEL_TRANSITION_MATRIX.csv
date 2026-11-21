@@ -1,0 +1,5 @@
+original_training_label,current_tamil,current_english,current_tanglish,current_unknown,total_original,notes
+TAMIL,111,0,0,0,111,100% stable; pure native Tamil script with zero cross-label transitions.
+ENGLISH,0,92,0,0,92,100% stable; standard English prose and docstrings with zero cross-label transitions.
+TANGLISH,42,39,115,0,196,42 shifted to Tamil (Tamil script dominant); 39 shifted to English (English matrix); 115 remain Tanglish (dedicated procedural fixtures).
+TOTAL,153,131,115,0,399,Exact mathematical balance confirmed across all 399 accepted records.

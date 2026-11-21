@@ -1,0 +1,47 @@
+AI4BHARAT INDICCORP PRIMARY LICENSE STATEMENT & NOTICE
+
+Authoritative Source:
+AI4Bharat, Department of Computer Science and Engineering,
+Indian Institute of Technology Madras (IIT Madras), Chennai, India.
+Project Website: https://ai4bharat.iitm.ac.in/
+Repository: https://github.com/AI4Bharat/IndicCorp
+Hugging Face Dataset: https://huggingface.co/datasets/ai4bharat/IndicCorp
+
+License Specification:
+Creative Commons Zero v1.0 Universal (CC0 1.0) Public Domain Dedication.
+
+Repository License Notice Text:
+--------------------------------------------------------------------------------
+The IndicCorp dataset is released under the Creative Commons CC0 1.0 Universal
+(Public Domain Dedication) license.
+
+To the extent possible under law, AI4Bharat and the creators have waived all
+copyright and related or neighboring rights to the IndicCorp corpus.
+
+You can copy, modify, distribute and perform the work, even for commercial purposes,
+all without asking permission.
+
+Citation Recommendation:
+If you use IndicCorp in your research or commercial applications, please cite the
+following publication:
+
+@inproceedings{kakwani2020indicnlpsuite,
+  title={{IndicNLPSuite: Monolingual Corpora, Evaluation Benchmarks and Pre-trained Multilingual Language Models for Indian Languages}},
+  author={Divyanshu Kakwani and Anoop Kunchukuttan and Satish Golla and Gokul N.C. and Avik Bhattacharyya and Mitesh M. Khapra and Pratyush Kumar},
+  booktitle={Findings of the Association for Computational Linguistics: EMNLP 2020},
+  year={2020},
+  pages={4948--4961},
+  url={https://aclanthology.org/2020.findings-emnlp.411/}
+}
+--------------------------------------------------------------------------------
+
+Scope of Application:
+This primary license covers all monolingual corpora partitions released under IndicCorp v1 and v2,
+specifically including:
+- Tamil (ta) [SRC-TM-01]
+- Hindi (hi) [SRC-HI-01]
+- Telugu (te) [SRC-OI-01]
+- Malayalam (ml) [SRC-OI-02]
+- Kannada (kn) [SRC-OI-03]
+- Bengali (bn) [SRC-OI-04]
+- Gujarati (gu) [SRC-OI-05]

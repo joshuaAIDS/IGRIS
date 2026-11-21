@@ -1,0 +1,203 @@
+{
+  "status": "READY_FOR_CONTROLLED_PRODUCTION_EVALUATION",
+  "milestone": "3B.59",
+  "governance": {
+    "production_data_accessed": false,
+    "private_training_data_accessed": false,
+    "quarantine_accessed": false,
+    "training_started": false,
+    "artifacts_modified": false,
+    "architecture_modified": false,
+    "provisional_front_runner": "Candidate A",
+    "winner_selected": false,
+    "human_authorization_required": true
+  },
+  "quality_and_governance_validation": {
+    "clean_sample_passed": true,
+    "pii_sample_caught_emails": true,
+    "pii_sample_caught_phones": true,
+    "decomposed_sample_caught_nfd": true
+  },
+  "context_window_validation": {
+    "candidate_a_no_auto_bos_eos": true,
+    "candidate_b_no_auto_bos_eos": true,
+    "overflow_detected_correctly": true,
+    "truncation_exact_length_2048": true,
+    "chunking_valid": true,
+    "chunk_count": 8
+  },
+  "acceptance_assessment": {
+    "candidate_a": {
+      "mandatory_passed": true,
+      "recommended_passed": true,
+      "checks": [
+        {
+          "metric_name": "round_trip_fidelity",
+          "tier": "mandatory",
+          "target_value": 100.0,
+          "actual_value": 100.0,
+          "passed": true,
+          "details": ""
+        },
+        {
+          "metric_name": "structural_token_isolation",
+          "tier": "mandatory",
+          "target_value": 100.0,
+          "actual_value": 100.0,
+          "passed": true,
+          "details": ""
+        },
+        {
+          "metric_name": "vocab_size",
+          "tier": "mandatory",
+          "target_value": 32768,
+          "actual_value": 32768,
+          "passed": true,
+          "details": ""
+        },
+        {
+          "metric_name": "structural_token_count",
+          "tier": "mandatory",
+          "target_value": 12,
+          "actual_value": 12,
+          "passed": true,
+          "details": ""
+        },
+        {
+          "metric_name": "byte_fallback_count",
+          "tier": "mandatory",
+          "target_value": 256,
+          "actual_value": 256,
+          "passed": true,
+          "details": ""
+        },
+        {
+          "metric_name": "unicode_version",
+          "tier": "mandatory",
+          "target_value": "15.1.0",
+          "actual_value": "15.1.0",
+          "passed": true,
+          "details": ""
+        },
+        {
+          "metric_name": "context_length",
+          "tier": "mandatory",
+          "target_value": 2048,
+          "actual_value": 2048,
+          "passed": true,
+          "details": ""
+        },
+        {
+          "metric_name": "encoding_throughput",
+          "tier": "recommended",
+          "target_value": 250000.0,
+          "actual_value": 560640.0,
+          "passed": true,
+          "details": ""
+        },
+        {
+          "metric_name": "decoding_throughput",
+          "tier": "recommended",
+          "target_value": 1000000.0,
+          "actual_value": 2473475.0,
+          "passed": true,
+          "details": ""
+        },
+        {
+          "metric_name": "peak_heap_kb",
+          "tier": "informational",
+          "target_value": 1024.0,
+          "actual_value": 219.9,
+          "passed": true,
+          "details": ""
+        }
+      ]
+    },
+    "candidate_b": {
+      "mandatory_passed": true,
+      "recommended_passed": true,
+      "checks": [
+        {
+          "metric_name": "round_trip_fidelity",
+          "tier": "mandatory",
+          "target_value": 100.0,
+          "actual_value": 100.0,
+          "passed": true,
+          "details": ""
+        },
+        {
+          "metric_name": "structural_token_isolation",
+          "tier": "mandatory",
+          "target_value": 100.0,
+          "actual_value": 100.0,
+          "passed": true,
+          "details": ""
+        },
+        {
+          "metric_name": "vocab_size",
+          "tier": "mandatory",
+          "target_value": 32768,
+          "actual_value": 32768,
+          "passed": true,
+          "details": ""
+        },
+        {
+          "metric_name": "structural_token_count",
+          "tier": "mandatory",
+          "target_value": 12,
+          "actual_value": 12,
+          "passed": true,
+          "details": ""
+        },
+        {
+          "metric_name": "byte_fallback_count",
+          "tier": "mandatory",
+          "target_value": 256,
+          "actual_value": 256,
+          "passed": true,
+          "details": ""
+        },
+        {
+          "metric_name": "unicode_version",
+          "tier": "mandatory",
+          "target_value": "15.1.0",
+          "actual_value": "15.1.0",
+          "passed": true,
+          "details": ""
+        },
+        {
+          "metric_name": "context_length",
+          "tier": "mandatory",
+          "target_value": 2048,
+          "actual_value": 2048,
+          "passed": true,
+          "details": ""
+        },
+        {
+          "metric_name": "encoding_throughput",
+          "tier": "recommended",
+          "target_value": 250000.0,
+          "actual_value": 685320.0,
+          "passed": true,
+          "details": ""
+        },
+        {
+          "metric_name": "decoding_throughput",
+          "tier": "recommended",
+          "target_value": 1000000.0,
+          "actual_value": 3148975.0,
+          "passed": true,
+          "details": ""
+        },
+        {
+          "metric_name": "peak_heap_kb",
+          "tier": "informational",
+          "target_value": 1024.0,
+          "actual_value": 382.9,
+          "passed": true,
+          "details": ""
+        }
+      ]
+    }
+  }
+}

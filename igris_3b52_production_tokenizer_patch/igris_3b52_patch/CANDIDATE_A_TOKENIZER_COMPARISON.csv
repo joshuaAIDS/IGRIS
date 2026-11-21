@@ -1,0 +1,14 @@
+metric_id,metric_name,original_candidate_a,experimental_candidate_a,delta,units,interpretation
+M01,Vocabulary Size,32768,32768,0,tokens,"Identical target vocabulary specification (pinned 32,768)"
+M02,Structural Tokens Count,12,12,0,tokens,Identical structural tokens pinned at IDs 0–11
+M03,Test Vocabulary Coverage,0.41,1.47,+1.07,percent,"Percentage of 32,768 vocabulary slots utilized by test set"
+M04,Token Fertility - Tamil,10.07,6.90,-3.18,tokens/word,Lower fertility indicates longer learned subwords
+M05,Token Fertility - English,9.24,3.87,-5.37,tokens/word,Lower fertility indicates longer learned subwords
+M06,Token Fertility - Tanglish,7.59,3.29,-4.30,tokens/word,Lower fertility indicates longer learned subwords
+M07,Unknown Token Rate (UNK),0.00,0.00,0.00,percent,Strict ByteLevel fallback eliminates UNK across both tokenizers
+M08,Unicode Round-Trip Accuracy,100.0,100.0,0.0,percent,Exact string reconstruction fidelity on NFC normalized text
+M09,Tamil Combining Marks Preservation,PASS,PASS,NONE,status,"Pulli, viramas, Grantha, ZWJ/ZWNJ round-trip perfectly"
+M10,Average Sequence Length,85.90,43.87,-42.03,tokens,Mean tokens per test sentence
+M11,Maximum Sequence Length,130,85,-45,tokens,Max tokens in any single test sentence
+M12,Encoding Throughput,18197.0,19443.7,+1246.7,sentences/sec,Batch CPU encoding speed on 50x repeated test corpus
+M13,Decoding Throughput,79441.7,126597.9,+47156.2,sentences/sec,Batch CPU decoding speed on 50x repeated test corpus

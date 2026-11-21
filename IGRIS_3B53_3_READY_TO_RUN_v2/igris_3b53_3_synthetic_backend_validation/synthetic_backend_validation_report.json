@@ -1,0 +1,21 @@
+{
+  "status": "PASS_SYNTHETIC_BACKEND_LOADERS",
+  "candidate_a": {
+    "loader": "PASS",
+    "vocab_size": 32768,
+    "text_round_trip": "PASS",
+    "raw_binary_round_trip": "PASS",
+    "fixture": "synthetic; not trained; not production data"
+  },
+  "candidate_b": {
+    "loader": "PASS",
+    "vocab_size": 32768,
+    "text_round_trip": "PASS",
+    "raw_binary_round_trip": "PASS",
+    "fixture": "synthetic; not trained; not production data"
+  },
+  "training_started": false,
+  "corpus_read": false,
+  "production_artifacts_created": false,
+  "note": "Synthetic fixtures validate loader/config wiring only; they are not production tokenizers."
+}

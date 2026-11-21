@@ -1,0 +1,18 @@
+phase_id,phase_name,test_command_scope,number_of_test_files,tests_passed,tests_failed,test_type_classification,evidence_reference,unresolved_discrepancy
+PHASE11,Phase 11 Solo Governance,pytest tests/,22,238,0,FULL_SUITE_HISTORICAL,PHASE11_COMPLETION_REPORT.md,NONE
+PHASE14,Phase 14 Dataset Processing,pytest tests/,26,380,0,FULL_SUITE_HISTORICAL,PHASE14_COMPLETION_REPORT.md,NONE
+PHASE15,Phase 15 Tokenizer Infrastructure,pytest tests/,28,412,0,FULL_SUITE_HISTORICAL,PHASE15_COMPLETION_REPORT.md,NONE
+PHASE16,Phase 16 Model Architecture,pytest tests/,30,430,0,FULL_SUITE_HISTORICAL,PHASE16_COMPLETION_REPORT.md,NONE
+PHASE17,Phase 17 Experiments,pytest tests/,31,447,0,FULL_SUITE_HISTORICAL,PHASE17_COMPLETION_REPORT.md,NONE
+PHASE18,Phase 18 Distributed Training,pytest tests/,32,457,0,FULL_SUITE_HISTORICAL,PHASE18_COMPLETION_REPORT.md,NONE
+PHASE19,Phase 19 Audit Readiness,pytest tests/,33,463,0,FULL_SUITE_HISTORICAL,PHASE19_COMPLETION_REPORT.md,NONE
+PHASE20A,Phase 20A Final Readiness,pytest tests/,34,470,0,FULL_SUITE_HISTORICAL,PHASE20A_COMPLETION_REPORT.md,NONE
+PHASE20B,Phase 20B Evidence Consistency,pytest tests/test_phase20b_consistency_verification.py,35,4,0,FOCUSED_REGRESSION_GROUP,PHASE20B_FINAL_COMPLETION_REPORT.md,Full suite not rerun; focused on 4 consistency checks
+PHASE21,Phase 21 Controlled Dataset Prep,pytest tests/test_phase21_controlled_dataset_preparation.py,36,6,0,FOCUSED_REGRESSION_GROUP,PHASE21_COMPLETION_REPORT.md,Full suite not rerun; focused on 6 dataset checks
+PHASE21A,Phase 21A Tokenizer Selection,pytest tests/test_phase21a_tokenizer_selection_and_dataset_review.py,37,4,0,FOCUSED_REGRESSION_GROUP,PHASE21A_COMPLETION_REPORT.md,Full suite not rerun; focused on 4 selection checks
+PHASE21B,Phase 21B IndicCorp Verification,pytest tests/test_phase21b_indiccorp_verification.py,38,7,0,FOCUSED_REGRESSION_GROUP,PHASE21B_COMPLETION_REPORT.md,"Baseline count of 38 test files frozen at Phase 21B completion"
+PHASE21B1,Phase 21B1 Release Identity,pytest tests/test_phase21b1_release_identity_and_license_reconciliation.py,39,7,0,FOCUSED_REGRESSION_GROUP,PHASE21B1_COMPLETION_REPORT.md,Full suite not rerun; focused on 7 identity checks
+PHASE21B2,Phase 21B2 Path & Statistics,pytest tests/test_phase21b2_path_statistics_and_projection_correction.py,40,7,0,FOCUSED_REGRESSION_GROUP,PHASE21B2_COMPLETION_REPORT.md,Full suite not rerun; focused on 7 path checks
+PHASE21B3,Phase 21B3 Metadata Verification,pytest tests/test_phase21b3_immutable_metadata_verification.py,41,7,0,FOCUSED_REGRESSION_GROUP,PHASE21B3_COMPLETION_REPORT.md,"Reported 42 tests passed across 7 focused modules (Phase 20B-21B3)"
+PHASE21B3A,Phase 21B3A Planning Corrections,pytest tests/test_phase21b3a_planning_and_evidence_corrections.py,42,8,0,FOCUSED_REGRESSION_GROUP,PHASE21B3A_COMPLETION_REPORT.md,"Cited 38 files from Phase 21B baseline; focused group reached 50 tests across 8 modules"
+PHASE21B3B,Phase 21B3B Final Reconciliation,pytest tests/test_phase21b3b_metadata_capacity_and_test_reconciliation.py,43,10,0,FOCUSED_REGRESSION_GROUP,PHASE21B3B_COMPLETION_REPORT.md,"Reconciles 470 historical tests + 60 cumulative focused tests = 530 total tests across 43 test files"

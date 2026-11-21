@@ -1,0 +1,30 @@
+{
+  "checkpoint_id": "chk_step_000010",
+  "step": 10,
+  "loss": 4.123,
+  "random_seed": 42,
+  "model_config_fingerprint": "b99539d3339dc1ce",
+  "model_config": {
+    "name": "igris-test-tiny",
+    "vocab_size": 32768,
+    "hidden_size": 128,
+    "intermediate_size": 256,
+    "num_hidden_layers": 2,
+    "num_attention_heads": 4,
+    "num_key_value_heads": 2,
+    "max_position_embeddings": 2048,
+    "rms_norm_eps": 1e-05,
+    "rope_theta": 10000.0,
+    "tie_word_embeddings": false,
+    "dropout": 0.0,
+    "pad_token_id": 0,
+    "bos_token_id": 1,
+    "eos_token_id": 2,
+    "initializer_range": 0.02
+  },
+  "candidate_a_sha256": "ac7e18b13973450b43bfff18609a833e4ef0e642b8dc5803e39ab1e81ba4c561",
+  "candidate_b_sha256": "d3a3431e07c87ecce863647202ddc9b47b964718adbae7bf2bb2459223b94888",
+  "payload_sha256": "0dd4da660ef46f284f87e8fa5543c22211738a9520789aa92496e8ae20889cef",
+  "is_synthetic_test": true,
+  "created_at": "2026-11-18T12:00:00Z"
+}

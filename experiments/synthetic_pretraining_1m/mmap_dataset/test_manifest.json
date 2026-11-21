@@ -1,0 +1,19 @@
+{
+  "split_name": "test",
+  "num_documents": 300,
+  "total_tokens": 279933,
+  "bin_file": "test.bin",
+  "bin_sha256": "68a2a181860b41ffa56d0570e8f3fd7334a6cf4ef3332c9b4a95932cbda7acaf",
+  "idx_file": "test.idx",
+  "idx_sha256": "dfad06320c57a2e0455210cdf55e0799b88fc96b45418c03639a1fb30b9d1354",
+  "language_counts": {
+    "TAMIL": 100,
+    "ENGLISH": 100,
+    "TANGLISH": 100
+  },
+  "max_doc_len": 1125,
+  "min_doc_len": 816,
+  "avg_doc_len": 933.11,
+  "created_at": "2026-11-21T08:36:59",
+  "schema_version": "v1.0.0-mmap"
+}

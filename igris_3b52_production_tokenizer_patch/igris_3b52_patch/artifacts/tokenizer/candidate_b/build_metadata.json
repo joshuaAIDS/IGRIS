@@ -1,0 +1,47 @@
+{
+  "candidate": "B",
+  "backend": "sentencepiece",
+  "backend_version": "0.2.3",
+  "model_type": "UNIGRAM",
+  "byte_fallback": true,
+  "normalizer": "identity",
+  "vocab_size": 32768,
+  "structural_tokens": {
+    "<|pad|>": 0,
+    "<|begin_of_text|>": 1,
+    "<|end_of_text|>": 2,
+    "<think>": 3,
+    "</think>": 4,
+    "<action>": 5,
+    "</action>": 6,
+    "<action_result>": 7,
+    "</action_result>": 8,
+    "<|system|>": 9,
+    "<|user|>": 10,
+    "<|assistant|>": 11
+  },
+  "unicode_version": "15.1.0",
+  "training_config": {
+    "character_coverage": 0.9995,
+    "num_threads": 1,
+    "seed_sentencepiece_size": 1000000,
+    "add_dummy_prefix": false,
+    "remove_extra_whitespaces": false,
+    "escape_whitespaces": true
+  },
+  "artifact_sha256": "d3a3431e07c87ecce863647202ddc9b47b964718adbae7bf2bb2459223b94888",
+  "artifact_filename": "tokenizer.model",
+  "build_timestamp": "2026-11-17T09:12:42.230771+00:00",
+  "validation": {
+    "candidate": "B",
+    "model_type": "UNIGRAM",
+    "byte_fallback": true,
+    "normalizer": "identity",
+    "vocab_size": 32768,
+    "structural_tokens": 12,
+    "pad_id": 0,
+    "bos_id": -1,
+    "eos_id": -1,
+    "unk_id": -1
+  }
+}

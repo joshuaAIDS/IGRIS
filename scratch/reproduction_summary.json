@@ -1,0 +1,26 @@
+{
+  "collection": {
+    "cmd": "pytest igris_3b52_production_tokenizer_patch/igris_3b52_patch/tests --collect-only",
+    "exit_code": 0,
+    "duration": 3.9214630126953125,
+    "output_len": 36384
+  },
+  "full_execution": {
+    "cmd": "pytest igris_3b52_production_tokenizer_patch/igris_3b52_patch/tests -v",
+    "exit_code": 0,
+    "duration": 37.86509990692139,
+    "output_len": 83502
+  },
+  "readiness": {
+    "cmd": "pytest igris_3b52_production_tokenizer_patch/igris_3b52_patch/tests/test_readiness.py -v",
+    "exit_code": 0,
+    "duration": 0.8527276515960693,
+    "output_len": 1094
+  },
+  "acquisition_security": {
+    "cmd": "pytest igris_3b52_production_tokenizer_patch/igris_3b52_patch/tests/test_phase12_acquisition_security.py igris_3b52_production_tokenizer_patch/igris_3b52_patch/tests/test_phase13_controlled_acquisition.py igris_3b52_production_tokenizer_patch/igris_3b52_patch/tests/test_phase20_final_readiness.py igris_3b52_production_tokenizer_patch/igris_3b52_patch/tests/test_phase20b_consistency_verification.py igris_3b52_production_tokenizer_patch/igris_3b52_patch/tests/test_phase21_controlled_dataset_preparation.py igris_3b52_production_tokenizer_patch/igris_3b52_patch/tests/test_phase21a_tokenizer_selection_and_dataset_review.py -v",
+    "exit_code": 0,
+    "duration": 7.077177286148071,
+    "output_len": 9917
+  }
+}

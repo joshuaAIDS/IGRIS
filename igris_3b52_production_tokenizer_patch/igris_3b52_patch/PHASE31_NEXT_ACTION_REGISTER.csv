@@ -1,0 +1,7 @@
+source_id,source_name,owner_decision,phase31_status,next_permissible_action,blocking_prerequisite,target_phase,acquisition_authorized
+SRC-TD-03,Python Official Documentation,OWNER_ACCEPTS_FURTHER_REVIEW,SPECIFICATION_COMPLETE,SANDBOX_PIPELINE_VALIDATION,Requires explicit owner approval of Phase 31 specifications; zero production download,Phase 32 Sandbox Prototyping,NO
+SRC-CV-03,OpenAssistant OASST1 English,OWNER_ACCEPTS_FURTHER_REVIEW,SPECIFICATION_COMPLETE,SANDBOX_PIPELINE_VALIDATION,Requires explicit owner approval of Phase 31 specifications; zero production download,Phase 32 Sandbox Prototyping,NO
+SRC-EN-01,Project Gutenberg English Subset,OWNER_REQUIRES_MORE_EVIDENCE,BLOCKED,EVIDENCE_COLLECTION_REQUIRED,Requires item-level copyright notice audit and Life+70 author death clearance,Phase 32 Evidence Collection,NO
+SRC-CV-06,Project Gutenberg Theatrical Dialogue,OWNER_REQUIRES_MORE_EVIDENCE,BLOCKED,EVIDENCE_COLLECTION_REQUIRED,Requires item-level play rights confirmation and Shaw Life+70 clearance,Phase 32 Evidence Collection,NO
+SRC-TD-02,IETF RFC Repository,OWNER_REQUIRES_MORE_EVIDENCE,BLOCKED,EVIDENCE_COLLECTION_REQUIRED,Requires filtering to Post-5378 Standards Track RFCs and pre-5378 non-standards review,Phase 32 Evidence Collection,NO
+SRC-CV-05,MultiWOZ 2.4 English Subset,OWNER_REQUIRES_MORE_EVIDENCE,BLOCKED,EVIDENCE_COLLECTION_REQUIRED,Requires Cambridge data licensing deed verification and review of real commercial entities,Phase 32 Evidence Collection,NO\n

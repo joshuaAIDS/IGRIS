@@ -1,0 +1,85 @@
+{
+  "milestone": "3B.51",
+  "status": "3B.51.4 IMPLEMENTED \u2014 LOCAL VERIFICATION REQUIRED",
+  "implemented": [
+    "static contract assertions",
+    "CLI candidate selection",
+    "PASS/FAIL/NOT TESTED/BLOCKED result schema",
+    "human-readable report",
+    "optional JSON report",
+    "candidate adapter boundary with safe BLOCKED behavior",
+    "strict text/bytes type validation",
+    "strict token ID type and range validation",
+    "structural ID isolation for content APIs",
+    "batch pre-validation primitives",
+    "28 backend-independent TS-VAL tests",
+    "backend-independent Unicode 15.1 NFC checks using unicodedata2",
+    "exact-Unicode mode preservation checks",
+    "U+F0000 sentinel escaping and inverse validation",
+    "U+2581 W; escaping",
+    "fixed S00-S11 structural spelling escapes",
+    "malformed/noncanonical escape rejection",
+    "multilingual exact-mode helper round-trip tests",
+    "runner integration for TS-VAL/TS-UNI/TS-SEC helper tests"
+  ],
+  "blocked": [
+    "Candidate A/B artifact-backed Unicode round-trip",
+    "Candidate A/B public encoder structural-ID isolation",
+    "artifact-backed candidate loading and remaining TS-BAT/REN/BIN/META/API/DET/ERR tests"
+  ],
+  "safety": {
+    "training": false,
+    "corpus_access": false,
+    "downloads": false,
+    "package_installation": false,
+    "production_file_modification": false
+  },
+  "milestone_3b51_5": {
+    "name": "Batch API and ordering contract tests",
+    "status": "scaffold_implemented_candidate_integration_blocked",
+    "shared_test_count": 16,
+    "test_module": "tests/tokenizer/test_batch_contract.py",
+    "production_candidate_batch_api_verified": false
+  },
+  "milestone_3b51_6": {
+    "name": "Trusted sequence rendering contract tests",
+    "status": "scaffold_implemented_candidate_integration_blocked",
+    "shared_test_count": 20,
+    "test_module": "tests/tokenizer/test_rendering_contract.py",
+    "production_candidate_rendering_verified": false
+  },
+  "milestone_3b51_7": {
+    "name": "Raw binary codec contract tests",
+    "status": "scaffold_implemented_candidate_mappings_blocked",
+    "shared_test_count": 24,
+    "test_module": "tests/tokenizer/test_raw_binary_contract.py",
+    "synthetic_mapping_only": true,
+    "candidate_a_bytelevel_mapping_verified": false,
+    "candidate_b_sentencepiece_byte_piece_mapping_verified": false,
+    "production_raw_binary_api_verified": false
+  },
+  "milestone_3b51_8": {
+    "name": "Metadata and save/reload contract tests",
+    "status": "scaffold_implemented_artifact_metadata_blocked",
+    "shared_test_count": 24,
+    "test_module": "tests/tokenizer/test_metadata_contract.py",
+    "metadata_schema_is_scaffold_contract": true,
+    "candidate_artifact_metadata_verified": false,
+    "trained_artifact_save_reload_verified": false
+  },
+  "milestone_3b51_9": {
+    "name": "Candidate artifact interface and directory contract",
+    "status": "scaffold_implemented_model_loading_blocked",
+    "shared_test_count": 20,
+    "test_module": "tests/tokenizer/test_artifact_contract.py",
+    "expected_layout": {
+      "artifact_manifest": "artifact_manifest.json",
+      "metadata": "metadata.json",
+      "candidate_A_backend": "tokenizer.json",
+      "candidate_B_backend": "tokenizer.model"
+    },
+    "sha256_manifest_required": true,
+    "real_candidate_artifacts_supplied": false,
+    "model_loader_integration_verified": false
+  }
+}

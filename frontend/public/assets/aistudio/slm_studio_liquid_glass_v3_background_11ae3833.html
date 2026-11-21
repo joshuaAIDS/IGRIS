@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ORBIT — SLM Studio</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap');
+:root{--bg:#070914;--panel:#0d1121;--panel2:#11172a;--line:rgba(160,178,255,.12);--muted:#8993b1;--text:#edf1ff;--cyan:#65e5ff;--violet:#9b83ff;--green:#6be4b2;--amber:#f5c879;--red:#ff7e9c}
+*{box-sizing:border-box}body{margin:0;background:transparent;color:var(--text);font-family:Manrope,system-ui,sans-serif;min-height:100vh;position:relative}body>canvas{position:fixed!important;inset:0;z-index:-1;width:100%;height:100%;pointer-events:none}.shell{z-index:1}
+.shell{display:grid;grid-template-columns:248px minmax(0,1fr);min-height:100vh;position:relative}.sidebar{border-right:1px solid var(--line);background:rgba(5,8,22,.56);backdrop-filter:blur(18px);padding:24px 16px;display:flex;flex-direction:column;gap:28px}.brand{display:flex;align-items:center;gap:11px;padding:0 10px}.brandmark{width:35px;height:35px;border-radius:11px;background:linear-gradient(145deg,#6be8ff,#8b70ff);display:grid;place-items:center;color:#08101e;font-weight:900;box-shadow:0 0 28px #6be8ff38}.brand strong{font-size:15px;letter-spacing:.14em}.brand small{display:block;color:var(--muted);font:9px 'DM Mono';letter-spacing:.18em;margin-top:3px}.navlabel{font:10px 'DM Mono';color:#687391;letter-spacing:.16em;padding:0 12px;margin-bottom:8px}.nav{display:grid;gap:5px}.nav button{border:0;background:transparent;color:#9ba5c2;text-align:left;padding:11px 12px;border-radius:10px;font:600 12px Manrope;display:flex;align-items:center;gap:12px;cursor:pointer;transition:.2s}.nav button:hover,.nav button.active{background:linear-gradient(90deg,#6d74ff22,transparent);color:#f2f5ff}.nav button.active{box-shadow:inset 2px 0 var(--cyan)}.ico{width:18px;text-align:center;font-size:15px;color:#9b9cff}.sidebottom{margin-top:auto}.statusbox{border:1px solid var(--line);border-radius:13px;padding:13px;background:#10162a}.statushead{display:flex;justify-content:space-between;font-size:10px;color:#aab3ce}.dot{width:7px;height:7px;background:var(--green);display:inline-block;border-radius:50%;box-shadow:0 0 10px var(--green);margin-right:6px}.statusbox p{font:10px 'DM Mono';color:#71809f;margin:10px 0 0}.main{padding:25px 32px 34px;max-width:1700px;width:100%;margin:auto}.topbar{display:flex;align-items:center;justify-content:space-between;margin-bottom:26px}.crumb{font:10px 'DM Mono';color:#7783a4;letter-spacing:.12em}.crumb b{color:#dce5ff;font-weight:400}.topright{display:flex;align-items:center;gap:13px}.badge{border:1px solid var(--line);border-radius:30px;padding:7px 11px;font:10px 'DM Mono';color:#9ca9c8}.avatar{width:31px;height:31px;border-radius:50%;background:linear-gradient(135deg,#a78bfa,#53d9ec);display:grid;place-items:center;color:#07101e;font-size:11px;font-weight:800}.heading{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:22px}.eyebrow{font:10px 'DM Mono';letter-spacing:.2em;color:var(--cyan);margin-bottom:9px}.heading h1{font-size:27px;letter-spacing:-.04em;margin:0;font-weight:700}.heading p{color:var(--muted);font-size:12px;margin:7px 0 0}.primary{border:0;border-radius:9px;padding:11px 15px;background:linear-gradient(110deg,#66e4f5,#9b83ff);color:#07101b;font:800 11px Manrope;cursor:pointer;box-shadow:0 8px 26px #7e83ff26}.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:13px;margin-bottom:18px}.card{background:linear-gradient(145deg,rgba(14,19,39,.76),rgba(7,11,25,.72));backdrop-filter:blur(16px);border:1px solid var(--line);border-radius:14px;box-shadow:0 12px 40px #0002}.metric{padding:16px 17px;position:relative;overflow:hidden}.metric:after{content:"";position:absolute;width:95px;height:95px;border-radius:50%;right:-30px;top:-42px;background:#827bff12;filter:blur(2px)}.metriclabel{font:9px 'DM Mono';color:#8490b0;letter-spacing:.14em;text-transform:uppercase}.metricrow{display:flex;align-items:baseline;gap:9px;margin-top:11px}.metricval{font-size:25px;font-weight:700;letter-spacing:-.05em}.trend{font:9px 'DM Mono';color:var(--green)}.metricfoot{font-size:10px;color:#6f7b9a;margin-top:5px}.layout{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(290px,.85fr);gap:16px}.sectionhead{display:flex;justify-content:space-between;align-items:center;padding:17px 18px 12px}.sectionhead h2{font-size:12px;margin:0;font-weight:700}.sectionhead span{font:9px 'DM Mono';color:#7d89a8}.chat{min-height:530px;display:flex;flex-direction:column}.chatmeta{display:flex;align-items:center;gap:8px}.modelpill{font:9px 'DM Mono';padding:6px 9px;border:1px solid #8c7dff3b;color:#c3b9ff;border-radius:6px;background:#897aff12}.conversation{padding:6px 19px 16px;display:flex;flex-direction:column;gap:17px;flex:1}.welcome{padding:24px 18px 18px;text-align:center}.orb{width:56px;height:56px;margin:0 auto 13px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#d9faff,#72d9f7 22%,#7469d9 55%,#29204c 75%);box-shadow:0 0 35px #69dfff44,0 0 70px #9278ff24;position:relative}.orb:after{content:"";position:absolute;inset:-7px;border:1px solid #82dfff42;border-radius:50%;transform:rotateX(68deg)}.welcome h3{font-size:16px;margin:0 0 7px}.welcome p{font-size:11px;color:#8490ad;margin:0}.suggestions{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-top:17px}.suggestions button{background:#121a30;border:1px solid var(--line);color:#aeb9d8;border-radius:7px;padding:8px 10px;font:10px Manrope;cursor:pointer}.message{display:flex;gap:10px;max-width:88%;align-items:flex-start}.message.user{align-self:flex-end;flex-direction:row-reverse}.msgavatar{width:25px;height:25px;border-radius:8px;background:#192746;display:grid;place-items:center;color:var(--cyan);font-size:10px;flex-shrink:0}.message.user .msgavatar{background:#302b58;color:#d1c8ff}.bubble{background:#131b30;border:1px solid var(--line);border-radius:4px 12px 12px 12px;padding:10px 12px;font-size:11px;line-height:1.65;color:#d4dcf3}.message.user .bubble{background:#252344;border-color:#8379d833;border-radius:12px 4px 12px 12px}.bubble .muted{display:block;color:#7d89a8;font:9px 'DM Mono';margin-bottom:5px}.composer{padding:13px 15px;border-top:1px solid var(--line)}.inputwrap{display:flex;gap:9px;align-items:center;background:#080d1b;border:1px solid #394263;border-radius:10px;padding:8px 9px 8px 13px}.inputwrap input{background:none;border:0;outline:0;color:var(--text);font:11px Manrope;flex:1;min-width:0}.inputwrap input::placeholder{color:#65718e}.send{width:32px;height:32px;border:0;border-radius:8px;background:linear-gradient(135deg,#68e3f4,#a18aff);color:#07101a;font-size:15px;cursor:pointer}.composefoot{display:flex;justify-content:space-between;color:#65718e;font:9px 'DM Mono';padding:8px 2px 0}.rightcol{display:flex;flex-direction:column;gap:14px}.modelcard{padding:0 16px 15px}.select{width:100%;background:#0a1020;border:1px solid #333d5d;color:#e8edff;padding:11px;border-radius:8px;font:11px Manrope;outline:none}.modeldesc{font-size:10px;color:#7f8ba9;line-height:1.6;margin:9px 2px 12px}.modelstats{display:grid;grid-template-columns:1fr 1fr;gap:8px}.mini{padding:10px;background:#0a1020;border:1px solid var(--line);border-radius:8px}.mini span{display:block;font:9px 'DM Mono';color:#7582a2}.mini b{display:block;font-size:13px;margin-top:5px}.controls{padding:0 16px 15px}.control{margin-top:13px}.controltop{display:flex;justify-content:space-between;font-size:10px;color:#aeb8d3;margin-bottom:8px}.controltop output{font:10px 'DM Mono';color:var(--cyan)}input[type=range]{width:100%;accent-color:#8f83ff;height:4px}.toggleline{display:flex;justify-content:space-between;align-items:center;font-size:10px;color:#aeb8d3;margin-top:14px}.switch{width:30px;height:17px;border-radius:20px;background:#3d4763;position:relative;cursor:pointer}.switch:after{content:"";position:absolute;width:11px;height:11px;top:3px;left:3px;border-radius:50%;background:#dce4ff;transition:.2s}.switch.on{background:#6e70db}.switch.on:after{left:16px;background:white}.monitor{padding:0 16px 15px}.monitorrow{display:flex;justify-content:space-between;align-items:center;padding:9px 0;border-bottom:1px solid #ffffff0a;font-size:10px;color:#9ba7c5}.monitorrow:last-child{border:0}.monitorrow b{font:10px 'DM Mono';color:#dfe7ff}.bar{height:4px;background:#252d48;border-radius:5px;margin-top:7px;overflow:hidden}.bar i{display:block;height:100%;background:linear-gradient(90deg,#58dce9,#9a83ff);border-radius:5px}.bottomgrid{display:grid;grid-template-columns:1.2fr 1fr;gap:16px;margin-top:16px}.chartcard,.activity{padding-bottom:12px}.chart{height:125px;padding:5px 17px 0;display:flex;align-items:flex-end;gap:8px;border-bottom:1px solid var(--line);margin:0 17px;background:repeating-linear-gradient(to bottom,transparent 0,transparent 30px,#ffffff09 31px)}.chart i{flex:1;min-width:5px;border-radius:4px 4px 0 0;background:linear-gradient(0deg,#6e71c5aa,#62dff0);opacity:.86}.chartlabels{display:flex;justify-content:space-between;padding:8px 18px 0;color:#6d7997;font:8px 'DM Mono'}.activityitem{display:flex;align-items:center;gap:10px;padding:8px 17px;font-size:10px;color:#aab5d2}.activityitem small{display:block;color:#687594;font:9px 'DM Mono';margin-top:3px}.activityicon{width:25px;height:25px;border-radius:7px;background:#17233b;color:var(--cyan);display:grid;place-items:center}.activityitem time{margin-left:auto;color:#687594;font:9px 'DM Mono'}
+.toast{position:fixed;right:24px;bottom:24px;background:#17243a;border:1px solid #75ddec55;color:#dffaff;padding:12px 16px;border-radius:9px;font-size:11px;opacity:0;transform:translateY(8px);transition:.25s;pointer-events:none}.toast.show{opacity:1;transform:translateY(0)}
+@media(max-width:1050px){.shell{grid-template-columns:205px 1fr}.main{padding:22px 20px}.layout{grid-template-columns:1fr}.rightcol{display:grid;grid-template-columns:1fr 1fr}.rightcol .monitor{grid-column:1/-1}.metrics{grid-template-columns:repeat(2,1fr)}}@media(max-width:700px){.shell{grid-template-columns:1fr}.sidebar{display:none}.main{padding:18px 13px}.heading{align-items:flex-start;gap:12px;flex-direction:column}.heading h1{font-size:23px}.topbar{margin-bottom:20px}.metrics{gap:8px}.metric{padding:13px}.metricval{font-size:21px}.rightcol,.bottomgrid{grid-template-columns:1fr}.rightcol .monitor{grid-column:auto}.chat{min-height:480px}.badge{display:none}}
+#hud{position:fixed;left:22px;bottom:18px;z-index:0;color:rgba(218,225,255,.52);font:10px/1.5 system-ui,sans-serif;letter-spacing:.18em;text-transform:uppercase;pointer-events:none;text-shadow:0 1px 12px #000}#hud strong{color:rgba(231,236,255,.85);font-weight:500}#hint{position:fixed;right:22px;bottom:18px;z-index:0;color:rgba(218,225,255,.35);font:9px system-ui,sans-serif;letter-spacing:.12em;text-transform:uppercase;pointer-events:none}@media(max-width:700px){#hud,#hint{display:none}}
+
+/* iOS-inspired liquid-glass refinement — keeps the supplied deep-space scene intact. */
+:root{
+ --glass-edge:rgba(255,255,255,.24);
+ --glass-fill:rgba(226,235,255,.075);
+ --glass-shadow:0 22px 65px rgba(0,0,0,.28),inset 0 1px 0 rgba(255,255,255,.19),inset 0 -1px 0 rgba(255,255,255,.045);
+}
+.sidebar{
+ background:linear-gradient(155deg,rgba(225,232,255,.105),rgba(25,31,64,.28) 42%,rgba(8,12,31,.48));
+ border-right:1px solid rgba(255,255,255,.18);
+ box-shadow:inset -1px 0 rgba(255,255,255,.07),18px 0 60px rgba(0,0,0,.12);
+ -webkit-backdrop-filter:blur(34px) saturate(175%);backdrop-filter:blur(34px) saturate(175%);
+}
+.card,.statusbox{
+ position:relative;isolation:isolate;overflow:hidden;
+ background:linear-gradient(145deg,rgba(240,245,255,.135) 0%,rgba(139,160,220,.075) 23%,rgba(24,31,67,.29) 62%,rgba(10,15,39,.42) 100%);
+ border:1px solid rgba(235,241,255,.2);
+ border-radius:21px;
+ box-shadow:var(--glass-shadow),0 10px 35px rgba(0,0,0,.18);
+ -webkit-backdrop-filter:blur(28px) saturate(185%);backdrop-filter:blur(28px) saturate(185%);
+}
+.card:before,.statusbox:before{
+ content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;border-radius:inherit;
+ background:linear-gradient(118deg,rgba(255,255,255,.19),transparent 19%,transparent 67%,rgba(169,190,255,.07));
+ opacity:.8;
+}
+.card:after,.statusbox:after{
+ content:"";position:absolute;left:8%;right:8%;top:0;height:1px;pointer-events:none;
+ background:linear-gradient(90deg,transparent,rgba(255,255,255,.52),rgba(180,205,255,.22),transparent);
+ filter:blur(.25px);
+}
+.metric{border-radius:19px;background:linear-gradient(145deg,rgba(255,255,255,.16),rgba(131,151,216,.075) 42%,rgba(12,19,48,.42));}
+.metric:after{background:radial-gradient(circle,rgba(142,153,255,.22),transparent 68%);filter:blur(8px)}
+.nav button{border:1px solid transparent;border-radius:14px;transition:background .25s,border-color .25s,transform .25s,box-shadow .25s}
+.nav button:hover{background:rgba(230,238,255,.09);border-color:rgba(255,255,255,.12);transform:translateX(2px)}
+.nav button.active{background:linear-gradient(110deg,rgba(183,202,255,.19),rgba(141,151,255,.10));border:1px solid rgba(224,234,255,.2);box-shadow:inset 0 1px rgba(255,255,255,.2),0 5px 18px rgba(0,0,0,.12);}
+.badge,.modelpill{background:linear-gradient(135deg,rgba(255,255,255,.13),rgba(166,185,255,.055));border:1px solid rgba(255,255,255,.2);border-radius:999px;box-shadow:inset 0 1px rgba(255,255,255,.15);backdrop-filter:blur(16px) saturate(160%)}
+.statusbox{background:linear-gradient(145deg,rgba(235,243,255,.12),rgba(17,25,57,.34));border-radius:16px}
+.select,.mini,.suggestions button,.bubble,.inputwrap{
+ background:linear-gradient(145deg,rgba(255,255,255,.105),rgba(125,147,209,.055) 48%,rgba(8,13,34,.3));
+ border:1px solid rgba(231,239,255,.17);border-radius:13px;
+ box-shadow:inset 0 1px rgba(255,255,255,.12),0 7px 20px rgba(0,0,0,.1);
+ -webkit-backdrop-filter:blur(20px) saturate(165%);backdrop-filter:blur(20px) saturate(165%);
+}
+.select{appearance:none;padding-right:38px;background-image:linear-gradient(45deg,transparent 50%,#c8d6ff 50%),linear-gradient(135deg,#c8d6ff 50%,transparent 50%),linear-gradient(145deg,rgba(255,255,255,.12),rgba(8,13,34,.28));background-position:calc(100% - 17px) 50%,calc(100% - 12px) 50%,0 0;background-size:5px 5px,5px 5px,100% 100%;background-repeat:no-repeat}
+.inputwrap{border-radius:17px;padding:9px 10px 9px 15px;background:linear-gradient(135deg,rgba(255,255,255,.13),rgba(118,139,204,.07) 42%,rgba(5,10,28,.38));border-color:rgba(229,239,255,.24);box-shadow:inset 0 1px 1px rgba(255,255,255,.18),0 8px 28px rgba(0,0,0,.16)}
+.composer{border-top:1px solid rgba(255,255,255,.13)}
+.bubble{border-radius:5px 16px 16px 16px;background:linear-gradient(145deg,rgba(222,235,255,.13),rgba(89,111,178,.08));}
+.message.user .bubble{background:linear-gradient(135deg,rgba(157,145,255,.25),rgba(97,123,207,.13));border-color:rgba(207,204,255,.25);border-radius:16px 5px 16px 16px}
+.mini{border-radius:12px}
+.suggestions button{border-radius:999px;transition:.2s}
+.suggestions button:hover{background:rgba(205,221,255,.17);border-color:rgba(255,255,255,.3);transform:translateY(-2px)}
+.primary,.send{background:linear-gradient(135deg,rgba(177,245,255,.96),rgba(164,151,255,.96));border:1px solid rgba(255,255,255,.55);box-shadow:inset 0 1px rgba(255,255,255,.75),0 8px 30px rgba(118,148,255,.28);transition:transform .2s,filter .2s}
+.primary:hover,.send:hover{transform:translateY(-2px);filter:brightness(1.08)}
+.switch{background:rgba(223,232,255,.2);border:1px solid rgba(255,255,255,.17);box-shadow:inset 0 1px 3px rgba(0,0,0,.25)}
+.switch.on{background:linear-gradient(90deg,rgba(100,218,237,.8),rgba(143,126,255,.9));box-shadow:0 0 15px rgba(117,173,255,.22)}
+.toast{background:linear-gradient(135deg,rgba(224,239,255,.2),rgba(29,42,83,.75));border:1px solid rgba(255,255,255,.26);border-radius:16px;backdrop-filter:blur(24px) saturate(180%);box-shadow:var(--glass-shadow)}
+.avatar{border:1px solid rgba(255,255,255,.45);box-shadow:inset 0 1px rgba(255,255,255,.55),0 4px 16px rgba(104,132,255,.24)}
+@media(max-width:700px){.sidebar{backdrop-filter:blur(24px) saturate(165%)}.card{border-radius:17px}}
+@media(prefers-reduced-transparency:reduce){.card,.sidebar,.statusbox,.select,.mini,.inputwrap{backdrop-filter:blur(10px);background:rgba(10,15,36,.88)}}
+
+#label{position:fixed;left:24px;bottom:20px;z-index:0;color:rgba(220,228,255,.52);font:10px/1.6 system-ui,sans-serif;letter-spacing:.2em;text-transform:uppercase;pointer-events:none;text-shadow:0 1px 8px #000}#label b{color:rgba(235,239,255,.82);font-weight:500}#error{display:none;position:fixed;inset:0;z-index:20;padding:28px;background:#050711;color:white;font:14px/1.5 system-ui}</style>
+<meta name="theme-color" content="#02030a"><script type="importmap">{
+  "imports": {"three": "https://cdn.jsdelivr.net/npm/three@0.169.0/build/three.module.js"}
+}</script>
+</head>
+<body>
+<div id="label"><b>DEEP SPACE</b><br>PROCEDURAL COSMIC ENVIRONMENT</div><div id="error"></div>
+<script type="module">
+import * as THREE from 'three';
+
+const error = document.querySelector('#error');
+try {
+  const renderer = new THREE.WebGLRenderer({antialias:true, powerPreference:'high-performance'});
+  renderer.setPixelRatio(Math.min(devicePixelRatio, 1.75));
+  renderer.setSize(innerWidth, innerHeight);
+  renderer.outputColorSpace = THREE.SRGBColorSpace;
+  renderer.toneMapping = THREE.ACESFilmicToneMapping;
+  renderer.toneMappingExposure = 1.15;
+  document.body.appendChild(renderer.domElement);
+
+  // Full-viewport procedural nebula: this is a screen-space pass, so it can
+  // never appear as a floating rectangular card inside the starfield.
+  const bgScene = new THREE.Scene();
+  const bgCamera = new THREE.OrthographicCamera(-1,1,1,-1,0,1);
+  const bgMaterial = new THREE.ShaderMaterial({
+    uniforms:{uTime:{value:0},uAspect:{value:innerWidth/innerHeight}},
+    vertexShader:`varying vec2 vUv; void main(){vUv=uv;gl_Position=vec4(position,1.0);}`,
+    fragmentShader:`
+      precision highp float;
+      varying vec2 vUv;
+      uniform float uTime;
+      uniform float uAspect;
+      float hash(vec2 p){return fract(sin(dot(p,vec2(127.1,311.7)))*43758.5453);}
+      float noise(vec2 p){
+        vec2 i=floor(p),f=fract(p); f=f*f*(3.0-2.0*f);
+        return mix(mix(hash(i),hash(i+vec2(1.,0.)),f.x),
+                   mix(hash(i+vec2(0.,1.)),hash(i+vec2(1.,1.)),f.x),f.y);
+      }
+      float fbm(vec2 p){
+        float v=0.,a=.5;
+        mat2 r=mat2(1.6,1.2,-1.2,1.6);
+        for(int i=0;i<6;i++){v+=noise(p)*a;p=r*p;a*=.52;}
+        return v;
+      }
+      void main(){
+        vec2 uv=vUv;
+        vec2 p=(uv-.5)*vec2(uAspect,1.);
+        float t=uTime*.012;
+        // Broad, slowly evolving cloud masses with fine wispy structure.
+        vec2 warp=vec2(fbm(p*1.35+vec2(t,-t*.55)),fbm(p*1.35+vec2(4.2-t*.7,2.8+t*.4)));
+        vec2 q=p*1.55+(warp-.5)*1.25+vec2(t*.22,-t*.13);
+        float mass=fbm(q*1.45);
+        float detail=fbm(q*3.5+vec2(-t*.35,t*.28));
+        float filament=fbm(q*6.5+detail);
+        float cloud=smoothstep(.37,.78,mass*.72+detail*.28);
+        float wisp=smoothstep(.38,.78,detail*.58+filament*.42);
+        vec3 col=vec3(.002,.004,.014);
+        float distantGlow=fbm(p*1.05+vec2(-t*.08,t*.05));
+        col+=vec3(.012,.018,.065)*smoothstep(.25,.8,distantGlow);
+        col+=vec3(.018,.035,.12)*cloud*.7;
+        col+=vec3(.13,.035,.29)*cloud*wisp*.9;
+        col+=vec3(.025,.13,.31)*smoothstep(.48,.82,filament)*cloud*.65;
+        col+=vec3(.13,.075,.23)*pow(max(0.,mass-.52),2.)*1.8;
+        // Subtle central illumination; retain dark negative space.
+        float glow=exp(-length((uv-vec2(.58,.52))*vec2(uAspect,1.))*2.3);
+        col+=vec3(.018,.012,.055)*glow;
+        col*=.78+.22*smoothstep(1.0,.12,length(p));
+        gl_FragColor=vec4(col,1.);
+        #include <tonemapping_fragment>
+        #include <colorspace_fragment>
+      }`
+  });
+  const bgQuad = new THREE.Mesh(new THREE.PlaneGeometry(2,2),bgMaterial);
+  bgScene.add(bgQuad);
+
+  const scene = new THREE.Scene();
+  const camera = new THREE.PerspectiveCamera(62,innerWidth/innerHeight,.1,1500);
+  camera.position.set(0,0,28);
+
+  function starLayer(count, spread, depthMin, depthMax, size, opacity){
+    const pos=new Float32Array(count*3), col=new Float32Array(count*3), sizes=new Float32Array(count);
+    const palette=[new THREE.Color(0xdce8ff),new THREE.Color(0xaacaff),new THREE.Color(0xe8d9ff),new THREE.Color(0xffffff)];
+    for(let i=0;i<count;i++){
+      pos[i*3]=(Math.random()-.5)*spread;
+      pos[i*3+1]=(Math.random()-.5)*spread*.62;
+      pos[i*3+2]=-(depthMin+Math.random()*(depthMax-depthMin));
+      const c=palette[Math.floor(Math.random()*palette.length)];
+      col.set([c.r,c.g,c.b],i*3);
+      sizes[i]=size*(.35+Math.pow(Math.random(),3)*1.7);
+    }
+    const geo=new THREE.BufferGeometry();
+    geo.setAttribute('position',new THREE.BufferAttribute(pos,3));
+    geo.setAttribute('color',new THREE.BufferAttribute(col,3));
+    geo.setAttribute('aSize',new THREE.BufferAttribute(sizes,1));
+    const mat=new THREE.ShaderMaterial({
+      transparent:true,depthWrite:false,vertexColors:true,
+      uniforms:{uRatio:{value:renderer.getPixelRatio()},uOpacity:{value:opacity},uTime:{value:0}},
+      vertexShader:`attribute float aSize;varying vec3 vColor;uniform float uRatio;uniform float uTime;
+        void main(){vColor=color;vec4 mv=modelViewMatrix*vec4(position,1.);
+        float tw=.82+.18*sin(uTime*1.3+position.x*2.7+position.y*3.1);
+        gl_PointSize=clamp(aSize*uRatio*tw*(210.0/-mv.z),.55,6.5);
+        gl_Position=projectionMatrix*mv;}`,
+      fragmentShader:`varying vec3 vColor;uniform float uOpacity;
+        void main(){float d=length(gl_PointCoord-.5);float a=1.-smoothstep(.08,.5,d);
+        gl_FragColor=vec4(vColor,a*uOpacity);}`
+    });
+    const points=new THREE.Points(geo,mat);scene.add(points);return points;
+  }
+  const far=starLayer(12500,520,150,700,1.0,.72);
+  const mid=starLayer(5000,260,70,300,1.35,.82);
+  const near=starLayer(1200,120,28,95,1.7,.88);
+
+  let px=0,py=0,zoom=28,zoomTarget=28;
+  addEventListener('pointermove',e=>{
+    px=(e.clientX/innerWidth-.5)*2;
+    py=(e.clientY/innerHeight-.5)*2;
+  },{passive:true});
+  addEventListener('wheel',e=>{zoomTarget=THREE.MathUtils.clamp(zoomTarget+e.deltaY*.012,18,43);},{passive:true});
+  addEventListener('resize',()=>{
+    camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix();
+    renderer.setSize(innerWidth,innerHeight);
+    renderer.setPixelRatio(Math.min(devicePixelRatio,1.75));
+    bgMaterial.uniforms.uAspect.value=innerWidth/innerHeight;
+    for(const s of [far,mid,near])s.material.uniforms.uRatio.value=renderer.getPixelRatio();
+  });
+
+  const clock=new THREE.Clock();
+  const lookTarget=new THREE.Vector3();
+  function animate(){
+    requestAnimationFrame(animate);
+    const t=clock.getElapsedTime();
+    bgMaterial.uniforms.uTime.value=t;
+    for(const s of [far,mid,near])s.material.uniforms.uTime.value=t;
+
+    // Continuous cinematic camera flight: broad, slow travelling arcs,
+    // gentle banking, forward/back drift, and a moving look-ahead point.
+    // Pointer input adds a little steering without interrupting the motion.
+    zoom+=(zoomTarget-zoom)*.018;
+    const flightX = Math.sin(t*.115)*4.0 + Math.sin(t*.047+1.2)*1.8 + px*1.25;
+    const flightY = Math.sin(t*.083+0.7)*2.25 + Math.cos(t*.039)*.8 - py*.85;
+    const flightZ = zoom + Math.sin(t*.072)*1.35 + Math.sin(t*.031)*.8;
+    camera.position.x += (flightX-camera.position.x)*.018;
+    camera.position.y += (flightY-camera.position.y)*.018;
+    camera.position.z += (flightZ-camera.position.z)*.018;
+
+    lookTarget.set(
+      Math.sin(t*.105+1.0)*2.6 + px*.35,
+      Math.cos(t*.078+.4)*1.35 - py*.25,
+      -42
+    );
+    camera.lookAt(lookTarget);
+    camera.rotation.z = Math.sin(t*.052)*.012 + Math.sin(t*.021)*.006;
+
+    // Different drift speeds make the camera's movement read as real depth.
+    far.position.x=Math.sin(t*.025)*2.2;
+    far.position.y=Math.cos(t*.019)*.8;
+    mid.position.x=Math.sin(t*.043+1.)*1.5;
+    mid.position.y=Math.cos(t*.032+.5)*.65;
+    near.position.x=Math.sin(t*.064+2.)*.85;
+    near.position.y=Math.cos(t*.051+1.)*.4;
+
+    renderer.autoClear=true;
+    renderer.render(bgScene,bgCamera);
+    renderer.clearDepth();
+    renderer.render(scene,camera);
+  }
+  animate();
+  addEventListener('keydown',e=>{if(e.key.toLowerCase()==='h')document.querySelector('#label').hidden=!document.querySelector('#label').hidden;});
+} catch(e) {
+  error.style.display='block';
+  error.textContent='WebGL could not start: '+e.message+'. Enable browser hardware acceleration and reload.';
+}
+
+</script>
+<div class="shell">
+<aside class="sidebar">
+ <div class="brand"><div class="brandmark">O</div><div><strong>ORBIT</strong><small>SMALL MODEL STUDIO</small></div></div>
+ <div><div class="navlabel">WORKSPACE</div><nav class="nav"><button class="active" data-page="Overview"><span class="ico">◈</span>Overview</button><button data-page="Playground"><span class="ico">⌘</span>Playground</button><button data-page="Models"><span class="ico">◉</span>Model registry</button><button data-page="Deployments"><span class="ico">⇧</span>Deployments</button></nav></div>
+ <div><div class="navlabel">OBSERVABILITY</div><nav class="nav"><button data-page="Monitoring"><span class="ico">⌁</span>Monitoring</button><button data-page="Usage & costs"><span class="ico">▤</span>Usage & costs</button><button data-page="Evaluations"><span class="ico">✳</span>Evaluations</button></nav></div>
+ <div><div class="navlabel">PREFERENCES</div><nav class="nav"><button data-page="Settings"><span class="ico">⚙</span>Settings</button><button data-page="Documentation"><span class="ico">⌕</span>Documentation</button></nav></div>
+ <div class="sidebottom"><div class="statusbox"><div class="statushead"><span><i class="dot"></i>All systems operational</span><span>●</span></div><p>LOCAL RUNTIME · CONNECTED</p></div></div>
+</aside>
+<main class="main">
+ <header class="topbar"><div class="crumb">WORKSPACE&nbsp; / &nbsp;<b id="crumb">OVERVIEW</b></div><div class="topright"><span class="badge">●&nbsp; DEVELOPMENT ENVIRONMENT</span><span class="badge">⌘ K</span><div class="avatar">U</div></div></header>
+ <section class="heading"><div><div class="eyebrow">MODEL OPERATIONS / 01</div><h1 id="pageTitle">Your model workspace</h1><p>Build, test, and observe your small language models in one place.</p></div><button class="primary" id="newSession">＋ &nbsp;New session</button></section>
+ <section class="metrics">
+  <div class="card metric"><div class="metriclabel">Requests today</div><div class="metricrow"><div class="metricval">24.8k</div><span class="trend">↗ 12.6%</span></div><div class="metricfoot">vs. previous 24 hours</div></div>
+  <div class="card metric"><div class="metriclabel">Avg. latency</div><div class="metricrow"><div class="metricval">182<span style="font-size:13px;color:#8792b0"> ms</span></div><span class="trend">↘ 8.2%</span></div><div class="metricfoot">first token response</div></div>
+  <div class="card metric"><div class="metriclabel">Tokens processed</div><div class="metricrow"><div class="metricval">1.42<span style="font-size:13px;color:#8792b0"> M</span></div><span class="trend">↗ 18.4%</span></div><div class="metricfoot">input + output tokens</div></div>
+  <div class="card metric"><div class="metriclabel">Active models</div><div class="metricrow"><div class="metricval">04</div><span class="trend">● healthy</span></div><div class="metricfoot">2 deployed · 2 local</div></div>
+ </section>
+ <section class="layout">
+  <div class="card chat">
+   <div class="sectionhead"><div class="chatmeta"><h2>Playground</h2><span class="modelpill" id="activeModelPill">ORBIT-3B-INSTRUCT</span></div><span>SESSION&nbsp; #S-02841</span></div>
+   <div class="conversation" id="conversation">
+    <div class="welcome" id="welcome"><div class="orb"></div><h3>What would you like to explore?</h3><p>Test prompts, compare model behaviour, and tune inference settings.</p><div class="suggestions"><button>Summarise a long document</button><button>Explain a Python function</button><button>Draft a structured response</button></div></div>
+   </div>
+   <div class="composer"><div class="inputwrap"><span style="color:#7784a5">＋</span><input id="prompt" placeholder="Message your model…" autocomplete="off"><button class="send" id="send">↑</button></div><div class="composefoot"><span>↵ Send&nbsp; · &nbsp;Shift + ↵ New line</span><span>OUTPUT: TEXT</span></div></div>
+  </div>
+  <div class="rightcol">
+   <div class="card"><div class="sectionhead"><h2>Model selection</h2><span>REGISTRY</span></div><div class="modelcard"><select class="select" id="model"><option value="ORBIT-3B-INSTRUCT">ORBIT-3B-INSTRUCT</option><option value="ORBIT-1.5B-CHAT">ORBIT-1.5B-CHAT</option><option value="ORBIT-7B-CODE">ORBIT-7B-CODE</option><option value="CUSTOM-ENDPOINT">Custom endpoint…</option></select><p class="modeldesc" id="modelDesc">Instruction-tuned · General purpose · 3.2B parameters. Optimised for balanced reasoning and low-latency generation.</p><div class="modelstats"><div class="mini"><span>QUANTIZATION</span><b id="quant">INT4</b></div><div class="mini"><span>CONTEXT WINDOW</span><b id="context">8,192</b></div></div></div></div>
+   <div class="card"><div class="sectionhead"><h2>Inference controls</h2><span>LIVE CONFIG</span></div><div class="controls">
+    <div class="control"><div class="controltop"><label for="temperature">Temperature</label><output id="tempVal">0.70</output></div><input id="temperature" type="range" min="0" max="2" step="0.05" value="0.7"></div>
+    <div class="control"><div class="controltop"><label for="tokens">Max output tokens</label><output id="tokenVal">1,024</output></div><input id="tokens" type="range" min="128" max="4096" step="128" value="1024"></div>
+    <div class="control"><div class="controltop"><label for="topP">Top P</label><output id="topPVal">0.90</output></div><input id="topP" type="range" min="0.1" max="1" step="0.05" value="0.9"></div>
+    <div class="toggleline"><span>Streaming response</span><div class="switch on" role="switch" aria-checked="true" tabindex="0" id="streamToggle"></div></div>
+    <div class="toggleline"><span>Return usage metadata</span><div class="switch on" role="switch" aria-checked="true" tabindex="0" id="usageToggle"></div></div>
+   </div></div>
+   <div class="card"><div class="sectionhead"><h2>Runtime monitor</h2><span><i class="dot"></i>LIVE</span></div><div class="monitor">
+    <div class="monitorrow"><span>GPU utilisation</span><b>68%</b></div><div class="bar"><i style="width:68%"></i></div>
+    <div class="monitorrow"><span>Memory allocated</span><b>7.2 / 12 GB</b></div><div class="bar"><i style="width:60%"></i></div>
+    <div class="monitorrow"><span>Queue depth</span><b>03</b></div><div class="monitorrow"><span>Worker status</span><b style="color:var(--green)">HEALTHY</b></div>
+   </div></div>
+  </div>
+ </section>
+ <section class="bottomgrid">
+  <div class="card chartcard"><div class="sectionhead"><h2>Inference throughput</h2><span>LAST 12 HOURS&nbsp; · &nbsp;TOKENS / SEC</span></div><div class="chart" aria-label="Illustrative throughput chart"><i style="height:36%"></i><i style="height:48%"></i><i style="height:41%"></i><i style="height:64%"></i><i style="height:55%"></i><i style="height:72%"></i><i style="height:61%"></i><i style="height:82%"></i><i style="height:69%"></i><i style="height:91%"></i><i style="height:76%"></i><i style="height:86%"></i><i style="height:70%"></i><i style="height:95%"></i><i style="height:82%"></i><i style="height:100%"></i></div><div class="chartlabels"><span>08:00</span><span>10:00</span><span>12:00</span><span>14:00</span><span>16:00</span><span>NOW</span></div></div>
+  <div class="card activity"><div class="sectionhead"><h2>Recent activity</h2><span>VIEW ALL&nbsp; ↗</span></div><div class="activityitem"><div class="activityicon">⇧</div><div>Model deployment completed<small>ORBIT-3B-INSTRUCT · v1.4.2</small></div><time>2m ago</time></div><div class="activityitem"><div class="activityicon">⌘</div><div>Inference session created<small>Playground · 128 tokens</small></div><time>18m ago</time></div><div class="activityitem"><div class="activityicon">◈</div><div>Evaluation run passed<small>General QA benchmark · 96.8%</small></div><time>1h ago</time></div></div>
+ </section>
+</main></div><div class="toast" id="toast"></div>
+<script>
+const $=s=>document.querySelector(s);const toast=t=>{const el=$('#toast');el.textContent=t;el.classList.add('show');setTimeout(()=>el.classList.remove('show'),2300)};
+const models={"ORBIT-3B-INSTRUCT":{desc:"Instruction-tuned · General purpose · 3.2B parameters. Optimised for balanced reasoning and low-latency generation.",q:"INT4",c:"8,192"},"ORBIT-1.5B-CHAT":{desc:"Compact conversational model · 1.5B parameters. Designed for fast responses and edge deployment.",q:"INT8",c:"4,096"},"ORBIT-7B-CODE":{desc:"Code-specialised · 7B parameters. Tuned for code generation, explanation, and debugging workflows.",q:"INT4",c:"16,384"},"CUSTOM-ENDPOINT":{desc:"Connect a compatible inference endpoint. Endpoint credentials and routing are configured in Settings.",q:"REMOTE",c:"CONFIGURABLE"}};
+$('#model').addEventListener('change',e=>{let m=e.target.value;$('#activeModelPill').textContent=m;$('#modelDesc').textContent=models[m].desc;$('#quant').textContent=models[m].q;$('#context').textContent=models[m].c;toast('Selected '+m)});
+[['temperature','tempVal',v=>(+v).toFixed(2)],['tokens','tokenVal',v=>(+v).toLocaleString()],['topP','topPVal',v=>(+v).toFixed(2)]].forEach(([id,out,fmt])=>{$('#'+id).addEventListener('input',e=>$('#'+out).textContent=fmt(e.target.value))});
+['streamToggle','usageToggle'].forEach(id=>{let el=$('#'+id);const toggle=()=>{el.classList.toggle('on');el.setAttribute('aria-checked',el.classList.contains('on'))};el.addEventListener('click',toggle);el.addEventListener('keydown',e=>{if(e.key===' '||e.key==='Enter'){e.preventDefault();toggle()}})});
+function send(){let input=$('#prompt'),value=input.value.trim();if(!value)return;$('#welcome')?.remove();let user=document.createElement('div');user.className='message user';user.innerHTML='<div class="msgavatar">U</div><div class="bubble"></div>';user.querySelector('.bubble').textContent=value;$('#conversation').append(user);input.value='';let bot=document.createElement('div');bot.className='message';bot.innerHTML='<div class="msgavatar">✦</div><div class="bubble"><span class="muted">LOCAL PREVIEW · NOT CONNECTED TO INFERENCE API</span>This interface is a frontend prototype. Connect your SLM inference endpoint to return a live model response here.</div>';$('#conversation').append(bot);$('#conversation').scrollTop=$('#conversation').scrollHeight;toast('Prompt added to preview session')}
+$('#send').addEventListener('click',send);$('#prompt').addEventListener('keydown',e=>{if(e.key==='Enter'&&!e.shiftKey){e.preventDefault();send()}});document.querySelectorAll('.suggestions button').forEach(b=>b.addEventListener('click',()=>{$('#prompt').value=b.textContent;$('#prompt').focus()}));$('#newSession').addEventListener('click',()=>{let c=$('#conversation');c.innerHTML='<div class="welcome" id="welcome"><div class="orb"></div><h3>New session ready</h3><p>Choose a prompt or start a conversation with your selected model.</p><div class="suggestions"><button>Summarise a long document</button><button>Explain a Python function</button><button>Draft a structured response</button></div></div>';document.querySelectorAll('.suggestions button').forEach(b=>b.addEventListener('click',()=>{$('#prompt').value=b.textContent;$('#prompt').focus()}));toast('New preview session created')});
+document.querySelectorAll('.nav button').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.nav button').forEach(x=>x.classList.remove('active'));b.classList.add('active');let p=b.dataset.page;$('#crumb').textContent=p.toUpperCase();$('#pageTitle').textContent=p==='Overview'?'Your model workspace':p+' workspace';if(p!=='Overview'&&p!=='Playground')toast(p+' view is represented in this UI prototype')}));
+</script>
+</body></html>

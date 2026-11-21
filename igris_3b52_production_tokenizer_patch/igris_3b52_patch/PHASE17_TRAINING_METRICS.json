@@ -1,0 +1,432 @@
+{
+  "metrics_id": "IGRIS-METRICS-PHASE17-001",
+  "timestamp": "2026-11-18T07:48:37.986700+00:00",
+  "experiment_b_stability": {
+    "status": "COMPLETED",
+    "total_steps": 50,
+    "initial_loss": 10.3163,
+    "final_loss": 4.2001,
+    "loss_reduction_absolute": 6.1161,
+    "loss_reduction_percent": 59.29,
+    "numerical_stability_verified": true,
+    "all_gradients_finite": true,
+    "step_metrics": [
+      {
+        "step": 1,
+        "loss": 10.3163,
+        "unclipped_grad_norm": 22.2814,
+        "learning_rate": 0.0001,
+        "weight_delta_norm": 0.255316,
+        "finite_status": "VALID"
+      },
+      {
+        "step": 2,
+        "loss": 9.5403,
+        "unclipped_grad_norm": 23.5275,
+        "learning_rate": 0.0002,
+        "weight_delta_norm": 0.035445,
+        "finite_status": "VALID"
+      },
+      {
+        "step": 3,
+        "loss": 8.4741,
+        "unclipped_grad_norm": 9.4069,
+        "learning_rate": 0.0003,
+        "weight_delta_norm": 0.057006,
+        "finite_status": "VALID"
+      },
+      {
+        "step": 4,
+        "loss": 10.1179,
+        "unclipped_grad_norm": 7.3694,
+        "learning_rate": 0.0004,
+        "weight_delta_norm": 0.075167,
+        "finite_status": "VALID"
+      },
+      {
+        "step": 5,
+        "loss": 9.8914,
+        "unclipped_grad_norm": 5.1464,
+        "learning_rate": 0.0005,
+        "weight_delta_norm": 0.089587,
+        "finite_status": "VALID"
+      },
+      {
+        "step": 6,
+        "loss": 7.8566,
+        "unclipped_grad_norm": 8.5556,
+        "learning_rate": 0.0004995,
+        "weight_delta_norm": 0.09875,
+        "finite_status": "VALID"
+      },
+      {
+        "step": 7,
+        "loss": 7.5081,
+        "unclipped_grad_norm": 7.2292,
+        "learning_rate": 0.0004978,
+        "weight_delta_norm": 0.092074,
+        "finite_status": "VALID"
+      },
+      {
+        "step": 8,
+        "loss": 7.2018,
+        "unclipped_grad_norm": 6.0268,
+        "learning_rate": 0.0004951,
+        "weight_delta_norm": 0.083232,
+        "finite_status": "VALID"
+      },
+      {
+        "step": 9,
+        "loss": 8.3612,
+        "unclipped_grad_norm": 4.7032,
+        "learning_rate": 0.0004913,
+        "weight_delta_norm": 0.080951,
+        "finite_status": "VALID"
+      },
+      {
+        "step": 10,
+        "loss": 6.7452,
+        "unclipped_grad_norm": 4.8453,
+        "learning_rate": 0.0004864,
+        "weight_delta_norm": 0.073677,
+        "finite_status": "VALID"
+      },
+      {
+        "step": 11,
+        "loss": 6.1626,
+        "unclipped_grad_norm": 4.8664,
+        "learning_rate": 0.0004805,
+        "weight_delta_norm": 0.06672,
+        "finite_status": "VALID"
+      },
+      {
+        "step": 12,
+        "loss": 5.6066,
+        "unclipped_grad_norm": 4.601,
+        "learning_rate": 0.0004737,
+        "weight_delta_norm": 0.066578,
+        "finite_status": "VALID"
+      },
+      {
+        "step": 13,
+        "loss": 6.7929,
+        "unclipped_grad_norm": 4.4572,
+        "learning_rate": 0.0004658,
+        "weight_delta_norm": 0.061192,
+        "finite_status": "VALID"
+      },
+      {
+        "step": 14,
+        "loss": 6.9693,
+        "unclipped_grad_norm": 3.8055,
+        "learning_rate": 0.000457,
+        "weight_delta_norm": 0.061137,
+        "finite_status": "VALID"
+      },
+      {
+        "step": 15,
+        "loss": 4.8605,
+        "unclipped_grad_norm": 4.8262,
+        "learning_rate": 0.0004474,
+        "weight_delta_norm": 0.058753,
+        "finite_status": "VALID"
+      },
+      {
+        "step": 16,
+        "loss": 4.9308,
+        "unclipped_grad_norm": 4.1513,
+        "learning_rate": 0.0004369,
+        "weight_delta_norm": 0.057483,
+        "finite_status": "VALID"
+      },
+      {
+        "step": 17,
+        "loss": 4.7089,
+        "unclipped_grad_norm": 4.3049,
+        "learning_rate": 0.0004256,
+        "weight_delta_norm": 0.0597,
+        "finite_status": "VALID"
+      },
+      {
+        "step": 18,
+        "loss": 5.6982,
+        "unclipped_grad_norm": 4.7326,
+        "learning_rate": 0.0004135,
+        "weight_delta_norm": 0.063639,
+        "finite_status": "VALID"
+      },
+      {
+        "step": 19,
+        "loss": 4.6454,
+        "unclipped_grad_norm": 3.3005,
+        "learning_rate": 0.0004008,
+        "weight_delta_norm": 0.061282,
+        "finite_status": "VALID"
+      },
+      {
+        "step": 20,
+        "loss": 4.1742,
+        "unclipped_grad_norm": 4.056,
+        "learning_rate": 0.0003875,
+        "weight_delta_norm": 0.05577,
+        "finite_status": "VALID"
+      },
+      {
+        "step": 21,
+        "loss": 3.9,
+        "unclipped_grad_norm": 3.6762,
+        "learning_rate": 0.0003736,
+        "weight_delta_norm": 0.056507,
+        "finite_status": "VALID"
+      },
+      {
+        "step": 22,
+        "loss": 4.8531,
+        "unclipped_grad_norm": 3.2599,
+        "learning_rate": 0.0003593,
+        "weight_delta_norm": 0.05294,
+        "finite_status": "VALID"
+      },
+      {
+        "step": 23,
+        "loss": 5.3941,
+        "unclipped_grad_norm": 4.9097,
+        "learning_rate": 0.0003445,
+        "weight_delta_norm": 0.050731,
+        "finite_status": "VALID"
+      },
+      {
+        "step": 24,
+        "loss": 3.5922,
+        "unclipped_grad_norm": 3.9774,
+        "learning_rate": 0.0003294,
+        "weight_delta_norm": 0.048394,
+        "finite_status": "VALID"
+      },
+      {
+        "step": 25,
+        "loss": 3.8423,
+        "unclipped_grad_norm": 3.8853,
+        "learning_rate": 0.0003141,
+        "weight_delta_norm": 0.048612,
+        "finite_status": "VALID"
+      },
+      {
+        "step": 26,
+        "loss": 3.951,
+        "unclipped_grad_norm": 7.7476,
+        "learning_rate": 0.0002985,
+        "weight_delta_norm": 0.053253,
+        "finite_status": "VALID"
+      },
+      {
+        "step": 27,
+        "loss": 4.5794,
+        "unclipped_grad_norm": 3.357,
+        "learning_rate": 0.0002829,
+        "weight_delta_norm": 0.046804,
+        "finite_status": "VALID"
+      },
+      {
+        "step": 28,
+        "loss": 3.7805,
+        "unclipped_grad_norm": 3.6129,
+        "learning_rate": 0.0002671,
+        "weight_delta_norm": 0.043997,
+        "finite_status": "VALID"
+      },
+      {
+        "step": 29,
+        "loss": 3.4742,
+        "unclipped_grad_norm": 3.7561,
+        "learning_rate": 0.0002515,
+        "weight_delta_norm": 0.041373,
+        "finite_status": "VALID"
+      },
+      {
+        "step": 30,
+        "loss": 3.304,
+        "unclipped_grad_norm": 3.2555,
+        "learning_rate": 0.0002359,
+        "weight_delta_norm": 0.041756,
+        "finite_status": "VALID"
+      },
+      {
+        "step": 31,
+        "loss": 4.5239,
+        "unclipped_grad_norm": 3.468,
+        "learning_rate": 0.0002206,
+        "weight_delta_norm": 0.036077,
+        "finite_status": "VALID"
+      },
+      {
+        "step": 32,
+        "loss": 4.6771,
+        "unclipped_grad_norm": 2.5919,
+        "learning_rate": 0.0002055,
+        "weight_delta_norm": 0.035765,
+        "finite_status": "VALID"
+      },
+      {
+        "step": 33,
+        "loss": 3.1286,
+        "unclipped_grad_norm": 3.1698,
+        "learning_rate": 0.0001907,
+        "weight_delta_norm": 0.034894,
+        "finite_status": "VALID"
+      },
+      {
+        "step": 34,
+        "loss": 3.3534,
+        "unclipped_grad_norm": 2.9544,
+        "learning_rate": 0.0001764,
+        "weight_delta_norm": 0.032658,
+        "finite_status": "VALID"
+      },
+      {
+        "step": 35,
+        "loss": 3.3722,
+        "unclipped_grad_norm": 3.7581,
+        "learning_rate": 0.0001625,
+        "weight_delta_norm": 0.030545,
+        "finite_status": "VALID"
+      },
+      {
+        "step": 36,
+        "loss": 4.3445,
+        "unclipped_grad_norm": 1.9052,
+        "learning_rate": 0.0001492,
+        "weight_delta_norm": 0.026555,
+        "finite_status": "VALID"
+      },
+      {
+        "step": 37,
+        "loss": 4.2824,
+        "unclipped_grad_norm": 15.4623,
+        "learning_rate": 0.0001365,
+        "weight_delta_norm": 0.026418,
+        "finite_status": "VALID"
+      },
+      {
+        "step": 38,
+        "loss": 3.0611,
+        "unclipped_grad_norm": 3.6327,
+        "learning_rate": 0.0001244,
+        "weight_delta_norm": 0.024672,
+        "finite_status": "VALID"
+      },
+      {
+        "step": 39,
+        "loss": 2.7913,
+        "unclipped_grad_norm": 5.9019,
+        "learning_rate": 0.0001131,
+        "weight_delta_norm": 0.023032,
+        "finite_status": "VALID"
+      },
+      {
+        "step": 40,
+        "loss": 4.2049,
+        "unclipped_grad_norm": 2.1611,
+        "learning_rate": 0.0001026,
+        "weight_delta_norm": 0.019502,
+        "finite_status": "VALID"
+      },
+      {
+        "step": 41,
+        "loss": 4.3614,
+        "unclipped_grad_norm": 2.1949,
+        "learning_rate": 9.3e-05,
+        "weight_delta_norm": 0.016664,
+        "finite_status": "VALID"
+      },
+      {
+        "step": 42,
+        "loss": 2.8231,
+        "unclipped_grad_norm": 3.3188,
+        "learning_rate": 8.42e-05,
+        "weight_delta_norm": 0.015194,
+        "finite_status": "VALID"
+      },
+      {
+        "step": 43,
+        "loss": 3.1047,
+        "unclipped_grad_norm": 3.5388,
+        "learning_rate": 7.63e-05,
+        "weight_delta_norm": 0.011954,
+        "finite_status": "VALID"
+      },
+      {
+        "step": 44,
+        "loss": 3.0028,
+        "unclipped_grad_norm": 2.6423,
+        "learning_rate": 6.95e-05,
+        "weight_delta_norm": 0.010423,
+        "finite_status": "VALID"
+      },
+      {
+        "step": 45,
+        "loss": 4.1462,
+        "unclipped_grad_norm": 1.8108,
+        "learning_rate": 6.36e-05,
+        "weight_delta_norm": 0.009145,
+        "finite_status": "VALID"
+      },
+      {
+        "step": 46,
+        "loss": 3.3567,
+        "unclipped_grad_norm": 3.5736,
+        "learning_rate": 5.87e-05,
+        "weight_delta_norm": 0.008565,
+        "finite_status": "VALID"
+      },
+      {
+        "step": 47,
+        "loss": 2.7545,
+        "unclipped_grad_norm": 3.15,
+        "learning_rate": 5.49e-05,
+        "weight_delta_norm": 0.008413,
+        "finite_status": "VALID"
+      },
+      {
+        "step": 48,
+        "loss": 2.7017,
+        "unclipped_grad_norm": 4.9857,
+        "learning_rate": 5.22e-05,
+        "weight_delta_norm": 0.00808,
+        "finite_status": "VALID"
+      },
+      {
+        "step": 49,
+        "loss": 4.0822,
+        "unclipped_grad_norm": 1.8563,
+        "learning_rate": 5.05e-05,
+        "weight_delta_norm": 0.007206,
+        "finite_status": "VALID"
+      },
+      {
+        "step": 50,
+        "loss": 4.2001,
+        "unclipped_grad_norm": 1.8327,
+        "learning_rate": 5e-05,
+        "weight_delta_norm": 0.006705,
+        "finite_status": "VALID"
+      }
+    ]
+  },
+  "experiment_d_checkpoint": {
+    "status": "PASS",
+    "checkpoint_file": "chk_step_000010.pt",
+    "checkpoint_sha256": "693f493954d2abeb977c961287df941ed09c659a158365f9a97e0797ef533f18",
+    "restored_step": 10,
+    "max_logit_divergence": 0.0,
+    "exact_reproducibility": true
+  },
+  "experiment_e_recovery": {
+    "status": "PASS",
+    "interruption_simulated": true,
+    "corrupted_tmp_rejected": true,
+    "last_valid_checkpoint_intact": true,
+    "resumed_step": 10,
+    "recovered_to_step": 20
+  }
+}

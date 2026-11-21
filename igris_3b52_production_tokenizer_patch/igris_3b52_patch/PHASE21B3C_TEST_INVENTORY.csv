@@ -1,0 +1,44 @@
+relative_path,test_framework,collected_test_cases,test_classes_count,test_functions_count,baseline_classification,phase_association,overlaps_with_other_suite,notes
+tests/test_builders.py,unittest,128,6,69,HISTORICAL_BASELINE,PHASE_4_BUILDERS,COLLECTED_IN_FULL_RUN_ONLY,Contains parameterized tokenizer and contract tests (128 cases)
+tests/test_context_window.py,unittest,7,1,7,HISTORICAL_BASELINE,PHASE_3_CONTEXT,COLLECTED_IN_FULL_RUN_ONLY,Standard test module
+tests/test_contract.py,unittest,10,0,10,HISTORICAL_BASELINE,PHASE_5_CONTRACT,COLLECTED_IN_FULL_RUN_ONLY,Standard test module
+tests/test_dataset_3c10_review_intake.py,pytest,10,0,10,HISTORICAL_BASELINE,PHASE_3C_SERIES,COLLECTED_IN_FULL_RUN_ONLY,Standard test module
+tests/test_dataset_3c1_authorization.py,pytest,10,1,10,HISTORICAL_BASELINE,PHASE_3C_SERIES,COLLECTED_IN_FULL_RUN_ONLY,Standard test module
+tests/test_dataset_3c2_acquisition_plan.py,pytest,4,1,4,HISTORICAL_BASELINE,PHASE_3C_SERIES,COLLECTED_IN_FULL_RUN_ONLY,Standard test module
+tests/test_dataset_3c3_verification.py,pytest,5,0,5,HISTORICAL_BASELINE,PHASE_3C_SERIES,COLLECTED_IN_FULL_RUN_ONLY,Standard test module
+tests/test_dataset_3c4_evidence.py,pytest,6,0,6,HISTORICAL_BASELINE,PHASE_3C_SERIES,COLLECTED_IN_FULL_RUN_ONLY,Standard test module
+tests/test_dataset_3c5_review.py,pytest,7,0,7,HISTORICAL_BASELINE,PHASE_3C_SERIES,COLLECTED_IN_FULL_RUN_ONLY,Standard test module
+tests/test_dataset_3c6_validation.py,pytest,6,0,6,HISTORICAL_BASELINE,PHASE_3C_SERIES,COLLECTED_IN_FULL_RUN_ONLY,Standard test module
+tests/test_dataset_3c7_integrity.py,pytest,8,0,8,HISTORICAL_BASELINE,PHASE_3C_SERIES,COLLECTED_IN_FULL_RUN_ONLY,Standard test module
+tests/test_dataset_3c8_governance.py,pytest,7,0,7,HISTORICAL_BASELINE,PHASE_3C_SERIES,COLLECTED_IN_FULL_RUN_ONLY,Standard test module
+tests/test_dataset_3c9_governance.py,pytest,9,0,9,HISTORICAL_BASELINE,PHASE_3C_SERIES,COLLECTED_IN_FULL_RUN_ONLY,Standard test module
+tests/test_dataset_authorization.py,pytest,11,1,11,HISTORICAL_BASELINE,PHASE_3C_GOVERNANCE,COLLECTED_IN_FULL_RUN_ONLY,Standard test module
+tests/test_dataset_governance_framework.py,pytest,21,0,21,HISTORICAL_BASELINE,PHASE_3C_GOVERNANCE,COLLECTED_IN_FULL_RUN_ONLY,Standard test module
+tests/test_dataset_inventory.py,pytest,11,1,11,HISTORICAL_BASELINE,PHASE_3C_GOVERNANCE,COLLECTED_IN_FULL_RUN_ONLY,Standard test module
+tests/test_dataset_quality.py,unittest,9,1,9,HISTORICAL_BASELINE,PHASE_3C_GOVERNANCE,COLLECTED_IN_FULL_RUN_ONLY,Standard test module
+tests/test_dataset_security_validation.py,pytest,17,1,17,HISTORICAL_BASELINE,PHASE_3C_GOVERNANCE,COLLECTED_IN_FULL_RUN_ONLY,Standard test module
+tests/test_phase10_reconciliation.py,pytest,6,0,6,HISTORICAL_BASELINE,PHASE_10,COLLECTED_IN_FULL_RUN_ONLY,Standard test module
+tests/test_phase11_solo_governance.py,pytest,8,0,8,HISTORICAL_BASELINE,PHASE_11,COLLECTED_IN_FULL_RUN_ONLY,Standard test module
+tests/test_phase12_acquisition_security.py,pytest,14,0,14,HISTORICAL_BASELINE,PHASE_12,COLLECTED_IN_FULL_RUN_ONLY,Standard test module
+tests/test_phase13_controlled_acquisition.py,pytest,24,0,24,HISTORICAL_BASELINE,PHASE_13,COLLECTED_IN_FULL_RUN_ONLY,Standard test module
+tests/test_phase14_dataset_processing.py,pytest,28,0,28,HISTORICAL_BASELINE,PHASE_14,COLLECTED_IN_FULL_RUN_ONLY,Standard test module
+tests/test_phase15_tokenizer_infrastructure.py,pytest,17,0,17,HISTORICAL_BASELINE,PHASE_15,COLLECTED_IN_FULL_RUN_ONLY,Standard test module
+tests/test_phase16_model_training.py,pytest,14,6,14,HISTORICAL_BASELINE,PHASE_16,COLLECTED_IN_FULL_RUN_ONLY,Standard test module
+tests/test_phase17_experiments.py,pytest,9,5,9,HISTORICAL_BASELINE,PHASE_17,COLLECTED_IN_FULL_RUN_ONLY,Standard test module
+tests/test_phase18_distributed.py,pytest,10,0,10,HISTORICAL_BASELINE,PHASE_18,COLLECTED_IN_FULL_RUN_ONLY,Standard test module
+tests/test_phase19_audit_readiness.py,pytest,6,0,6,HISTORICAL_BASELINE,PHASE_19,COLLECTED_IN_FULL_RUN_ONLY,Standard test module
+tests/test_phase20_final_readiness.py,pytest,7,0,7,HISTORICAL_BASELINE,PHASE_20,COLLECTED_IN_FULL_RUN_ONLY,Standard test module
+tests/test_phase20b_consistency_verification.py,pytest,4,1,4,FOCUSED_PHASE_EXTENSION,PHASE_20B,INCLUDED_IN_FOCUSED_REGRESSION_GROUP,First focused consistency verification test module (Phase 20B)
+tests/test_phase21_controlled_dataset_preparation.py,pytest,6,1,6,FOCUSED_PHASE_EXTENSION,PHASE_21,INCLUDED_IN_FOCUSED_REGRESSION_GROUP,Standard test module
+tests/test_phase21a_tokenizer_selection_and_dataset_review.py,pytest,4,1,4,FOCUSED_PHASE_EXTENSION,PHASE_21A,INCLUDED_IN_FOCUSED_REGRESSION_GROUP,Standard test module
+tests/test_phase21b1_release_identity_and_license_reconciliation.py,pytest,7,0,7,FOCUSED_PHASE_EXTENSION,PHASE_21B1,INCLUDED_IN_FOCUSED_REGRESSION_GROUP,Standard test module
+tests/test_phase21b2_path_statistics_and_projection_correction.py,pytest,7,0,7,FOCUSED_PHASE_EXTENSION,PHASE_21B2,INCLUDED_IN_FOCUSED_REGRESSION_GROUP,Standard test module
+tests/test_phase21b3_immutable_metadata_verification.py,pytest,7,0,7,FOCUSED_PHASE_EXTENSION,PHASE_21B3,INCLUDED_IN_FOCUSED_REGRESSION_GROUP,Standard test module
+tests/test_phase21b3a_planning_and_evidence_corrections.py,pytest,8,0,8,FOCUSED_PHASE_EXTENSION,PHASE_21B3A,INCLUDED_IN_FOCUSED_REGRESSION_GROUP,Standard test module
+tests/test_phase21b3b_metadata_capacity_and_test_reconciliation.py,pytest,10,0,10,FOCUSED_PHASE_EXTENSION,PHASE_21B3B,INCLUDED_IN_FOCUSED_REGRESSION_GROUP,Phase 21B3B verification suite (10 test cases)
+tests/test_phase21b_indiccorp_verification.py,pytest,7,0,7,FOCUSED_PHASE_EXTENSION,PHASE_21B,INCLUDED_IN_FOCUSED_REGRESSION_GROUP,Final test file present when 38-file baseline was established
+tests/test_phase7_approval_intake.py,pytest,12,0,12,HISTORICAL_BASELINE,PHASE_7,COLLECTED_IN_FULL_RUN_ONLY,Standard test module
+tests/test_phase9_governance_operations.py,pytest,8,0,8,HISTORICAL_BASELINE,PHASE_9,COLLECTED_IN_FULL_RUN_ONLY,Standard test module
+tests/test_readiness.py,unittest,5,1,5,HISTORICAL_BASELINE,PHASE_6_READINESS,COLLECTED_IN_FULL_RUN_ONLY,Contains test_governance_isolation_check which flags quarantine folder
+tests/test_readiness_audit.py,pytest,6,1,6,HISTORICAL_BASELINE,MILESTONE_3B62,COLLECTED_IN_FULL_RUN_ONLY,Standard test module
+tests/test_red_team_security.py,pytest,10,0,10,HISTORICAL_BASELINE,PHASE_8_RED_TEAM,COLLECTED_IN_FULL_RUN_ONLY,Standard test module

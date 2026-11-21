@@ -1,0 +1,13 @@
+token_id,token_string,token_type,is_special,vocab_index,authoritative_match,verification_status
+0,<|pad|>,structural_padding,True,0,True,EXACT_MATCH_AUTHORITATIVE
+1,<|begin_of_text|>,structural_bos,True,1,True,EXACT_MATCH_AUTHORITATIVE
+2,<|end_of_text|>,structural_eos,True,2,True,EXACT_MATCH_AUTHORITATIVE
+3,<think>,structural_thought_start,True,3,True,EXACT_MATCH_AUTHORITATIVE
+4,</think>,structural_thought_end,True,4,True,EXACT_MATCH_AUTHORITATIVE
+5,<action>,structural_action_start,True,5,True,EXACT_MATCH_AUTHORITATIVE
+6,</action>,structural_action_end,True,6,True,EXACT_MATCH_AUTHORITATIVE
+7,<action_result>,structural_action_result_start,True,7,True,EXACT_MATCH_AUTHORITATIVE
+8,</action_result>,structural_action_result_end,True,8,True,EXACT_MATCH_AUTHORITATIVE
+9,<|system|>,structural_system_role,True,9,True,EXACT_MATCH_AUTHORITATIVE
+10,<|user|>,structural_user_role,True,10,True,EXACT_MATCH_AUTHORITATIVE
+11,<|assistant|>,structural_assistant_role,True,11,True,EXACT_MATCH_AUTHORITATIVE

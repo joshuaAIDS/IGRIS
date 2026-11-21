@@ -1,0 +1,186 @@
+{
+  "milestone": "3B.51",
+  "status": "3B.51.4 IMPLEMENTED — LOCAL VERIFICATION REQUIRED",
+  "implemented": [
+    "static contract assertions",
+    "CLI candidate selection",
+    "PASS/FAIL/NOT TESTED/BLOCKED result schema",
+    "human-readable report",
+    "optional JSON report",
+    "candidate adapter boundary with safe BLOCKED behavior",
+    "strict text/bytes type validation",
+    "strict token ID type and range validation",
+    "structural ID isolation for content APIs",
+    "batch pre-validation primitives",
+    "28 backend-independent TS-VAL tests",
+    "backend-independent Unicode 15.1 NFC checks using unicodedata2",
+    "exact-Unicode mode preservation checks",
+    "U+F0000 sentinel escaping and inverse validation",
+    "U+2581 W; escaping",
+    "fixed S00-S11 structural spelling escapes",
+    "malformed/noncanonical escape rejection",
+    "multilingual exact-mode helper round-trip tests",
+    "runner integration for TS-VAL/TS-UNI/TS-SEC helper tests"
+  ],
+  "blocked": [
+    "Candidate A/B artifact-backed Unicode round-trip",
+    "Candidate A/B public encoder structural-ID isolation",
+    "artifact-backed candidate loading and remaining TS-BAT/REN/BIN/META/API/DET/ERR tests"
+  ],
+  "safety": {
+    "training": false,
+    "corpus_access": false,
+    "downloads": false,
+    "package_installation": false,
+    "production_file_modification": false
+  },
+  "milestone_3b51_5": {
+    "name": "Batch API and ordering contract tests",
+    "status": "scaffold_implemented_candidate_integration_blocked",
+    "shared_test_count": 16,
+    "test_module": "tests/tokenizer/test_batch_contract.py",
+    "production_candidate_batch_api_verified": false
+  },
+  "milestone_3b51_6": {
+    "name": "Trusted sequence rendering contract tests",
+    "status": "scaffold_implemented_candidate_integration_blocked",
+    "shared_test_count": 20,
+    "test_module": "tests/tokenizer/test_rendering_contract.py",
+    "production_candidate_rendering_verified": false
+  },
+  "milestone_3b51_7": {
+    "name": "Raw binary codec contract tests",
+    "status": "scaffold_implemented_candidate_mappings_blocked",
+    "shared_test_count": 24,
+    "test_module": "tests/tokenizer/test_raw_binary_contract.py",
+    "synthetic_mapping_only": true,
+    "candidate_a_bytelevel_mapping_verified": false,
+    "candidate_b_sentencepiece_byte_piece_mapping_verified": false,
+    "production_raw_binary_api_verified": false
+  },
+  "milestone_3b51_8": {
+    "name": "Metadata and save/reload contract tests",
+    "status": "scaffold_implemented_artifact_metadata_blocked",
+    "shared_test_count": 24,
+    "test_module": "tests/tokenizer/test_metadata_contract.py",
+    "metadata_schema_is_scaffold_contract": true,
+    "candidate_artifact_metadata_verified": false,
+    "trained_artifact_save_reload_verified": false
+  },
+  "milestone_3b51_9": {
+    "name": "Candidate artifact interface and directory contract",
+    "status": "scaffold_implemented_model_loading_blocked",
+    "shared_test_count": 20,
+    "test_module": "tests/tokenizer/test_artifact_contract.py",
+    "expected_layout": {
+      "artifact_manifest": "artifact_manifest.json",
+      "metadata": "metadata.json",
+      "candidate_A_backend": "tokenizer.json",
+      "candidate_B_backend": "tokenizer.model"
+    },
+    "sha256_manifest_required": true,
+    "real_candidate_artifacts_supplied": false,
+    "model_loader_integration_verified": false
+  },
+  "milestone_3b51_10": {
+    "name": "Candidate A/B real artifact loader integration",
+    "status": "loader_implemented_test_double_verified_real_artifacts_not_supplied",
+    "shared_loader_tests": 9,
+    "test_module": "tests/tokenizer/test_loader_contract.py",
+    "candidate_a_loader": "tokenizers.Tokenizer.from_file",
+    "candidate_b_loader": "sentencepiece.SentencePieceProcessor(model_file=...)",
+    "validates_vocab_size": true,
+    "validates_structural_token_ids": true,
+    "real_trained_artifact_load_verified": false,
+    "training_or_download_performed": false
+  },
+  "milestone_3b_51_11": {
+    "title": "Candidate A/B local trainer modules and artifact finalizer",
+    "status": "IMPLEMENTED_NOT_EXECUTED",
+    "scope": [
+      "Added explicit local-only Candidate A ByteLevel BPE trainer",
+      "Added explicit local-only Candidate B SentencePiece Unigram trainer with byte fallback",
+      "Added artifact finalizer that reopens backend and verifies vocabulary and structural IDs before writing metadata and SHA-256 manifest",
+      "Added CLI that only trains when manually invoked"
+    ],
+    "not_done": [
+      "No corpus downloaded or inspected",
+      "No tokenizer training executed",
+      "No package installed",
+      "No production repository files modified",
+      "No production integration or acceptance approval"
+    ],
+    "corpus_requirement": "Caller must supply approved UTF-8 corpus files already prepared under the v1.0.4 normalization and sentinel-escaping pipeline; this scaffold does not implement that preparation pipeline."
+  },
+  "milestone_3b51_12": {
+    "name": "Local UTF-8 corpus preparation pipeline",
+    "status": "implemented_scaffold_tests_passed_NFC_runtime_not_exercised_in_build_environment",
+    "modules": [
+      "tests/tokenizer/corpus_preparation.py",
+      "tests/tokenizer/test_corpus_preparation.py"
+    ],
+    "test_count": 11,
+    "test_result": "11 PASS",
+    "features": [
+      "explicit local input paths only",
+      "strict UTF-8 decoding",
+      "text_mode NFC before sentinel escaping",
+      "exact_unicode_mode codepoint preservation",
+      "structural spelling escaping",
+      "record order and whitespace preservation",
+      "duplicate reporting; opt-in deduplication only",
+      "NUL rejection",
+      "source and output SHA-256 reporting",
+      "refuse existing output directory"
+    ],
+    "training_performed": false,
+    "corpus_downloaded": false,
+    "source_files_modified": false,
+    "production_integration_verified": false,
+    "limitations": [
+      "Unicode 15.1 NFC execution requires the already-approved unicodedata2==15.1.0 in the user environment; this build environment did not have it installed.",
+      "Corpus licensing, consent, language balance, representativeness, and quality remain human-review requirements."
+    ]
+  },
+  "milestone_3b51_13": {
+    "name": "Corpus quality audit",
+    "status": "implemented_local_tests_passed_scaffold_only",
+    "module": "tests/tokenizer/corpus_quality_audit.py",
+    "test_module": "tests/tokenizer/test_corpus_quality_audit.py",
+    "test_count": 15,
+    "language_detection": "heuristic; not authoritative",
+    "near_duplicate_detection": "character SequenceMatcher with record-count safety cap",
+    "training": false,
+    "corpus_downloads": false,
+    "input_modification": false,
+    "limitations": [
+      "No licensing/consent/provenance/privacy/representativeness audit",
+      "Language labels cannot reliably distinguish English from Tanglish",
+      "Near-duplicate scan may be skipped above configured record limit"
+    ]
+  },
+  "milestone_3b_51_14": {
+    "name": "Training Configuration Validation",
+    "status": "implemented_scaffold",
+    "tests": "tests/tokenizer/test_training_config.py",
+    "test_count": 16,
+    "scope": [
+      "validate frozen Candidate A/B configuration contracts",
+      "verify exact 32768 vocabulary target and fixed structural token order",
+      "verify normalization, byte fallback, output artifact naming",
+      "fingerprint identical ordered corpus inputs for fair comparison"
+    ],
+    "not_performed": [
+      "tokenizer training",
+      "corpus download or acquisition",
+      "package installation",
+      "main repository modification",
+      "actual backend artifact validation"
+    ],
+    "known_limitations": [
+      "Candidate A trainer currently exposes no explicit seed control; strict deterministic training is not guaranteed by this scaffold.",
+      "This module validates a reviewed configuration descriptor; it does not introspect or prove runtime trainer arguments.",
+      "Candidate B identity normalization assumes the corpus has already been prepared using the approved Unicode normalization pipeline."
+    ]
+  }
+}\n

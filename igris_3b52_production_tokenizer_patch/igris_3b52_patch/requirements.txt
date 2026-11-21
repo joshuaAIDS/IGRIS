@@ -1,0 +1,14 @@
+# ==============================================================================
+# IGRIS Milestone 3B.55 Tokenizer System Dependencies
+# Target Environment: Python 3.11 64-bit (Windows 11)
+# ==============================================================================
+
+# Core Tokenizer Backends
+tokenizers==0.23.3
+sentencepiece==0.2.3
+
+# Unicode 15.1.0 Normalization
+unicodedata2==15.1.0
+
+# Testing & Validation
+pytest>=8.0.0

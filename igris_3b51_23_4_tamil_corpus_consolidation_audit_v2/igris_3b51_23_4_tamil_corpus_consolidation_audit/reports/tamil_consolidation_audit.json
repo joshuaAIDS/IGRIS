@@ -1,0 +1,75 @@
+{
+  "status": "REVIEW_REQUIRED",
+  "decision": "INVENTORY_AND_DUPLICATE_AUDIT_ONLY_NO_MERGE_NO_APPROVAL",
+  "counts": {
+    "clean_nonempty_lines": 9766,
+    "mixed_jsonl_records": 723,
+    "mixed_text_extracted": 723,
+    "mixed_text_unresolved": 0,
+    "quarantine_jsonl_records": 65,
+    "quarantine_text_extracted": 65,
+    "quarantine_text_unresolved": 0,
+    "recovered_review_jsonl_records": 10,
+    "recovered_text_extracted": 10,
+    "recovered_text_unresolved": 0,
+    "duplicate_text_keys": 439,
+    "cross_group_duplicate_keys": 439
+  },
+  "report_consistency_checks": {
+    "clean_count_matches_remediation_report": true,
+    "mixed_count_matches_remediation_report": false,
+    "quarantine_count_matches_remediation_report": true,
+    "recovered_count_matches_closure_report": true,
+    "closure_status_is_pass_with_review": true
+  },
+  "unresolved_text_extraction_rows": {
+    "mixed": [],
+    "quarantine": [],
+    "recovered_review_only": []
+  },
+  "input_files": {
+    "clean": {
+      "path": "C:\\IGRIS\\igris_3b51_19_1_tamil_remediation\\igris_3b51_19_1_tamil_remediation\\processed\\tamil_nfc_deduplicated.txt",
+      "bytes": 7003182,
+      "sha256": "8b26af54e5b77c1434d583b487cec4db8af6a2560bdfdff015e85d8e8ea45064"
+    },
+    "mixed": {
+      "path": "C:\\IGRIS\\igris_3b51_19_1_tamil_remediation\\igris_3b51_19_1_tamil_remediation\\processed\\tamil_mixed_script_review.jsonl",
+      "bytes": 727574,
+      "sha256": "b957db99e9abf197a32d14d0f4f4198f97d3e33f5eb5266d8780a8c294b4251b"
+    },
+    "quarantine": {
+      "path": "C:\\IGRIS\\igris_3b51_19_1_tamil_remediation\\igris_3b51_19_1_tamil_remediation\\processed\\tamil_quarantine.jsonl",
+      "bytes": 1404032,
+      "sha256": "f3e32408d6a96b99d4def3ca4079770d6cf7594a553d57cda1a44cfeedced874"
+    },
+    "recovered_review_only": {
+      "path": "C:\\IGRIS\\igris_3b51_23_3_source_recovery_closure_audit\\igris_3b51_23_3_source_recovery_closure_audit\\reports\\recovered_source_lines_review_only.jsonl",
+      "bytes": 63312,
+      "sha256": "052c4d2e3cd65b5a9468992be58130040456c777867057515d85640813805837"
+    },
+    "remediation_report": {
+      "path": "C:\\IGRIS\\igris_3b51_19_1_tamil_remediation\\igris_3b51_19_1_tamil_remediation\\reports\\tamil_remediation_report.json",
+      "bytes": 2256,
+      "sha256": "a4bc787e6867220f38c38757267eb69e7a7d3454988d754cea70d2a69ae3def6"
+    },
+    "closure_report": {
+      "path": "C:\\IGRIS\\igris_3b51_23_3_source_recovery_closure_audit\\igris_3b51_23_3_source_recovery_closure_audit\\reports\\source_recovery_closure_report.json",
+      "bytes": 7450,
+      "sha256": "f9b4edbee02a49cf3e16bb23322beaef934dad44104f962b69b54eb7b4783fdd"
+    }
+  },
+  "duplicate_review_policy": "Candidates are reported only; no records are deleted or merged.",
+  "dataset_decisions": {
+    "clean": "existing cleaned output; still subject to content and licensing review",
+    "mixed": "review-only; not approved",
+    "quarantine": "remain quarantined",
+    "recovered_review_only": "review-only; do not merge into clean corpus"
+  },
+  "limitations": [
+    "Exact NFC duplicate detection is not semantic duplicate detection.",
+    "JSONL text extraction relies on known common text fields; unresolved rows are reported.",
+    "This audit does not establish source provenance, attribution compliance, licensing, or commercial rights.",
+    "No input files were modified."
+  ]
+}
